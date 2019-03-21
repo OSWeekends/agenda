@@ -1,1 +1,1 @@
-# osw-schedule
+# Agenda del evento
