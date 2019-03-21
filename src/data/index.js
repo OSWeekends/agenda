@@ -16,7 +16,7 @@ const data = {
             h: '10',
             m: '30'
           },
-          type: 0, // Colores
+          type: 1, // Colores
           authors: []
         },
         {
@@ -29,7 +29,7 @@ const data = {
             h: '11',
             m: '00'
           },
-          type: 0,
+          type: 1,
           authors: []
         },
         {
@@ -90,7 +90,7 @@ const data = {
             h: '13',
             m: '15'
           },
-          type: 0,
+          type: 1,
           authors: [],
           note: ''
         },
@@ -104,7 +104,7 @@ const data = {
             h: '14',
             m: '30'
           },
-          type: 0,
+          type: 1,
           authors: [],
           note: ''
         }
