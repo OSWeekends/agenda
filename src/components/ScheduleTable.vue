@@ -60,7 +60,7 @@ export default {
         },
         {
           key: 'title',
-          label: 'Lugar'
+          label: this.track.name
         }
       ]
     }
