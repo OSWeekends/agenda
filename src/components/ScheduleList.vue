@@ -1,18 +1,18 @@
 <template>
   <div>
     <template v-for="(s, i) in schedules">
-      <schedule :key="i" />
+      <scheduleTable :key="i" :data="s"/>
     </template>
   </div>
 </template>
 
 <script>
-import schedule from '@/components/ScheduleSimple'
+import scheduleTable from '@/components/ScheduleTable'
 
 export default {
   name: 'BaseTables',
   components: [
-    schedule
+    scheduleTable
   ],
   data () {
     return {

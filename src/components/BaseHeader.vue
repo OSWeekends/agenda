@@ -1,21 +1,14 @@
 <template>
   <div class="base-header d-flex justify-content-between">
-    <div>
-      <h1>{{ title }}</h1>
-    </div>
-    <div class="d-flex align-items-center">
-      <b-button variant="primary" @click="goBack">Volver a OSW</b-button>
-    </div>
-    <BaseTables/>
+    <h1>{{ title }}</h1>
+    <b-button class="align-self-center" variant="primary" @click="goBack">Volver a OSW</b-button>
   </div>
 </template>
 
 <script>
-import BaseTables from './ScheduleList'
 
 export default {
   name: 'BaseHeader',
-  components: { BaseTables },
   props: {
     title: {
       type: String,
@@ -24,7 +17,7 @@ export default {
   },
   methods: {
     goBack () {
-      console.log('VOLVER')
+      console.log('VOLVER a osweekends.com')
     }
   }
 }
