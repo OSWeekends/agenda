@@ -6,12 +6,16 @@
     <div class="d-flex align-items-center">
       <b-button variant="primary" @click="goBack">Volver a OSW</b-button>
     </div>
+    <BaseTables/>
   </div>
 </template>
 
 <script>
+import BaseTables from './ScheduleList'
+
 export default {
   name: 'BaseHeader',
+  components: { BaseTables },
   props: {
     title: {
       type: String,
@@ -25,7 +29,3 @@ export default {
   }
 }
 </script>
-
-<style scoped lang="stylus">
-
-</style>
