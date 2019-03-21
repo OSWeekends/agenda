@@ -1,20 +1,20 @@
 <template>
   <div class="home">
     <BaseHeader :title="data.title"/>
-    <BaseList></BaseList>
+    <ScheduleList :tracks="data.tracks" />
   </div>
 </template>
 
 <script>
 import BaseHeader from '@/components/BaseHeader.vue'
-import BaseList from '@/components/BaseList.vue'
+import ScheduleList from '@/components/ScheduleList.vue'
 import data from '@/data/index'
 
 export default {
   name: 'home',
   components: {
     BaseHeader,
-    BaseList
+    ScheduleList
   },
   data () {
     return {

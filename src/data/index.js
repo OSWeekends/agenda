@@ -2,7 +2,7 @@ const data = {
   title: 'Agenda OSW - Marzo 2019sss',
   date: '30/03/2019',
   description: 'xxx',
-  data: [
+  tracks: [
     {
       name: 'Auditorio',
       content: [
