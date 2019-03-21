@@ -7,9 +7,10 @@
 <script>
 export default {
   name: 'BaseTables',
-  data () {
-    return {
-      schedules: []
+  props: {
+    info: {
+      type: Object,
+      required: true
     }
   }
 }

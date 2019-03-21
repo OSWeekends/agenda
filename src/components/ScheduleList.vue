@@ -1,7 +1,7 @@
 <template>
   <div>
-    <template v-for="(s, i) in schedules">
-      <scheduleTable :key="i" :data="s"/>
+    <template v-for="(s, i) in data.content">
+      <scheduleTable :key="i" :info="s" />
     </template>
   </div>
 </template>
@@ -14,9 +14,10 @@ export default {
   components: [
     scheduleTable
   ],
-  data () {
-    return {
-      schedules: []
+  props: {
+    data: {
+      required: true,
+      type: String
     }
   }
 }
