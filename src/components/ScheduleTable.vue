@@ -14,7 +14,7 @@
           <span class="time--m">{{ data.item.endTime.m }}</span>
         </div>
       </template>
-      <template slot="name" slot-scope="data">
+      <template slot="title" slot-scope="data">
         <p>
           <b-badge v-if="data.item.type" :variant="badgeVariant(data.item.type)"> · </b-badge>
           {{ data.item.title }}
