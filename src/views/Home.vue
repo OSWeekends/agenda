@@ -1,23 +1,20 @@
 <template>
   <div class="home">
-    <!--<img alt="Vue logo" src="../assets/logo.png">-->
-    <BaseHeader title="Agenda Marzo 2019"/>
-    <ScheduleList :data="data"/>
-
+    <BaseHeader :title="data.title"/>
+    <BaseList></BaseList>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import BaseHeader from '@/components/BaseHeader.vue'
-import ScheduleList from '@/components/ScheduleList.vue'
-import data from '@/data'
+import BaseList from '@/components/BaseList.vue'
+import data from '@/data/index'
 
 export default {
   name: 'home',
   components: {
     BaseHeader,
-    ScheduleList
+    BaseList
   },
   data () {
     return {
