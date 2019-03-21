@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-table :items="track.content" :fields="fields" outlined hover>
-      <template slot="hora" slot-scope="data">
+      <template slot="startTime" slot-scope="data">
         <!--<pre>{{ data.item }}</pre>-->
         <div class="time">
           <span class="time--h">{{ data.item.startTime.h }}</span>
@@ -16,15 +16,32 @@
       </template>
       <template slot="name" slot-scope="data">
         <p>
-          <b-badge v-if="data.item.type"> · </b-badge>
-          {{ data.item.name }}
+          <b-badge v-if="data.item.type" :variant="badgeVariant(data.item.type)"> · </b-badge>
+          {{ data.item.title }}
         </p>
+
+        <p v-if="data.item.description">
+          {{ data.item.description }}
+        </p>
+
+        <template v-if="data.item.authors" >
+          <p v-for="(author, idx) in data.item.authors" :key="idx">
+            {{ author.name }} - {{ author.social }}
+          </p>
+        </template>
+
       </template>
     </b-table>
   </div>
 </template>
 
 <script>
+const variants = [
+  'primary',
+  'success',
+  'danger'
+]
+
 export default {
   name: 'ScheduleTable',
   props: {
@@ -36,17 +53,21 @@ export default {
   data () {
     return {
       fields: [
-        'hora',
         {
-          key: 'name',
+          key: 'startTime',
+          label: 'Hora',
+          class: 'time-column'
+        },
+        {
+          key: 'title',
           label: 'Lugar'
         }
       ]
     }
   },
-  computed: {
-    badgeVariant () {
-      return this.data
+  methods: {
+    badgeVariant (type) {
+      return variants[type - 1]
     }
   }
 }
@@ -66,5 +87,9 @@ export default {
     position relative
     margin 0 1px
     font-size 1.1rem
+
+.time-column
+  width 96px
+  background-color: #fafafa
 
 </style>

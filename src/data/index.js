@@ -7,7 +7,7 @@ const data = {
       name: 'Auditorio',
       content: [
         {
-          name: 'Recepción y café ☕️',
+          title: 'Recepción y café ☕️',
           startTime: {
             h: '10',
             m: '00'
@@ -17,10 +17,11 @@ const data = {
             m: '30'
           },
           type: 1, // Colores
-          authors: []
+          authors: [],
+          description: ''
         },
         {
-          name: 'KeyNote',
+          title: 'KeyNote',
           startTime: {
             h: '10',
             m: '30'
@@ -30,10 +31,11 @@ const data = {
             m: '00'
           },
           type: 1,
-          authors: []
+          authors: [],
+          description: ''
         },
         {
-          name: 'Kubernetes',
+          title: 'Kubernetes',
           startTime: {
             h: '11',
             m: '00'
@@ -42,7 +44,7 @@ const data = {
             h: '11',
             m: '45'
           },
-          type: 1,
+          type: 2,
           authors: [
             {
               name: 'Horacio',
@@ -54,10 +56,11 @@ const data = {
                 url: ['aaa.co', 'bbb.co']
               }
             }
-          ]
+          ],
+          description: ''
         },
         {
-          name: 'La vida secreta de un DevOps',
+          title: 'La vida secreta de un DevOps',
           startTime: {
             h: '11',
             m: '45'
@@ -66,7 +69,7 @@ const data = {
             h: '12',
             m: '30'
           },
-          type: 1,
+          type: 2,
           authors: [
             {
               name: 'Jorge Vidal',
@@ -76,12 +79,14 @@ const data = {
                 facebook: 'xx',
                 youtube: 'xx',
                 url: ['cc.co', 'dd.co']
-              }
+              },
+              bio: 'Jorge tiene mas de 15 años de experiencia en el sector IT. Ha sido administrador de sistemas durante muchos años, pero el mundo del emprendimiento le aporto habilidades adicionales como "comercial", "preventa", "evangelizador", "desarrollo de negocio" y "charlatán".'
             }
-          ]
+          ],
+          description: 'En la charla voy a desmentir mitos, voy a contar lo que hace un devops de verdad, que habilidades deberias tener para ejercer y por donde deberia empezar un perfil de desarrollador para llegar a serlo'
         },
         {
-          name: 'The Amazing Guilds Showoff',
+          title: 'The Amazing Guilds Showoff',
           startTime: {
             h: '12',
             m: '30'
@@ -95,7 +100,7 @@ const data = {
           note: ''
         },
         {
-          name: 'Networking 🤗',
+          title: 'Networking 🤗',
           startTime: {
             h: '13',
             m: '15'
@@ -114,7 +119,7 @@ const data = {
       name: 'Café · Planta 1',
       content: [
         {
-          name: '-️',
+          title: '-️',
           startTime: {
             h: '10',
             m: '00'
@@ -125,7 +130,7 @@ const data = {
           }
         },
         {
-          name: '-',
+          title: '-',
           startTime: {
             h: '10',
             m: '30'
@@ -136,7 +141,7 @@ const data = {
           }
         },
         {
-          name: 'HackMadrid',
+          title: 'HackMadrid',
           startTime: {
             h: '11',
             m: '00'
@@ -145,10 +150,10 @@ const data = {
             h: '11',
             m: '45'
           },
-          type: 2
+          type: 3
         },
         {
-          name: '-',
+          title: '-',
           startTime: {
             h: '11',
             m: '45'
@@ -159,7 +164,7 @@ const data = {
           }
         },
         {
-          name: '-',
+          title: '-',
           startTime: {
             h: '12',
             m: '30'
@@ -175,7 +180,7 @@ const data = {
       name: 'Meetup Space',
       content: [
         {
-          name: '-️',
+          title: '-️',
           startTime: {
             h: '10',
             m: '00'
@@ -186,7 +191,7 @@ const data = {
           }
         },
         {
-          name: '-',
+          title: '-',
           startTime: {
             h: '10',
             m: '30'
@@ -197,7 +202,7 @@ const data = {
           }
         },
         {
-          name: 'Machine Learning para profanos',
+          title: 'Machine Learning para profanos',
           startTime: {
             h: '11',
             m: '00'
@@ -206,19 +211,19 @@ const data = {
             h: '11',
             m: '45'
           },
-          type: 3,
+          type: 2,
           authors: [
             {
               name: 'Angel Luengo',
               social: {
-                tw: '@pocoyo'
+                twitter: '@pocoyo'
               }
             }
           ],
           note: 'extra extra..'
         },
         {
-          name: 'Visión Artificial',
+          title: 'Visión Artificial',
           startTime: {
             h: '11',
             m: '45'
@@ -238,7 +243,7 @@ const data = {
           ]
         },
         {
-          name: '-',
+          title: '-',
           startTime: {
             h: '12',
             m: '30'
@@ -254,7 +259,7 @@ const data = {
       name: 'Café · Planta 0',
       content: [
         {
-          name: '-️',
+          title: '-️',
           startTime: {
             h: '10',
             m: '00'
@@ -265,7 +270,7 @@ const data = {
           }
         },
         {
-          name: '-',
+          title: '-',
           startTime: {
             h: '10',
             m: '30'
@@ -276,7 +281,7 @@ const data = {
           }
         },
         {
-          name: 'Guilds',
+          title: 'Guilds',
           startTime: {
             h: '11',
             m: '00'
@@ -288,7 +293,7 @@ const data = {
           type: 1
         },
         {
-          name: 'Guilds',
+          title: 'Guilds',
           startTime: {
             h: '11',
             m: '45'
@@ -300,7 +305,7 @@ const data = {
           type: 1
         },
         {
-          name: 'Guilds',
+          title: 'Guilds',
           startTime: {
             h: '12',
             m: '30'
