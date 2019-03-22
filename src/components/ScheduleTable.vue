@@ -30,6 +30,9 @@
             <p class="text-muted"> {{ author.name }} </p>
             <p v-if="author.social">
               {{ author.social }}
+              <span v-if="author.social.twitter">
+                <font-awesome-icon icon="twitter-square"/>
+              </span>
             </p>
             <p v-if="author.bio">
               {{ author.bio}}
