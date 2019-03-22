@@ -16,9 +16,7 @@ const data = {
             h: '10',
             m: '30'
           },
-          type: 1, // Colores
-          authors: [],
-          description: ''
+          type: 1
         },
         {
           title: 'KeyNote',
@@ -30,9 +28,7 @@ const data = {
             h: '11',
             m: '00'
           },
-          type: 1,
-          authors: [],
-          description: ''
+          type: 1
         },
         {
           title: 'Kubernetes',
@@ -50,14 +46,10 @@ const data = {
               name: 'Horacio',
               social: {
                 twitter: '@xxx',
-                linkedin: '',
-                facebook: '',
-                youtube: '',
                 url: ['aaa.co', 'bbb.co']
               }
             }
-          ],
-          description: ''
+          ]
         },
         {
           title: 'La vida secreta de un DevOps',
@@ -74,11 +66,13 @@ const data = {
             {
               name: 'Jorge Vidal',
               social: {
-                twitter: 'xx',
-                linkedin: 'xx',
-                facebook: 'xx',
-                youtube: 'xx',
-                url: ['cc.co', 'dd.co']
+                twitter: 'xttx',
+                linkedin: 'xwwaax',
+                facebook: 'xwwwx',
+                youtube: 'xxssss',
+                instagram: 'xxssss',
+                github: 'gsss',
+                url: 'www.baumannzone.com'
               },
               bio: [
                 'Jorge tiene más de 15 años de experiencia en el sector IT. Ha sido administrador de sistemas durante muchos años, pero el mundo del emprendimiento le aporto habilidades adicionales como "comercial", "preventa", "evangelizador", "desarrollo de negocio" y "charlatán".',
