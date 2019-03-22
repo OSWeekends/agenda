@@ -80,10 +80,16 @@ const data = {
                 youtube: 'xx',
                 url: ['cc.co', 'dd.co']
               },
-              bio: 'Jorge tiene mas de 15 años de experiencia en el sector IT. Ha sido administrador de sistemas durante muchos años, pero el mundo del emprendimiento le aporto habilidades adicionales como "comercial", "preventa", "evangelizador", "desarrollo de negocio" y "charlatán".'
+              bio: [
+                'Jorge tiene más de 15 años de experiencia en el sector IT. Ha sido administrador de sistemas durante muchos años, pero el mundo del emprendimiento le aporto habilidades adicionales como "comercial", "preventa", "evangelizador", "desarrollo de negocio" y "charlatán".',
+                'En sus ratos libres se dedica a conectar y mentorizar personas, y en OSW se le conoce como Goku, pero no por los pelos (que también), si no por liderar la guild de sistemas/devops que sostiene actualmente todas las guilds desarrolladas en esta comunidad.' +
+                'Actualmente trabaja Intelygenz como experto en DevOps/SRE'
+              ]
             }
           ],
-          description: 'En la charla voy a desmentir mitos, voy a contar lo que hace un devops de verdad, que habilidades deberias tener para ejercer y por donde deberia empezar un perfil de desarrollador para llegar a serlo'
+          description: [
+            'En la charla voy a desmentir mitos, voy a contar lo que hace un devops de verdad, que habilidades deberías tener para ejercer y por donde debería empezar un perfil de desarrollador para llegar a serlo.'
+          ]
         },
         {
           title: 'The Amazing Guilds Showoff',
