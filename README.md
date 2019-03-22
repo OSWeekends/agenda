@@ -37,3 +37,5 @@ yarn run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+> Si cambia la ruta donde se aloja la agenda, hay que cambiar el fichero `vue.config.js`
