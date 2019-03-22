@@ -1,34 +1,16 @@
 <template>
-  <div>
+  <div class="mb-5">
     <b-table :items="track.content" :fields="fields" outlined hover>
       <template slot="startTime" slot-scope="data">
-        <!--<pre>{{ data.item }}</pre>-->
-        <div class="time">
-          <span class="time--h">{{ data.item.startTime.h }}</span>
-          <span class="colon">:</span>
-          <span class="time--m">{{ data.item.startTime.m }}</span>
-        </div>
-        <div class="time">
-          <span class="time--h">{{ data.item.endTime.h }}</span>
-          <span class="colon">:</span>
-          <span class="time--m">{{ data.item.endTime.m }}</span>
-        </div>
+        <ScheduleTableColTime :data="data"/>
       </template>
       <template slot="title" slot-scope="data">
-        <p>
-          <b-badge v-if="data.item.type" :variant="badgeVariant(data.item.type)"> · </b-badge>
-          {{ data.item.title }}
-        </p>
 
-        <p v-if="data.item.description">
-          {{ data.item.description }}
-        </p>
+        <TalkTitle :title="data.item.title" :type="data.item.type"/>
 
-        <template v-if="data.item.authors" >
-          <p v-for="(author, idx) in data.item.authors" :key="idx">
-            {{ author.name }} - {{ author.social }}
-          </p>
-        </template>
+        <TalkDescription v-if="data.item.description" :data="data.item.description"/>
+
+        <TalkAuthors v-if="data.item.authors" :data="data.item.authors"/>
 
       </template>
     </b-table>
@@ -36,14 +18,19 @@
 </template>
 
 <script>
-const variants = [
-  'primary',
-  'success',
-  'danger'
-]
+import ScheduleTableColTime from './ScheduleTableColTime'
+import TalkTitle from './ScheduleTable/TalkTitle'
+import TalkDescription from './ScheduleTable/TalkDescription'
+import TalkAuthors from './ScheduleTable/TalkAuthors'
 
 export default {
   name: 'ScheduleTable',
+  components: {
+    ScheduleTableColTime,
+    TalkTitle,
+    TalkDescription,
+    TalkAuthors
+  },
   props: {
     track: {
       type: Object,
@@ -65,11 +52,7 @@ export default {
       ]
     }
   },
-  methods: {
-    badgeVariant (type) {
-      return variants[type - 1]
-    }
-  }
+  methods: {}
 }
 </script>
 
