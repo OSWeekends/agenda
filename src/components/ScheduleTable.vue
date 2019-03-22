@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-5">
     <b-table :items="track.content" :fields="fields" outlined hover>
       <template slot="startTime" slot-scope="data">
         <!--<pre>{{ data.item }}</pre>-->
@@ -25,9 +25,16 @@
         </p>
 
         <template v-if="data.item.authors" >
-          <p v-for="(author, idx) in data.item.authors" :key="idx">
-            {{ author.name }} - {{ author.social }}
-          </p>
+          <div v-for="(author, idx) in data.item.authors" :key="idx">
+            <p>{{ author }}</p>
+            <p class="text-muted"> {{ author.name }} </p>
+            <p v-if="author.social">
+              {{ author.social }}
+            </p>
+            <p v-if="author.bio">
+              {{ author.bio}}
+            </p>
+          </div>
         </template>
 
       </template>
