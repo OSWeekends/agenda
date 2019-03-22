@@ -19,7 +19,7 @@ const data = {
           type: 1
         },
         {
-          title: 'KeyNote',
+          title: 'KeyNote 📜',
           startTime: {
             h: '10',
             m: '30'
@@ -31,7 +31,13 @@ const data = {
           type: 1
         },
         {
-          title: 'Kubernetes',
+          title: 'Kubernetes: más allá de Minikube',
+          duration: 45, // minutes
+          description: [
+            'Últimamente Kubernetes está en todas partes, parece que es la tendencia en cualquier evento o charla techie que se precie. Y como siempre que un tema es tan popular, hay miles de tutoriales, publicaciones en blogs y charlas sobre cómo comenzar con Kubernetes. Parece que todo es perfecto en el mundo de los contenedores, ¿verdad?',
+            'Bueno, para ser honestos, no es así; sobre todo debido a que la gran mayoría de estos tutoriales, artículos y charlas se detienen justo después del * Hello Kube *, justo cuando ya tienes algunas aplicaciones ejecutándose en MiniKube en tu portátil. Y aquí no está el final, sino apenas el principio ...',
+            'En esta charla, hablaré sobre esta brecha entre MiniKube y una infraestructura de producción, las ventajas de las infraestructuras de Kubernetes administradas, las trampas y el bloqueo de algunos proveedores que no promueven estándares realmente abiertos, cómo obtener suficiente confianza en tu solución para ejecutar Kubernetes sobre Kubernetes y otros temas de este tipo. Y voy a aprovechar la oportunidad para contar cómo hemos montado nuestra solución alternativa de Managed Kubernetes en OVH, desarrollada en colaboración con los usuarios y fiel a los estándares open source.'
+          ],
           startTime: {
             h: '11',
             m: '00'
@@ -43,10 +49,15 @@ const data = {
           type: 2,
           authors: [
             {
-              name: 'Horacio',
+              name: 'Horacio González',
+              // avatar: 'url-img'
+              bio: [
+                'DevRel en OVH y Google Developer Expert. Español perdido en Bretaña, programador, orador y sobre todo geek. Ingeniero de software y DevRel durante el día, líder de FinistDevs y organizador del DevFest du Bout du Monde por la noche, Horacio comenzó su andadura en el mundo de la programación en 1997 y nunca lo ha abandonado.',
+                'Después de algunos años como líder de frontend @ warp10io como Cityzen Data, actualmente trabaja como Evangelist Developer en OVH. Además, es orador frecuente en conferencias como Devoxx, Codemotion, DevFest Nantes o BreizhCamp.'
+              ],
               social: {
-                twitter: '@xxx',
-                url: ['aaa.co', 'bbb.co']
+                github: 'https://github.com/LostInBrittany',
+                url: 'https://lostinbrittany.org/'
               }
             }
           ]
