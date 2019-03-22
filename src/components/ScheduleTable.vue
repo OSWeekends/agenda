@@ -5,32 +5,12 @@
         <ScheduleTableColTime :data="data"/>
       </template>
       <template slot="title" slot-scope="data">
-        <h4>
-          <b-badge v-if="data.item.type" :variant="badgeVariant(data.item.type)"> · </b-badge>
-          {{ data.item.title }}
-        </h4>
 
-        <div v-if="data.item.description">
-          <template v-for="(desc, idx) in data.item.description">
-            <p class="lead" :key="`desc_${idx}`" >
-              {{ desc }}
-            </p>
-          </template>
-        </div>
+        <TalkTitle :title="data.item.title" :type="data.item.type"/>
 
-        <div v-if="data.item.authors" >
-          <template v-for="(auth, idx) in data.item.authors" >
-            <div :key="`auth_${idx}`">
-              <h5>
-                {{ auth.name }}
-              </h5>
-              <p class="lead">
-                {{ auth.bio }}
-              </p>
-              <p> {{ auth.social }}</p>
-            </div>
-          </template>
-        </div>
+        <TalkDescription v-if="data.item.description" :data="data.item.description"/>
+
+        <TalkAuthors v-if="data.item.authors" :data="data.item.authors"/>
 
       </template>
     </b-table>
@@ -39,26 +19,17 @@
 
 <script>
 import ScheduleTableColTime from './ScheduleTableColTime'
-
-const variants = [
-  'primary',
-  'success',
-  'danger'
-]
-
-const social = {
-  twitch: ['fab', 'twitch-square'],
-  github: ['fab', 'github-square'],
-  twitter: ['fab', 'twitter-square'],
-  youtube: ['fab', 'youtube-square'],
-  facebook: ['fab', 'facebook-square'],
-  linkedin: ['fab', 'linkedin-square']
-}
+import TalkTitle from './ScheduleTable/TalkTitle'
+import TalkDescription from './ScheduleTable/TalkDescription'
+import TalkAuthors from './ScheduleTable/TalkAuthors'
 
 export default {
   name: 'ScheduleTable',
   components: {
-    ScheduleTableColTime
+    ScheduleTableColTime,
+    TalkTitle,
+    TalkDescription,
+    TalkAuthors
   },
   props: {
     track: {
@@ -81,14 +52,7 @@ export default {
       ]
     }
   },
-  methods: {
-    badgeVariant (type) {
-      return variants[type - 1]
-    },
-    getIcon (val) {
-      return social[val]
-    }
-  }
+  methods: {}
 }
 </script>
 
