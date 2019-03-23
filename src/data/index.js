@@ -193,28 +193,6 @@ const data = {
       name: 'Meetup Space',
       content: [
         {
-          title: '-️',
-          startTime: {
-            h: '10',
-            m: '00'
-          },
-          endTime: {
-            h: '10',
-            m: '30'
-          }
-        },
-        {
-          title: '-',
-          startTime: {
-            h: '10',
-            m: '30'
-          },
-          endTime: {
-            h: '11',
-            m: '00'
-          }
-        },
-        {
           title: 'Machine Learning para profanos',
           startTime: {
             h: '11',
@@ -254,45 +232,12 @@ const data = {
               }
             }
           ]
-        },
-        {
-          title: '-',
-          startTime: {
-            h: '12',
-            m: '30'
-          },
-          endTime: {
-            h: '13',
-            m: '15'
-          }
         }
       ]
     },
     {
       name: 'Café · Planta 0',
       content: [
-        {
-          title: '-️',
-          startTime: {
-            h: '10',
-            m: '00'
-          },
-          endTime: {
-            h: '10',
-            m: '30'
-          }
-        },
-        {
-          title: '-',
-          startTime: {
-            h: '10',
-            m: '30'
-          },
-          endTime: {
-            h: '11',
-            m: '00'
-          }
-        },
         {
           title: 'Guilds',
           startTime: {
