@@ -330,6 +330,44 @@ const data = {
           type: 1
         }
       ]
+    },
+    {
+      name: 'Sótano',
+      content: [
+        {
+          title: 'Hackeando tu memoria.',
+          startTime: {
+            h: '12',
+            m: '30'
+          },
+          endTime: {
+            h: '14',
+            m: '00'
+          },
+          type: 2,
+          authors: [
+            {
+              name: 'Francisco Valdesoiro Gil',
+              // avatar: 'url-img'
+              bio: [
+                'Mi pasión siempre ha estado en torno a la tecnología y la enseñanza, soy una persona muy curiosa y siempre me ha gustado investigar sobre el funcionamiento de la mente y el cómo adquirimos nuevos conocimientos.',
+                'Estas inquietudes me llevaron desde aprender nuevas tecnologías desarrollando aplicaciones de realidad aumentada y virtual entre otras, a jugar con herramientas de memorización o mnemotecnia.',
+                'Gracias a este hobbie me vi envuelto sin darme cuenta en ayudar a gente a memorizar más rápido para pasar sus oposiciones y exámenes e impartir talleres en escuelas de pilotos, empresas y colegios.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/GilValdesoiro',
+                linkedin: 'https://www.linkedin.com/in/francisco-valdesoiro-gil-711209118/',
+                github: 'https://github.com/FranciscoValdesoiro'
+              }
+            }
+          ],
+          description: [
+            '¿Te ha pasado alguna vez que te has preparado un examen durante semanas y el día del examen te has quedado en blanco?',
+            '¿Por qué hay gente que recuerda todo lo que lee o escucha y es capaz de recordar detalles que para el resto de la gente pasan desapercibidos?',
+            'El objetivo de este taller es descubrir cómo funciona la memoria y conocer las herramientas que nos permitirán memorizar todo tipo de datos como nombres, listas de palabras, fechas y como preparar cualquier tipo de examen u oposición de una manera divertida y en mucho menos tiempo de lo que imaginas.'
+          ]
+        }
+      ]
     }
   ]
 }
