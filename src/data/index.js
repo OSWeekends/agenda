@@ -99,6 +99,36 @@ const data = {
           ]
         },
         {
+          title: 'Licencias Open Source',
+          description: [
+            'Las licencias de software son contratos. Hablaremos de qué son, para qué sirven y en qué se diferencian entre ellas las principales licencias Open Source. Veremos los problemas habituales y soluciones creativas desde un punto de vista legal.',
+            'Al final de la charla presentaremos un proyecto en colaboración con los Guilds de OSW para favorecer la elección de la mejor licencia para tu proyecto :-)'
+          ],
+          startTime: {
+            h: '12',
+            m: '30'
+          },
+          endTime: {
+            h: '13',
+            m: '15'
+          },
+          type: 2,
+          authors: [
+            {
+              name: 'Bárbara Román',
+              bio: ['Hola soy Barbara'],
+              social: {}
+            },
+            {
+              name: 'María Cerviño',
+              bio: ['Hola soy de @NoLegalTech'],
+              social: {
+                twitter: 'https://twitter.com/Mcervinho'
+              }
+            }
+          ]
+        },
+        {
           title: 'The Amazing Guilds Showoff',
           startTime: {
             h: '12',
