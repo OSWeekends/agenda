@@ -1,5 +1,5 @@
 const data = {
-  title: 'Agenda OSW - Marzo 2019sss',
+  title: 'Agenda Marzo 2019',
   date: '30/03/2019',
   description: 'xxx',
   startTime: '10:00',
