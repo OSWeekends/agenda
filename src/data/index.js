@@ -1,9 +1,9 @@
 const data = {
   title: 'Agenda Marzo 2019',
   date: '30/03/2019',
-  description: 'xxx',
-  startTime: '10:00',
-  endTime: '15:00',
+  description: 'xxx', // Not used atm
+  startTime: '10:00', // Not used atm
+  endTime: '15:00', // Not used atm
   tracks: [
     {
       name: 'Auditorio',
@@ -184,7 +184,21 @@ const data = {
           }
         },
         {
-          title: 'HackMadrid',
+          title: 'Jupyter y Python',
+          description: [
+            'Jupyter es una poderosa herramienta para empaquetar código/texto en un notebook de Jupyter. Es un taller inicial para instalar y trabajar con Jupyter, en este caso partícular, con Python.'
+          ],
+          authors: [
+            {
+              name: 'Juan Antonio Lleó',
+              bio: [
+                'Juan Antonio es coordinador y co-fundador de BlockMAD, co-organizador de HackMadrid y HaskellMAD. Artista digital y programador. Activo miembro del mundo tecnológico y el software libre.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/Juan_A_Lleo'
+              }
+            }
+          ],
           startTime: {
             h: '11',
             m: '00'
@@ -196,7 +210,23 @@ const data = {
           type: 3
         },
         {
-          title: '-',
+          title: 'Seguridad ofensiva con Pyhon',
+          description: [
+            'Codificaremos las herramientas básicas de red y análisis de puertos con python 3.7 mediante las utilidades dadas por python así como modulos indispensables a la hora de realizar estas herramientas.',
+            'Se utilizará Ubuntu como distro a la hora de realizar el taller, en breves subiremos las instrucciones para tenerlo todo preparado de cara al taller. Los programas que se realizarán se encuentran disponibles en https://github.com/g4lk/TallerURJC'
+          ],
+          authors: [
+            {
+              name: 'David',
+              bio: [
+                'David @pdparla tiene 21 años y es estudiante de la URJC.',
+                'Amante de la programación y el software libre, aficionado a las redes. Co-organizador de HackMadrid'
+              ],
+              social: {
+                twitter: 'https://twitter.com/pdparla'
+              }
+            }
+          ],
           startTime: {
             h: '11',
             m: '45'
@@ -207,7 +237,19 @@ const data = {
           }
         },
         {
-          title: '-',
+          title: ' Jugando con electrones',
+          description: [
+            'Cuando nos enfrentamos al reto de implementar pequeños circuitos para complementar nuestros proyectos basados en Raspberry, Arduino, o cualquier otra placa, nos encontramos con multitud de elementos electrónicos que debemos añadir para poder interactuar con el mundo real, como resistencias, condensadores, transistores, diodos, etc, y un sinfín de sensores y circuitos integrados, tanto analógicos como digitales.',
+            'En esta sesión haremos un repaso por los conceptos electrónicos fundamentales, así como los componentes más habituales para entender cual es su función en los circuitos. Terminaremos con un pequeño taller en el que implementaremos una puerta lógica y algún otro circuito básico, para aprender a usar la protoboard y entender la Ley de Ohm'
+          ],
+          authors: [
+            {
+              name: 'Luis',
+              bio: [
+                'Luis es Ingeniero de Telecomunicaciones (Teleco), pero también autodidacta. Trabajando en frontend durante los cuatro últimos años. Ahora en python/backend/sistemas. Aficionado a trastear con electrónica y algunas placas (Raspi, Arduino). También a la seguridad y los CTFs'
+              ]
+            }
+          ],
           startTime: {
             h: '12',
             m: '30'
