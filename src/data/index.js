@@ -162,18 +162,32 @@ const data = {
       name: 'Café · Planta 1',
       content: [
         {
-          title: 'Jupyter y Python',
+          title: 'La pastilla Roja/Azul del Cloud',
           description: [
-            'Jupyter es una poderosa herramienta para empaquetar código/texto en un notebook de Jupyter. Es un taller inicial para instalar y trabajar con Jupyter, en este caso partícular, con Python.'
+            'Al contratar los servicios cloud para el almacenamiento de nuestros archivos, permite disponer de estos en cualquier parte del mundo, pero, qué pasa si se vulnera la seguridad del cloud. ',
+            'kneda demostrará como se puede llegar a vulnerar la seguridad del cloud, consiguiendo información personal, y Lórien intentará a través de la forénsica, desenmascarar al autor.'
           ],
           authors: [
             {
-              name: 'Juan Antonio Lleó',
+              name: '@kneda',
               bio: [
-                'Juan Antonio es coordinador y co-fundador de BlockMAD, co-organizador de HackMadrid y HaskellMAD. Artista digital y programador. Activo miembro del mundo tecnológico y el software libre.'
+                'Postgrado en Informática Forense y Delitos Informáticos + Master en Seguridad Informática y Hacking. ',
+                'Trabaja como Black Box Pentester. Le encanta el mundo que rodea al Hacking, y se ha especializado en Ingeniería Social y Black Box test. Formador en varias materias de ciberseguridad, lo que llamamos "hacker" en las trincheras.',
+                'Cofundadores de @Hack4ensicTeam - Co-organizadores HackMadrid %27'
               ],
               social: {
-                twitter: 'https://twitter.com/Juan_A_Lleo'
+                // twitter: 'https://twitter.com/'
+              }
+            },
+            {
+              name: 'Lórien',
+              bio: [
+                'Ingeniero Informático. Trabaja de Senior Incident Responder en Minsait',
+                'Es un apasionado de la Seguridad de la Información en varios ámbitos que se ha especializado en Informática forense y DFIR en entornos Cloud. Imparte cursos de análisis forense',
+                'Cofundadores de @Hack4ensicTeam - Co-organizadores HackMadrid %27'
+              ],
+              social: {
+                // twitter: 'https://twitter.com/'
               }
             }
           ],
@@ -186,103 +200,57 @@ const data = {
             m: '45'
           },
           type: 3
-        },
-        {
-          title: 'Seguridad ofensiva con Pyhon',
-          description: [
-            'Codificaremos las herramientas básicas de red y análisis de puertos con python 3.7 mediante las utilidades dadas por python así como modulos indispensables a la hora de realizar estas herramientas.',
-            'Se utilizará Ubuntu como distro a la hora de realizar el taller, en breves subiremos las instrucciones para tenerlo todo preparado de cara al taller. Los programas que se realizarán se encuentran disponibles en https://github.com/g4lk/TallerURJC'
-          ],
-          authors: [
-            {
-              name: 'David',
-              bio: [
-                'David @pdparla tiene 21 años y es estudiante de la URJC.',
-                'Amante de la programación y el software libre, aficionado a las redes. Co-organizador de HackMadrid'
-              ],
-              social: {
-                twitter: 'https://twitter.com/pdparla'
-              }
-            }
-          ],
-          startTime: {
-            h: '11',
-            m: '45'
-          },
-          endTime: {
-            h: '12',
-            m: '30'
-          }
-        },
-        {
-          title: ' Jugando con electrones',
-          description: [
-            'Cuando nos enfrentamos al reto de implementar pequeños circuitos para complementar nuestros proyectos basados en Raspberry, Arduino, o cualquier otra placa, nos encontramos con multitud de elementos electrónicos que debemos añadir para poder interactuar con el mundo real, como resistencias, condensadores, transistores, diodos, etc, y un sinfín de sensores y circuitos integrados, tanto analógicos como digitales.',
-            'En esta sesión haremos un repaso por los conceptos electrónicos fundamentales, así como los componentes más habituales para entender cual es su función en los circuitos. Terminaremos con un pequeño taller en el que implementaremos una puerta lógica y algún otro circuito básico, para aprender a usar la protoboard y entender la Ley de Ohm'
-          ],
-          authors: [
-            {
-              name: 'Luis',
-              bio: [
-                'Luis es Ingeniero de Telecomunicaciones (Teleco), pero también autodidacta. Trabajando en frontend durante los cuatro últimos años. Ahora en python/backend/sistemas. Aficionado a trastear con electrónica y algunas placas (Raspi, Arduino). También a la seguridad y los CTFs'
-              ]
-            }
-          ],
-          startTime: {
-            h: '12',
-            m: '30'
-          },
-          endTime: {
-            h: '13',
-            m: '15'
-          }
         }
-      ]
-    },
-    {
-      name: 'Meetup Space',
-      content: [
-        {
-          title: 'Machine Learning para profanos',
-          startTime: {
-            h: '11',
-            m: '00'
-          },
-          endTime: {
-            h: '11',
-            m: '45'
-          },
-          type: 2,
-          authors: [
-            {
-              name: 'Angel Luengo',
-              social: {
-                twitter: '@pocoyo'
-              }
-            }
-          ],
-          note: 'extra extra..'
-        },
-        {
-          title: 'Visión Artificial',
-          startTime: {
-            h: '11',
-            m: '45'
-          },
-          endTime: {
-            h: '12',
-            m: '30'
-          },
-          type: 2,
-          authors: [
-            {
-              name: 'Clara Luis',
-              social: {
-                url: ['asdasd.com']
-              }
-            }
-          ]
-        }
+        // {
+        //   title: 'Seguridad ofensiva con Pyhon',
+        //   description: [
+        //     'Codificaremos las herramientas básicas de red y análisis de puertos con python 3.7 mediante las utilidades dadas por python así como modulos indispensables a la hora de realizar estas herramientas.',
+        //     'Se utilizará Ubuntu como distro a la hora de realizar el taller, en breves subiremos las instrucciones para tenerlo todo preparado de cara al taller. Los programas que se realizarán se encuentran disponibles en https://github.com/g4lk/TallerURJC'
+        //   ],
+        //   authors: [
+        //     {
+        //       name: 'David',
+        //       bio: [
+        //         'David @pdparla tiene 21 años y es estudiante de la URJC.',
+        //         'Amante de la programación y el software libre, aficionado a las redes. Co-organizador de HackMadrid'
+        //       ],
+        //       social: {
+        //         twitter: 'https://twitter.com/pdparla'
+        //       }
+        //     }
+        //   ],
+        //   startTime: {
+        //     h: '11',
+        //     m: '45'
+        //   },
+        //   endTime: {
+        //     h: '12',
+        //     m: '30'
+        //   }
+        // },
+        // {
+        //   title: ' Jugando con electrones',
+        //   description: [
+        //     'Cuando nos enfrentamos al reto de implementar pequeños circuitos para complementar nuestros proyectos basados en Raspberry, Arduino, o cualquier otra placa, nos encontramos con multitud de elementos electrónicos que debemos añadir para poder interactuar con el mundo real, como resistencias, condensadores, transistores, diodos, etc, y un sinfín de sensores y circuitos integrados, tanto analógicos como digitales.',
+        //     'En esta sesión haremos un repaso por los conceptos electrónicos fundamentales, así como los componentes más habituales para entender cual es su función en los circuitos. Terminaremos con un pequeño taller en el que implementaremos una puerta lógica y algún otro circuito básico, para aprender a usar la protoboard y entender la Ley de Ohm'
+        //   ],
+        //   authors: [
+        //     {
+        //       name: 'Luis',
+        //       bio: [
+        //         'Luis es Ingeniero de Telecomunicaciones (Teleco), pero también autodidacta. Trabajando en frontend durante los cuatro últimos años. Ahora en python/backend/sistemas. Aficionado a trastear con electrónica y algunas placas (Raspi, Arduino). También a la seguridad y los CTFs'
+        //       ]
+        //     }
+        //   ],
+        //   startTime: {
+        //     h: '12',
+        //     m: '30'
+        //   },
+        //   endTime: {
+        //     h: '13',
+        //     m: '15'
+        //   }
+        // }
       ]
     },
     {
@@ -327,8 +295,49 @@ const data = {
       ]
     },
     {
-      name: 'Sótano',
+      name: 'Meetup Space (Sótano)',
       content: [
+        {
+          title: 'Machine Learning para profanos',
+          startTime: {
+            h: '11',
+            m: '00'
+          },
+          endTime: {
+            h: '11',
+            m: '45'
+          },
+          type: 2,
+          authors: [
+            {
+              name: 'Angel Luengo',
+              social: {
+                twitter: '@pocoyo'
+              }
+            }
+          ],
+          note: 'extra extra..'
+        },
+        {
+          title: 'Visión Artificial',
+          startTime: {
+            h: '11',
+            m: '45'
+          },
+          endTime: {
+            h: '12',
+            m: '30'
+          },
+          type: 2,
+          authors: [
+            {
+              name: 'Clara Luis',
+              social: {
+                url: ['asdasd.com']
+              }
+            }
+          ]
+        },
         {
           title: 'Hackeando tu memoria.',
           startTime: {
