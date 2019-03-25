@@ -162,28 +162,6 @@ const data = {
       name: 'Café · Planta 1',
       content: [
         {
-          title: '-️',
-          startTime: {
-            h: '10',
-            m: '00'
-          },
-          endTime: {
-            h: '10',
-            m: '30'
-          }
-        },
-        {
-          title: '-',
-          startTime: {
-            h: '10',
-            m: '30'
-          },
-          endTime: {
-            h: '11',
-            m: '00'
-          }
-        },
-        {
           title: 'Jupyter y Python',
           description: [
             'Jupyter es una poderosa herramienta para empaquetar código/texto en un notebook de Jupyter. Es un taller inicial para instalar y trabajar con Jupyter, en este caso partícular, con Python.'
