@@ -348,7 +348,9 @@ const data = {
               twitter: 'https://github.com/carlosazaustre',
               youtube: 'https://www.youtube.com/channel/UCJgGc8pQO1lv04VXrBxA_Hg',
               twitch: 'https://www.twitch.tv/carlosazaustre',
-              github: 'https://github.com/carlosazaustre'
+              instagram: 'https://www.instagram.com/carlosazaustre/',
+              github: 'https://github.com/carlosazaustre',
+              url: 'https://carlosazaustre.es/'
             }
           },
           {
