@@ -24,6 +24,7 @@ const data = {
           title: 'KeyNote 📜',
           description: [
             '- Novedades y noticias',
+            '- Hackerspace',
             '- The amazing guilds showoff'
           ],
           startTime: {
