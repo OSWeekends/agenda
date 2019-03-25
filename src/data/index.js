@@ -128,20 +128,20 @@ const data = {
             }
           ]
         },
-        {
-          title: 'The Amazing Guilds Showoff',
-          startTime: {
-            h: '12',
-            m: '30'
-          },
-          endTime: {
-            h: '13',
-            m: '15'
-          },
-          type: 1,
-          authors: [],
-          note: ''
-        },
+        // {
+        //   title: 'The Amazing Guilds Showoff',
+        //   startTime: {
+        //     h: '12',
+        //     m: '30'
+        //   },
+        //   endTime: {
+        //     h: '13',
+        //     m: '15'
+        //   },
+        //   type: 1,
+        //   authors: [],
+        //   note: ''
+        // },
         {
           title: 'Networking 🤗',
           startTime: {
