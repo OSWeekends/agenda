@@ -126,12 +126,11 @@ const data = {
           {
             name: 'Bárbara Román',
             avatar: 'https://www.nolegaltech.com/img/avatar_yAvMgUfV.jpg?1553522292',
-            bio: ['Hola soy Barbara'],
-            social: {}
+            bio: ['Bárbara']
           },
           {
             name: 'María Cerviño',
-            bio: ['Hola soy de @NoLegalTech'],
+            bio: ['Hola'],
             social: {
               twitter: 'https://twitter.com/Mcervinho'
             }
@@ -334,28 +333,30 @@ const data = {
           m: '00'
         },
         type: 2,
-        authors: [ {
-          name: 'Carlos Azaustre',
-          avatar: 'https://pbs.twimg.com/profile_images/1072016049976107008/tydn73g7_400x400.jpg',
-          bio: [
-            'Senior Front End Software Engineer at @IBMResearch #IBMQ'
-          ],
-          social: {
-            twitter: 'https://github.com/carlosazaustre',
-            youtube: 'https://www.youtube.com/channel/UCJgGc8pQO1lv04VXrBxA_Hg',
-            twitch: 'https://www.twitch.tv/carlosazaustre',
-            github: 'https://github.com/carlosazaustre'
-          }
-        }, {
-          name: 'Jacinto J. C. Nieto',
-          avatar: 'https://pbs.twimg.com/profile_images/974735865418256384/bwfz8Z5q_400x400.jpg',
-          bio: [
-            'Core: Be a best version of me. Heart: @OpcionTIC @os_weekends @OSWGuilds @SmartAreasTech #aprendizaje #luchador #constante #proactivo'
-          ],
-          social: {
-            twitter: 'https://twitter.com/jacintoj_IT'
-          }
-        }],
+        authors: [
+          {
+            name: 'Carlos Azaustre',
+            avatar: 'https://pbs.twimg.com/profile_images/1072016049976107008/tydn73g7_400x400.jpg',
+            bio: [
+              'Senior Front End Software Engineer at @IBMResearch #IBMQ'
+            ],
+            social: {
+              twitter: 'https://github.com/carlosazaustre',
+              youtube: 'https://www.youtube.com/channel/UCJgGc8pQO1lv04VXrBxA_Hg',
+              twitch: 'https://www.twitch.tv/carlosazaustre',
+              github: 'https://github.com/carlosazaustre'
+            }
+          },
+          {
+            name: 'Jacinto J. C. Nieto',
+            avatar: 'https://pbs.twimg.com/profile_images/974735865418256384/bwfz8Z5q_400x400.jpg',
+            bio: [
+              'Core: Be a best version of me. Heart: @OpcionTIC @os_weekends @OSWGuilds @SmartAreasTech #aprendizaje #luchador #constante #proactivo'
+            ],
+            social: {
+              twitter: 'https://twitter.com/jacintoj_IT'
+            }
+          }],
         description: ['Taller de Node.js y JavaScript. Paso a paso siguiendo tutoriales']
       }]
     }

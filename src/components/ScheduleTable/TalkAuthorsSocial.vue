@@ -10,7 +10,7 @@
 
 <script>
 const socialIco = {
-  twitch: ['fab', 'twitch-square'],
+  twitch: ['fab', 'twitch'],
   github: ['fab', 'github'],
   twitter: ['fab', 'twitter-square'],
   youtube: ['fab', 'youtube-square'],
