@@ -22,6 +22,10 @@ const data = {
         },
         {
           title: 'KeyNote 📜',
+          description: [
+            '- Novedades y noticias',
+            '- The amazing guilds showoff'
+          ],
           startTime: {
             h: '10',
             m: '30'
@@ -79,13 +83,13 @@ const data = {
             {
               name: 'Jorge Vidal',
               social: {
-                twitter: 'xttx',
-                linkedin: 'xwwaax',
-                facebook: 'xwwwx',
-                youtube: 'xxssss',
-                instagram: 'xxssss',
-                github: 'gsss',
-                url: 'www.baumannzone.com'
+                twitter: 'https://twitter.com/imsysadmin',
+                linkedin: 'https://www.linkedin.com/in/jvidalsysadmin/'
+                // facebook: 'xwwwx',
+                // youtube: 'xxssss',
+                // instagram: 'xxssss',
+                // github: 'gsss',
+                // url: 'www.baumannzone.com'
               },
               bio: [
                 'Jorge tiene más de 15 años de experiencia en el sector IT. Ha sido administrador de sistemas durante muchos años, pero el mundo del emprendimiento le aporto habilidades adicionales como "comercial", "preventa", "evangelizador", "desarrollo de negocio" y "charlatán".',
@@ -310,9 +314,9 @@ const data = {
           type: 2,
           authors: [
             {
-              name: 'Angel Luengo',
+              name: 'Angel Luengo Egido',
               social: {
-                twitter: '@pocoyo'
+                twitter: 'https://twitter.com/BSaurius'
               }
             }
           ],
@@ -333,7 +337,7 @@ const data = {
             {
               name: 'Clara Luis',
               social: {
-                url: ['asdasd.com']
+                twitter: 'https://twitter.com/vocalyre'
               }
             }
           ]
