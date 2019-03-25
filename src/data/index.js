@@ -158,22 +158,26 @@ const data = {
             Poco más de un año después y en el mismo marco, tenemos el placer de presentar nuestro nuevo proyecto: BlockMAD Labs.
             Este laboratorio de desarrollo de Blockchain va a tratar de llevar a cabo distintos proyectos de colaboración, principalmente a nivel de comunidad, con entidades y startups del sector, interesadas en explorar tecnologías punta y que tengan aplicación inmediata en las mismas.
             Para ello, las entidades participantes ofrecerán charlas y talleres en las que expongan detalles de sus soluciones tecnológicas y en qué ámbitos necesitan de la colaboración de la comunidad, así como se integrarán a las distintas reuniones de los grupos de trabajo que se formen, aportando su experiencia y sus consejos.
-            Todos aquellos desarrolladores, técnicos o investigadores, entre otros, interesados en participar, en la medida de sus posibilidades, serán bienvenidos.`, `Dentro de los proyectos ya en marcha cabe destacar:
-            - Blockledger: en este Guild y a iniciativa de BlockMAD, se está desarrollando un blockchain permisionado para el intercambio de valor, mediante tokens, entre distintas comunidades tecnológicas con sus patrocinadores y proveedores.
-            - Ethic Hub y BlockMAD: junto con la startup Ethic Hub, uno de los pocos proyectos de éxito de la aplicación de blockchain y con impacto social, hemos empezado una colaboración en la que se espera que sirva tanto para mejorar sus infraestructuras de virtualización, como en otros aspectos de sus desarrollos.
-            - Brainrex: Está previsto organizar próximamente un taller para trabajar con sus herramientas avanzadas de análisis sintáctico mediante Inteligencia Artificial, sobre su propio Data Lake.
-            Y otros que iremos dando a conocer posteriormente.`],
-        authors: [{
-          name: 'BlockMAD',
-          avatar: 'https://pbs.twimg.com/profile_images/977557690749681665/kKiKMn0W_400x400.jpg',
-          bio: [`BlockMAD es una comunidad dedicada principalmente a la tecnología Blockchain, sobre todo en sus aspectos técnicos y a la elaboración de proyectos. Organizamos distintas actividades, entre ellas: presentaciones, talleres, code-exchange y hack-a-thons.`,
-            `BlockMAD es una comunidad abierta, que se mantiene firme en la defensa del software libre, descentralizado y distribuido.`,
-            `Únete a nuestra comunidad si tienes ganas de aprender, aportar tus conocimientos y crecer en este fascinante ecosistema.`],
-          social: {
-            twitter: 'https://twitter.com/blockmad',
-            meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
-          }
-        }],
+            Todos aquellos desarrolladores, técnicos o investigadores, entre otros, interesados en participar, en la medida de sus posibilidades, serán bienvenidos.`, `Dentro de los proyectos ya en marcha cabe destacar:`,
+        '- Blockledger: en este Guild y a iniciativa de BlockMAD, se está desarrollando un blockchain permisionado para el intercambio de valor, mediante tokens, entre distintas comunidades tecnológicas con sus patrocinadores y proveedores.',
+        '- Ethic Hub y BlockMAD: junto con la startup Ethic Hub, uno de los pocos proyectos de éxito de la aplicación de blockchain y con impacto social, hemos empezado una colaboración en la que se espera que sirva tanto para mejorar sus infraestructuras de virtualización, como en otros aspectos de sus desarrollos.',
+        '- Brainrex: Está previsto organizar próximamente un taller para trabajar con sus herramientas avanzadas de análisis sintáctico mediante Inteligencia Artificial, sobre su propio Data Lake.',
+        'Y otros que iremos dando a conocer posteriormente.'
+        ],
+        authors: [
+          {
+            name: 'BlockMAD',
+            avatar: 'https://pbs.twimg.com/profile_images/977557690749681665/kKiKMn0W_400x400.jpg',
+            bio: [
+              'BlockMAD es una comunidad dedicada principalmente a la tecnología Blockchain, sobre todo en sus aspectos técnicos y a la elaboración de proyectos. Organizamos distintas actividades, entre ellas: presentaciones, talleres, code-exchange y hack-a-thons.',
+              'BlockMAD es una comunidad abierta, que se mantiene firme en la defensa del software libre, descentralizado y distribuido.',
+              'Únete a nuestra comunidad si tienes ganas de aprender, aportar tus conocimientos y crecer en este fascinante ecosistema.'
+            ],
+            social: {
+              twitter: 'https://twitter.com/blockmad',
+              meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
+            }
+          }],
         startTime: {
           h: '11',
           m: '00'
@@ -356,7 +360,8 @@ const data = {
             social: {
               twitter: 'https://twitter.com/jacintoj_IT'
             }
-          }],
+          }
+        ],
         description: ['Taller de Node.js y JavaScript. Paso a paso siguiendo tutoriales']
       }]
     }
