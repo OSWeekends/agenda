@@ -259,6 +259,10 @@ const data = {
       name: 'Meetup Space (Sótano)',
       content: [{
         title: 'Machine Learning para profanos',
+        description: [
+          'Hoy en día es imposible no haber oído del Machine Learning y la Inteligencia Artificial, pero ... ¿en qué consiste realmente todo esto? ¿Es este mundo tan oscuro y complejo como parece?',
+          'Sin abusar de fórmulas y teoremas para que no se me duerma nadie, pretendo que aprovechemos al máximo estos escasos 45 minutos para que salgáis con una idea mucho más clara sobre en qué consiste esta nueva ciencia y como aplicarla.'
+        ],
         startTime: {
           h: '11',
           m: '00'
@@ -273,11 +277,15 @@ const data = {
             name: 'Angel Luengo Egido',
             avatar: 'https://pbs.twimg.com/profile_images/986582889390333953/py32YOYM_400x400.jpg',
             social: {
-              twitter: 'https://twitter.com/BSaurius'
-            }
+              twitter: 'https://twitter.com/BSaurius',
+              linkedin: 'https://www.linkedin.com/in/%C3%A1ngel-luengo-egido-7347a6130/'
+            },
+            bio: [
+              'BigDataSaurio (Ingeniero de Telecomunicaciones amante de los dinosaurios). Actualmente trabaja en el equipo de Cubelizer desarrollando algoritmos para el análisis de comportamiento de clientes en espacios retail físicos.',
+              'Apasionado de los datos y la estadística, además de conocer más de 200 especies de dinosaurios, Ángel domina diversas técnicas y tecnologías relacionadas con la ingeniería de datos, el IoT, la visión artificial y el machine learning.'
+            ]
           }
-        ],
-        note: 'extra extra..'
+        ]
       },
       {
         title: 'Introducción a la Visión Artificial con OpenCV',
