@@ -35,7 +35,8 @@ const data = {
           m: '00'
         },
         type: 1
-      }, {
+      },
+      {
         title: 'Kubernetes: más allá de Minikube',
         duration: 45, // minutes
         description: [
@@ -136,7 +137,8 @@ const data = {
             }
           }
         ]
-      }, {
+      },
+      {
         title: 'Networking 🤗',
         startTime: {
           h: '13',
@@ -150,7 +152,8 @@ const data = {
         authors: [],
         note: ''
       }]
-    }, {
+    },
+    {
       name: 'Planta 1 (Cafetería)',
       content: [{
         title: 'BlockMAD',
@@ -231,7 +234,8 @@ const data = {
         },
         type: 3
       }]
-    }, {
+    },
+    {
       name: 'Planta 0 (Cafetería)',
       content: [
         {
@@ -250,8 +254,9 @@ const data = {
           type: 1
         }
       ]
-    }, {
-      name: 'Meetup Space (Sotano)',
+    },
+    {
+      name: 'Meetup Space (Sótano)',
       content: [{
         title: 'Machine Learning para profanos',
         startTime: {
@@ -275,7 +280,11 @@ const data = {
         note: 'extra extra..'
       },
       {
-        title: 'Visión Artificial',
+        title: 'Introducción a la Visión Artificial con OpenCV',
+        description: [
+          'Daremos un repaso por las técnicas de visión artificial que se aplican hoy en día en investigación y a productos comerciales. Si, por ejemplo, quieres saber cómo funcionan por dentro las redes neuronales convolucionales o la detección facial, esta es tu charla.',
+          'Los ejemplos vendrán acompañados de código en OpenCV para que se pueda experimentar durante la charla y también a posteriori.'
+        ],
         startTime: {
           h: '11',
           m: '45'
@@ -292,7 +301,8 @@ const data = {
             bio: ['Audiovisual Systems Engineering @UC3M • @T3chFest organizer 👩‍💻 • Love #MachineLearning, #ComputerVision and #MusicInformationRetrieval • 📢#Feminism • #INFP'],
             social: {
               twitter: 'https://twitter.com/vocalyre',
-              web: 'https://www.smule.com/vocalyre'
+              instagram: 'https://www.instagram.com/vocalyree/',
+              url: 'https://www.smule.com/vocalyre'
             }
           }
         ]
@@ -330,10 +340,12 @@ const data = {
           'El objetivo de este taller es descubrir cómo funciona la memoria y conocer las herramientas que nos permitirán memorizar todo tipo de datos como nombres, listas de palabras, fechas y como preparar cualquier tipo de examen u oposición de una manera divertida y en mucho menos tiempo de lo que imaginas.'
         ]
       }]
-    }, {
+    },
+    {
       name: 'Planta 0 (Corner)',
       content: [{
         title: 'Taller de NodeSchool Madrid',
+        description: ['Taller de Node.js y JavaScript. Paso a paso siguiendo tutoriales'],
         startTime: {
           h: '12',
           m: '00'
@@ -369,8 +381,7 @@ const data = {
               twitter: 'https://twitter.com/jacintoj_IT'
             }
           }
-        ],
-        description: ['Taller de Node.js y JavaScript. Paso a paso siguiendo tutoriales']
+        ]
       }]
     }
   ]
