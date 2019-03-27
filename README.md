@@ -1,4 +1,4 @@
-# STIO WEB · AGENDA DEL EVENTO
+# SITIO WEB · AGENDA DEL EVENTO
 
 ## Project setup
 ```
