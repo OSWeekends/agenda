@@ -232,18 +232,23 @@ const data = {
       }]
     }, {
       name: 'Planta 0 (Cafetería)',
-      content: [{
-        title: 'Guilds',
-        startTime: {
-          h: '11',
-          m: '00'
-        },
-        endTime: {
-          h: '14',
-          m: '00'
-        },
-        type: 1
-      }]
+      content: [
+        {
+          title: 'Guilds',
+          description: [
+            'Dejamos este espacio para que los Guilds se sienten cara a cara y se arremanguen para empezar a planificar sus proyectos, idear, definir...lo que sea! Seguido de cerca por algunos mentores de la comunidad OSWeekends ;)'
+          ],
+          startTime: {
+            h: '11',
+            m: '00'
+          },
+          endTime: {
+            h: '14',
+            m: '00'
+          },
+          type: 1
+        }
+      ]
     }, {
       name: 'Meetup Space (Sotano)',
       content: [{
