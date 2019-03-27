@@ -196,7 +196,7 @@ const data = {
         ],
         authors: [
           {
-            name: '@kneda',
+            name: 'kneda',
             avatar: 'https://pbs.twimg.com/profile_images/474070021350518785/-MjulZL2_400x400.jpeg',
             bio: [
               'Postgrado en Informática Forense y Delitos Informáticos + Master en Seguridad Informática y Hacking. ',
@@ -204,7 +204,8 @@ const data = {
               'Cofundadores de @Hack4ensicTeam - Co-organizadores HackMadrid %27'
             ],
             social: {
-              twitter: 'https://twitter.com/JR_kneda'
+              twitter: 'https://twitter.com/JR_kneda',
+              url: 'http://kneda.net/'
             }
           },
           {
