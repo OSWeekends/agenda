@@ -274,7 +274,7 @@ const data = {
         type: 2,
         authors: [
           {
-            name: 'Angel Luengo Egido',
+            name: 'Ángel Luengo Egido',
             avatar: 'https://pbs.twimg.com/profile_images/986582889390333953/py32YOYM_400x400.jpg',
             social: {
               twitter: 'https://twitter.com/BSaurius',
