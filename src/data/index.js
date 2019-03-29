@@ -2,8 +2,8 @@ const data = {
   title: 'Agenda Marzo 2019',
   date: '30/03/2019',
   description: 'xxx', // Not used atm
-  startTime: '10:00', // Not used atm
-  endTime: '15:00', // Not used atm
+  startTime: '10:00',
+  endTime: '14:30',
   tracks: [
     {
       name: 'Auditorio',
