@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     goBack () {
-      console.log('VOLVER a osweekends.com')
+      Object.assign(document.createElement('a'), { target: '_blank', href: 'https://osweekends.com' }).click()
     }
   }
 }
@@ -41,5 +41,6 @@ export default {
 <style lang="stylus">
 .title
   .time
-    font-size 15px
+    font-size 16px
+    vertical-align middle
 </style>

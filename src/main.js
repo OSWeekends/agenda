@@ -2,7 +2,7 @@ import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTwitterSquare, faGithub, faFacebookSquare, faYoutubeSquare, faLinkedin, faInstagram, faTwitch } from '@fortawesome/free-brands-svg-icons'
+import { faTwitterSquare, faGithub, faFacebookSquare, faYoutubeSquare, faLinkedin, faInstagram, faTwitch, faMeetup } from '@fortawesome/free-brands-svg-icons'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -21,7 +21,8 @@ library.add(
   faLinkedin,
   faInstagram,
   faTwitch,
-  faLink)
+  faLink,
+  faMeetup)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(BootstrapVue)

@@ -17,6 +17,7 @@ const socialIco = {
   facebook: ['fab', 'facebook-square'],
   linkedin: ['fab', 'linkedin'],
   instagram: ['fab', 'instagram'],
+  meetup: ['fab', 'meetup'],
   url: 'link'
 }
 

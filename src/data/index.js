@@ -121,7 +121,7 @@ const data = {
             bio: ['Law x Tech 🖱️ Talk is cheap, show me the code!! #legaltech #codingthelaw LegalLab💙'],
             social: {
               twitter: 'https://twitter.com/NoLegalTech',
-              web: 'https://www.nolegaltech.com/es-ES'
+              url: 'https://www.nolegaltech.com/es-ES'
             }
           },
           {
