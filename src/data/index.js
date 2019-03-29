@@ -127,14 +127,17 @@ const data = {
           {
             name: 'Bárbara Román',
             avatar: 'https://www.nolegaltech.com/img/avatar_yAvMgUfV.jpg?1553522292',
-            bio: ['Bárbara']
+            bio: [
+              'Bárbara es la autora intelectual de NoLegaltech, cofounder y CEO',
+              'Viene del mundo de la abogacía internacional, buscando un lugar más tranquilo para trabajar. Jajajaja más tranquilo, una consultora. Qué ilusa. Le encanta viajar, el rollo legal, los aguacates y la novela negra.'
+            ]
           },
           {
             name: 'María Cerviño',
-            bio: ['Hola'],
             social: {
               twitter: 'https://twitter.com/Mcervinho'
-            }
+            },
+            bio: ['María es abogada especialista en empresas (derecho mercantil y laboral). En Nolegaltech se encarga de asesorar a empresas tech en la parte legal junto con Kuartillo.  Le encanta el derecho procesal, el mar y la música funky.']
           }
         ]
       },
