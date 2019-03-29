@@ -36,6 +36,26 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="stylus">
+.ico-link
+  font-size 1.3rem
+  color #aaa
+
+  &.ico-twitter
+    color #059ff6
+  &.ico-twitch
+    color #553d87
+  &.ico-github
+    color #272e33
+  &.ico-facebook
+    color #4b72bb
+  &.ico-meetup
+    color #f63f60
+  &.ico-linkedin
+    color #0282bd
+  &.ico-instagram
+    color #cc3c9a
+  &.ico-youtube
+    color #ff0400
 
 </style>
