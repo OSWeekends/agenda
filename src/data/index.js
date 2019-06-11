@@ -7,7 +7,7 @@ const data = {
   tracks: [
     {
       name: 'Auditorio',
-      content: [ {
+      content: [{
         title: 'Recepción y café ☕️',
         startTime: {
           h: '10',
@@ -104,72 +104,59 @@ const data = {
     {
       name: 'Planta 1 (Cafetería)',
       content: [
+        // {
+        //   title: 'BlockMAD',
+        //   description: [`En la edición de enero de 2018, BlockMAD tuvo su puesta de largo en OS Weekends, en la que se presentó un proyecto que relacionaba blockchain y administraciones públicas.
+        //     Poco más de un año después y en el mismo marco, tenemos el placer de presentar nuestro nuevo proyecto: BlockMAD Labs.
+        //     Este laboratorio de desarrollo de Blockchain va a tratar de llevar a cabo distintos proyectos de colaboración, principalmente a nivel de comunidad, con entidades y startups del sector, interesadas en explorar tecnologías punta y que tengan aplicación inmediata en las mismas.
+        //     Para ello, las entidades participantes ofrecerán charlas y talleres en las que expongan detalles de sus soluciones tecnológicas y en qué ámbitos necesitan de la colaboración de la comunidad, así como se integrarán a las distintas reuniones de los grupos de trabajo que se formen, aportando su experiencia y sus consejos.
+        //     Todos aquellos desarrolladores, técnicos o investigadores, entre otros, interesados en participar, en la medida de sus posibilidades, serán bienvenidos.`, `Dentro de los proyectos ya en marcha cabe destacar:`,
+        //   '- Blockledger: en este Guild y a iniciativa de BlockMAD, se está desarrollando un blockchain permisionado para el intercambio de valor, mediante tokens, entre distintas comunidades tecnológicas con sus patrocinadores y proveedores.',
+        //   '- Ethic Hub y BlockMAD: junto con la startup Ethic Hub, uno de los pocos proyectos de éxito de la aplicación de blockchain y con impacto social, hemos empezado una colaboración en la que se espera que sirva tanto para mejorar sus infraestructuras de virtualización, como en otros aspectos de sus desarrollos.',
+        //   '- Brainrex: Está previsto organizar próximamente un taller para trabajar con sus herramientas avanzadas de análisis sintáctico mediante Inteligencia Artificial, sobre su propio Data Lake.',
+        //   'Y otros que iremos dando a conocer posteriormente.'
+        //   ],
+        //   authors: [
+        //     {
+        //       name: 'BlockMAD',
+        //       avatar: 'https://pbs.twimg.com/profile_images/977557690749681665/kKiKMn0W_400x400.jpg',
+        //       bio: [
+        //         'BlockMAD es una comunidad dedicada principalmente a la tecnología Blockchain, sobre to do en sus aspectos técnicos y a la elaboración de proyectos. Organizamos distintas actividades, entre ellas: presentaciones, talleres, code-exchange y hack-a-thons.',
+        //         'BlockMAD es una comunidad abierta, que se mantiene firme en la defensa del software libre, descentralizado y distribuido.',
+        //         'Únete a nuestra comunidad si tienes ganas de aprender, aportar tus conocimientos y crecer en este fascinante ecosistema.'
+        //       ],
+        //       social: {
+        //         twitter: 'https://twitter.com/blockmad',
+        //         meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
+        //       }
+        //     }],
+        //   startTime: {
+        //     h: '11',
+        //     m: '00'
+        //   },
+        //   endTime: {
+        //     h: '11',
+        //     m: '30'
+        //   },
+        //   type: 3
+        //
+        // },
         {
-          title: 'BlockMAD',
-          description: [`En la edición de enero de 2018, BlockMAD tuvo su puesta de largo en OS Weekends, en la que se presentó un proyecto que relacionaba blockchain y administraciones públicas.
-            Poco más de un año después y en el mismo marco, tenemos el placer de presentar nuestro nuevo proyecto: BlockMAD Labs.
-            Este laboratorio de desarrollo de Blockchain va a tratar de llevar a cabo distintos proyectos de colaboración, principalmente a nivel de comunidad, con entidades y startups del sector, interesadas en explorar tecnologías punta y que tengan aplicación inmediata en las mismas.
-            Para ello, las entidades participantes ofrecerán charlas y talleres en las que expongan detalles de sus soluciones tecnológicas y en qué ámbitos necesitan de la colaboración de la comunidad, así como se integrarán a las distintas reuniones de los grupos de trabajo que se formen, aportando su experiencia y sus consejos.
-            Todos aquellos desarrolladores, técnicos o investigadores, entre otros, interesados en participar, en la medida de sus posibilidades, serán bienvenidos.`, `Dentro de los proyectos ya en marcha cabe destacar:`,
-          '- Blockledger: en este Guild y a iniciativa de BlockMAD, se está desarrollando un blockchain permisionado para el intercambio de valor, mediante tokens, entre distintas comunidades tecnológicas con sus patrocinadores y proveedores.',
-          '- Ethic Hub y BlockMAD: junto con la startup Ethic Hub, uno de los pocos proyectos de éxito de la aplicación de blockchain y con impacto social, hemos empezado una colaboración en la que se espera que sirva tanto para mejorar sus infraestructuras de virtualización, como en otros aspectos de sus desarrollos.',
-          '- Brainrex: Está previsto organizar próximamente un taller para trabajar con sus herramientas avanzadas de análisis sintáctico mediante Inteligencia Artificial, sobre su propio Data Lake.',
-          'Y otros que iremos dando a conocer posteriormente.'
-          ],
-          authors: [
-            {
-              name: 'BlockMAD',
-              avatar: 'https://pbs.twimg.com/profile_images/977557690749681665/kKiKMn0W_400x400.jpg',
-              bio: [
-                'BlockMAD es una comunidad dedicada principalmente a la tecnología Blockchain, sobre todo en sus aspectos técnicos y a la elaboración de proyectos. Organizamos distintas actividades, entre ellas: presentaciones, talleres, code-exchange y hack-a-thons.',
-                'BlockMAD es una comunidad abierta, que se mantiene firme en la defensa del software libre, descentralizado y distribuido.',
-                'Únete a nuestra comunidad si tienes ganas de aprender, aportar tus conocimientos y crecer en este fascinante ecosistema.'
-              ],
-              social: {
-                twitter: 'https://twitter.com/blockmad',
-                meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
-              }
-            }],
-          startTime: {
-            h: '11',
-            m: '00'
-          },
-          endTime: {
-            h: '11',
-            m: '30'
-          },
-          type: 3
-
-        }, {
-          title: 'La pastilla Roja/Azul del Cloud',
+          title: '¿Escribimos programas seguros? - HackMadrid %27',
           description: [
-            'Al contratar los servicios cloud para el almacenamiento de nuestros archivos, permite disponer de estos en cualquier parte del mundo, pero, qué pasa si se vulnera la seguridad del cloud. ',
-            'kneda demostrará como se puede llegar a vulnerar la seguridad del cloud, consiguiendo información personal, y Lórien intentará a través de la forénsica, desenmascarar al autor.'
+            'Un breve análisis de la situación en materia de seguridad informática. Repaso de los tres eslabones: usuarios-programadores-empresas.',
+            'Errores, problemas en cada uno de ellos y focalización de los problemas particulares de los programadores.'
           ],
           authors: [
             {
-              name: 'kneda',
-              avatar: 'https://pbs.twimg.com/profile_images/474070021350518785/-MjulZL2_400x400.jpeg',
+              name: 'Daniel Mery',
+              avatar: '',
               bio: [
-                'Postgrado en Informática Forense y Delitos Informáticos + Master en Seguridad Informática y Hacking. ',
-                'Trabaja como Black Box Pentester. Le encanta el mundo que rodea al Hacking, y se ha especializado en Ingeniería Social y Black Box test. Formador en varias materias de ciberseguridad, lo que llamamos "hacker" en las trincheras.',
-                'Cofundadores de @Hack4ensicTeam - Co-organizadores HackMadrid %27'
+                'Miembro y cofundador de: Planet Linux Caffe, HaskellMAD, HackMadrid%27, blockMAD'
               ],
               social: {
-                twitter: 'https://twitter.com/JR_kneda',
-                url: 'http://kneda.net/'
-              }
-            },
-            {
-              name: 'Lórien',
-              avatar: 'https://pbs.twimg.com/profile_images/931417271909736448/tRWQd6qD_400x400.jpg',
-              bio: [
-                'Ingeniero Informático. Trabaja de Senior Incident Responder en Minsait',
-                'Es un apasionado de la Seguridad de la Información en varios ámbitos que se ha especializado en Informática forense y DFIR en entornos Cloud. Imparte cursos de análisis forense',
-                'Cofundadores de @Hack4ensicTeam - Co-organizadores HackMadrid %27'
-              ],
-              social: {
-                twitter: 'https://twitter.com/loriendr'
+                twitter: 'https://twitter.com/dmery',
+                url: 'http://hackmadrid.org/'
               }
             }
           ],
@@ -178,11 +165,12 @@ const data = {
             m: '30'
           },
           endTime: {
-            h: '12',
-            m: '30'
+            h: '13',
+            m: '00'
           },
           type: 3
-        }]
+        }
+      ]
     },
     {
       name: 'Meetup Space (Sótano)',
