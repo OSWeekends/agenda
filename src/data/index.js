@@ -281,11 +281,11 @@ const data = {
           ],
           startTime: {
             h: '11',
-            m: '30'
+            m: '15'
           },
           endTime: {
-            h: '13',
-            m: '00'
+            h: '12',
+            m: '45'
           },
           type: 2,
           authors: [
