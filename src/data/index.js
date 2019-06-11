@@ -271,10 +271,9 @@ const data = {
       name: 'Planta 0 (Corner)',
       content: [
         {
-          title: 'Taller - montar un micro blog con React y Wordpress',
+          title: 'Taller - Montar un micro blog con React y Wordpress',
           description: [
-            'Taller en el que veremos como a montar un micro blog en react, con el back en wordpress',
-            'https://frontity.org/'
+            'Taller en el que veremos como a montar un micro blog en react, con el back en wordpress · https://frontity.org/'
           ],
           startTime: {
             h: '11:30',
@@ -286,23 +285,22 @@ const data = {
           },
           type: 2,
           authors: [
-            // {
-            //   name: 'Carlos Azaustre',
-            //   avatar: 'https://pbs.twimg.com/profile_images/1072016049976107008/tydn73g7_400x400.jpg',
-            //   bio: [
-            //     'Senior Front End Software Engineer at @IBMResearch #IBMQ'
-            //   ],
-            //   social: {
-            //     twitter: 'https://github.com/carlosazaustre',
-            //     youtube: 'https://www.youtube.com/channel/UCJgGc8pQO1lv04VXrBxA_Hg',
-            //     twitch: 'https://www.twitch.tv/carlosazaustre',
-            //     instagram: 'https://www.instagram.com/carlosazaustre/',
-            //     github: 'https://github.com/carlosazaustre',
-            //     url: 'https://carlosazaustre.es/'
-            //   }
-            // }
+            {
+              name: 'David Arenas',
+              avatar: '',
+              bio: ['Software Developer at Frontity'],
+              social: {
+                // twitter: 'https://github.com/carlosazaustre',
+                // youtube: 'https://www.youtube.com/channel/UCJgGc8pQO1lv04VXrBxA_Hg',
+                // twitch: 'https://www.twitch.tv/carlosazaustre',
+                // instagram: 'https://www.instagram.com/carlosazaustre/',
+                github: 'https://github.com/DAreRodz',
+                url: 'https://frontity.org/'
+              }
+            }
           ]
-        }]
+        }
+      ]
     }
   ]
 }
