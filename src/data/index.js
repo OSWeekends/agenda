@@ -63,9 +63,9 @@ const data = {
               'El asma, los videojuegos y Star Trek hicieron que con 11 años empezara a programar. Hoy en día, a mis 40 abriles, sigo programando en el lenguaje que más me gusta y apasiona; JavaScript.'
             ],
             social: {
-              twitter: 'https://twitter.com/LostInBrittany',
-              github: 'https://github.com/LostInBrittany',
-              url: 'https://lostinbrittany.org/'
+              twitter: 'https://twitter.com/ardiadrianadri',
+              github: 'https://github.com/ardiadrianadri'
+              // url: 'https://lostinbrittany.org/'
             }
           }
         ]
