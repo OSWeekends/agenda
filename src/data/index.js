@@ -36,34 +36,38 @@ const data = {
         type: 1
       },
       {
-        title: 'Por confirmar',
+        title: ' DangerJS: Programar un bot en JS para validar Pull Request',
         duration: 45, // minutes
         description: [
-          '...'
+          'Posiblemente una de las tareas que más estrés o piques causa entre los miembros de un equipo es la revisiones de código. Por varias razones:',
+          '1. La prisas: El que ha realizado el desarrollo quiere que sus cambios pasan a la rama de desarrollo cuanto antes y el que tiene que revisar la PR tiene que dejar su tarea para darle salida al cambio',
+          '2. La metodología: ¿Has escrito el titulo con el formato correcto? ¿Has añadido el código de la issue en el cuerpo del mensaje? ¿Has actualizado el change log? ¿La PR tiene las etiquetas correctas?',
+          '3. Los criterios de código: No todos los miembros del equipo tienen la misma filosofía de calidad de código. Cosas como los comentarios, el formato del nombrado de variables, el path donde se posicionan los ficheros, el nombre de los ficheros...',
+          'Para ayudarnos en este aspecto esta DangerJS. Una librería de JavaScript que permite programar scripts en NodeJS que nos pueden ayudar a controlar todos estos aspectos de la PR y más.',
+          'El objetivo de esta charla es mostrar las posibilidades de DangerJS a la hora de programar bots para el control de las Pull Request en servidor de git remotos como Github y Bitbucket'
         ],
         startTime: {
           h: '11',
-          m: '00'
+          m: '15'
         },
         endTime: {
-          h: '11',
-          m: '45'
+          h: '12',
+          m: '00'
         },
         type: 2,
         authors: [
-          // {
-          //   name: 'Horacio González',
-          //   avatar: 'https://pbs.twimg.com/profile_images/1106247883542663169/HYOPGJMb_400x400.jpg',
-          //   bio: [
-          //     'DevRel en OVH y Google Developer Expert. Español perdido en Bretaña, programador, orador y sobre todo geek. Ingeniero de software y DevRel durante el día, líder de FinistDevs y organizador del DevFest du Bout du Monde por la noche, Horacio comenzó su andadura en el mundo de la programación en 1997 y nunca lo ha abandonado.',
-          //     'Después de algunos años como líder de frontend @ warp10io como Cityzen Data, actualmente trabaja como Evangelist Developer en OVH. Además, es orador frecuente en conferencias como Devoxx, Codemotion, DevFest Nantes o BreizhCamp.'
-          //   ],
-          //   social: {
-          //     twitter: 'https://twitter.com/LostInBrittany',
-          //     github: 'https://github.com/LostInBrittany',
-          //     url: 'https://lostinbrittany.org/'
-          //   }
-          // }
+          {
+            name: 'Adrian Ferreres',
+            avatar: '',
+            bio: [
+              'El asma, los videojuegos y Star Trek hicieron que con 11 años empezara a programar. Hoy en día, a mis 40 abriles, sigo programando en el lenguaje que más me gusta y apasiona; JavaScript.'
+            ],
+            social: {
+              twitter: 'https://twitter.com/LostInBrittany',
+              github: 'https://github.com/LostInBrittany',
+              url: 'https://lostinbrittany.org/'
+            }
+          }
         ]
       },
       {
@@ -276,8 +280,8 @@ const data = {
             'Taller en el que veremos como a montar un micro blog en react, con el back en wordpress · https://frontity.org/'
           ],
           startTime: {
-            h: '11:30',
-            m: '00'
+            h: '11',
+            m: '30'
           },
           endTime: {
             h: '13',
@@ -290,7 +294,7 @@ const data = {
               avatar: '',
               bio: ['Software Developer at Frontity'],
               social: {
-                // twitter: 'https://github.com/carlosazaustre',
+                twitter: 'https://twitter.com/DAreRodz',
                 // youtube: 'https://www.youtube.com/channel/UCJgGc8pQO1lv04VXrBxA_Hg',
                 // twitch: 'https://www.twitch.tv/carlosazaustre',
                 // instagram: 'https://www.instagram.com/carlosazaustre/',
