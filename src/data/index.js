@@ -268,9 +268,12 @@ const data = {
       name: 'Planta 0 (Corner)',
       content: [
         {
-          title: 'Taller - Montar un micro blog con React y Wordpress',
+          title: 'Taller - Montar un blog gratis con React y WordPress',
           description: [
-            'Taller en el que veremos como a montar un micro blog en react, con el back en wordpress · https://frontity.org/'
+            'Taller en el que veremos como montar un blog gratis, con tu propio dominio, y en minutos, usando:',
+            '- Frontity (React) para el front-end',
+            '- WordPress.com para el back-end',
+            '- Now.sh para desplegar en producción'
           ],
           startTime: {
             h: '11',
@@ -285,13 +288,20 @@ const data = {
             {
               name: 'David Arenas',
               avatar: '',
-              bio: ['Software Developer at Frontity'],
+              bio: ['Desarrollador Full-Stack en Frontity desde 2017, donde hemos construído un framework open-source para hacer temas de WordPress usando React. Fanático de JavaScript, React, Nodejs, y del Metal 🤘'],
               social: {
                 twitter: 'https://twitter.com/DAreRodz',
-                // youtube: 'https://www.youtube.com/channel/UCJgGc8pQO1lv04VXrBxA_Hg',
-                // twitch: 'https://www.twitch.tv/carlosazaustre',
-                // instagram: 'https://www.instagram.com/carlosazaustre/',
                 github: 'https://github.com/DAreRodz',
+                url: 'https://frontity.org/'
+              }
+            },
+            {
+              name: 'Mario Santos',
+              avatar: '',
+              bio: ['Community Success en Frontity, aprendiendo e involucrándome poco a poco en el apasionante mundo de la tecnología y la programación 😁. No soy un prodigio pero le pongo ganas 💪'],
+              social: {
+                twitter: 'https://twitter.com/santosguillamot',
+                github: 'https://github.com/santosguillamot',
                 url: 'https://frontity.org/'
               }
             }
