@@ -138,7 +138,7 @@ const data = {
           type: 3
         },
         {
-          title: 'Pundi X: un ecosistema completo para blockchain',
+          title: 'Pundi X: un ecosistema completo para blockchain - BlockMAD',
           description: [
             'En esta ocasión, Álvaro presentará a los asistentes la solución que propone la marca asiática, su XPOS, XPASS y XWallet y desvelará los planes de expansión que juntos han diseñado para España',
             'La charla está enfocada a todo tipo de público, desde gente que quiera incorporar los pagos en cripto en su negocio a simplemente curiosos que quieran encontrar una nueva forma de comprar criptomonedas de una manera rápida, sencilla y segura.'
@@ -148,10 +148,11 @@ const data = {
               name: 'Álvaro Cobarro',
               avatar: '',
               bio: [
-                'CEO de Bitcobie'
+                'CEO & Founder de bitcobie. Apasionado de todo lo que este relacionado con la tecnología, blockchain y criptomonedas.'
               ],
               social: {
                 url: 'https://www.bitcobie.com/',
+                linkedin: 'https://www.linkedin.com/in/alvarocobarro',
                 meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
               }
             }],
