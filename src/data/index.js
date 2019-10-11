@@ -162,7 +162,8 @@ const data = {
             {
               name: 'Francisco Arencibia - HackMadrid %27',
               social: {
-                url: 'http://hackmadrid.org/'
+                url: 'http://hackmadrid.org/',
+                meetup: 'https://www.meetup.com/es-ES/HackMadrid-27'
               }
             }
           ],
@@ -175,7 +176,6 @@ const data = {
             m: '00'
           },
           type: 3
-
         }
       ]
     },
@@ -275,47 +275,44 @@ const data = {
     //     }]
     // }
     {
-      name: 'Planta 0 (Corner)',
+      name: 'Planta 0 - Corner',
       content: [
         {
-          title: 'Taller - Montar un blog gratis con React y WordPress',
+          title: 'Encuentro con \'GBA MADRID\' Y \'BLOCKSTACK\'',
           description: [
-            'Taller en el que veremos como montar un blog gratis, con tu propio dominio, y en minutos, usando:',
-            '- Frontity (React) para el front-end',
-            '- WordPress.com para el back-end',
-            '- Now.sh para desplegar en producción'
+            'GBA - Blockchain, Gobierno y Ciudadanos',
+            'Introducción a GBA (Government Blockchain Association) Madrid. Potenciales usos de blockchain y otras DLTs para mejorar los servicios de los gobiernos a sus ciudadanos.',
+            '---',
+            'Blockstack, recupera tu soberanía digital',
+            'Blockstack es un ecosistema blockchain que tiene a la identidad digital y la soberanía de los datos privados como su principal preocupación. En la actualidad cuenta con más de 250 aplicaciones desarrolladas sobre su sistema, con un interesante sistema de incentivos para los desarrolladores.'
           ],
-          startTime: {
-            h: '11',
-            m: '15'
-          },
-          endTime: {
-            h: '12',
-            m: '45'
-          },
-          type: 2,
+          type: 3,
           authors: [
             {
-              name: 'David Arenas',
+              name: 'GBA Madrid',
               avatar: '',
-              bio: ['Desarrollador Full-Stack en Frontity desde 2017, donde hemos construído un framework open-source para hacer temas de WordPress usando React. Fanático de JavaScript, React, Nodejs, y del Metal 🤘'],
+              bio: [],
               social: {
-                twitter: 'https://twitter.com/DAreRodz',
-                github: 'https://github.com/DAreRodz',
-                url: 'https://frontity.org/'
+                meetup: ' https://www.meetup.com/es-ES/Government-Blockchain-Association-GBA-Madrid/'
               }
             },
             {
-              name: 'Mario Santos',
+              name: 'BlockStack',
               avatar: '',
-              bio: ['Community Success en Frontity, aprendiendo e involucrándome poco a poco en el apasionante mundo de la tecnología y la programación 😁. No soy un prodigio pero le pongo ganas 💪'],
+              bio: [],
               social: {
-                twitter: 'https://twitter.com/santosguillamot',
-                github: 'https://github.com/santosguillamot',
-                url: 'https://frontity.org/'
+                meetup: 'https://www.meetup.com/es-ES/Blockstack-Madrid/'
               }
             }
-          ]
+          ],
+          startTime: {
+            h: '11',
+            m: '00'
+          },
+          endTime: {
+            h: '12',
+            m: '00'
+          }
         }
       ]
     }
