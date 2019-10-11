@@ -6,8 +6,8 @@
         <img src="../assets/parrot.gif" alt="parrot">
       </span>
       <b-button variant="link" @click="goUrl('https://github.com/OSWeekends/agenda?ref=agenda')">Editar en Github</b-button>
-      <b-button variant="link" @click="goUrl('https://osweekends.com/?ref=agenda')">OSW</b-button>
-      <b-button variant="link" @click="goUrl('https://invitations-osweekends.herokuapp.com/?ref=agenda')">#Slack</b-button>
+      <b-button variant="link" @click="goUrl('https://osweekends.com/?ref=agenda')">WebSite</b-button>
+      <b-button variant="link" @click="goUrl('https://twitter.com/OS_weekends?ref=agenda')">Twitter</b-button>
       <span class="parrot-img">
         <img src="../assets/parrotright.gif" alt="parrot">
       </span>
