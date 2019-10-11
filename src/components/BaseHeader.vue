@@ -1,15 +1,15 @@
 <template>
   <header>
-    <div class="base-header d-flex justify-content-between">
+    <div class="base-header mb-3">
       <h1 class="title">
         {{ title }}
-        <small class="time">
-          <b-badge variant="info">{{ data.startTime }}</b-badge>
-          <span class="text-muted px-2">-</span>
-          <b-badge variant="info">{{ data.endTime }}</b-badge>
-        </small>
       </h1>
-      <b-button class="align-self-center" variant="primary" @click="goBack">Volver a OSW</b-button>
+      <span class="time lead">
+        <b-badge variant="info">{{ data.startTime }}</b-badge>
+        <span class="text-muted px-2">-</span>
+        <b-badge variant="info">{{ data.endTime }}</b-badge>
+      </span>
+      <!-- <b-button class="align-self-center" variant="primary" @click="goBack">Volver a OSW</b-button> -->
     </div>
   </header>
 </template>

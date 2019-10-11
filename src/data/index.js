@@ -1,9 +1,9 @@
 const data = {
-  title: 'Agenda Junio 2019',
-  date: '30/03/2019',
-  description: 'xxx', // Not used atm
+  title: 'Agenda Octubre 2019',
+  date: '12/10/2019',
+  description: '¡Primer evento de la temporada!', // Not used atm
   startTime: '10:00',
-  endTime: '14:30',
+  endTime: '13:30',
   tracks: [
     {
       name: 'Auditorio',
@@ -22,8 +22,10 @@ const data = {
       {
         title: 'KeyNote 📜',
         description: [
-          '- Novedades y noticias',
-          '- Más movidas'
+          '- Novedades temporada y noticias',
+          '- Guilds & Hacktoberfest',
+          '- Patrocinadores',
+          '- Sorpresas y más movidas 🎃🎁🎃🎁🎃🎁'
         ],
         startTime: {
           h: '10',
@@ -36,15 +38,12 @@ const data = {
         type: 1
       },
       {
-        title: ' DangerJS: Programar un bot en JS para validar Pull Request',
+        title: '2017 Odisea en el Lodo',
         duration: 45, // minutes
         description: [
-          'Posiblemente una de las tareas que más estrés o piques causa entre los miembros de un equipo es la revisiones de código. Por varias razones:',
-          '1. La prisas: El que ha realizado el desarrollo quiere que sus cambios pasan a la rama de desarrollo cuanto antes y el que tiene que revisar la PR tiene que dejar su tarea para darle salida al cambio',
-          '2. La metodología: ¿Has escrito el titulo con el formato correcto? ¿Has añadido el código de la issue en el cuerpo del mensaje? ¿Has actualizado el change log? ¿La PR tiene las etiquetas correctas?',
-          '3. Los criterios de código: No todos los miembros del equipo tienen la misma filosofía de calidad de código. Cosas como los comentarios, el formato del nombrado de variables, el path donde se posicionan los ficheros, el nombre de los ficheros...',
-          'Para ayudarnos en este aspecto esta DangerJS. Una librería de JavaScript que permite programar scripts en NodeJS que nos pueden ayudar a controlar todos estos aspectos de la PR y más.',
-          'El objetivo de esta charla es mostrar las posibilidades de DangerJS a la hora de programar bots para el control de las Pull Request en servidor de git remotos como Github y Bitbucket'
+          '13 de Marzo de 2017, parece que no hace tanto, pero depende un poco a quien le preguntes.',
+          'En 2017 Odisea en el lodo se va a intentar contar la experiencia intensa y trepidante que ha supuesto mi incorporación en una startup en continuo crecimiento, en la que me encontré siendo la primera y única persona del equipo de desarrollo con un proyecto heredado.',
+          'Se explicará en que estado se encontraba el proyecto al principio, la serie de acciones que se han realizado para remolcar un barco que iba a la deriva y el planteamiento para 2020 del stack que tenemos el actual equipo de desarrollo para poder olvidarnos de ese proyecto inicial que me encontré ese 13 de Marzo de 2017.'
         ],
         startTime: {
           h: '11',
@@ -57,27 +56,28 @@ const data = {
         type: 2,
         authors: [
           {
-            name: 'Adrian Ferreres',
-            avatar: '',
+            name: 'Miguel Jiménez',
+            // avatar: '',
             bio: [
-              'El asma, los videojuegos y Star Trek hicieron que con 11 años empezara a programar. Hoy en día, a mis 40 abriles, sigo programando en el lenguaje que más me gusta y apasiona; JavaScript.'
+              'CTO de Apeteat'
             ],
             social: {
-              twitter: 'https://twitter.com/ardiadrianadri',
-              github: 'https://github.com/ardiadrianadri'
+              linkedin: 'https://www.linkedin.com/in/miguelflg13',
+              twitter: 'https://twitter.com/miguelFLG13'
+              // github: 'https://github.com/ardiadrianadri'
               // url: 'https://lostinbrittany.org/'
             }
           }
         ]
       },
       {
-        title: 'Networking 🤗 & Beers 🍻',
+        title: 'Networking & Beers 💃🍻',
         startTime: {
-          h: '13',
-          m: '15'
+          h: '12',
+          m: '30'
         },
         endTime: {
-          h: '14',
+          h: '13',
           m: '30'
         },
         type: 1,
@@ -86,19 +86,20 @@ const data = {
       }]
     },
     {
-      name: 'Planta 0 (Cafetería)',
+      name: 'Cafetería - Planta 0',
       content: [
         {
-          title: 'Guilds',
+          title: '💙 Guilds & Hacktoberfest 🎃',
           description: [
-            'Dejamos este espacio para que los Guilds se sienten cara a cara y se arremanguen para continuar con sus proyectos, idear, definir... lo que sea! Seguido de cerca por algunos mentores de la comunidad OSWeekends ;)'
+            'Dejamos este espacio para que los Guilds se sienten cara a cara y se arremanguen para continuar con sus proyectos, idear, definir... lo que sea! Seguido de cerca por algunos mentores de la comunidad OSWeekends ;)',
+            'Edición especial 💙 Hacktoberfest 🎃, intentaremos conseguir nuestra camiseta haciendo 4 Pull Request a repositorios Open Source (Nuestros proyectos guilders pueden serte de ayuda, tenemos Issues que necesitan ser resueltas 😜)'
           ],
           startTime: {
             h: '11',
             m: '00'
           },
           endTime: {
-            h: '14',
+            h: '13',
             m: '00'
           },
           type: 1
@@ -106,63 +107,72 @@ const data = {
       ]
     },
     {
-      name: 'Planta 1 (Cafetería)',
+      name: 'Cafetería - Planta 1 ',
       content: [
         {
-          title: '¿Escribimos programas seguros? - HackMadrid %27',
+          title: 'Social Engineering #02: El día a día de un Pentester - HackMadrid %27',
           description: [
-            'Un breve análisis de la situación en materia de seguridad informática. Repaso de los tres eslabones: usuarios-programadores-empresas.',
+            'En esta segunda entrega, Kneda expondrá un caso real y explicará cómo se llevó a cabo. Por si os perdiste la primera entrega, la podréis ver desde aquí http://www.kneda.net/Social_Engineering_01.html',
             'Errores, problemas en cada uno de ellos y focalización de los problemas particulares de los programadores.'
           ],
           authors: [
             {
-              name: 'Daniel Mery',
+              name: 'Kneda',
               avatar: '',
               bio: [
-                'Miembro y cofundador de: Planet Linux Caffe, HaskellMAD, HackMadrid%27, blockMAD'
+                'Trabaja de Black Box Pentester en Hack 4ensic Team. Tiene un Postgrado en Informática Forense y Delitos Informáticos + un Master en Seguridad informática y Hacking. Da talleres y charlas sobre Seguridad Informática y Hacking. Es co-fundador de Hack4ensicTeam y co-organizador HackMadrid %27'
               ],
               social: {
-                twitter: 'https://twitter.com/dmery',
+                twitter: 'https://twitter.com/JR_kneda',
+                meetup: 'https://www.meetup.com/es-ES/HackMadrid-27',
                 url: 'http://hackmadrid.org/'
               }
             }
           ],
           startTime: {
             h: '11',
-            m: '30'
+            m: '00'
           },
           endTime: {
-            h: '13',
+            h: '12',
             m: '00'
           },
           type: 3
         },
         {
-          title: 'Pundi X: un ecosistema completo para blockchain - BlockMAD',
+          title: 'Presentación y demo de GOLEM - BlockMAD',
           description: [
-            'En esta ocasión, Álvaro presentará a los asistentes la solución que propone la marca asiática, su XPOS, XPASS y XWallet y desvelará los planes de expansión que juntos han diseñado para España',
-            'La charla está enfocada a todo tipo de público, desde gente que quiera incorporar los pagos en cripto en su negocio a simplemente curiosos que quieran encontrar una nueva forma de comprar criptomonedas de una manera rápida, sencilla y segura.'
+            'Golem es un proyecto de computación distribuida, con un sistema de remuneraciones y control de uso mediante un token propio, desarrollado sobre la blockchain de Ethereum.',
+            'Más info: https://www.meetup.com/es-ES/BlockMAD/events/265527225/'
           ],
           authors: [
             {
-              name: 'Álvaro Cobarro',
+              name: 'Juan Antonio Lleó - BlockMAD',
               avatar: '',
               bio: [
-                'CEO & Founder de bitcobie. Apasionado de todo lo que este relacionado con la tecnología, blockchain y criptomonedas.'
+                'Coordinador BlockMAD'
               ],
               social: {
-                url: 'https://www.bitcobie.com/',
-                linkedin: 'https://www.linkedin.com/in/alvarocobarro',
-                meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
+                linkedin: 'https://www.linkedin.com/in/juan-antonio-lle%C3%B3-7b5a5937/',
+                twitter: 'https://twitter.com/juan_a_lleo',
+                meetup: 'https://www.meetup.com/es-ES/BlockMAD/',
+                url: 'https://golem.network/?ref=OSWeekends'
               }
-            }],
+            },
+            {
+              name: 'Francisco Arencibia - HackMadrid %27',
+              social: {
+                url: 'http://hackmadrid.org/'
+              }
+            }
+          ],
           startTime: {
-            h: '13',
+            h: '12',
             m: '00'
           },
           endTime: {
-            h: '14',
-            m: '30'
+            h: '13',
+            m: '00'
           },
           type: 3
 
