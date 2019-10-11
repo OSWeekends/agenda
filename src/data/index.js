@@ -313,6 +313,38 @@ const data = {
             h: '12',
             m: '00'
           }
+        },
+        {
+          title: 'Hackerspace en Campus - AgroLab IoT (microtaller)',
+          description: [
+            'Hemos traído una parte del hackerspace a Campus para presentar los proyectos que queremos llevar a cabo y animar a la comunidad a interesarse por el concepto de *Open Hardware* y el mundo *Maker*.',
+            '* AgroLab IoT: El objetivo de este microtaller es dar las bases para realizar un sistema de riego autónomo para un cultivo doméstico y conseguir monitorizar en tiempo real ciertas condiciones del entorno.',
+            'Más info: https://github.com/OSWHackerspace/AgrolabIoT'
+          ],
+          type: 3,
+          authors: [
+            {
+              name: 'Sergio Morcuende',
+              avatar: '',
+              bio: [
+                'Este ingeniero de telecomunicaciones es co-fundador de Bloomod (bloomod.com) y a la vez desarrollador full-stack en reclamador.es',
+                'Colabora como mentor en OSW en los guilds relacionados con hardware, agricultura y salud.'
+              ],
+              social: {
+                linkedin: 'https://www.linkedin.com/in/smorcuend',
+                twitter: 'https://twitter.com/_serxius_',
+                github: 'https://github.com/smorcuend'
+              }
+            }
+          ],
+          startTime: {
+            h: '12',
+            m: '00'
+          },
+          endTime: {
+            h: '13',
+            m: '00'
+          }
         }
       ]
     }
