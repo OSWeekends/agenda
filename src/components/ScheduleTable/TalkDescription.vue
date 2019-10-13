@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p v-for="(desc, index) in data" class="lead" :key="index" >
+  <div class="description">
+    <p class="lead" v-for="(desc, index) in data" :key="index" >
       {{ desc }}
     </p>
   </div>
@@ -16,3 +16,9 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus">
+.description
+  p
+    word-break break-word
+</style>
