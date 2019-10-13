@@ -2,6 +2,7 @@ const data = {
   title: 'Agenda Octubre 2019',
   date: '12/10/2019',
   description: '¡Primer evento de la temporada!', // Not used atm
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/265206201/',
   startTime: '10:00',
   endTime: '13:30',
   tracks: [
