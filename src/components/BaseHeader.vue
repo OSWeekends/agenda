@@ -54,4 +54,7 @@ export default {
 .meetup-item
   a
     color #f63f60
+    &:hover
+      color red
+      text-decoration none
 </style>
