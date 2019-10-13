@@ -1,15 +1,12 @@
 <template>
   <header class="mb-3">
     <div class="base-header mb-3">
-      <h1 class="title mt-1">
-        {{ title }}
-      </h1>
+      <h1 class="title mt-1">{{ title }}</h1>
       <span class="time lead">
         <b-badge variant="info">{{ data.startTime }}</b-badge>
         <span class="text-muted px-2">-</span>
         <b-badge variant="info">{{ data.endTime }}</b-badge>
       </span>
-      <!-- <b-button class="align-self-center" variant="primary" @click="goBack">Volver a OSW</b-button> -->
     </div>
     <div class="d-flex justify-content-between align-self-center">
       <div class="description-item shadow-none p-3 bg-light rounded w-100">
