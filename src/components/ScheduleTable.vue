@@ -6,7 +6,7 @@
       </template>
       <template slot="title" slot-scope="data">
 
-        <TalkTitle :title="data.item.title" :type="data.item.type"/>
+        <TalkTitle :title="data.item.title" :type="data.item.type" :variant="data.item.variant"/>
 
         <TalkDescription v-if="data.item.description" :data="data.item.description"/>
 

@@ -19,7 +19,7 @@ const data = {
             h: '10',
             m: '30'
           },
-          type: 1
+          variant: 'primary' // Blue tag
         },
         {
           title: 'KeyNote 📜',
@@ -36,10 +36,11 @@ const data = {
             h: '11',
             m: '00'
           },
-          type: 1
+          variant: 'primary'
         },
         {
           title: 'Arquitecturas modulares',
+          type: 'Charla',
           duration: 45, // minutes
           description: [
             'WIP'
@@ -52,7 +53,7 @@ const data = {
             h: '12',
             m: '00'
           },
-          type: 2,
+          variant: 'success',
           authors: [
             {
               name: 'Unai Rubio',
@@ -71,7 +72,7 @@ const data = {
         },
         {
           title: 'Solution + Software Engineering: Trucos para usar nuestro arte en soluciones viables',
-          duration: 45, // minutes
+          type: 'Charla',
           description: [
             'La teoría nos dice que desarrollo de software es una ingeniería. La práctica nos revela que hay mucho de nuestra industria que es muy difícil poner en papel.',
             'Como por ejemplo: ¿Cómo sabes que la solución que estamos implementando es la correcta? Esta charla se enfoca en la labor creativa antes de la solución y como construir un solución efectiva y flexible a los problemas que queremos arreglar para nosotros, otros o el mundo.'
@@ -84,7 +85,7 @@ const data = {
             h: '13',
             m: '00'
           },
-          type: 2,
+          variant: 'success',
           authors: [
             {
               name: 'Andrés Vidal',
@@ -111,7 +112,7 @@ const data = {
             h: '14',
             m: '00'
           },
-          type: 1,
+          variant: 'primary',
           authors: [],
           note: ''
         }]
@@ -121,6 +122,7 @@ const data = {
       content: [
         {
           title: 'Convierte tu navegador en una grabadora de audio',
+          type: 'Taller',
           description: [
             '¿Alguna vez te has preguntado cómo puedes acceder al micrófono de tu pc usando <code>javascript</code> desde un navegador? Con la llegada de la API de <code>MediaRecorder</code> a los navegadores, hacer esto es muy fácil. En este taller veremos, a través de <strong>Vue.js</strong> y <strong>Javascript</strong>, como acceder al micrófono desde el navegador y crear nuestra grabadora.',
             'Además, veremos otras funcionalidades como el acceso a la cámara o la detección de caras (Face Detection) en imágenes. Todo esto, gracias a Javascript (sin librerías externas) del lado del navegador.',
@@ -134,7 +136,7 @@ const data = {
             h: '12',
             m: '45'
           },
-          type: 1,
+          variant: 'primary',
           authors: [
             {
               name: 'Jorge Baumann',
@@ -173,7 +175,7 @@ const data = {
             h: '13',
             m: '00'
           },
-          type: 1
+          variant: 'primary'
         }
       ]
     },
@@ -181,13 +183,15 @@ const data = {
       name: 'Cafetería - Planta 1 ',
       content: [
         {
-          title: ' - HackMadrid %27',
+          title: 'Threat hunting y unas cuantas cosas más...',
+          type: 'Charla',
+          variant: 'danger',
           description: [
-            ''
+            'Más info en <a href="https://www.meetup.com/es-ES/HackMadrid-27/events/265948661/">https://www.meetup.com/es-ES/HackMadrid-27/events/265948661/</a>'
           ],
           authors: [
             {
-              name: '',
+              name: 'HackMadrid',
               avatar: '',
               bio: [
                 ''
@@ -206,46 +210,45 @@ const data = {
           endTime: {
             h: '12',
             m: '00'
-          },
-          type: 3
-        },
-        {
-          title: '- BlockMAD',
-          description: [
-            ''
-          ],
-          authors: [
-            {
-              name: '- BlockMAD',
-              avatar: '',
-              bio: [
-                ''
-              ],
-              social: {
-                // linkedin: 'https://www.linkedin.com/in/juan-antonio-lle%C3%B3-7b5a5937/',
-                // twitter: 'https://twitter.com/juan_a_lleo',
-                meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
-                // url: 'https://golem.network/?ref=OSWeekends'
-              }
-            },
-            {
-              name: ' - HackMadrid %27',
-              social: {
-                url: 'http://hackmadrid.org/',
-                meetup: 'https://www.meetup.com/es-ES/HackMadrid-27'
-              }
-            }
-          ],
-          startTime: {
-            h: '12',
-            m: '00'
-          },
-          endTime: {
-            h: '13',
-            m: '00'
-          },
-          type: 3
+          }
         }
+        // {
+        //   title: '- BlockMAD',
+        //   description: [
+        //     ''
+        //   ],
+        //   authors: [
+        //     {
+        //       name: '- BlockMAD',
+        //       avatar: '',
+        //       bio: [
+        //         ''
+        //       ],
+        //       social: {
+        //         // linkedin: 'https://www.linkedin.com/in/juan-antonio-lle%C3%B3-7b5a5937/',
+        //         // twitter: 'https://twitter.com/juan_a_lleo',
+        //         meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
+        //         // url: 'https://golem.network/?ref=OSWeekends'
+        //       }
+        //     },
+        //     {
+        //       name: ' - HackMadrid %27',
+        //       social: {
+        //         url: 'http://hackmadrid.org/',
+        //         meetup: 'https://www.meetup.com/es-ES/HackMadrid-27'
+        //       }
+        //     }
+        //   ],
+        //   startTime: {
+        //     h: '12',
+        //     m: '00'
+        //   },
+        //   endTime: {
+        //     h: '13',
+        //     m: '00'
+        //   },
+        //   variant: 3
+        // }
       ]
     }
     // {
@@ -260,7 +263,7 @@ const data = {
     //         'Blockstack, recupera tu soberanía digital',
     //         'Blockstack es un ecosistema blockchain que tiene a la identidad digital y la soberanía de los datos privados como su principal preocupación. En la actualidad cuenta con más de 250 aplicaciones desarrolladas sobre su sistema, con un interesante sistema de incentivos para los desarrolladores.'
     //       ],
-    //       type: 3,
+    //       variant: 'danger',
     //       authors: [
     //         {
     //           name: 'GBA Madrid',
@@ -295,7 +298,7 @@ const data = {
     //         '* AgroLab IoT: El objetivo de este microtaller es dar las bases para realizar un sistema de riego autónomo para un cultivo doméstico y conseguir monitorizar en tiempo real ciertas condiciones del entorno.',
     //         'Más info: https://github.com/OSWHackerspace/AgrolabIoT'
     //       ],
-    //       type: 3,
+    //       variant: 'danger',
     //       authors: [
     //         {
     //           name: 'Sergio Morcuende',
