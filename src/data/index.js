@@ -121,7 +121,7 @@ const data = {
       name: 'Meetup Space (Sótano)',
       content: [
         {
-          title: 'Convierte tu navegador en una grabadora de audio',
+          title: 'Convierte tu navegador en una grabadora de audio 🎤',
           type: 'Taller',
           description: [
             '¿Alguna vez te has preguntado cómo puedes acceder al micrófono de tu pc usando <code>javascript</code> desde un navegador? Con la llegada de la API de <code>MediaRecorder</code> a los navegadores, hacer esto es muy fácil. En este taller veremos, a través de <strong>Vue.js</strong> y <strong>Javascript</strong>, como acceder al micrófono desde el navegador y crear nuestra grabadora.',
