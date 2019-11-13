@@ -18,6 +18,8 @@ const socialIco = {
   linkedin: ['fab', 'linkedin'],
   instagram: ['fab', 'instagram'],
   meetup: ['fab', 'meetup'],
+  dev: ['fab', 'dev'],
+  medium: ['fab', 'medium'],
   url: 'link'
 }
 
@@ -57,5 +59,9 @@ export default {
     color #cc3c9a
   &.ico-youtube
     color #ff0400
+  &.ico-dev
+    color #0a0a0a
+  &.ico-medium
+    color #2f2f2f
 
 </style>

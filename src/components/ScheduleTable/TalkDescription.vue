@@ -1,7 +1,7 @@
 <template>
   <div class="description">
     <p class="lead" v-for="(desc, index) in data" :key="index" >
-      {{ desc }}
+      <span v-html="desc"></span>
     </p>
   </div>
 </template>
