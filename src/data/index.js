@@ -8,80 +8,113 @@ const data = {
   tracks: [
     {
       name: 'Auditorio',
-      content: [{
-        title: 'Recepción y café ☕️',
-        startTime: {
-          h: '10',
-          m: '00'
+      content: [
+        {
+          title: 'Recepción y café ☕️',
+          startTime: {
+            h: '10',
+            m: '00'
+          },
+          endTime: {
+            h: '10',
+            m: '30'
+          },
+          type: 1
         },
-        endTime: {
-          h: '10',
-          m: '30'
+        {
+          title: 'KeyNote 📜',
+          description: [
+            '- Novedades temporada y noticias',
+            '- Patrocinadores',
+            '- ¡Sorpresitas! 💙'
+          ],
+          startTime: {
+            h: '10',
+            m: '30'
+          },
+          endTime: {
+            h: '11',
+            m: '00'
+          },
+          type: 1
         },
-        type: 1
-      },
-      {
-        title: 'KeyNote 📜',
-        description: [
-          '- Novedades temporada y noticias',
-          '- Patrocinadores',
-          '- ¡Sorpresitas! 💙'
-        ],
-        startTime: {
-          h: '10',
-          m: '30'
-        },
-        endTime: {
-          h: '11',
-          m: '00'
-        },
-        type: 1
-      },
-      {
-        title: 'Arquitecturas modulares',
-        duration: 45, // minutes
-        description: [
-          'WIP'
-        ],
-        startTime: {
-          h: '11',
-          m: '00'
-        },
-        endTime: {
-          h: '12',
-          m: '00'
-        },
-        type: 2,
-        authors: [
-          {
-            name: 'Unai Rubio',
-            // avatar: '',
-            bio: [
-              ''
-            ],
-            social: {
-              // linkedin: 'https://www.linkedin.com/in/miguelflg13',
-              // twitter: 'https://twitter.com/miguelFLG13'
-              // github: 'https://github.com/ardiadrianadri'
-              // url: 'https://lostinbrittany.org/'
+        {
+          title: 'Arquitecturas modulares',
+          duration: 45, // minutes
+          description: [
+            'WIP'
+          ],
+          startTime: {
+            h: '11',
+            m: '00'
+          },
+          endTime: {
+            h: '12',
+            m: '00'
+          },
+          type: 2,
+          authors: [
+            {
+              name: 'Unai Rubio',
+              // avatar: '',
+              bio: [
+                ''
+              ],
+              social: {
+                // linkedin: 'https://www.linkedin.com/in/miguelflg13',
+                // twitter: 'https://twitter.com/miguelFLG13'
+                // github: 'https://github.com/ardiadrianadri'
+                // url: 'https://lostinbrittany.org/'
+              }
             }
-          }
-        ]
-      },
-      {
-        title: 'Networking & Beers 💃🍻',
-        startTime: {
-          h: '13',
-          m: '00'
+          ]
         },
-        endTime: {
-          h: '14',
-          m: '00'
+        {
+          title: 'Solution + Software Engineering: Trucos para usar nuestro arte en soluciones viables',
+          duration: 45, // minutes
+          description: [
+            'La teoría nos dice que desarrollo de software es una ingeniería. La práctica nos revela que hay mucho de nuestra industria que es muy difícil poner en papel.',
+            'Como por ejemplo: ¿Cómo sabes que la solución que estamos implementando es la correcta? Esta charla se enfoca en la labor creativa antes de la solución y como construir un solución efectiva y flexible a los problemas que queremos arreglar para nosotros, otros o el mundo.'
+          ],
+          startTime: {
+            h: '12',
+            m: '00'
+          },
+          endTime: {
+            h: '13',
+            m: '00'
+          },
+          type: 2,
+          authors: [
+            {
+              name: 'Andrés Vidal',
+              avatar: '',
+              bio: [
+                'Arquitecto de Software en Bnext'
+              ],
+              social: {
+                linkedin: 'https://www.linkedin.com/in/andrespvidal/'
+                // twitter: ''
+                // github: ''
+                // url: ''
+              }
+            }
+          ]
         },
-        type: 1,
-        authors: [],
-        note: ''
-      }]
+        {
+          title: 'Networking & Beers 💃🍻',
+          startTime: {
+            h: '13',
+            m: '00'
+          },
+          endTime: {
+            h: '14',
+            m: '00'
+          },
+          type: 1,
+          authors: [],
+          note: ''
+        }]
     },
     {
       name: 'Meetup Space (Sótano)',
@@ -98,10 +131,10 @@ const data = {
             m: '00'
           },
           endTime: {
-            h: '13',
-            m: '00'
+            h: '12',
+            m: '45'
           },
-          type: 2,
+          type: 1,
           authors: [
             {
               name: 'Jorge Baumann',
@@ -115,8 +148,8 @@ const data = {
                 medium: 'https://medium.com/@baumannsito'
               },
               bio: [
-                '',
-                ''
+                'Desarrollador web Full-Stack. Apasionado de la tecnología en general y del desarrollo web en particular. Actualmente trabaja para el departamento de Liquid Squad (Accenture).',
+                ' Es organizador del Meetup Open Source Weekends y en sus ratos libres crea OpenSource en Github. (Como esta agenda) 😜'
               ]
             }
           ],
