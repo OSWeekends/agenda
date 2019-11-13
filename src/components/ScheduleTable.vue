@@ -1,18 +1,18 @@
 <template>
   <div class="mb-5">
     <b-table :items="track.content" :fields="fields" outlined hover>
+
       <template slot="startTime" slot-scope="data">
         <ScheduleTableColTime :data="data"/>
       </template>
+
       <template slot="title" slot-scope="data">
-
-        <TalkTitle :title="data.item.title" :type="data.item.type" :variant="data.item.variant"/>
-
-        <TalkDescription v-if="data.item.description" :data="data.item.description"/>
-
-        <TalkAuthors v-if="data.item.authors" :data="data.item.authors"/>
-
+        <TalkTitle :title="data.item.title" :type="data.item.type" :variant="data.item.variant" />
+        <TalkDescription v-if="data.item.description" :data="data.item.description" />
+        <TalkTags v-if="data.item.tags" :tags="data.item.tags" />
+        <TalkAuthors v-if="data.item.authors" :data="data.item.authors" />
       </template>
+
     </b-table>
   </div>
 </template>
@@ -21,6 +21,7 @@
 import ScheduleTableColTime from './ScheduleTableColTime'
 import TalkTitle from './ScheduleTable/TalkTitle'
 import TalkDescription from './ScheduleTable/TalkDescription'
+import TalkTags from './ScheduleTable/TalkTags'
 import TalkAuthors from './ScheduleTable/TalkAuthors'
 
 export default {
@@ -29,6 +30,7 @@ export default {
     ScheduleTableColTime,
     TalkTitle,
     TalkDescription,
+    TalkTags,
     TalkAuthors
   },
   props: {

@@ -128,6 +128,7 @@ const data = {
             'Además, veremos otras funcionalidades como el acceso a la cámara o la detección de caras (Face Detection) en imágenes. Todo esto, gracias a Javascript (sin librerías externas) del lado del navegador.',
             'EXTRA: 🔥 Configura y Despliega tu Aplicación Vue de manera automática con Netlify ✌️'
           ],
+          tags: ['javascript', 'vue.js', 'html'],
           startTime: {
             h: '11',
             m: '00'
@@ -154,8 +155,7 @@ const data = {
                 ' Es organizador del Meetup Open Source Weekends y en sus ratos libres crea OpenSource en Github. (Como esta agenda) 😜'
               ]
             }
-          ],
-          tags: ['javascript', 'vue.js', 'html']
+          ]
         }
       ]
     },
