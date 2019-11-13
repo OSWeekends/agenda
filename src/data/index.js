@@ -1,5 +1,5 @@
 const data = {
-  title: 'Agenda Octubre 2019',
+  title: 'Agenda Noviembre 2019',
   date: '16/11/2019',
   description: '¡Segundo evento de la temporada! ✌️',
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/266177168/',
