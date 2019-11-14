@@ -39,12 +39,12 @@ const data = {
           variant: 'primary'
         },
         {
-          title: 'Arquitecturas modulares',
+          title: 'Arquitectura de software: Entre el negocio y la tecnología.',
           type: 'Charla',
-          duration: 45, // minutes
           description: [
-            'WIP'
+            'Que es la arquitectura de software, como tener en cuenta las necesidades del negocio. Tres ejemplos prácticos: sistemas modulares (para consultorías), cloud services y permisos y roles.'
           ],
+          tags: ['arquitectura', 'sistemas modulares', 'cloud services'],
           startTime: {
             h: '11',
             m: '00'
@@ -59,10 +59,11 @@ const data = {
               name: 'Unai Rubio',
               // avatar: '',
               bio: [
-                ''
+                'Software Architect en Skala. He pasado años de lead / arquitecto y trabajado en compañias como HP y Dassault Systemes, habiendo estado involucrado en temas como DevOps e Impresión 3D. ' +
+                'De hace un par de años aquí he sido el arqutecto de Skala (startup) y llevo mi propio studio freelance, Roulette Studios.'
               ],
               social: {
-                // linkedin: 'https://www.linkedin.com/in/miguelflg13',
+                linkedin: 'https://www.linkedin.com/in/unairubio/'
                 // twitter: 'https://twitter.com/miguelFLG13'
                 // github: 'https://github.com/ardiadrianadri'
                 // url: 'https://lostinbrittany.org/'
