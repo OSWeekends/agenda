@@ -152,7 +152,7 @@ const data = {
               },
               bio: [
                 'Desarrollador web Full-Stack. Apasionado de la tecnología en general y del desarrollo web en particular. Actualmente trabaja para el departamento de Liquid Squad (Accenture).',
-                ' Es organizador del Meetup Open Source Weekends y en sus ratos libres crea OpenSource en Github. (Como esta agenda) 😜'
+                ' Es organizador del Meetup Open Source Weekends y en sus ratos libres crea OpenSource en Github (por ejemplo, esta agenda a la que puedes contribuir) 😜'
               ]
             }
           ]
@@ -187,17 +187,31 @@ const data = {
           type: 'Charla',
           variant: 'danger',
           description: [
+            'Se hará una introducción al Threat Hunting como una nueva línea de investigación de ciberseguridad y puesto de trabajo, haciendo referencia sobre buenas prácticas, metodologías y frameworks (Mitre Att&ck, TaHiTI, Sigma) que se usan en el día a día por los "cazadores de amenazas".',
+            'Se expondrán los problemas con los que nos encontramos en la búsqueda de TTPs (técnicas, tácticas y procedimientos) de los cibercriminales y cómo automatizar nuestro trabajo con herramientas bajo estándares. Se realizará una demostración sobre cómo fortificar un entorno empresarial para luego realizar un caso de uso sobre él.',
             'Más info en <a href="https://www.meetup.com/es-ES/HackMadrid-27/events/265948661/">https://www.meetup.com/es-ES/HackMadrid-27/events/265948661/</a>'
           ],
           authors: [
             {
-              name: 'HackMadrid',
+              name: 'Lorien Domenech',
               avatar: '',
               bio: [
-                ''
+                'Especializado en Digital Forense y Incident Response en varias empresas. Apasionado de la seginfo en varios ámbitos e iniciándose en el mundo del Threat Hunting. Co-organizador de HackMadrid%27'
               ],
               social: {
-                // twitter: 'https://twitter.com/JR_kneda',
+                twitter: 'https://twitter.com/loriendr',
+                meetup: 'https://www.meetup.com/es-ES/HackMadrid-27',
+                url: 'http://hackmadrid.org/'
+              }
+            },
+            {
+              name: 'Carlos Cabakkero',
+              avatar: '',
+              bio: [
+                'Entusiasta de la seguridad informática, enfocado al análisis forense y posteriormente en Hacking ético, inicia su carrera en Prosegur Ciberseguridad desarrollando sus Skills con el equipo de forense y respuesta ante incidentes. Miembro de HackMadrid%27'
+              ],
+              social: {
+                twitter: 'https://twitter.com/_CarlosCabal',
                 meetup: 'https://www.meetup.com/es-ES/HackMadrid-27',
                 url: 'http://hackmadrid.org/'
               }
