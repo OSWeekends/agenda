@@ -206,7 +206,7 @@ const data = {
               }
             },
             {
-              name: 'Carlos Cabakkero',
+              name: 'Carlos Caballero',
               avatar: '',
               bio: [
                 'Entusiasta de la seguridad informática, enfocado al análisis forense y posteriormente en Hacking ético, inicia su carrera en Prosegur Ciberseguridad desarrollando sus Skills con el equipo de forense y respuesta ante incidentes. Miembro de HackMadrid%27'
@@ -224,6 +224,56 @@ const data = {
           },
           endTime: {
             h: '12',
+            m: '00'
+          }
+        },
+        {
+          title: 'Blockstack: Un ecosistema para el desarrollo de aplicaciones descentralizadas (dApps) que protegen tus derechos',
+          description: [
+            'Blockstack es una red blockchain descentralizada y un ecosistema para el desarrollo de aplicaciones que protegen tus derechos digitales: Control de tu identidad y tus datos, seguridad, privacidad.',
+            'Es un privilegio poder presentar Blockstack a la comunidad de desarrolladores de BlockMAD y Open Source Weekends, contribuyendo al renacimiento de un internet mejor. Sus representantes en Madrid, Alex Viñas y Georgina Mauriño contarán, entre otras cosas, lo que motivó a sus fundadores a meterse en este ambicioso proyecto y cómo ha evolucionado hasta su momento actual, en el que ya hay más de 300 dApps desarrolladas y que participan en un particular programa de incentivos, el minado de aplicaciones, que ofrece interesantes recompensas a sus desarrolladores. La Comunidad Blockstack en Madrid está dando sus primeros pasos y entre sus objetivos está el llegar a los desarrolladores españoles y ofrecerles la oportunidad de participar con su talento en la creación de dApps para la Web 3.0 que estén al servicio de los usuarios, respetando sus derechos fundamentales.'
+          ],
+          variant: 'danger',
+          authors: [
+            {
+              name: 'Alex Viñas',
+              avatar: '',
+              bio: [
+                'Embajador de Blockstack.'
+              ],
+              social: {
+                linkedin: 'https://www.linkedin.com/in/alexvinyas/',
+                url: 'https://blockstack.org/'
+              }
+            },
+            {
+              name: 'Georgina Mauriño',
+              avatar: '',
+              bio: [
+                'Embajadora de Blockstack. Autora y editora en diversos formatos, con más de 30 títulos publicados desde 1997. En 2016 descubrió blockchain y el mundo de posibilidades que abría a autores y artistas. Desde el primer momento, Blockstack fue un referente para ella y recientemente ha sido invitada a ser su representante en Madrid.'
+              ],
+              social: {
+                linkedin: 'https://www.linkedin.com/in/georginagarciamaurino/',
+                meetup: 'https://www.meetup.com/es-ES/Blockstack-Madrid/'
+              }
+            },
+            {
+              name: 'BlockMAD',
+              avatar: '',
+              bio: [
+                'BlockMAD Meetup: BlockMAD es una comunidad dedicada principalmente a la tecnología Blockchain, sobre todo en sus aspectos técnicos y a la elaboración de proyectos.'
+              ],
+              social: {
+                meetup: 'https://www.meetup.com/es-ES/BlockMAD'
+              }
+            }
+          ],
+          startTime: {
+            h: '12',
+            m: '00'
+          },
+          endTime: {
+            h: '13',
             m: '00'
           }
         }
