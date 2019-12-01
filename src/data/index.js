@@ -241,6 +241,17 @@ const data = {
             h: '13',
             m: '00'
           },
+          authors: [
+            {
+              name: 'Open Source Weekends',
+              social: {
+                meetup: 'https://www.meetup.com/es-ES/Open-Source-Weekends/',
+                twitter: 'https://twitter.com/os_weekends',
+                github: 'https://github.com/osweekends',
+                url: 'http://osweekends.com/'
+              }
+            }
+          ],
           variant: 'primary'
         }
       ]
@@ -251,7 +262,6 @@ const data = {
         {
           title: 'Scrapy, ¡hazte con todos (los datos)!',
           type: 'Taller',
-          variant: 'warning',
           description: [
             'Actualmente con el auge del data science, es común el capturar datos para el posterior entrenamiento de modelos. Por ello, en este taller usaremos los datos de unas criaturas famosas por capturarse y entrenarse, Pokémon.',
             'Trataremos las situaciones más comunes que pueden darse en un proyecto de captura de datos, construiremos una base de datos con un modelo ajustado a las características de los datos y finalmente plantearemos posibles usos para nuestra nueva base de datos.',
@@ -282,13 +292,14 @@ const data = {
             }
           ],
           startTime: {
-            h: '12',
+            h: '11',
             m: '00'
           },
           endTime: {
-            h: '13',
+            h: '12',
             m: '00'
-          }
+          },
+          variant: 'warning'
         },
         {
           title: 'Advanced JavaScript Patterns',
