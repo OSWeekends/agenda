@@ -2,9 +2,9 @@ const data = {
   title: 'Agenda Diciembre 2019',
   date: '14/12/2019',
   description: '¡Tercer evento de la temporada! 🤙',
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/266177168/',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/266585029/',
   startTime: '10:00',
-  endTime: '13:30',
+  endTime: '14:00',
   tracks: [
     {
       name: 'Auditorio',
@@ -24,59 +24,93 @@ const data = {
         {
           title: 'KeyNote 📜',
           description: [
-            '- Novedades temporada y noticias',
-            '- Patrocinadores',
-            '- ¡Sorpresitas! 💙'
+            '- Novedades y noticias 🔥',
+            '- PyLadies 👩‍💻 & ??',
+            '- Patrocinadores 💙',
+            '- Agenda 📇',
+            '- Foto 📸',
+            '- ¡Sorpresitas! 🎁'
           ],
-          startTime: {
-            h: '10',
-            m: '30'
-          },
-          endTime: {
-            h: '11',
-            m: '00'
-          },
+          startTime: { h: '10', m: '30' },
+          endTime: { h: '11', m: '00' },
           variant: 'primary'
         },
         {
-          title: 'Arquitectura de software: Entre el negocio y la tecnología.',
+          title: 'Mi hijo (6) programador de videojuegos',
           type: 'Charla',
           description: [
-            'Que es la arquitectura de software, como tener en cuenta las necesidades del negocio. Tres ejemplos prácticos: sistemas modulares (para consultorías), cloud services y permisos y roles.'
+            'Si, lo sé, eres padre y lo has hecho; le has dejado el móvil a tu hijo y ahora se comporta como un yonki con mono cada vez que no lo tiene en la mano.',
+            'Todos hemos caído y hemos fallado. Ahora la pregunta es como redirigimos la situación a nuestro beneficio y el del niño para que se convierta en una inversión en su educación.',
+            'Yo lo he conseguido; simplemente he enseñado a programar a mi hijo para que el mismo pueda crear sus propios videojuegos. Esta charla va de compartir la experiencia de como ayudar a nuestros hijos a convivir con la tecnología de una forma sana sin que caigan víctimas de ella'
           ],
-          tags: ['arquitectura', 'sistemas modulares', 'cloud services'],
+          tags: ['scratch', 'programación', 'kids'],
           startTime: {
             h: '11',
             m: '00'
+          },
+          endTime: {
+            h: '11',
+            m: '20'
+          },
+          authors: [
+            {
+              name: 'Roberto Ferreres',
+              bio: ['6 años. Lector ávido de manuales de Scratch e iniciado en la programación a pesar de las reticencias de su familia.'],
+              social: {
+                gamepad: 'https://scratch.mit.edu/projects/341123470/'
+              }
+            },
+            {
+              name: 'Adrián Ferreres',
+              bio: [
+                'Desarrollador Software desde los 11 años, también ha sido niño programador en la época pre internet cuando el hecho de tener un ordenador en casa se consideraba un lujo.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/ardiadrianadri'
+                // linkedin: ''
+                // github: ''
+                // url: ''
+              }
+            }
+          ],
+          variant: 'primary'
+        },
+        {
+          title: 'Iniciativa #Hourofcode',
+          type: 'Charla',
+          description: [
+            'Se trata de una iniciativa global educativa llamada Hour of Code, promovida por la organización <a href="https://code.org">code.org</a>, que tiene lugar en más 180 países y que se celebra en diciembre coincidiendo con la semana de las Ciencias de la Computación (9 al 15 de diciembre).',
+            'Esta iniciativa, pretende acercar la programación y el desarrollo del pensamiento computacional a estudiantes de todo el mundo y de todas las edades, beneficiando sólo el año pasado a 100 millones de estudiantes.',
+            'En la charla expondré mi experiencia personal al colaborar como voluntario en el colegio de mi hijo. No se trata de una charla técnica pero en ella se mostrarán ejemplos de algunos de las actividades que realizamos.'
+          ],
+          startTime: {
+            h: '11',
+            m: '30'
           },
           endTime: {
             h: '12',
             m: '00'
           },
-          variant: 'success',
           authors: [
             {
-              name: 'Unai Rubio',
+              name: 'Javier Pérez',
               // avatar: '',
-              bio: [
-                'Software Architect en Skala. He pasado años de lead / arquitecto y trabajado en compañias como HP y Dassault Systemes, habiendo estado involucrado en temas como DevOps e Impresión 3D. ' +
-                'De hace un par de años aquí he sido el arqutecto de Skala (startup) y llevo mi propio studio freelance, Roulette Studios.'
-              ],
+              bio: [ 'Desarrollador Front End en Accenture (Liquid Squad). #Maker #IoT.' ],
               social: {
-                linkedin: 'https://www.linkedin.com/in/unairubio/'
-                // twitter: 'https://twitter.com/miguelFLG13'
-                // github: 'https://github.com/ardiadrianadri'
-                // url: 'https://lostinbrittany.org/'
+                twitter: 'https://twitter.com/JaviMostoles',
+                linkedin: 'https://www.linkedin.com/in/javimostoles/'
+                // github: ''
+                // url: ''
               }
             }
-          ]
+          ],
+          variant: 'success'
         },
         {
-          title: 'Solution + Software Engineering: Trucos para usar nuestro arte en soluciones viables',
+          title: 'Buscando a ELMO',
           type: 'Charla',
           description: [
-            'La teoría nos dice que desarrollo de software es una ingeniería. La práctica nos revela que hay mucho de nuestra industria que es muy difícil poner en papel.',
-            'Como por ejemplo: ¿Cómo sabes que la solución que estamos implementando es la correcta? Esta charla se enfoca en la labor creativa antes de la solución y como construir un solución efectiva y flexible a los problemas que queremos arreglar para nosotros, otros o el mundo.'
+            '¿Tus jefes te conocen?, ¿Nos vamos de las empresas o nos vamos de nuestros managers?, ¿Cómo deben actuar los managers de las empresas en las que queremos trabajar?, ¿Cuál es el valor más importante de las compañías?'
           ],
           startTime: {
             h: '12',
@@ -86,22 +120,52 @@ const data = {
             h: '13',
             m: '00'
           },
-          variant: 'success',
           authors: [
             {
-              name: 'Andrés Vidal',
-              avatar: '',
+              name: 'Angel Galán Carretero',
+              // avatar: '',
               bio: [
-                'Arquitecto de Software en Bnext'
+                'Formando parte del equipo Estratecno, acompaño como Agile Coach a propietarios de producto, equipos de desarrollo y equipos de negocio en la implantación de estrategias para facilitar la gestión de proyectos IT con marcos de trabajos ágiles a todos los niveles de la organización.'
               ],
               social: {
-                linkedin: 'https://www.linkedin.com/in/andrespvidal/'
-                // twitter: ''
+                twitter: 'https://twitter.com/agalancarretero',
+                linkedin: 'https://www.linkedin.com/in/agalancarretero/'
                 // github: ''
                 // url: ''
               }
             }
-          ]
+          ],
+          variant: 'success'
+        },
+        {
+          title: 'AMA con Gervasio de StackOverflow',
+          type: 'Ask Me Anything',
+          description: [
+            '¿Cómo se puede correr el sitio <b>#36</b> de internet (por su <a href="https://www.alexa.com/siteinfo/stackoverflow.com?ref=OSWeekends" target="_blank">Alexa Rank</a>) en 9 servidores web y 2 servidores de base de datos? ' +
+            '¿Por qué preferimos un monolito a microservicios? ¿Por qué no usamos mas que jQuery? ¿Cómo dejar un trabajo muy aburrido para ganar el doble haciendo lo que te gusta?',
+            'Bienvenidas preguntas sobre trabajo remoto, Stack Overflow, preparando entrevistas, o lo que sea!'
+          ],
+          startTime: { h: '13', m: '15' },
+          endTime: { h: '14', m: '00' },
+          tags: ['stack-overflow', 'ama', 'arquitectura'],
+          authors: [
+            {
+              name: 'Gervasio Marchand',
+              bio: [
+                'Soy Gervasio, Principal Software Developer en Stack Overflow y voy a estar respondiendo las preguntas que ustedes traigan. Hace 3 años tengo el mejor trabajo de mi vida.',
+                'Entré a Stack Overflow al equipo de Jobs, después pasé a Talent y ahora estoy trabajando en Stack Overflow Enterprise, el tier más alto de la suite "Stack Overflow for Teams". Paso los días pensando cómo mejorar la vida de mis colegas desarrolladores :)',
+                'En el último año estuve involucrado en el proceso de selección de desarrolladores que usamos en Stack Overflow, participando de las instancias técnicas como entrevistador.',
+                'Vivo en Uruguay y hace 12 años que trabajo para empresas de Estados Unidos (nunca trabajé para una empresa local).'
+              ],
+              social: {
+                twitter: 'https://twitter.com/g3rv4',
+                url: 'https://g3rv4.com',
+                github: 'https://github.com/g3rv4',
+                linkedin: 'https://www.linkedin.com/in/g3rv4'
+              }
+            }
+          ],
+          variant: 'success'
         },
         {
           title: 'Networking & Beers 💃🍻',
@@ -116,57 +180,58 @@ const data = {
           variant: 'primary',
           authors: [],
           note: ''
-        }]
-    },
-    {
-      name: 'Meetup Space (Sótano)',
-      content: [
-        {
-          title: 'Convierte tu navegador en una grabadora de audio 🎤',
-          type: 'Taller',
-          description: [
-            '¿Alguna vez te has preguntado cómo puedes acceder al micrófono de tu pc usando <code>javascript</code> desde un navegador? Con la llegada de la API de <code>MediaRecorder</code> a los navegadores, hacer esto es muy fácil. En este taller veremos, a través de <strong>Vue.js</strong> y <strong>Javascript</strong>, como acceder al micrófono desde el navegador y crear nuestra grabadora.',
-            'Además, veremos otras funcionalidades como el acceso a la cámara o la detección de caras (Face Detection) en imágenes. Todo esto, gracias a Javascript (sin librerías externas) del lado del navegador.',
-            'EXTRA: 🔥 Configura y Despliega tu Aplicación Vue de manera automática con Netlify ✌️'
-          ],
-          tags: ['javascript', 'vue.js', 'html'],
-          startTime: {
-            h: '11',
-            m: '00'
-          },
-          endTime: {
-            h: '12',
-            m: '45'
-          },
-          variant: 'primary',
-          authors: [
-            {
-              name: 'Jorge Baumann',
-              avatar: '',
-              social: {
-                twitter: 'https://twitter.com/baumannzone',
-                dev: 'https://dev.to/baumannzone',
-                github: 'https://github.com/baumannzone',
-                youtube: 'https://www.youtube.com/channel/UCTTj5ztXnGeDRPFVsBp7VMA',
-                linkedin: 'https://www.linkedin.com/in/baumannzone',
-                medium: 'https://medium.com/@baumannsito'
-              },
-              bio: [
-                'Desarrollador web Full-Stack. Apasionado de la tecnología en general y del desarrollo web en particular. Actualmente trabaja para el departamento de Liquid Squad (Accenture).',
-                ' Es organizador del Meetup Open Source Weekends y en sus ratos libres crea OpenSource en Github (por ejemplo, esta agenda a la que puedes contribuir) 😜'
-              ]
-            }
-          ]
         }
       ]
     },
+    // {
+    //   name: 'Meetup Space (Sótano)',
+    //   content: [
+    //     {
+    //       title: 'Convierte tu navegador en una grabadora de audio 🎤',
+    //       type: 'Taller',
+    //       description: [
+    //         '¿Alguna vez te has preguntado cómo puedes acceder al micrófono de tu pc usando <code>javascript</code> desde un navegador? Con la llegada de la API de <code>MediaRecorder</code> a los navegadores, hacer esto es muy fácil. En este taller veremos, a través de <strong>Vue.js</strong> y <strong>Javascript</strong>, como acceder al micrófono desde el navegador y crear nuestra grabadora.',
+    //         'Además, veremos otras funcionalidades como el acceso a la cámara o la detección de caras (Face Detection) en imágenes. Todo esto, gracias a Javascript (sin librerías externas) del lado del navegador.',
+    //         'EXTRA: 🔥 Configura y Despliega tu Aplicación Vue de manera automática con Netlify ✌️'
+    //       ],
+    //       tags: ['javascript', 'vue.js', 'html'],
+    //       startTime: {
+    //         h: '11',
+    //         m: '00'
+    //       },
+    //       endTime: {
+    //         h: '12',
+    //         m: '45'
+    //       },
+    //       variant: 'primary',
+    //       authors: [
+    //         {
+    //           name: 'Jorge Baumann',
+    //           avatar: '',
+    //           social: {
+    //             twitter: 'https://twitter.com/baumannzone',
+    //             dev: 'https://dev.to/baumannzone',
+    //             github: 'https://github.com/baumannzone',
+    //             youtube: 'https://www.youtube.com/channel/UCTTj5ztXnGeDRPFVsBp7VMA',
+    //             linkedin: 'https://www.linkedin.com/in/baumannzone',
+    //             medium: 'https://medium.com/@baumannsito'
+    //           },
+    //           bio: [
+    //             'Desarrollador web Full-Stack. Apasionado de la tecnología en general y del desarrollo web en particular. Actualmente trabaja para el departamento de Liquid Squad (Accenture).',
+    //             ' Es organizador del Meetup Open Source Weekends y en sus ratos libres crea OpenSource en Github (por ejemplo, esta agenda a la que puedes contribuir) 😜'
+    //           ]
+    //         }
+    //       ]
+    //     }
+    //   ]
+    // },
     {
       name: 'Cafetería - Planta 0',
       content: [
         {
-          title: '💙 Guilds',
+          title: 'Guilds ✍️💙',
           description: [
-            'Dejamos este espacio para que los Guilds se sienten cara a cara y se arremanguen para continuar con sus proyectos, idear, definir... lo que sea! Seguido de cerca por algunos mentores de la comunidad OSWeekends ;)'
+            'Dejamos este espacio para que los Guilds se sienten cara a cara y se arremanguen para continuar con sus proyectos, idear, definir... ¡lo que sea! Seguido de cerca por algunos mentores de la comunidad OSWeekends ;)'
           ],
           startTime: {
             h: '11',
@@ -184,20 +249,21 @@ const data = {
       name: 'Cafetería - Planta 1 ',
       content: [
         {
-          title: 'Threat hunting y unas cuantas cosas más...',
+          title: 'Advanced JavaScript Patterns',
           type: 'Charla',
-          variant: 'danger',
+          variant: 'warning',
           description: [
-            'Se hará una introducción al Threat Hunting como una nueva línea de investigación de ciberseguridad y puesto de trabajo, haciendo referencia sobre buenas prácticas, metodologías y frameworks (Mitre Att&ck, TaHiTI, Sigma) que se usan en el día a día por los "cazadores de amenazas".',
-            'Se expondrán los problemas con los que nos encontramos en la búsqueda de TTPs (técnicas, tácticas y procedimientos) de los cibercriminales y cómo automatizar nuestro trabajo con herramientas bajo estándares. Se realizará una demostración sobre cómo fortificar un entorno empresarial para luego realizar un caso de uso sobre él.',
-            'Más info en <a href="https://www.meetup.com/es-ES/HackMadrid-27/events/265948661/">https://www.meetup.com/es-ES/HackMadrid-27/events/265948661/</a>'
+            'When you tell people you code in JavaScript they usually look down on you. This talk will give you the tools to enlighten those heretics.',
+            'We\'ll be entering the world of design patterns applied to JavaScript, looking through some of the cutting edge properties of ES6 such as Proxies and default function parameter expressions, dealing with objects and even some examples of functional programming. ' +
+            'This talk is not allowed for cardiacs.'
           ],
           authors: [
             {
               name: 'Lorien Domenech',
-              avatar: '',
+              // avatar: '',
               bio: [
-                'Especializado en Digital Forense y Incident Response en varias empresas. Apasionado de la seginfo en varios ámbitos e iniciándose en el mundo del Threat Hunting. Co-organizador de HackMadrid%27'
+                'I\'m a young programmer very interested in good practices, architecture, testing and SOLID principles. ' +
+                'I work at Autentia as a frontend developer (Vue, React, TypeScript, JavaScript, HTML, CSS, etc) although I have worked a bit in Java and Android. I\'m continuously on the lookout for things to read, learn and share.'
               ],
               social: {
                 twitter: 'https://twitter.com/loriendr',

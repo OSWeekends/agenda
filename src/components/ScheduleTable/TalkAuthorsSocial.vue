@@ -20,7 +20,8 @@ const socialIco = {
   meetup: ['fab', 'meetup'],
   dev: ['fab', 'dev'],
   medium: ['fab', 'medium'],
-  url: 'link'
+  url: 'link',
+  gamepad: 'gamepad'
 }
 
 export default {
@@ -63,5 +64,7 @@ export default {
     color #0a0a0a
   &.ico-medium
     color #2f2f2f
+  &.ico-gamepad
+    color orange
 
 </style>
