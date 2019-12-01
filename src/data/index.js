@@ -249,6 +249,48 @@ const data = {
       name: 'Cafetería - Planta 1 ',
       content: [
         {
+          title: 'Scrapy, ¡hazte con todos (los datos)!',
+          type: 'Taller',
+          variant: 'warning',
+          description: [
+            'Actualmente con el auge del data science, es común el capturar datos para el posterior entrenamiento de modelos. Por ello, en este taller usaremos los datos de unas criaturas famosas por capturarse y entrenarse, Pokémon.',
+            'Trataremos las situaciones más comunes que pueden darse en un proyecto de captura de datos, construiremos una base de datos con un modelo ajustado a las características de los datos y finalmente plantearemos posibles usos para nuestra nueva base de datos.',
+            'Así que ya sabes entrenador, pon a punto tu ordenador ¡Y que comience la captura!'
+          ],
+          tags: [ 'python', 'scrapping', 'scrapy' ],
+          authors: [
+            {
+              name: 'Irene Fernández',
+              bio: [
+                'Irene Fernández será nuestra entrenadora Pokémon. Es ingeniera del software y una apasionada de la programación, los videojuegos y las cosas monas.',
+                'Actualmente trabaja como ingeniera de crawling en TrustYou, recogiendo datos de hoteles y restaurantes con distintas herramientas de scraping en Python.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/neferfufi'
+              }
+            },
+            {
+              name: 'Alicia Pérez',
+              bio: [
+                'Alicia Pérez es data scientist en StyleSage, donde se divierte implementando algoritmos de Machine Learning y Deep Learning enfocados al mundo de la moda.',
+                'Además es coorganizadora de PyLadies Madrid y mentora en varias iniciativas que buscan aumentar la diversidad en el mundo tech, como DjangoGirls, TechShessions y Adalab.'
+              ],
+              social: {
+                twitter: ['https://twitter.com/PyLadiesMadrid', 'https://twitter.com/alipeji'],
+                github: 'https://github.com/aliciapj'
+              }
+            }
+          ],
+          startTime: {
+            h: '12',
+            m: '00'
+          },
+          endTime: {
+            h: '13',
+            m: '00'
+          }
+        },
+        {
           title: 'Advanced JavaScript Patterns',
           type: 'Charla',
           variant: 'warning',
@@ -259,78 +301,15 @@ const data = {
           ],
           authors: [
             {
-              name: 'Lorien Domenech',
+              name: 'César Alberca',
               // avatar: '',
               bio: [
                 'I\'m a young programmer very interested in good practices, architecture, testing and SOLID principles. ' +
                 'I work at Autentia as a frontend developer (Vue, React, TypeScript, JavaScript, HTML, CSS, etc) although I have worked a bit in Java and Android. I\'m continuously on the lookout for things to read, learn and share.'
               ],
               social: {
-                twitter: 'https://twitter.com/loriendr',
-                meetup: 'https://www.meetup.com/es-ES/HackMadrid-27',
-                url: 'http://hackmadrid.org/'
-              }
-            },
-            {
-              name: 'Carlos Caballero',
-              avatar: '',
-              bio: [
-                'Entusiasta de la seguridad informática, enfocado al análisis forense y posteriormente en Hacking ético, inicia su carrera en Prosegur Ciberseguridad desarrollando sus Skills con el equipo de forense y respuesta ante incidentes. Miembro de HackMadrid%27'
-              ],
-              social: {
-                twitter: 'https://twitter.com/_CarlosCabal',
-                meetup: 'https://www.meetup.com/es-ES/HackMadrid-27',
-                url: 'http://hackmadrid.org/'
-              }
-            }
-          ],
-          startTime: {
-            h: '11',
-            m: '00'
-          },
-          endTime: {
-            h: '12',
-            m: '00'
-          }
-        },
-        {
-          title: 'Blockstack: Un ecosistema para el desarrollo de aplicaciones descentralizadas (dApps) que protegen tus derechos',
-          description: [
-            'Blockstack es una red blockchain descentralizada y un ecosistema para el desarrollo de aplicaciones que protegen tus derechos digitales: Control de tu identidad y tus datos, seguridad, privacidad.',
-            'Es un privilegio poder presentar Blockstack a la comunidad de desarrolladores de BlockMAD y Open Source Weekends, contribuyendo al renacimiento de un internet mejor. Sus representantes en Madrid, Alex Viñas y Georgina Mauriño contarán, entre otras cosas, lo que motivó a sus fundadores a meterse en este ambicioso proyecto y cómo ha evolucionado hasta su momento actual, en el que ya hay más de 300 dApps desarrolladas y que participan en un particular programa de incentivos, el minado de aplicaciones, que ofrece interesantes recompensas a sus desarrolladores. La Comunidad Blockstack en Madrid está dando sus primeros pasos y entre sus objetivos está el llegar a los desarrolladores españoles y ofrecerles la oportunidad de participar con su talento en la creación de dApps para la Web 3.0 que estén al servicio de los usuarios, respetando sus derechos fundamentales.'
-          ],
-          variant: 'danger',
-          authors: [
-            {
-              name: 'Alex Viñas',
-              avatar: '',
-              bio: [
-                'Embajador de Blockstack.'
-              ],
-              social: {
-                linkedin: 'https://www.linkedin.com/in/alexvinyas/',
-                url: 'https://blockstack.org/'
-              }
-            },
-            {
-              name: 'Georgina Mauriño',
-              avatar: '',
-              bio: [
-                'Embajadora de Blockstack. Autora y editora en diversos formatos, con más de 30 títulos publicados desde 1997. En 2016 descubrió blockchain y el mundo de posibilidades que abría a autores y artistas. Desde el primer momento, Blockstack fue un referente para ella y recientemente ha sido invitada a ser su representante en Madrid.'
-              ],
-              social: {
-                linkedin: 'https://www.linkedin.com/in/georginagarciamaurino/',
-                meetup: 'https://www.meetup.com/es-ES/Blockstack-Madrid/'
-              }
-            },
-            {
-              name: 'BlockMAD',
-              avatar: '',
-              bio: [
-                'BlockMAD Meetup: BlockMAD es una comunidad dedicada principalmente a la tecnología Blockchain, sobre todo en sus aspectos técnicos y a la elaboración de proyectos.'
-              ],
-              social: {
-                meetup: 'https://www.meetup.com/es-ES/BlockMAD'
+                twitter: 'https://twitter.com/cesalberca',
+                url: 'https://www.cesalberca.es/'
               }
             }
           ],
@@ -343,43 +322,6 @@ const data = {
             m: '00'
           }
         }
-        // {
-        //   title: '- BlockMAD',
-        //   description: [
-        //     ''
-        //   ],
-        //   authors: [
-        //     {
-        //       name: '- BlockMAD',
-        //       avatar: '',
-        //       bio: [
-        //         ''
-        //       ],
-        //       social: {
-        //         // linkedin: 'https://www.linkedin.com/in/juan-antonio-lle%C3%B3-7b5a5937/',
-        //         // twitter: 'https://twitter.com/juan_a_lleo',
-        //         meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
-        //         // url: 'https://golem.network/?ref=OSWeekends'
-        //       }
-        //     },
-        //     {
-        //       name: ' - HackMadrid %27',
-        //       social: {
-        //         url: 'http://hackmadrid.org/',
-        //         meetup: 'https://www.meetup.com/es-ES/HackMadrid-27'
-        //       }
-        //     }
-        //   ],
-        //   startTime: {
-        //     h: '12',
-        //     m: '00'
-        //   },
-        //   endTime: {
-        //     h: '13',
-        //     m: '00'
-        //   },
-        //   variant: 3
-        // }
       ]
     }
     // {
