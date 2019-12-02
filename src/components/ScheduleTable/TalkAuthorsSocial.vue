@@ -1,9 +1,16 @@
 <template>
   <ul class="list-inline">
-    <li v-for="(item, i) in social" class="list-inline-item" :key="i">
-      <a :href="item" class="ico-link" :class="`ico-${i}`">
-        <font-awesome-icon :icon="getIcon(i)" />
-      </a>
+    <li v-for="(item, i) in social" class="list-inline-item" :key="i" :title="item">
+      <template v-if="isString(item)">
+        <a :href="item" class="ico-link" :class="`ico-${i}`">
+          <font-awesome-icon :icon="getIcon(i)" />
+        </a>
+      </template>
+      <template v-else>
+        <a v-for="(el, index) in item" :href="el" class="ico-link multiple" :class="`ico-${i}`" :key="index" :title="el">
+          <font-awesome-icon :icon="getIcon(i)" />
+        </a>
+      </template>
     </li>
   </ul>
 </template>
@@ -20,7 +27,8 @@ const socialIco = {
   meetup: ['fab', 'meetup'],
   dev: ['fab', 'dev'],
   medium: ['fab', 'medium'],
-  url: 'link'
+  url: 'link',
+  gamepad: 'gamepad'
 }
 
 export default {
@@ -33,6 +41,9 @@ export default {
   methods: {
     getIcon (val) {
       return socialIco[val]
+    },
+    isString (element) {
+      return typeof element === 'string'
     }
   }
 }
@@ -63,5 +74,11 @@ export default {
     color #0a0a0a
   &.ico-medium
     color #2f2f2f
+  &.ico-gamepad
+    color orange
+
+a.multiple:not(:last-child) {
+  margin-right: 0.5rem;
+}
 
 </style>
