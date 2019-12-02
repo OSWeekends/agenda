@@ -324,14 +324,8 @@ const data = {
               }
             }
           ],
-          startTime: {
-            h: '12',
-            m: '00'
-          },
-          endTime: {
-            h: '13',
-            m: '00'
-          },
+          startTime: { h: '12', m: '00' },
+          endTime: { h: '13', m: '00' },
           variant: 'warning'
         }
       ]
