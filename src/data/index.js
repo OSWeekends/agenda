@@ -79,9 +79,15 @@ const data = {
           title: 'Iniciativa #Hourofcode',
           type: 'Charla',
           description: [
-            'Se trata de una iniciativa global educativa llamada Hour of Code, promovida por la organización <a href="https://code.org">code.org</a>, que tiene lugar en más 180 países y que se celebra en diciembre coincidiendo con la semana de las Ciencias de la Computación (9 al 15 de diciembre).',
-            'Esta iniciativa, pretende acercar la programación y el desarrollo del pensamiento computacional a estudiantes de todo el mundo y de todas las edades, beneficiando sólo el año pasado a 100 millones de estudiantes.',
-            'En la charla expondré mi experiencia personal al colaborar como voluntario en el colegio de mi hijo. No se trata de una charla técnica pero en ella se mostrarán ejemplos de algunos de las actividades que realizamos.'
+            'Hablaremos de Hour of Code, una iniciativa educativa global promovida por la organización <a href="https://code.org">code.org</a>, que tiene lugar en más 180 países y coincide con la semana de las Ciencias de la Computación (9 al 15 de diciembre).' +
+            'En la charla os hablaré de mi experiencia personal como voluntario en el colegio de mi hijo. No se trata de una charla técnica pero veremos algunos de los proyectos que hemos desarrollado con los alumnos.',
+            'Hablaremos de:',
+            '- 👨‍💻 #HourOfCode',
+            '- 👽 #SemanaMarciana y sus pollitos 🐥🐥🐥',
+            '-🐞 #Escornabot',
+            '- 🤖 #OttoDIY',
+            '- 🚗 #OpenLedRace',
+            '-🌈 #CircuitPlayground'
           ],
           startTime: {
             h: '11',
