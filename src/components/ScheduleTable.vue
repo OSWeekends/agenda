@@ -1,12 +1,13 @@
 <template>
   <div class="mb-5">
     <b-table :items="track.content" :fields="fields" outlined hover>
-
-      <template slot="startTime" slot-scope="data">
+      <!-- Columna Hora -->
+      <template v-slot:cell(startTime)="data">
         <ScheduleTableColTime :data="data"/>
       </template>
 
-      <template slot="title" slot-scope="data">
+      <!-- Columna Contenido -->
+      <template v-slot:cell(title)="data">
         <TalkTitle :title="data.item.title" :type="data.item.type" :variant="data.item.variant" />
         <TalkDescription v-if="data.item.description" :data="data.item.description" />
         <TalkTags v-if="data.item.tags" :tags="data.item.tags" />
@@ -54,7 +55,9 @@ export default {
       ]
     }
   },
-  methods: {}
+  created () {
+    console.log(this.track)
+  }
 }
 </script>
 

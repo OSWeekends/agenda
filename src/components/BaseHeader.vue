@@ -14,7 +14,7 @@
         </blockquote>
       </div>
       <div class="meetup-item mx-3 align-self-center">
-        <a :href="data.meetupLink" title="Ver más en meetup">
+        <a :href="data.meetupLink" title="Ver más en meetup" target="_blank">
           <font-awesome-icon :icon="['fab', 'meetup']" size="3x"/>
         </a>
       </div>

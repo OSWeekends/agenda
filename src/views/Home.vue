@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <BaseHeader :title="data.title"/>
-    <ScheduleList :tracks="data.tracks" />
-    <BaseFooter />
+    <ScheduleList :tracks="data.tracks"/>
+    <BaseFooter/>
   </div>
 </template>
 
