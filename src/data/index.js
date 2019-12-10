@@ -101,7 +101,7 @@ const data = {
             {
               name: 'Javier Pérez',
               // avatar: '',
-              bio: [ 'Desarrollador Front End en Accenture (Liquid Squad). #Maker #IoT.' ],
+              bio: ['Desarrollador Front End en Accenture (Liquid Squad). #Maker #IoT.'],
               social: {
                 twitter: 'https://twitter.com/JaviMostoles',
                 linkedin: 'https://www.linkedin.com/in/javimostoles/'
@@ -189,48 +189,6 @@ const data = {
         }
       ]
     },
-    // {
-    //   name: 'Meetup Space (Sótano)',
-    //   content: [
-    //     {
-    //       title: 'Convierte tu navegador en una grabadora de audio 🎤',
-    //       type: 'Taller',
-    //       description: [
-    //         '¿Alguna vez te has preguntado cómo puedes acceder al micrófono de tu pc usando <code>javascript</code> desde un navegador? Con la llegada de la API de <code>MediaRecorder</code> a los navegadores, hacer esto es muy fácil. En este taller veremos, a través de <strong>Vue.js</strong> y <strong>Javascript</strong>, como acceder al micrófono desde el navegador y crear nuestra grabadora.',
-    //         'Además, veremos otras funcionalidades como el acceso a la cámara o la detección de caras (Face Detection) en imágenes. Todo esto, gracias a Javascript (sin librerías externas) del lado del navegador.',
-    //         'EXTRA: 🔥 Configura y Despliega tu Aplicación Vue de manera automática con Netlify ✌️'
-    //       ],
-    //       tags: ['javascript', 'vue.js', 'html'],
-    //       startTime: {
-    //         h: '11',
-    //         m: '00'
-    //       },
-    //       endTime: {
-    //         h: '12',
-    //         m: '45'
-    //       },
-    //       variant: 'primary',
-    //       authors: [
-    //         {
-    //           name: 'Jorge Baumann',
-    //           avatar: '',
-    //           social: {
-    //             twitter: 'https://twitter.com/baumannzone',
-    //             dev: 'https://dev.to/baumannzone',
-    //             github: 'https://github.com/baumannzone',
-    //             youtube: 'https://www.youtube.com/channel/UCTTj5ztXnGeDRPFVsBp7VMA',
-    //             linkedin: 'https://www.linkedin.com/in/baumannzone',
-    //             medium: 'https://medium.com/@baumannsito'
-    //           },
-    //           bio: [
-    //             'Desarrollador web Full-Stack. Apasionado de la tecnología en general y del desarrollo web en particular. Actualmente trabaja para el departamento de Liquid Squad (Accenture).',
-    //             ' Es organizador del Meetup Open Source Weekends y en sus ratos libres crea OpenSource en Github (por ejemplo, esta agenda a la que puedes contribuir) 😜'
-    //           ]
-    //         }
-    //       ]
-    //     }
-    //   ]
-    // },
     {
       name: 'Cafetería - Planta 0',
       content: [
@@ -273,7 +231,7 @@ const data = {
             'Trataremos las situaciones más comunes que pueden darse en un proyecto de captura de datos, construiremos una base de datos con un modelo ajustado a las características de los datos y finalmente plantearemos posibles usos para nuestra nueva base de datos.',
             'Así que ya sabes entrenador, pon a punto tu ordenador ¡Y que comience la captura!'
           ],
-          tags: [ 'python', 'scrapping', 'scrapy' ],
+          tags: ['python', 'scrapping', 'scrapy'],
           authors: [
             {
               name: 'Irene Fernández',
@@ -336,80 +294,6 @@ const data = {
         }
       ]
     }
-    // {
-    //   name: 'Planta 0 - Corner',
-    //   content: [
-    //     {
-    //       title: '',
-    //       description: [
-    //         'GBA - Blockchain, Gobierno y Ciudadanos',
-    //         'Introducción a GBA (Government Blockchain Association) Madrid. Potenciales usos de blockchain y otras DLTs para mejorar los servicios de los gobiernos a sus ciudadanos.',
-    //         '---',
-    //         'Blockstack, recupera tu soberanía digital',
-    //         'Blockstack es un ecosistema blockchain que tiene a la identidad digital y la soberanía de los datos privados como su principal preocupación. En la actualidad cuenta con más de 250 aplicaciones desarrolladas sobre su sistema, con un interesante sistema de incentivos para los desarrolladores.'
-    //       ],
-    //       variant: 'danger',
-    //       authors: [
-    //         {
-    //           name: 'GBA Madrid',
-    //           avatar: '',
-    //           bio: [],
-    //           social: {
-    //             meetup: ' https://www.meetup.com/es-ES/Government-Blockchain-Association-GBA-Madrid/'
-    //           }
-    //         },
-    //         {
-    //           name: 'BlockStack',
-    //           avatar: '',
-    //           bio: [],
-    //           social: {
-    //             meetup: 'https://www.meetup.com/es-ES/Blockstack-Madrid/'
-    //           }
-    //         }
-    //       ],
-    //       startTime: {
-    //         h: '11',
-    //         m: '00'
-    //       },
-    //       endTime: {
-    //         h: '12',
-    //         m: '00'
-    //       }
-    //     },
-    //     {
-    //       title: 'Hackerspace en Campus - AgroLab IoT (microtaller)',
-    //       description: [
-    //         'Hemos traído una parte del hackerspace a Campus para presentar los proyectos que queremos llevar a cabo y animar a la comunidad a interesarse por el concepto de *Open Hardware* y el mundo *Maker*.',
-    //         '* AgroLab IoT: El objetivo de este microtaller es dar las bases para realizar un sistema de riego autónomo para un cultivo doméstico y conseguir monitorizar en tiempo real ciertas condiciones del entorno.',
-    //         'Más info: https://github.com/OSWHackerspace/AgrolabIoT'
-    //       ],
-    //       variant: 'danger',
-    //       authors: [
-    //         {
-    //           name: 'Sergio Morcuende',
-    //           avatar: '',
-    //           bio: [
-    //             'Este ingeniero de telecomunicaciones es co-fundador de Bloomod (bloomod.com) y a la vez desarrollador full-stack en reclamador.es',
-    //             'Colabora como mentor en OSW en los guilds relacionados con hardware, agricultura y salud.'
-    //           ],
-    //           social: {
-    //             linkedin: 'https://www.linkedin.com/in/smorcuend',
-    //             twitter: 'https://twitter.com/_serxius_',
-    //             github: 'https://github.com/smorcuend'
-    //           }
-    //         }
-    //       ],
-    //       startTime: {
-    //         h: '12',
-    //         m: '00'
-    //       },
-    //       endTime: {
-    //         h: '13',
-    //         m: '00'
-    //       }
-    //     }
-    //   ]
-    // }
   ]
 }
 

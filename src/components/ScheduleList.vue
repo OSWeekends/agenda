@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <template v-for="(track, idx) in tracks">
       <ScheduleTable :key="idx" :track="track"/>
     </template>
@@ -18,11 +19,6 @@ export default {
     tracks: {
       type: Array,
       required: true
-    }
-  },
-  data () {
-    return {
-      key: 'value'
     }
   }
 }
