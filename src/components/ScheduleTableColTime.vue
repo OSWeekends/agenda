@@ -21,9 +21,6 @@ export default {
       required: true,
       type: Object || Array
     }
-  },
-  created () {
-    console.log(this.data, 'horas')
   }
 }
 </script>

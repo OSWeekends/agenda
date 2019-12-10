@@ -54,9 +54,6 @@ export default {
         }
       ]
     }
-  },
-  created () {
-    console.log(this.track)
   }
 }
 </script>
