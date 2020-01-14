@@ -1,5 +1,5 @@
 const data = {
-  title: 'Agenda Noviembre 2020',
+  title: 'Agenda Enero 2020',
   date: '18/01/2020',
   description: '¡Cuarto evento de la temporada! Primero del año 🤙',
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/267802880/',
