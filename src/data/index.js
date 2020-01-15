@@ -167,26 +167,28 @@ const data = {
           variant: 'warning'
         },
         {
-          title: 'Blockchain generations',
+          title: 'Blockchain generations: La evolución de Blockchain',
           type: 'Charla',
-          tags: ['blockchain'],
+          tags: ['blockchain', 'cryptomovidas'],
           description: [
-            ''
+            'Con el título "Blockchain generations" en esta ocasión Josep Servat nos ofrece una panorámica de la evolución de la tecnología blockchain, desde su nacimiento como algo imprescindible para el funcionamiento de Bitcoin, la primera criptomoneda que se ha conseguido mantener exitosamente durante más de diez años y que ha dado pie al nacimiento de una gran cantidad de proyectos, que no sólo tienen que ver con el intercambio de valor, sino con muchos otros campos relacionados con la tecnología y que, como estamos viendo, la van a cambiar de muchas maneras. Aparte de repasar las principales etapas o generaciones de blockchain, se van a ver los algoritmos de consenso más usados, así como qué clase de problemas son susceptibles de resolverse mediante blockchain.',
+            'Más info: <a href="https://www.meetup.com/es-ES/BlockMAD/events/267933137/">https://www.meetup.com/es-ES/BlockMAD/events/267933137/</a>'
           ],
           authors: [
             {
               name: 'Josep Servat',
               // avatar: '',
               bio: [
-                'Blockchain Generations'
+                'Entusiasta de la tecnología y de la programación, profesionalmente dedicado a la tecnología desde hace mas de 15 años. Trabaja actualmente como senior Node js y blockchain developer en etoshi.'
               ],
               social: {
-                twitter: 'https://twitter.com/cesalberca',
-                url: 'https://www.cesalberca.es/'
+                linkedin: 'https://www.linkedin.com/in/servatj/',
+                github: 'https://github.com/servatj',
+                twitter: 'https://twitter.com/servatj'
               }
             },
             {
-              name: 'BlockMad',
+              name: 'BlockMad Meetup',
               bio: ['Meetup de Blockchain en Madrid'],
               social: {
                 meetup: 'https://www.meetup.com/es-ES/BlockMAD/'
@@ -206,10 +208,10 @@ const data = {
           type: 'taller',
           title: 'Taller Javascript: Introduccion a ES6',
           description: [
-            'Si estás aprendiendo a programar o quieres dar un repaso a las features más importantes que ES6 introdujo a JavaScript, este taller es para ti. Juntos veremos los principales cambios que todo bien desarrollador debe conocer, y los pondremos en práctica con katas muy molonas y para todos los niveles!!!',
-            'Material para el taller: portátil, si no se tiene un editor de texto como VSCode no pasa nada pues para resolver los ejercicios puedes usar uno online, y si quieres puedes clonar el repo https://github.com/node-girls/es6-and-beyond'
+            'Si estás aprendiendo a programar o quieres dar un repaso a las features más importantes que ES6 introdujo a JavaScript, este taller es para ti. Juntos veremos los principales cambios que todo bien desarrollador debe conocer, y los pondremos en práctica con katas muy molonas y ¡para todos los niveles!',
+            'Material para el taller: portátil, editor de texto como VSCode (también puedes usar uno online). Si quieres, puedes clonar el repo: <a href="https://github.com/node-girls/es6-and-beyond">https://github.com/node-girls/es6-and-beyond</a>'
           ],
-          tags: ['JavaScript', 'ES6'],
+          tags: ['JavaScript', 'ES6', 'katas'],
           startTime: {
             h: '11',
             m: '00'
