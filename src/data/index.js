@@ -205,7 +205,11 @@ const data = {
         {
           type: 'taller',
           title: 'Taller Javascript: Introduccion a ES6',
-          description: ['Taller de Javascript con ES6', '...?'],
+          description: [
+            'Si estás aprendiendo a programar o quieres dar un repaso a las features más importantes que ES6 introdujo a JavaScript, este taller es para ti. Juntos veremos los principales cambios que todo bien desarrollador debe conocer, y los pondremos en práctica con katas muy molonas y para todos los niveles!!!',
+            'Material para el taller: portátil, si no se tiene un editor de texto como VSCode no pasa nada pues para resolver los ejercicios puedes usar uno online, y si quieres puedes clonar el repo https://github.com/node-girls/es6-and-beyond'
+          ],
+          tags: ['JavaScript', 'ES6'],
           startTime: {
             h: '11',
             m: '00'
@@ -217,12 +221,14 @@ const data = {
           authors: [
             {
               name: 'Silvia García Cacho',
+              bio: ['Desarrolladora front-end en Triporate, gestora cultural reinventada y escritora cuando nadie mira.'],
               social: {
                 twitter: 'https://twitter.com/garcaplay'
               }
             },
             {
               name: 'Fabiola Vieyra',
+              bio: ['Desarrolladora full stack en Triporate, mentora en @NodeGirlsMadrid. En permanente aprendizaje para compartirlo y crecer junt@s.'],
               social: {
                 twitter: 'https://twitter.com/_Fa_Vi'
               }
