@@ -61,7 +61,7 @@ const data = {
           variant: 'success'
         },
         {
-          title: '¿Por qué la mayoria de soluciones blockchain usan Hyperledger Fabric?',
+          title: '¿Por qué Hyperledger Fabric está de moda?',
           type: 'charla',
           description: [
             'Desde que apareció la tecnología blockchain ha ido avanzando con pasos agigantados. El año pasado fue el año de las blockchain privadas ¿Te gustaría saber por qué? En esta charla analizaremos la evolución de la tecnología para entender por qué Hyperledger Fabric es de las plataformas más utilizadas.'
