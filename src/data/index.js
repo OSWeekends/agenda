@@ -35,24 +35,25 @@ const data = {
           variant: 'primary'
         },
         {
-          title: 'Quality Engineering',
+          title: 'Passwords are so 1990',
           type: 'charla',
           description: [
-            '¿Qué es un ingeniero/a de calidad?, ¿Cuál es el día a día de un "tester"?, ¿QA o QE?, ¿Es necesario un departamento de calidad?, ¿Qué requisitos deberia tener un QE?',
-            'Todas estas preguntas (y muchas más) serán respondidas en esta charla.'
+            'As long as we’ve been using the internet, and way before that, we have been authenticating through some sort of username and password combination. It has become the standard. With the ever-increasing number of web-apps, we’re seeing more and more data breaches as well. What if we could build our authentication processes in a way the user doesn’t need a password?',
+            'In this talk, I will give a quick overview of the past, present, and future of authentication. From basic authentication to passwordless biometric authentication using the web authentication API, and everything in between. The audience does not need any specific knowledge as this talk will not go into implementation details but aims to give a view of what’s to come in terms of authentication.\n'
           ],
-          startTime: { h: '11', m: '00' },
-          endTime: { h: '11', m: '45' },
-          tags: ['Testing', 'QE', 'Departamento Calidad'],
+          startTime: { h: '10', m: '00' },
+          endTime: { h: '10', m: '45' },
+          tags: ['Authentication', 'Passwords'],
           authors: [
             {
-              name: 'Eva Pareja',
+              name: 'Sambego',
               bio: [
-                'Eva es Quality Engineer Lead en Accenture, en el departamento de Tecnilógica'
+                'I\'m a Google Developer Expert who works as a Senior Developer Advocate Engineer at Auth0. At Auth0 we\'re trying to make authentication and identification as easy as possible, while still keeping it secure.',
+                'After office hours I like to play around with the web-audio API, and other "exotic" browser APIs. One of my side projects is a library to add audio effects to an audio input using JavaScript.'
               ],
               social: {
-                twitter: 'https://twitter.com/eparejat'
-                // url: 'https://g3rv4.com',
+                twitter: 'https://twitter.com/sambego',
+                url: 'https://sambego.tech/'
                 // github: 'https://github.com/g3rv4',
                 // linkedin: 'https://www.linkedin.com/in/g3rv4'
               }
@@ -61,26 +62,27 @@ const data = {
           variant: 'success'
         },
         {
-          title: '¿Por qué Hyperledger Fabric está de moda?',
+          title: 'Cazando secretos en Github',
           type: 'charla',
           description: [
-            'Desde que apareció la tecnología blockchain ha ido avanzando con pasos agigantados. El año pasado fue el año de las blockchain privadas ¿Te gustaría saber por qué? En esta charla analizaremos la evolución de la tecnología para entender por qué Hyperledger Fabric es de las plataformas más utilizadas.'
+            '¿Qué tan difícil es encontrar datos secretos como contraseñas de mongo, llaves de API, u otros en Github? ¿Qué tan común es?',
+            'En esta charla cazaremos secretos en github, hablaremos de cómo prevenir publicar alguno por error, cómo actuar si nos sucede, y mucho más'
           ],
           startTime: { h: '12', m: '00' },
           endTime: { h: '12', m: '45' },
-          tags: ['Blockchain', 'Hyperledger', 'Fabric'],
+          tags: ['Github', 'sensitive data', 'recon'],
           authors: [
             {
-              name: 'Mª Teresa Nieto',
+              name: 'Anny',
               bio: [
-                'Blockchain Technological Specialist en Telefónica',
-                'Maritere es Ingeniera Informática y actualmente trabaja como Blockchain Technological Specialist en el área de Blockchain de Innovación Global de Telefónica. Su labor a lo largo de los últimos 3 años se ha centrado en la investigación y desarrollo de nuevas soluciones basadas en la tecnología blockchain y en la divulgación de la tecnología en diferentes universidades españolas.'
+                'Anny trabaja como Security Awareness Manager en Auth0, y es la organizadora de la comunidad WoSEC - Women of Security - Madrid. Le encanta ayudar a que la gente aprenda de ciberseguridad de una manera divertida'
               ],
               social: {
-                twitter: 'https://twitter.com/_mtnieto',
+                twitter: 'https://twitter.com/Annyv2',
+                meetup: 'https://www.meetup.com/es-ES/WoSEC-Madrid-Women-of-Security'
                 // url: 'https://g3rv4.com',
-                github: 'https://github.com/mtnieto',
-                linkedin: 'https://www.linkedin.com/in/mariateresanieto'
+                // github: 'https://github.com/mtnieto',
+                // linkedin: 'https://www.linkedin.com/in/mariateresanieto'
               }
             }
           ],
@@ -90,11 +92,11 @@ const data = {
           title: 'Networking & Beers 💃🍻',
           startTime: {
             h: '13',
-            m: '00'
+            m: '45'
           },
           endTime: {
             h: '14',
-            m: '00'
+            m: '15'
           },
           variant: 'primary',
           authors: [],
@@ -137,11 +139,11 @@ const data = {
       name: 'Cafetería - Planta 1 ',
       content: [
         {
-          title: '¿Qué tanto sabemos de la tecnología?',
+          title: '',
           type: 'Charla',
           description: [
-            'La idea de la charla de hoy es comenzar a entender porque el anonimato, la seguridad y nuestra privacidad están bajo amenaza. Que tipo de peligros enfrentamos, qué consecuencias subyacen por debajo de la “capa de marketing”, finalmente cómo reaccionamos y cómo deberíamos reaccionar.',
-            'Más info: <a href="https://www.meetup.com/es-ES/HackMadrid-27/events/267906849/">https://www.meetup.com/es-ES/HackMadrid-27/events/267906849/</a>'
+            '...',
+            'Más info: <a href=""></a>'
           ],
           tags: ['seguridad', 'tecnología', 'hacking'],
           authors: [
@@ -206,33 +208,28 @@ const data = {
       content: [
         {
           type: 'taller',
-          title: 'Taller Javascript: Introduccion a ES6',
+          title: 'Taller Kubernetes: ',
           description: [
-            'Si estás aprendiendo a programar o quieres dar un repaso a las features más importantes que ES6 introdujo a JavaScript, este taller es para ti. Juntos veremos los principales cambios que todo bien desarrollador debe conocer, y los pondremos en práctica con katas muy molonas y ¡para todos los niveles!',
-            'Material para el taller: portátil, editor de texto como VSCode (también puedes usar uno online). Si quieres, puedes clonar el repo: <a href="https://github.com/node-girls/es6-and-beyond">https://github.com/node-girls/es6-and-beyond</a>'
+            'Una pequeña introducción a qué es Kubernetes, los problemas que resuelve y hacer ejercicios prácticos de desarrollo en Kubernetes con Skaffold, Telepresence y con Okteto.'
           ],
-          tags: ['JavaScript', 'ES6', 'katas'],
+          tags: ['Kubernetes'],
           startTime: {
             h: '11',
             m: '00'
           },
           endTime: {
             h: '13',
-            m: '30'
+            m: '00'
           },
           authors: [
             {
-              name: 'Silvia García Cacho',
-              bio: ['Desarrolladora front-end en Triporate, gestora cultural reinventada y escritora cuando nadie mira.'],
+              name: 'Pablo Chico de Guzman',
+              bio: [
+                '',
+                ''
+              ],
               social: {
-                twitter: 'https://twitter.com/garcaplay'
-              }
-            },
-            {
-              name: 'Fabiola Vieyra',
-              bio: ['Desarrolladora full stack en Triporate, mentora en @NodeGirlsMadrid. En permanente aprendizaje para compartirlo y crecer junt@s.'],
-              social: {
-                twitter: 'https://twitter.com/_Fa_Vi'
+                twitter: 'https://twitter.com/pchico83'
               }
             }
           ],
