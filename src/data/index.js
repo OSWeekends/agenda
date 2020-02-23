@@ -1,9 +1,9 @@
 const data = {
-  title: 'Agenda Enero 2020',
-  date: '18/01/2020',
-  description: '¡Cuarto evento de la temporada! Primero del año 🤙',
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/267802880/',
-  startTime: '10:00',
+  title: 'Agenda Marzo 2020',
+  date: '21/03/2020',
+  description: '¡Quinto evento de la temporada! Segundo del año 🔥',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/268795776/',
+  startTime: '09:30',
   endTime: '14:00',
   tracks: [
     {
