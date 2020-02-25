@@ -1,3 +1,19 @@
+/*
+Social Networks Supported
+- twitch
+- github
+- twitter
+- youtube
+- facebook
+- linkedin
+- instagram
+- meetup
+- dev
+- medium
+- url
+- gamepad
+*/
+
 const data = {
   title: 'Agenda Marzo 2020',
   date: '21/03/2020',
@@ -11,14 +27,8 @@ const data = {
       content: [
         {
           title: 'Recepción y café ☕️',
-          startTime: {
-            h: '10',
-            m: '00'
-          },
-          endTime: {
-            h: '10',
-            m: '30'
-          },
+          startTime: { h: '09', m: '30' },
+          endTime: { h: '10', m: '00' },
           variant: 'primary' // Blue tag
         },
         {
@@ -26,12 +36,12 @@ const data = {
           description: [
             '- Novedades y noticias 🔥',
             '- Patrocinadores 💙',
-            '- Agenda 📇',
+            '- Agenda 📅',
             '- OSWorld 📸',
-            '- ¡Sorpresitas! 🎁'
+            '- ¡¿?! 🎁'
           ],
-          startTime: { h: '10', m: '30' },
-          endTime: { h: '11', m: '00' },
+          startTime: { h: '10', m: '00' },
+          endTime: { h: '10', m: '30' },
           variant: 'primary'
         },
         {
@@ -39,10 +49,10 @@ const data = {
           type: 'charla',
           description: [
             'As long as we’ve been using the internet, and way before that, we have been authenticating through some sort of username and password combination. It has become the standard. With the ever-increasing number of web-apps, we’re seeing more and more data breaches as well. What if we could build our authentication processes in a way the user doesn’t need a password?',
-            'In this talk, I will give a quick overview of the past, present, and future of authentication. From basic authentication to passwordless biometric authentication using the web authentication API, and everything in between. The audience does not need any specific knowledge as this talk will not go into implementation details but aims to give a view of what’s to come in terms of authentication.\n'
+            'In this talk, I will give a quick overview of the past, present, and future of authentication. From basic authentication to passwordless biometric authentication using the web authentication API, and everything in between. The audience does not need any specific knowledge as this talk will not go into implementation details but aims to give a view of what’s to come in terms of authentication.'
           ],
-          startTime: { h: '10', m: '00' },
-          endTime: { h: '10', m: '45' },
+          startTime: { h: '10', m: '30' },
+          endTime: { h: '11', m: '15' },
           tags: ['Authentication', 'Passwords'],
           authors: [
             {
@@ -65,8 +75,8 @@ const data = {
           title: 'Cazando secretos en Github',
           type: 'charla',
           description: [
-            '¿Qué tan difícil es encontrar datos secretos como contraseñas de mongo, llaves de API, u otros en Github? ¿Qué tan común es?',
-            'En esta charla cazaremos secretos en github, hablaremos de cómo prevenir publicar alguno por error, cómo actuar si nos sucede, y mucho más'
+            '¿Qué tan difícil es encontrar datos secretos como contraseñas de mongo, llaves de API u otros en Github? ¿Qué tan común es?',
+            'En esta charla cazaremos secretos en Github, hablaremos de cómo prevenir publicar alguno por error, cómo actuar si nos sucede, ¡y mucho más!'
           ],
           startTime: { h: '12', m: '00' },
           endTime: { h: '12', m: '45' },
@@ -212,15 +222,10 @@ const data = {
           description: [
             'Una pequeña introducción a qué es Kubernetes, los problemas que resuelve y hacer ejercicios prácticos de desarrollo en Kubernetes con Skaffold, Telepresence y con Okteto.'
           ],
-          tags: ['Kubernetes'],
-          startTime: {
-            h: '11',
-            m: '00'
-          },
-          endTime: {
-            h: '13',
-            m: '00'
-          },
+          // Maximo 3
+          tags: ['Kubernetes', 'Docker'],
+          startTime: { h: '11', m: '15' },
+          endTime: { h: '13', m: '15' },
           authors: [
             {
               name: 'Pablo Chico de Guzman',
@@ -230,6 +235,8 @@ const data = {
               ],
               social: {
                 twitter: 'https://twitter.com/pchico83'
+                // linkedin: '...',
+                // github: '',
               }
             }
           ],
