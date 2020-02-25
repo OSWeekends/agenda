@@ -218,25 +218,28 @@ const data = {
       content: [
         {
           type: 'taller',
-          title: 'Taller Kubernetes: ',
+          title: 'Kubernetes for Developers',
           description: [
-            'Una pequeña introducción a qué es Kubernetes, los problemas que resuelve y hacer ejercicios prácticos de desarrollo en Kubernetes con Skaffold, Telepresence y con Okteto.'
+            'Una pequeña introducción a qué es Kubernetes, los problemas que resuelve y hacer ejercicios prácticos de desarrollo en Kubernetes.',
+            'Dockerizaremos una aplicación de ejemplo, la desplegaremos en Kubernetes, y usaremos tools como skaffold y okteto para hacer cambios en caliente directamente en Kubernetes.'
           ],
           // Maximo 3
-          tags: ['Kubernetes', 'Docker'],
+          tags: ['Kubernetes', 'Development', 'Docker'],
           startTime: { h: '11', m: '15' },
           endTime: { h: '13', m: '15' },
           authors: [
             {
               name: 'Pablo Chico de Guzman',
               bio: [
-                '',
-                ''
+                'Founder & CTO at Okteto(YC W19)',
+                'Docker Community Leader',
+                'Cloud Native Development Advocate'
               ],
               social: {
-                twitter: 'https://twitter.com/pchico83'
-                // linkedin: '...',
-                // github: '',
+                linkedin: 'https://www.linkedin.com/in/pchico/',
+                github: 'https://github.com/pchico83',
+                twitter: 'https://twitter.com/pchico83',
+                medium: 'https://medium.com/@pchico83'
               }
             }
           ],
