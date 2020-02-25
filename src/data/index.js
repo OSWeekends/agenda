@@ -38,7 +38,7 @@ const data = {
             '- Patrocinadores 💙',
             '- Agenda 📅',
             '- OSWorld 📸',
-            '- ¡¿?! 🎁'
+            '- ¡🎁!'
           ],
           startTime: { h: '10', m: '00' },
           endTime: { h: '10', m: '30' },
@@ -78,9 +78,9 @@ const data = {
             '¿Qué tan difícil es encontrar datos secretos como contraseñas de mongo, llaves de API u otros en Github? ¿Qué tan común es?',
             'En esta charla cazaremos secretos en Github, hablaremos de cómo prevenir publicar alguno por error, cómo actuar si nos sucede, ¡y mucho más!'
           ],
-          startTime: { h: '12', m: '00' },
-          endTime: { h: '12', m: '45' },
-          tags: ['Github', 'sensitive data', 'recon'],
+          startTime: { h: '11', m: '20' },
+          endTime: { h: '12', m: '05' },
+          tags: ['Github', 'Sensitive Data', 'Recon'],
           authors: [
             {
               name: 'Anny',
@@ -90,11 +90,31 @@ const data = {
               social: {
                 twitter: 'https://twitter.com/Annyv2',
                 meetup: 'https://www.meetup.com/es-ES/WoSEC-Madrid-Women-of-Security'
-                // url: 'https://g3rv4.com',
-                // github: 'https://github.com/mtnieto',
-                // linkedin: 'https://www.linkedin.com/in/mariateresanieto'
               }
             }
+          ],
+          variant: 'success'
+        },
+        {
+          title: '...',
+          type: 'charla',
+          description: [
+            '...'
+          ],
+          startTime: { h: '12', m: '10' },
+          endTime: { h: '13', m: '45' },
+          tags: ['Github', 'Sensitive Data', 'Recon'],
+          authors: [
+            // {
+            //   name: 'Anny',
+            //   bio: [
+            //     'Anny trabaja como Security Awareness Manager en Auth0, y es la organizadora de la comunidad WoSEC - Women of Security - Madrid. Le encanta ayudar a que la gente aprenda de ciberseguridad de una manera divertida'
+            //   ],
+            //   social: {
+            //     twitter: 'https://twitter.com/Annyv2',
+            //     meetup: 'https://www.meetup.com/es-ES/WoSEC-Madrid-Women-of-Security'
+            //   }
+            // }
           ],
           variant: 'success'
         },
