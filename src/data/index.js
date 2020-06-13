@@ -1,10 +1,10 @@
 const data = {
-  title: 'Agenda Enero 2020',
-  date: '18/01/2020',
-  description: '¡Cuarto evento de la temporada! Primero del año 🤙',
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/267802880/',
-  startTime: '10:00',
-  endTime: '14:00',
+  title: 'Agenda Junio 2020 [Online]',
+  date: '13/06/2020',
+  description: '¡Primer evento online de la temporada! 🤙',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/271144581/',
+  startTime: '11:00',
+  endTime: '13:00',
   tracks: [
     {
       name: 'Track #1',
@@ -76,67 +76,63 @@ const data = {
           variant: 'success'
         },
         {
-          title: 'Git Bisect, el comando desconocido de git',
+          title: 'Entornos locales con docker',
           type: 'charla',
           description: [
-            'Debugging automático con GIT'
+            'Charla sobre como montar un entorno de desarrollo local con docker'
           ],
           startTime: { h: '11', m: '20' },
           endTime: { h: '11', m: '40' },
           tags: ['testing', 'git'],
           authors: [
             {
-              name: 'Carlos Castaño',
+              name: 'Adrian Ferreres Esteller',
               bio: [
-                'Carlos es desarrollador de software desde 2013 [FullStack], ha trabajado para varias empresas de telecomunicaciones y comercio electrónico, actualmente trabaja en El Corte Inglés.',
-                'Es <code>VIM</code> user.'
+                'Sngular/ Desarrollador Full Stack con JavaScript. Soy Adrián Ferreres y el asma, Star Trek y los videojuegos hicieron que a los 11 años empezará a desarrollar software. Hoy en día continúo teniendo asma, viendo Star Trek, jugando a videojuegos y programando... además, de vez en cuando, doy charlas.'
               ],
               social: {
-                twitter: 'https://twitter.com/calbertts',
-                github: 'https://github.com/calbertts',
-                linkedin: 'https://www.linkedin.com/in/calbertts'
+                twitter: 'https://twitter.com/ardiadrianadri',
+                linkedin: 'https://www.linkedin.com/in/adrian-ferreres-esteller-51907175/'
               }
             }
           ],
           variant: 'success'
         },
         {
-          title: 'Git Bisect, el comando desconocido de git',
+          title: 'Cazando secretos en Github',
           type: 'charla',
           description: [
-            'Debugging automático con GIT'
+            '¿Qué tan difícil es encontrar datos secretos como contraseñas de mongo, llaves de API u otros en Github? ¿Qué tan común es?',
+            'En esta charla cazaremos secretos en Github, hablaremos de cómo prevenir publicar alguno por error, cómo actuar si nos sucede, ¡y mucho más!'
           ],
-          startTime: { h: '11', m: '20' },
-          endTime: { h: '11', m: '40' },
-          tags: ['testing', 'git'],
+          startTime: { h: '12', m: '20' },
+          endTime: { h: '12', m: '40' },
+          tags: ['Github', 'Sensitive Data', 'Recon'],
           authors: [
             {
-              name: 'Carlos Castaño',
+              name: 'Anny',
               bio: [
-                'Carlos es desarrollador de software desde 2013 [FullStack], ha trabajado para varias empresas de telecomunicaciones y comercio electrónico, actualmente trabaja en El Corte Inglés.',
-                'Es <code>VIM</code> user.'
+                'Anny trabaja como Security Awareness Manager en Auth0, y es la organizadora de la comunidad WoSEC - Women of Security - Madrid. Le encanta ayudar a que la gente aprenda de ciberseguridad de una manera divertida'
               ],
               social: {
-                twitter: 'https://twitter.com/calbertts',
-                github: 'https://github.com/calbertts',
-                linkedin: 'https://www.linkedin.com/in/calbertts'
+                twitter: 'https://twitter.com/Annyv2',
+                meetup: 'https://www.meetup.com/es-ES/WoSEC-Madrid-Women-of-Security'
               }
             }
           ],
           variant: 'success'
         },
         {
-          title: 'Networking & Beers 💃🍻',
+          title: 'Networking & Beers Online 💃🍻',
           startTime: {
-            h: '13',
-            m: '00'
+            h: '12',
+            m: '40'
           },
           endTime: {
-            h: '14',
-            m: '00'
+            h: '12',
+            m: '50'
           },
           variant: 'primary',
-          authors: [],
           note: ''
         }
       ]
