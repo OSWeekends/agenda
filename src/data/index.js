@@ -1,7 +1,7 @@
 const data = {
   title: 'Agenda Junio 2020 [Online]',
-  date: '13/06/2020',
-  description: '¡Primer evento online de la temporada! 🤙',
+  date: '27/06/2020',
+  description: '¡Segundo evento online de la temporada! 🤙',
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/271144581/',
   startTime: '11:00',
   endTime: '13:00',
@@ -30,22 +30,22 @@ const data = {
           title: 'Git Bisect, el comando desconocido de git',
           type: 'charla',
           description: [
-            'Debugging automático con GIT'
+            'Gestionando comunidades +20k'
           ],
           startTime: { h: '11', m: '20' },
           endTime: { h: '11', m: '40' },
-          tags: ['testing', 'git'],
+          tags: ['comunidades', 'youtube'],
           authors: [
             {
-              name: 'Carlos Castaño',
+              name: 'Italo Morales',
               bio: [
-                'Carlos es desarrollador de software desde 2013 [FullStack], ha trabajado para varias empresas de telecomunicaciones y comercio electrónico, actualmente trabaja en El Corte Inglés.',
-                'Es <code>VIM</code> user.'
+                'Carlos'
               ],
               social: {
-                twitter: 'https://twitter.com/calbertts',
-                github: 'https://github.com/calbertts',
-                linkedin: 'https://www.linkedin.com/in/calbertts'
+                twitter: 'https://twitter.com/italomoralesf',
+                instagram: 'https://twitter.com/italomoralesf',
+                youtube: 'https://www.youtube.com/rimorsoft',
+                url: 'https://rimorsoft.com/'
               }
             }
           ],
@@ -133,7 +133,7 @@ const data = {
             m: '50'
           },
           variant: 'primary',
-          note: ''
+          note: 'Cierre'
         }
       ]
     }
