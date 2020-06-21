@@ -1,8 +1,8 @@
 const data = {
   title: 'Agenda Junio 2020 [Online]',
   date: '27/06/2020',
-  description: '¡Segundo evento online de la temporada! 🤙',
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/271144581/',
+  description: '¡Nuestro segundo evento online! 🤙',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/271437985/',
   startTime: '11:00',
   endTime: '13:00',
   tracks: [
@@ -27,10 +27,10 @@ const data = {
           variant: 'primary' // Blue tag
         },
         {
-          title: 'Git Bisect, el comando desconocido de git',
+          title: 'Gestionando comunidades +20k',
           type: 'charla',
           description: [
-            'Gestionando comunidades +20k'
+            '¿Qué significa tener un canal de youtube con +20k suscriptores? ¿Cómo se gestionan... '
           ],
           startTime: { h: '11', m: '20' },
           endTime: { h: '11', m: '40' },
@@ -39,7 +39,7 @@ const data = {
             {
               name: 'Italo Morales',
               bio: [
-                'Carlos'
+                'Italo es desarrollador y formador de PHP. Ha trabajado en...'
               ],
               social: {
                 twitter: 'https://twitter.com/italomoralesf',
