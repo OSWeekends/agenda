@@ -37,6 +37,26 @@ yarn run test:e2e
 yarn run test:unit
 ```
 
+## Edit Data
+
+Open and modify `src/data/index.js`. Create a [PullRequest](https://github.com/OSWeekends/agenda/pulls).
+
+Supported social links:
+  - url
+  - dev
+  - github
+  - twitch
+  - meetup
+  - medium
+  - twitter
+  - youtube
+  - gamepad
+  - facebook
+  - linkedin
+  - instagram
+
+---
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
