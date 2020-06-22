@@ -78,7 +78,7 @@ const data = {
           title: 'Introducción a Deno',
           type: 'charla',
           description: [
-            'Charla sobre como montar un entorno de desarrollo local con docker'
+            '¿Es #Deno el sucesor de #Node? En este live streaming veremos las cualidades y diferentes aspectos del desarrollo con Deno. ¡No te lo pierdas!'
           ],
           startTime: { h: '11', m: '20' },
           endTime: { h: '11', m: '40' },
