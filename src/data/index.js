@@ -24,6 +24,39 @@ const data = {
             h: '11',
             m: '20'
           },
+          authors: [
+            {
+              name: 'Jorge Baumann',
+              bio: [
+                'Open Source developer at #RambitoJs.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/baumannzone',
+                instagram: 'https://twitter.com/baumannzone',
+                twitch: 'https://twitter.com/baumannzone',
+                github: 'https://twitter.com/baumannzone'
+              }
+            },
+            {
+              name: 'Teba Gómez',
+              bio: [
+                'Software engineer at #Devo'
+              ],
+              social: {
+                twitter: 'https://twitter.com/KoolTheba',
+                github: 'https://github.com/kooltheba'
+              }
+            },
+            {
+              name: 'Chechu',
+              bio: [
+                'Desarrollador frontend. Multi-task guy en OSWeekends'
+              ],
+              social: {
+                twitter: 'https://twitter.com/Xexuline'
+              }
+            }
+          ],
           variant: 'primary' // Blue tag
         },
         {
@@ -75,14 +108,14 @@ const data = {
           variant: 'success'
         },
         {
-          title: 'Introducción a Deno',
+          title: '🦕 ¿Pondrá Deno el mundo de Node del revés?',
           type: 'charla',
           description: [
-            '¿Es #Deno el sucesor de #Node? En este live streaming veremos las cualidades y diferentes aspectos del desarrollo con Deno. ¡No te lo pierdas!'
+            'Deno es según muchos el sucesor de Node, entre ellos el creador ambos: Ryan Dahl, que, aprovechando todo el conocimiento obtenido durante los 10 años de vida de Node decidió comenzar este proyecto para enmendar errores. Deno cuenta con soporte nativo de TypeScript —es decir no hace falta compilar antes de ejecutar un fichero de TypeScript—, un modelo de seguridad, una forma decentralizada de distruibuir paquetes, un únique ejecutable y muchas más cosas. En esta charla introductoria veremos qué es y qué características tiene, ¡así que no te lo pierdas!'
           ],
           startTime: { h: '11', m: '20' },
           endTime: { h: '11', m: '40' },
-          tags: ['testing', 'git'],
+          tags: ['javascript', 'deno', 'saurios 🤣'],
           authors: [
             {
               name: 'César Alberca',
