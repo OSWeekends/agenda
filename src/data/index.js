@@ -27,19 +27,19 @@ const data = {
           variant: 'primary' // Blue tag
         },
         {
-          title: 'Gestionando comunidades +20k',
+          title: 'Gestionando comunidades online +20k personas',
           type: 'charla',
           description: [
-            '¿Qué significa tener un canal de youtube con +20k suscriptores? ¿Cómo se gestionan... '
+            '¿Qué significa tener un canal de youtube con +20k suscriptores? ¿Qué pasa cuando tienes 2 millones de reproducciones en el canal? ¿Cuántas horas de dedicación se necesitan para crear una comunidad en youtube? Esta y otras cosas interesantes las veremos en esta charla'
           ],
           startTime: { h: '11', m: '20' },
           endTime: { h: '11', m: '40' },
-          tags: ['comunidades', 'youtube'],
+          tags: ['comunidad', 'youtube'],
           authors: [
             {
               name: 'Italo Morales',
               bio: [
-                'Italo es desarrollador y formador de PHP. Ha trabajado en...'
+                'Profesor de programación web en Rimorsoft Online desde el 2017. Su vida laboral comprende doce años de docencia y casi una década como programador.'
               ],
               social: {
                 twitter: 'https://twitter.com/italomoralesf',
@@ -52,31 +52,30 @@ const data = {
           variant: 'success'
         },
         {
-          title: 'Lazy (and tricky) loading en Angular.',
+          title: 'No soy yo, es tu actitud tóxica',
           type: 'charla',
           description: [
-            'Descripción: Angular no es fácil, pero le pillas el truco y lo terminas queriendo. Pero no solo es difícil, sino que es mañoso y tiene cosas muy "tricky", como lo es cargar los módulos secundarios de manera "lazy", que a mí me costó mucho entender y aplicar sin cometer los mismos errores una y otra vez. Como a mí me gusta contarles lo que logro después de darme tantos golpes, pues les quiero contar cuáles son esos errores que yo sigo cometiendo para que, quienes se quieran iniciar en Angular, los tengan en cuenta y sean más felices en este camino.'
+            'En entorno laboral pasan muy desapercibidas las actitudes tóxicas entre empleados/as, generalmente se toman a broma, se les resta importancia o no se hace nada al respecto. Reconoce si esas actitudes abundan en tu entorno de trabajo y cómo responder ante ellas.'
           ],
           startTime: { h: '11', m: '40' },
           endTime: { h: '12', m: '00' },
-          tags: ['Angular', 'LazyLoad'],
+          tags: ['social', 'entorno laboral', 'carrera profesional'],
           authors: [
             {
-              name: 'Ariane Jurado De Bilbao.',
+              name: 'Desiré',
               bio: [
-                'Enfermera y psicopedagoga de Venezuela y ahora programadora en Kairos DS. Mamá de Sebas y rockera'
+                '9 años cara al público, casi 4 frente al ordenador. En episodios anteriores como dependienta, encargada, presidenta-organizadora de un torneo de videojuegos y recepcionista, más tarde como especialista UX&UI, desarrolladora, diseñadora e instructora.'
               ],
               social: {
-                twitter: 'https://twitter.com/Ari_Reinventada',
-                github: 'https://github.com/ArianeJDB',
-                linkedin: 'https://www.linkedin.com/in/arianejuradodebilbao/'
+                twitter: 'https://twitter.com/helleworld_',
+                url: 'https://desiremcarmona.com/'
               }
             }
           ],
           variant: 'success'
         },
         {
-          title: 'Entornos locales con docker',
+          title: 'Introducción a Deno',
           type: 'charla',
           description: [
             'Charla sobre como montar un entorno de desarrollo local con docker'
@@ -86,37 +85,36 @@ const data = {
           tags: ['testing', 'git'],
           authors: [
             {
-              name: 'Adrian Ferreres Esteller',
+              name: 'César Alberca',
               bio: [
-                'Sngular/ Desarrollador Full Stack con JavaScript. Soy Adrián Ferreres y el asma, Star Trek y los videojuegos hicieron que a los 11 años empezará a desarrollar software. Hoy en día continúo teniendo asma, viendo Star Trek, jugando a videojuegos y programando... además, de vez en cuando, doy charlas.'
+                'Desarrollador Frontend en @autentia. Profesor en @cicemadrid. Miembro del comité @CodemoMadrid. Me encanta aprender y compartir conocimiento.'
               ],
               social: {
-                twitter: 'https://twitter.com/ardiadrianadri',
-                linkedin: 'https://www.linkedin.com/in/adrian-ferreres-esteller-51907175/'
+                twitter: 'https://twitter.com/cesalberca',
+                url: 'https://cesalberca.com/'
               }
             }
           ],
           variant: 'success'
         },
         {
-          title: 'Cazando secretos en Github',
+          title: 'ARTISTA SORPRESA',
           type: 'charla',
           description: [
-            '¿Qué tan difícil es encontrar datos secretos como contraseñas de mongo, llaves de API u otros en Github? ¿Qué tan común es?',
-            'En esta charla cazaremos secretos en Github, hablaremos de cómo prevenir publicar alguno por error, cómo actuar si nos sucede, ¡y mucho más!'
+            ''
           ],
           startTime: { h: '12', m: '20' },
           endTime: { h: '12', m: '40' },
-          tags: ['Github', 'Sensitive Data', 'Recon'],
+          tags: [],
           authors: [
             {
-              name: 'Anny',
+              name: '',
               bio: [
-                'Anny trabaja como Security Awareness Manager en Auth0, y es la organizadora de la comunidad WoSEC - Women of Security - Madrid. Le encanta ayudar a que la gente aprenda de ciberseguridad de una manera divertida'
+                ''
               ],
               social: {
-                twitter: 'https://twitter.com/Annyv2',
-                meetup: 'https://www.meetup.com/es-ES/WoSEC-Madrid-Women-of-Security'
+                // twitter: 'https://twitter.com/Annyv2',
+                // meetup: 'https://www.meetup.com/es-ES/WoSEC-Madrid-Women-of-Security'
               }
             }
           ],
