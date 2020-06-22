@@ -4,7 +4,7 @@ const data = {
   description: '¡Nuestro segundo evento online! 🤙',
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/271437985/',
   startTime: '11:00',
-  endTime: '13:00',
+  endTime: '12:45',
   tracks: [
     {
       name: 'Track #1',
