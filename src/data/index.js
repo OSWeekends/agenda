@@ -138,16 +138,16 @@ const data = {
           ],
           startTime: { h: '12', m: '20' },
           endTime: { h: '12', m: '40' },
-          tags: [],
+          tags: ['junior', 'devs', 'senior'],
           authors: [
             {
-              name: '',
+              name: 'Adrián Ferreres',
               bio: [
-                ''
+                'Me llamo Adrián Ferreres y a los 11 años, mi pasión por los videojuegos, la serie de Star Trek y el asma me hicieron empezar con la programación en GWBasic. ',
+                'Hoy en día llevo mas de 30 años programando de los cuales 14 son de forma profesional. Mi pasión es el JavaScript y todo lo que le rodea. Me gusta compartir conocimiento porque creo que es la mejor forma de aprender y asentar conocimiento.'
               ],
               social: {
-                // twitter: 'https://twitter.com/Annyv2',
-                // meetup: 'https://www.meetup.com/es-ES/WoSEC-Madrid-Women-of-Security'
+                twitter: 'https://twitter.com/ardiadrianadri'
               }
             }
           ],
