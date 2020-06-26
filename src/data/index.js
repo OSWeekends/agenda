@@ -1,7 +1,7 @@
 const data = {
   title: 'Agenda Junio 2020 [Online]',
   date: '27/06/2020',
-  description: '¡Nuestro segundo evento online! 🤙',
+  description: 'Nuestro segundo evento online ¡Apúntate! 👉',
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/271437985/',
   startTime: '11:00',
   endTime: '12:45',
@@ -72,7 +72,7 @@ const data = {
             {
               name: 'Italo Morales',
               bio: [
-                'Profesor de programación web en Rimorsoft Online desde el 2017. Su vida laboral comprende doce años de docencia y casi una década como programador.'
+                'Youtuber y profesor de programación web en Rimorsoft Online desde el 2017. Su vida laboral comprende doce años de docencia y casi una década como programador.'
               ],
               social: {
                 twitter: 'https://twitter.com/italomoralesf',
