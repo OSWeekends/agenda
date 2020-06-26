@@ -5,6 +5,7 @@
       <span class="parrot-img">
         <img src="../assets/parrot.gif" alt="parrot">
       </span>
+      <b-button variant="link" to="/about">About</b-button>
       <b-button variant="link" @click="goUrl('https://github.com/OSWeekends/agenda?ref=agenda')">Editar en Github</b-button>
       <b-button variant="link" @click="goUrl('https://osweekends.com/?ref=agenda')">WebSite</b-button>
       <b-button variant="link" @click="goUrl('https://twitter.com/OS_weekends?ref=agenda')">Twitter</b-button>
