@@ -143,10 +143,26 @@ const data = {
         },
         {
           title: 'Metodología para afrontar proyectos front: Capítulo 1',
+          description: [
+            'Los tiempos han cambiado mucho desde que empece profesionalmente en el mundo del desarrollo de Software. Lo que significa un Junior cuando empecé ya no es lo que significa ahora. La gente ahora viene técnicamente muy bien preparada. Cada vez cuesta más encontrar Juniors que tengas faltas de conocimiento en cuanto al uso de tecnologías pero claro... eso no significa que sepan hacer aplicaciones.' +
+            'En consecuencia los errores que cometen los programadores sin experiencia no son tan cantosos ni llaman tanto la atención ahora como lo hacían en su día.',
+            'En esta charla voy a repasar 3 ejemplos de errores que he visto en código de gente Junior durante este año, no para poner en san benito de malos programadores a esta gente que, en mi humilde opinión, tan necesarios son en los proyectos actuales, sino por remarcar el hecho de lo necesario que es tener una metodología clara a la hora de afrontar un proyecto, en este caso, un proyecto front. También en poner el acento para las empresas de formación (bootcamps, cursos técnicos, etc... ) en la necesidad de poner el foco en el desarrollo y no tanto en el conocimiento técnico.'
+          ],
+          type: 'charla',
           startTime: { h: '12', m: '20' },
           endTime: { h: '12', m: '40' },
-          // tags: ['junior', 'devs', 'senior'],
-          type: 'charla',
+          tags: ['junior', 'devs', 'senior'],
+          authors: [
+            {
+              name: 'Adrián Ferreres',
+              bio: [
+                'Me llamo Adrián Ferreres y a los 11 años, mi pasión por los videojuegos, la serie de Star Trek y el asma me hicieron empezar con la programación en GWBasic. ',
+                'Hoy en día llevo mas de 30 años programando de los cuales 14 son de forma profesional. Mi pasión es el JavaScript y todo lo que le rodea. Me gusta compartir conocimiento porque creo que es la mejor forma de aprender y asentar conocimiento.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/ardiadrianadri'
+              }
+            }],
           variant: 'success'
         },
         {
