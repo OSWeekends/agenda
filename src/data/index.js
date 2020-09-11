@@ -70,10 +70,10 @@ const data = {
           variant: 'primary' // Blue tag
         },
         {
-          title: '✨ SVG Animation 101 ✨ (con un poquito de GSAP)\n',
+          title: '✨ SVG Animations 101 ✨ (con un poquito de GSAP)\n',
           type: 'charla',
           description: [
-            'Pequeña demo animando un SVG (Scalable Vector Graphics) usando la librería de animaciones de 🧦 GreenSock 🧦 GSAP.'
+            'Pequeña demo animando un SVG con ayuda de la librería de animaciones de 🧦 GreenSock 🧦 GSAP.'
           ],
           startTime: { h: '11', m: '20' },
           endTime: { h: '11', m: '40' },
@@ -82,11 +82,11 @@ const data = {
             {
               name: 'Thamara Gerig',
               bio: [
-                '🤹‍♀️ Junior Front-End Dev 🤹‍♀️ en Z1'
+                '🤹‍ Junior Front-End Developer 🤹‍'
               ],
               social: {
                 twitter: 'https://twitter.com/gerig_thamara',
-                github: 'https://twitter.com/thamaragerigr'
+                github: 'https://github.com/thamaragerigr'
               }
             }
           ],
