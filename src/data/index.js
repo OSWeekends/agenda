@@ -96,16 +96,16 @@ const data = {
           title: 'Crea tu blog con Nuxt.js',
           type: 'charla',
           description: [
-            '...'
+            'Primeros pasos para crear un blog 📝 con Nuxt.js y el módulo @nuxt/content desde cero mediante markdown y Vue components.'
           ],
           startTime: { h: '11', m: '40' },
           endTime: { h: '12', m: '00' },
-          tags: ['javascript', 'vue', 'desarrollo'],
+          tags: ['javascript', 'nuxt', 'desarrollo'],
           authors: [
             {
               name: 'Pablo Sirera',
               bio: [
-                'Soy Senior Frontend Developer actualmente enfocado al mundo del desarrollo web con Vue, Nuxt, JavaScript y Jest, entre otros.'
+                'Senior Frontend Developer en Dekalabs y creador de contenido 🎙 sobre desarrollo web.'
               ],
               social: {
                 twitter: 'https://twitter.com/pablosirera',
