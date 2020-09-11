@@ -1,8 +1,8 @@
 const data = {
-  title: 'Agenda Junio 2020 [Online]',
-  date: '27/06/2020',
-  description: 'Nuestro segundo evento online ¡Apúntate! 👉',
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/271437985/',
+  title: 'Agenda Septiembre 2020 [Online]',
+  date: '19/09/2020',
+  description: '💃 Empieza la temporada, seguimos online ¡Apúntate! 👉',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/273013139/',
   startTime: '11:00',
   endTime: '12:45',
   tracks: [
@@ -28,7 +28,7 @@ const data = {
             {
               name: 'Jorge Baumann',
               bio: [
-                'Open Source developer at #RambitoJs.'
+                'FullStack Egineer at GuideSmiths. Open Source developer at #RambitoJs.'
               ],
               social: {
                 twitter: 'https://twitter.com/baumannzone',
@@ -37,30 +37,29 @@ const data = {
                 github: 'https://twitter.com/baumannzone'
               }
             },
-            {
-              name: 'Teba Gómez',
-              bio: [
-                'Software engineer at #Devo'
-              ],
-              social: {
-                twitter: 'https://twitter.com/KoolTheba',
-                github: 'https://github.com/kooltheba'
-              }
-            },
-            {
-              name: 'Chechu',
-              bio: [
-                'Desarrollador frontend. Multi-task guy en OSWeekends'
-              ],
-              social: {
-                twitter: 'https://twitter.com/Xexuline'
-              }
-            },
+            // {
+            //   name: 'Teba Gómez',
+            //   bio: [
+            //     'Software engineer at #Devo'
+            //   ],
+            //   social: {
+            //     twitter: 'https://twitter.com/KoolTheba',
+            //     github: 'https://github.com/kooltheba'
+            //   }
+            // },
+            // {
+            //   name: 'Chechu',
+            //   bio: [
+            //     'Desarrollador frontend. Multi-task guy en OSWeekends'
+            //   ],
+            //   social: {
+            //     twitter: 'https://twitter.com/Xexuline'
+            //   }
+            // },
             {
               name: 'Coding Carlos',
               bio: [
-                'Showman, barbudo, liante, prorgamador y contador de cuentos. Conecto gente en @communitytools. Se me ve mucho en@commitsans',
-                'Tengo tierras.'
+                'Showman, barbudo, liante, prorgamador y contador de cuentos. Conecto gente en @communitytools. Se me ve mucho en@commitsans. Tengo tierras.'
               ],
               social: {
                 twitter: 'https://twitter.com/codingcarlos',
@@ -71,96 +70,95 @@ const data = {
           variant: 'primary' // Blue tag
         },
         {
-          title: 'Gestionando comunidades online +20k personas',
+          title: '✨ SVG Animation 101 ✨ (con un poquito de GSAP)\n',
           type: 'charla',
           description: [
-            '¿Qué significa tener un canal de youtube con +20k suscriptores? ¿Qué pasa cuando tienes 2 millones de reproducciones en el canal? ¿Cuántas horas de dedicación se necesitan para crear una comunidad en youtube? Esta y otras cosas interesantes las veremos en esta charla'
+            'Pequeña demo animando un SVG (Scalable Vector Graphics) usando la librería de animaciones de 🧦 GreenSock 🧦 GSAP.'
           ],
           startTime: { h: '11', m: '20' },
           endTime: { h: '11', m: '40' },
-          tags: ['comunidad', 'youtube'],
+          tags: ['diseño', 'animación', 'desarrollo'],
           authors: [
             {
-              name: 'Italo Morales',
+              name: 'Thamara Gerig',
               bio: [
-                'Youtuber y profesor de programación web en Rimorsoft Online desde el 2017. Su vida laboral comprende doce años de docencia y casi una década como programador.'
+                '🤹‍♀️ Junior Front-End Dev 🤹‍♀️ en Z1'
               ],
               social: {
-                twitter: 'https://twitter.com/italomoralesf',
-                instagram: 'https://twitter.com/italomoralesf',
-                youtube: 'https://www.youtube.com/rimorsoft',
-                url: 'https://rimorsoft.com/'
+                twitter: 'https://twitter.com/gerig_thamara',
+                github: 'https://twitter.com/thamaragerigr'
               }
             }
           ],
           variant: 'success'
         },
         {
-          title: 'No soy yo, es tu actitud tóxica',
+          title: 'Crea tu blog con Nuxt.js',
           type: 'charla',
           description: [
-            'En entorno laboral pasan muy desapercibidas las actitudes tóxicas entre empleados/as, generalmente se toman a broma, se les resta importancia o no se hace nada al respecto. Reconoce si esas actitudes abundan en tu entorno de trabajo y cómo responder ante ellas.'
+            '...'
           ],
           startTime: { h: '11', m: '40' },
           endTime: { h: '12', m: '00' },
-          tags: ['social', 'entorno laboral', 'carrera profesional'],
+          tags: ['javascript', 'vue', 'desarrollo'],
           authors: [
             {
-              name: 'Desiré',
+              name: 'Pablo Sirera',
               bio: [
-                '9 años cara al público, casi 4 frente al ordenador. En episodios anteriores como dependienta, encargada, presidenta-organizadora de un torneo de videojuegos y recepcionista, más tarde como especialista UX&UI, desarrolladora, diseñadora e instructora.'
+                'Soy Senior Frontend Developer actualmente enfocado al mundo del desarrollo web con Vue, Nuxt, JavaScript y Jest, entre otros.'
               ],
               social: {
-                twitter: 'https://twitter.com/helleworld_',
-                url: 'https://desiremcarmona.com/'
+                twitter: 'https://twitter.com/pablosirera',
+                instagram: 'https://www.instagram.com/pablodeveloper/',
+                github: 'https://github.com/pablosirera',
+                url: 'https://pablosirera.com/'
               }
             }
           ],
           variant: 'success'
         },
         {
-          title: '🦕 ¿Pondrá Deno el mundo de Node del revés?',
+          title: 'Testing con Cypress',
           type: 'charla',
           description: [
-            'Deno es según muchos el sucesor de Node, entre ellos el creador ambos: Ryan Dahl, que, aprovechando todo el conocimiento obtenido durante los 10 años de vida de Node decidió comenzar este proyecto para enmendar errores. Deno cuenta con soporte nativo de TypeScript —es decir no hace falta compilar antes de ejecutar un fichero de TypeScript—, un modelo de seguridad, una forma decentralizada de distruibuir paquetes, un únique ejecutable y muchas más cosas. En esta charla introductoria veremos qué es y qué características tiene, ¡así que no te lo pierdas!'
+            '...'
           ],
           startTime: { h: '11', m: '20' },
           endTime: { h: '11', m: '40' },
-          tags: ['javascript', 'deno', 'saurios 🤣'],
+          tags: ['testing', 'html'],
           authors: [
             {
-              name: 'César Alberca',
+              name: 'Judith Martínez-Falero',
               bio: [
-                'Desarrollador Frontend en @autentia. Profesor en @cicemadrid. Miembro del comité @CodemoMadrid. Me encanta aprender y compartir conocimiento.'
+                'Frontend Debeerloper 🍺.'
               ],
               social: {
-                twitter: 'https://twitter.com/cesalberca',
-                url: 'https://cesalberca.com/'
+                twitter: 'https://twitter.com/jud_debeerloper'
               }
             }
           ],
           variant: 'success'
         },
         {
-          title: 'Metodología para afrontar proyectos front: Capítulo 1',
+          title: 'Aprendiendo a aprender',
           description: [
-            'Los tiempos han cambiado mucho desde que empece profesionalmente en el mundo del desarrollo de Software. Lo que significa un Junior cuando empecé ya no es lo que significa ahora. La gente ahora viene técnicamente muy bien preparada. Cada vez cuesta más encontrar Juniors que tengas faltas de conocimiento en cuanto al uso de tecnologías pero claro... eso no significa que sepan hacer aplicaciones.' +
-            'En consecuencia los errores que cometen los programadores sin experiencia no son tan cantosos ni llaman tanto la atención ahora como lo hacían en su día.',
-            'En esta charla voy a repasar 3 ejemplos de errores que he visto en código de gente Junior durante este año, no para poner en san benito de malos programadores a esta gente que, en mi humilde opinión, tan necesarios son en los proyectos actuales, sino por remarcar el hecho de lo necesario que es tener una metodología clara a la hora de afrontar un proyecto, en este caso, un proyecto front. También en poner el acento para las empresas de formación (bootcamps, cursos técnicos, etc... ) en la necesidad de poner el foco en el desarrollo y no tanto en el conocimiento técnico.'
+            'Como desarrolladores/as hemos hecho un compromiso de por vida con el aprendizaje continuo. Forma parte del trabajo. Ahora bien, ¿cuál es la mejor forma de aprender?, ¿cuándo?, ¿cómo?.',
+            'Resulta que no todos aprendemos igual porque cada persona es diferente. Sin embargo sí que existen principios, técnicas y claves para que tú, yo y cualquiera podamos sacar el máximo partido a nuestras capacidades aprendiendo mejor (no más) e, incluso, disfrutar haciéndolo.'
           ],
           type: 'charla',
           startTime: { h: '12', m: '20' },
           endTime: { h: '12', m: '40' },
-          tags: ['junior', 'devs', 'senior'],
+          tags: ['development'],
           authors: [
             {
-              name: 'Adrián Ferreres',
+              name: 'Juan Andrés Núñez',
               bio: [
-                'Me llamo Adrián Ferreres y a los 11 años, mi pasión por los videojuegos, la serie de Star Trek y el asma me hicieron empezar con la programación en GWBasic. ',
-                'Hoy en día llevo mas de 30 años programando de los cuales 14 son de forma profesional. Mi pasión es el JavaScript y todo lo que le rodea. Me gusta compartir conocimiento porque creo que es la mejor forma de aprender y asentar conocimiento.'
+                'Me dedico a enseñar desarrollo Web moderno a cualquier persona (físicamente en clase y a través de Internet) desde una perspectiva holística: teniendo en cuenta las competencias técnicas necesarias, junto a las habilidades personales o soft skills'
               ],
               social: {
-                twitter: 'https://twitter.com/ardiadrianadri'
+                twitter: 'https://twitter.com/juanwmedia',
+                youtube: 'https://www.youtube.com/juanwmedia',
+                instagram: 'https://www.instagram.com/juanwmedia/'
               }
             }],
           variant: 'success'
