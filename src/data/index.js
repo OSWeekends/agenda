@@ -59,7 +59,7 @@ const data = {
             {
               name: 'Coding Carlos',
               bio: [
-                'Showman, barbudo, liante, prorgamador y contador de cuentos. Conecto gente en @communitytools. Se me ve mucho en@commitsans. Tengo tierras.'
+                'Showman, barbudo, liante, programador y contador de cuentos. Conecto gente en @communitytools. Se me ve mucho en @commitsans. Tengo tierras.'
               ],
               social: {
                 twitter: 'https://twitter.com/codingcarlos',
