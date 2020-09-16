@@ -167,11 +167,11 @@ const data = {
           title: 'Networking & Beers Online 💃🍻',
           startTime: {
             h: '12',
-            m: '40'
+            m: '20'
           },
           endTime: {
             h: '12',
-            m: '50'
+            m: '40'
           },
           variant: 'primary',
           note: 'Cierre'
