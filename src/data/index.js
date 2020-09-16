@@ -117,7 +117,7 @@ const data = {
           ],
           variant: 'success'
         },
-        {
+        /* {
           title: 'Testing con Cypress',
           type: 'charla',
           description: [
@@ -138,7 +138,7 @@ const data = {
             }
           ],
           variant: 'success'
-        },
+        }, */
         {
           title: 'Aprendiendo a aprender',
           description: [
@@ -146,8 +146,8 @@ const data = {
             'Resulta que no todos aprendemos igual porque cada persona es diferente. Sin embargo sí que existen principios, técnicas y claves para que tú, yo y cualquiera podamos sacar el máximo partido a nuestras capacidades aprendiendo mejor (no más) e, incluso, disfrutar haciéndolo.'
           ],
           type: 'charla',
-          startTime: { h: '12', m: '20' },
-          endTime: { h: '12', m: '40' },
+          startTime: { h: '12', m: '00' },
+          endTime: { h: '12', m: '20' },
           tags: ['development'],
           authors: [
             {
