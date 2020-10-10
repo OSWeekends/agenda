@@ -1,8 +1,3 @@
-// const types = {
-//   charla: 'charla',
-//   taller: 'taller'
-// }
-
 const data = {
   title: 'Agenda Octubre 2020 [Online]',
   date: '19/09/2020',
