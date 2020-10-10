@@ -8,7 +8,7 @@
 
       <!-- Columna Contenido -->
       <template v-slot:cell(title)="data">
-        <TalkTitle :title="data.item.title" :type="data.item.type" :variant="data.item.variant" />
+        <TalkTitle :title="data.item.title" />
         <TalkDescription v-if="data.item.description" :data="data.item.description" />
         <TalkTags v-if="data.item.tags" :tags="data.item.tags" />
         <TalkAuthors v-if="data.item.authors" :data="data.item.authors" />
