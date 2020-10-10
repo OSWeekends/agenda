@@ -5,7 +5,7 @@
       <span class="colon">:</span>
       <span class="time--m">{{ data.item.startTime.m }}</span>
     </div>
-    <div class="time">
+    <div class="time" v-if="data.item.endTime">
       <span class="time--h">{{ data.item.endTime.h }}</span>
       <span class="colon">:</span>
       <span class="time--m">{{ data.item.endTime.m }}</span>

@@ -1,34 +1,29 @@
 const data = {
-  title: 'Agenda Septiembre 2020 [Online]',
+  title: 'Agenda Octubre 2020 [Online]',
   date: '19/09/2020',
-  description: '💃 Empieza la temporada, seguimos online ¡Apúntate! 👉',
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/273013139/',
-  startTime: '11:00',
-  endTime: '12:45',
+  description: '💃 Segundo evento temporada, seguimos online ¡Apúntate! 👉',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/273564450/',
+  startTime: '10:00',
+  endTime: '12:30',
   tracks: [
     {
-      name: 'The Awesome Track #1',
+      name: 'The Awesome Track Online',
       content: [
         {
           title: 'Bienvenida y café virtual ☕️',
           description: [
             '- Puntos del día 🔥',
             '- Agenda 📇',
-            '- OSWorld 📸'
+            '- OSWorld 👨‍🎤',
+            '- Qué (n̶o̶) es Hacktoberfest 🎃 && primeros pasos 🦿'
           ],
-          startTime: {
-            h: '11',
-            m: '00'
-          },
-          endTime: {
-            h: '11',
-            m: '20'
-          },
+          startTime: { h: '10', m: '00' },
+          // endTime: { h: '10', m: '20' },
           authors: [
             {
               name: 'Jorge Baumann',
               bio: [
-                'FullStack Egineer at GuideSmiths. Open Source developer at #RambitoJs.'
+                'FullStack Engineer at GuideSmiths. Open Source developer at #RambitoJs.'
               ],
               social: {
                 twitter: 'https://twitter.com/baumannzone',
@@ -47,132 +42,146 @@ const data = {
             //     github: 'https://github.com/kooltheba'
             //   }
             // },
-            // {
-            //   name: 'Chechu',
-            //   bio: [
-            //     'Desarrollador frontend. Multi-task guy en OSWeekends'
-            //   ],
-            //   social: {
-            //     twitter: 'https://twitter.com/Xexuline'
-            //   }
-            // },
+            {
+              name: 'Chechu',
+              bio: [
+                'Desarrollador frontend. Moderador de los directos. El que te banea si te portas mal en OSWeekends online.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/Xexuline'
+              }
+            },
             {
               name: 'Coding Carlos',
               bio: [
-                'Showman, barbudo, liante, programador y contador de cuentos. Conecto gente en @communitytools. Se me ve mucho en @commitsans. Tengo tierras.'
+                'Showman, barbudo, programador y contador de cuentos. Conecto gente en @communitytools. Se me ve mucho en @commitsans. Tengo tierras.'
               ],
               social: {
                 twitter: 'https://twitter.com/codingcarlos',
                 url: 'https://codingcarlos.com/'
               }
             }
-          ],
-          variant: 'primary' // Blue tag
+          ]
         },
         {
-          title: '✨ SVG Animations 101 ✨ (con un poquito de GSAP)\n',
-          type: 'charla',
+          title: 'Conociendo a las PyLadies 🐍',
           description: [
-            'Pequeña demo animando un SVG con ayuda de la librería de animaciones de 🧦 GreenSock 🧦 GSAP.'
+            'Presentación de la comunidad amiga "PyLadies"'
           ],
-          startTime: { h: '11', m: '20' },
-          endTime: { h: '11', m: '40' },
-          tags: ['diseño', 'animación', 'desarrollo'],
+          startTime: { h: '10', m: '20' },
+          // endTime: { h: '10', m: '30' },
+          tags: ['python', 'comunidad', 'desarrollo'],
           authors: [
             {
-              name: 'Thamara Gerig',
+              name: 'PyLadies Madrid',
               bio: [
-                '🤹‍ Junior Front-End Developer 🤹‍'
+                'Agrupación local de @PyLadies. Nuestro objetivo es ayudar y motivar a más mujeres para que sean participantes activas de la comunidad open source de Python.'
               ],
               social: {
-                twitter: 'https://twitter.com/gerig_thamara',
-                github: 'https://github.com/thamaragerigr'
+                twitter: 'https://twitter.com/pyladiesmadrid',
+                meetup: 'https://www.meetup.com/es-ES/PyLadiesMadrid/'
               }
             }
-          ],
-          variant: 'success'
+          ]
         },
         {
-          title: 'Crea tu blog con Nuxt.js',
-          type: 'charla',
+          title: 'Contratando en tiempos de Coronavirus.',
           description: [
-            'Primeros pasos para crear un blog 📝 con Nuxt.js y el módulo @nuxt/content desde cero mediante markdown y Vue components.'
+            'En GuideSmiths hemos seguido contratando a pesar de la pandemia. ¿Cómo es esto posible? Explicaremos cómo son los procesos de contratación en remoto y qué herramientas utilizamos.',
+            'Además, te contaré algunos trucos y consejos que podrías utilizar para aumentar tus posibilidades de ser contratado.'
           ],
-          startTime: { h: '11', m: '40' },
-          endTime: { h: '12', m: '00' },
-          tags: ['javascript', 'nuxt', 'desarrollo'],
+          startTime: { h: '10', m: '30' },
+          // endTime: { h: '11', m: '00' },
+          tags: ['Recursos humanos', 'contratar', 'empleo'],
           authors: [
             {
-              name: 'Pablo Sirera',
+              name: 'Iria Mavji',
               bio: [
-                'Senior Frontend Developer en Dekalabs y creador de contenido 🎙 sobre desarrollo web.'
+                'Human Resources Director at GuideSmiths'
               ],
               social: {
-                twitter: 'https://twitter.com/pablosirera',
-                instagram: 'https://www.instagram.com/pablodeveloper/',
-                github: 'https://github.com/pablosirera',
-                url: 'https://pablosirera.com/'
+                linkedin: 'https://www.linkedin.com/in/iria-mavji-riestra-81b174127/'
+                // twitter: 'https://twitter.com/pablosirera',
+                // instagram: 'https://www.instagram.com/pablodeveloper/',
+                // github: 'https://github.com/pablosirera',
+                // url: 'https://pablosirera.com/'
               }
             }
-          ],
-          variant: 'success'
+          ]
         },
-        /* {
-          title: 'Testing con Cypress',
-          type: 'charla',
+        {
+          title: 'Entrevista con Eduardo',
           description: [
-            '...'
+            'Preguntas y respuestas con Eduardo, miembro del core team de Vue.js.'
           ],
-          startTime: { h: '11', m: '20' },
-          endTime: { h: '11', m: '40' },
-          tags: ['testing', 'html'],
+          startTime: { h: '11', m: '00' },
+          // endTime: { h: '11', m: '30' },
+          tags: ['desarrollo', 'open source', 'vue.js'],
           authors: [
             {
-              name: 'Judith Martínez-Falero',
+              name: 'Eduardo San Martin Morote',
               bio: [
-                'Frontend Debeerloper 🍺.'
+                'Eduardo (aka @Posva) es un nerd del Frontend, es miembro del core team de Vue.js en el cual mantiene el la librería oficial del Router.',
+                'Vive en París donde echa de menos el sol y la playa 🏖.'
               ],
               social: {
-                twitter: 'https://twitter.com/jud_debeerloper'
+                twitter: 'https://twitter.com/posva'
               }
             }
-          ],
-          variant: 'success'
-        }, */
+          ]
+        },
         {
-          title: 'Aprendiendo a aprender',
+          title: 'Sincronizando ajustes de VS Code',
           description: [
-            'Como desarrolladores/as hemos hecho un compromiso de por vida con el aprendizaje continuo. Forma parte del trabajo. Ahora bien, ¿cuál es la mejor forma de aprender?, ¿cuándo?, ¿cómo?.',
-            'Resulta que no todos aprendemos igual porque cada persona es diferente. Sin embargo sí que existen principios, técnicas y claves para que tú, yo y cualquiera podamos sacar el máximo partido a nuestras capacidades aprendiendo mejor (no más) e, incluso, disfrutar haciéndolo.'
+            'Se te estropea el ordenador y tienes que formatearlo. Tal vez llega la hora de que te den uno nuevo en el trabajo. Instalar todos los plugins, temas y herramientas que utilizas a diario con VS Code es una tarea aburrida.',
+            '¿Quieres saber como hacerlo like a BOSS 😎? Esta es tu charla'
           ],
-          type: 'charla',
+          startTime: { h: '11', m: '30' },
+          // endTime: { h: '12', m: '00' },
+          tags: ['desarrollo', 'entorno'],
+          authors: [
+            {
+              name: 'Karolina Chamorro',
+              bio: [
+                'Software Developer & UX/UI en #deloitteUK'
+              ],
+              social: {
+                twitter: 'https://twitter.com/kgrafico_',
+                github: 'https://github.com/kgrafico',
+                instagram: 'https://www.instagram.com/kgrafico_/',
+                url: 'https://kgrafico.es/'
+              }
+            }]
+        },
+        {
+          title: '👨‍💻 Mis desastrosos inicios en la programación 😱... y lo que aprendí 👨‍🏫\n',
+          description: [
+            'Yo nunca quise ir a la universidad… pero sin saber cómo, en 2003, allí estaba yo empezando la carrera de Informática de Gestión 👨‍🎓.',
+            'Siempre me encantó la informática y, la verdad, pensaba que se me daría bien 🤔. Pero no, mi primer año fue tan horrible que pensé en dedicarme a otra cosa 😜. ¿Por qué fue tan horrible y cómo conseguí remontar? ¡Te lo cuento!'
+          ],
           startTime: { h: '12', m: '00' },
-          endTime: { h: '12', m: '20' },
-          tags: ['development'],
+          // endTime: { h: '12', m: '30' },
+          tags: ['desarrollo', 'personal'],
           authors: [
             {
-              name: 'Juan Andrés Núñez',
+              name: 'Miguel Ángel Durán',
               bio: [
-                'Me dedico a enseñar desarrollo Web moderno a cualquier persona (físicamente en clase y a través de Internet) desde una perspectiva holística: teniendo en cuenta las competencias técnicas necesarias, junto a las habilidades personales o soft skills'
+                'Miguel trabaja como Enabler Frontend en Adevinta, donde acelera 🏎 a los equipos de desarrollo construyendo herramientas cross 🛠, definiendo una plataforma común y compartiendo buenas prácticas 👌.',
+                'Es un enamorado del desarrollo web desde hace quince años ❤️, evangelizador de la plataforma web y ferviente defensor del rendimiento web ⚡.'
               ],
               social: {
-                twitter: 'https://twitter.com/juanwmedia',
-                youtube: 'https://www.youtube.com/juanwmedia',
-                instagram: 'https://www.instagram.com/juanwmedia/'
+                twitter: 'https://twitter.com/midudev',
+                linkedin: 'https://www.linkedin.com/in/midudev/',
+                instagram: 'https://www.instagram.com/midu.dev/',
+                youtube: 'http://youtube.com/midudev',
+                url: 'https://midu.dev'
               }
-            }],
-          variant: 'success'
+            }]
         },
         {
           title: 'Networking & Beers Online 💃🍻',
-          startTime: {
-            h: '12',
-            m: '20'
-          },
-          endTime: {
-            h: '12',
-            m: '40'
-          },
+          startTime: { h: '12', m: '20' },
+          // endTime: { h: '12', m: '40' },
           variant: 'primary',
           note: 'Cierre'
         }

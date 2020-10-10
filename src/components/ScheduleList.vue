@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <template v-for="(track, idx) in tracks">
       <ScheduleTable :key="idx" :track="track"/>
     </template>
