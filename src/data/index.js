@@ -1,6 +1,6 @@
 const data = {
   title: 'Agenda 17 Octubre 2020 [Online]',
-  date: '19/09/2020',
+  date: '17/10/2020',
   description: '💃 Segundo evento temporada, seguimos online ¡Apúntate! 👉',
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/273564450/',
   startTime: '10:00',
@@ -180,7 +180,7 @@ const data = {
         },
         {
           title: 'Networking & Beers Online 💃🍻',
-          startTime: { h: '12', m: '20' },
+          startTime: { h: '12', m: '30' },
           // endTime: { h: '12', m: '40' },
           note: 'Cierre'
         }
