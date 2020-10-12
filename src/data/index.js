@@ -143,7 +143,8 @@ const data = {
             {
               name: 'Karolina Chamorro',
               bio: [
-                'Software Developer & UX/UI en #deloitteUK'
+                'Trabajando en el mundo del front-end con React.js y mezclándolo con UX/UI, Karolina dejó Madrid para irse a las tierras North Irlandesas a conocer nuevas tierras y pubs irlandeses, 🤠🏞 además de un nuevo idioma.', 
+                'Al cambiar de empresa se vio con la necesidad de volver a instalar de nuevo la configuración de su VS Code, tarea que le hubiese llevado horas si no hubiera descubierto lo que te va a contar en esta charla.'
               ],
               social: {
                 twitter: 'https://twitter.com/kgrafico_',
@@ -154,7 +155,7 @@ const data = {
             }]
         },
         {
-          title: '👨‍💻 Mis desastrosos inicios en la programación 😱... y lo que aprendí 👨‍🏫\n',
+          title: '👨‍💻 Mis desastrosos inicios en la programación 😱... y lo que aprendí 👨‍🏫',
           description: [
             'Yo nunca quise ir a la universidad… pero sin saber cómo, en 2003, allí estaba yo empezando la carrera de Informática de Gestión 👨‍🎓.',
             'Siempre me encantó la informática y, la verdad, pensaba que se me daría bien 🤔. Pero no, mi primer año fue tan horrible que pensé en dedicarme a otra cosa 😜. ¿Por qué fue tan horrible y cómo conseguí remontar? ¡Te lo cuento!'
