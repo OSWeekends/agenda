@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <BaseHeader :title="data.title"/>
+    <BaseHeader :headerData="headerData" />
     <ScheduleList :tracks="data.tracks"/>
     <BaseFooter/>
   </div>
@@ -22,6 +22,19 @@ export default {
   data () {
     return {
       data
+    }
+  },
+  computed: {
+    headerData () {
+      const { title, eventType, date, meetupLink, description, eventLink } = data
+      return {
+        title,
+        eventType,
+        date,
+        meetupLink,
+        description,
+        eventLink
+      }
     }
   }
 }
