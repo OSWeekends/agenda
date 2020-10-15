@@ -1,6 +1,6 @@
 <template>
   <header class="mb-3 mt-3">
-    <div class="base-header d-flex justify-content-between align-items-center mb-3">
+    <div class="base-header d-flex justify-content-between align-items-center mb-3 justify-content-md-start">
       <div class="flex-header-item">
         <h1 class="title mt-1">
           {{ headerData.title }}
@@ -10,10 +10,10 @@
         </h1>
       </div>
       <div class="flex-header-item">
-        <CBadge class="mr-2">{{ headerData.eventType }}</CBadge>
-        <a class="text-body twitch-icon" :href="headerData.eventLink">
+        <CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>
+        <!-- <a class="text-body twitch-icon" :href="headerData.eventLink">
           <font-awesome-icon :icon="['fab', 'twitch']"/>
-        </a>
+        </a> -->
       </div>
       <!-- <span class="time lead">
         <b-badge variant="primary" class="mr-1">{{ headerData.date }}</b-badge>
@@ -21,8 +21,8 @@
       </span> -->
     </div>
 
-    <div class="d-flex justify-content-between align-self-center">
-      <div class="description-item pr-3 w-100">
+    <div class="d-flex justify-content-between align-self-center justify-content-md-end">
+      <div class="description-item pr-3">
         <div class="mb-0"> {{ headerData.description }} </div>
       </div>
       <div class="meetup-item align-self-start">
