@@ -1,8 +1,15 @@
+const eventTypes = {
+  online: 'Online',
+  face2face: 'Presencial'
+}
+
 const data = {
-  title: 'Agenda 17 Octubre 2020 [Online]',
-  date: '17/10/2020',
+  title: 'Agenda',
+  eventType: eventTypes.online,
+  date: '17 Octubre 2020',
   description: '💃 Segundo evento temporada, seguimos online ¡Apúntate! 👉',
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/273564450/',
+  eventLink: 'https://www.twitch.tv/osweekends',
   startTime: '10:00',
   endTime: '12:30',
   tracks: [
@@ -143,7 +150,7 @@ const data = {
             {
               name: 'Karolina Chamorro',
               bio: [
-                'Trabajando en el mundo del front-end con React.js y mezclándolo con UX/UI, Karolina dejó Madrid para irse a las tierras North Irlandesas a conocer nuevas tierras y pubs irlandeses, 🤠🏞 además de un nuevo idioma.', 
+                'Trabajando en el mundo del front-end con React.js y mezclándolo con UX/UI, Karolina dejó Madrid para irse a las tierras North Irlandesas a conocer nuevas tierras y pubs irlandeses, 🤠🏞 además de un nuevo idioma.',
                 'Al cambiar de empresa se vio con la necesidad de volver a instalar de nuevo la configuración de su VS Code, tarea que le hubiese llevado horas si no hubiera descubierto lo que te va a contar en esta charla.'
               ],
               social: {
