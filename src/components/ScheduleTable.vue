@@ -1,38 +1,55 @@
 <template>
   <div class="mb-5">
-    <b-table :items="track.content" :fields="fields" outlined hover>
+    <div v-for="(content, idx) in track.content" class="d-flex" :key="`content-${idx}`">
+      <!-- TIME LINE (1ST COL) -->
+      <div class="time-line d-flex mt-2 py-2">
+        <div class="start-time font-weight-bold mr-1">
+          {{content.startTime.h}}:{{content.startTime.m}}
+        </div>
+        <div>
+          <div class="time-line__circle"></div>
+          <div class="time-line__line mx-auto my-2"></div>
+        </div>
+      </div>
+      <!-- Contenido (2nd COL) -->
+      <div class="content-box bg-white rounded-lg p-3 ml-3 mb-3">
+        <h1>Contenido:</h1>
+      </div>
+    </div>
+    <pre> {{ track.content[0] }} </pre>
+    <!-- <b-table :items="track.content" :fields="fields" outlined hover> -->
       <!-- Columna Hora -->
-      <template v-slot:cell(startTime)="data">
+      <!-- <template v-slot:cell(startTime)="data">
         <ScheduleTableColTime :data="data"/>
-      </template>
+      </template> -->
 
       <!-- Columna Contenido -->
-      <template v-slot:cell(title)="data">
+      <!-- <template v-slot:cell(title)="data">
         <TalkTitle :title="data.item.title" />
         <TalkDescription v-if="data.item.description" :data="data.item.description" />
         <TalkTags v-if="data.item.tags" :tags="data.item.tags" />
         <TalkAuthors v-if="data.item.authors" :data="data.item.authors" />
       </template>
 
-    </b-table>
+    </b-table> -->
   </div>
 </template>
 
 <script>
-import ScheduleTableColTime from './ScheduleTableColTime'
-import TalkTitle from './ScheduleTable/TalkTitle'
-import TalkDescription from './ScheduleTable/TalkDescription'
-import TalkTags from './ScheduleTable/TalkTags'
-import TalkAuthors from './ScheduleTable/TalkAuthors'
+// import ScheduleTableColTime from './ScheduleTableColTime'
+// import TalkTitle from './ScheduleTable/TalkTitle'
+// import TalkDescription from './ScheduleTable/TalkDescription'
+// import TalkTags from './ScheduleTable/TalkTags'
+// import TalkAuthors from './ScheduleTable/TalkAuthors'
 
 export default {
   name: 'ScheduleTable',
   components: {
-    ScheduleTableColTime,
-    TalkTitle,
-    TalkDescription,
-    TalkTags,
-    TalkAuthors
+    // ScheduleTableColTime,
+    // TalkTitle,
+    // TalkDescription,
+    // TalkTags,
+    // TalkAuthors
   },
   props: {
     track: {
@@ -59,22 +76,24 @@ export default {
 </script>
 
 <style lang="stylus">
-.time
-  font-family monospace
-  .time--h
-    font-weight bold
-    font-size 1.7rem
+.time-line
+  position relative
 
-  .time--m
-    font-size 1.3rem
+  .start-time
+    color #003DA5
 
-  .colon
+  &__circle
     position relative
-    margin 0 1px
-    font-size 1.1rem
+    top 4px
+    width 14px
+    height 14px
+    background blue
+    border-radius 50%
+    border 3.5px solid #C7D4EB
 
-.time-column
-  width 96px
-  background-color: #fafafa
-
+  &__line
+    width 4px
+    height 100%
+    background-color #E1EAFC
+    border-radius 2px
 </style>
