@@ -35,7 +35,7 @@
         </b-col>
       </b-row>
     </div>
-    <pre> {{ track.content[0] }} </pre>
+<!--    <pre> {{ track.content[0] }} </pre>-->
     <!-- <b-table :items="track.content" :fields="fields" outlined hover> -->
       <!-- Columna Hora -->
       <!-- <template v-slot:cell(startTime)="data">
