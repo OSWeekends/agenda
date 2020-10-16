@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <BaseHeader :headerData="headerData" />
-    <ScheduleList :tracks="data.tracks"/>
+    <b-container>
+      <BaseHeader :headerData="headerData" />
+      <ScheduleList :tracks="data.tracks"/>
+    </b-container>
     <BaseFooter/>
   </div>
 </template>
