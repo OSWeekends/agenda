@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center shadow-sm">
+  <footer class="text-center">
     <p>Made with 💙 by OSWeekends <a class="blue-text" href="https://github.com/OSWeekends/agenda/graphs/contributors" target="_blank">Guilders</a> 🦄</p>
     <p>
       <span class="parrot-img">
@@ -35,7 +35,7 @@ export default {
 footer
   height 230px
   padding-top 50px
-  box-shadow 0px -5px 10px #F4F4F4
+  box-shadow 0px 0px 10px #F4F4F4
 
   .blue-text
     color #4C77C0
