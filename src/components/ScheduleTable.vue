@@ -1,20 +1,30 @@
 <template>
   <div class="mb-5">
-    <div v-for="(content, idx) in track.content" class="d-flex" :key="`content-${idx}`">
-      <!-- TIME LINE (1ST COL) -->
-      <div class="time-line d-flex mt-2 py-2">
-        <div class="start-time font-weight-bold mr-1">
-          {{content.startTime.h}}:{{content.startTime.m}}
-        </div>
-        <div>
-          <div class="time-line__circle"></div>
-          <div class="time-line__line mx-auto my-2"></div>
-        </div>
-      </div>
-      <!-- Contenido (2nd COL) -->
+    <div v-for="(content, idx) in track.content" :key="`content-${idx}`">
+      <b-row>
+        <!-- TIME LINE (1ST COL) -->
+        <b-col cols="auto">
+          <div class="time-line d-flex mt-2 py-2">
+            <div class="start-time font-weight-bold mr-1">
+              {{content.startTime.h}}:{{content.startTime.m}}
+            </div>
+            <div>
+              <div class="time-line__circle"></div>
+              <div class="time-line__line mx-auto my-2"></div>
+            </div>
+          </div>
+        </b-col>
+        <b-col>
+          <div class="content-box bg-white rounded-lg p-3 mt-2 mb-3 shadow-sm">
+            asasdas
+          </div>
+        </b-col>
+      </b-row>
+      <!--
+      &lt;!&ndash; Contenido (2nd COL) &ndash;&gt;
       <div class="content-box bg-white rounded-lg p-3 ml-3 mb-3">
         <h1>Contenido:</h1>
-      </div>
+      </div>-->
     </div>
     <pre> {{ track.content[0] }} </pre>
     <!-- <b-table :items="track.content" :fields="fields" outlined hover> -->
@@ -78,6 +88,7 @@ export default {
 <style lang="stylus">
 .time-line
   position relative
+  width 70px
 
   .start-time
     color #003DA5
