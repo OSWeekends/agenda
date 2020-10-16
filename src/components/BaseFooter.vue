@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center">
+  <footer class="text-center shadow-sm">
     <p>Made with 💙 by OSWeekends <a class="blue-text" href="https://github.com/OSWeekends/agenda/graphs/contributors" target="_blank">Guilders</a> 🦄</p>
     <p>
       <span class="parrot-img">
@@ -22,7 +22,7 @@ export default {
   name: 'BaseFooter',
   methods: {
     goUrl (href) {
-      Object.assign(document.bcreateElement('a'), {
+      Object.assign(document.createElement('a'), {
         target: '_blank',
         href
       }).click()
