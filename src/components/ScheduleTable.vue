@@ -15,18 +15,27 @@
           </div>
         </b-col>
         <b-col>
-          <div class="content-box bg-white rounded-lg p-3 mt-2 mb-3 shadow-sm">
-            asasdas
+          <div class="content-box bg-white rounded-lg px-5 py-4 mt-2 mb-3 shadow-sm">
+            <!-- Charla -->
+            <div>
+              <header>
+                <h4>{{ content.title }}</h4>
+              </header>
+              <div class="content-description">
+                <p v-for="(desc, index) in content.description" class="mt-0 mb-1" :key="`description-${index}`">
+                  {{ desc }}
+                </p>
+              </div>
+            </div>
+            <!-- Speakers -->
+            <template v-if="content.speakers">
+              <SpeakersInfo :speakers="content.speakers"/>
+            </template>
           </div>
         </b-col>
       </b-row>
-      <!--
-      &lt;!&ndash; Contenido (2nd COL) &ndash;&gt;
-      <div class="content-box bg-white rounded-lg p-3 ml-3 mb-3">
-        <h1>Contenido:</h1>
-      </div>-->
     </div>
-    <pre> {{ track.content[0] }} </pre>
+<!--    <pre> {{ track.content[0] }} </pre>-->
     <!-- <b-table :items="track.content" :fields="fields" outlined hover> -->
       <!-- Columna Hora -->
       <!-- <template v-slot:cell(startTime)="data">
@@ -52,9 +61,12 @@
 // import TalkTags from './ScheduleTable/TalkTags'
 // import TalkAuthors from './ScheduleTable/TalkAuthors'
 
+import SpeakersInfo from '@/components/SpeakersInfo'
+
 export default {
   name: 'ScheduleTable',
   components: {
+    SpeakersInfo
     // ScheduleTableColTime,
     // TalkTitle,
     // TalkDescription,
@@ -107,4 +119,7 @@ export default {
     height 100%
     background-color #E1EAFC
     border-radius 2px
+
+.content-description > p
+  color #8C8D95
 </style>
