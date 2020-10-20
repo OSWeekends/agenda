@@ -1,21 +1,12 @@
 <template>
   <div class="mb-5">
     <div v-for="(content, idx) in track.content" :key="`content-${idx}`">
-      <b-row>
+      <ScheduleStartingTime :content="content"/>
+      <b-row class="my-3">
         <!-- TIME LINE (1ST COL) -->
-        <b-col cols="auto">
-          <div class="time-line d-flex mt-2 py-2">
-            <div class="start-time font-weight-bold mr-1">
-              {{content.startTime.h}}:{{content.startTime.m}}
-            </div>
-            <div>
-              <div class="time-line__circle"></div>
-              <div class="time-line__line mx-auto my-2"></div>
-            </div>
-          </div>
-        </b-col>
+        <ScheduleTimeLine :content="content"/>
         <b-col>
-          <div class="content-box bg-white rounded-lg px-5 py-4 mt-2 mb-3 shadow-sm">
+          <div class="content-box bg-white rounded-lg px-5 py-4 shadow-sm">
             <!-- Charla -->
             <div>
               <header>
@@ -62,10 +53,14 @@
 // import TalkAuthors from './ScheduleTable/TalkAuthors'
 
 import SpeakersInfo from '@/components/SpeakersInfo'
+import ScheduleTimeLine from '@/components/ScheduleTimeLine'
+import ScheduleStartingTime from '@/components/ScheduleStartingTime'
 
 export default {
   name: 'ScheduleTable',
   components: {
+    ScheduleStartingTime,
+    ScheduleTimeLine,
     SpeakersInfo
     // ScheduleTableColTime,
     // TalkTitle,
@@ -99,20 +94,6 @@ export default {
 
 <style lang="stylus">
 .time-line
-  position relative
-  width 70px
-
-  .start-time
-    color #003DA5
-
-  &__circle
-    position relative
-    top 4px
-    width 14px
-    height 14px
-    background blue
-    border-radius 50%
-    border 3.5px solid #C7D4EB
 
   &__line
     width 4px
