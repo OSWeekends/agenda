@@ -5,25 +5,7 @@
       <b-row class="my-3">
         <!-- TIME LINE (1ST COL) -->
         <ScheduleTimeLine :content="content"/>
-        <b-col>
-          <div class="content-box bg-white rounded-lg px-5 py-4 shadow-sm">
-            <!-- Charla -->
-            <div>
-              <header>
-                <h4>{{ content.title }}</h4>
-              </header>
-              <div class="content-description">
-                <p v-for="(desc, index) in content.description" class="mt-0 mb-1" :key="`description-${index}`">
-                  {{ desc }}
-                </p>
-              </div>
-            </div>
-            <!-- Speakers -->
-            <template v-if="content.speakers">
-              <SpeakersInfo :speakers="content.speakers"/>
-            </template>
-          </div>
-        </b-col>
+        <ScheduleContentBox :content="content"/>
       </b-row>
     </div>
 <!--    <pre> {{ track.content[0] }} </pre>-->
@@ -52,16 +34,16 @@
 // import TalkTags from './ScheduleTable/TalkTags'
 // import TalkAuthors from './ScheduleTable/TalkAuthors'
 
-import SpeakersInfo from '@/components/SpeakersInfo'
 import ScheduleTimeLine from '@/components/ScheduleTimeLine'
 import ScheduleStartingTime from '@/components/ScheduleStartingTime'
+import ScheduleContentBox from '@/components/ScheduleContentBox'
 
 export default {
   name: 'ScheduleTable',
   components: {
+    ScheduleContentBox,
     ScheduleStartingTime,
-    ScheduleTimeLine,
-    SpeakersInfo
+    ScheduleTimeLine
     // ScheduleTableColTime,
     // TalkTitle,
     // TalkDescription,
@@ -93,13 +75,6 @@ export default {
 </script>
 
 <style lang="stylus">
-.time-line
-
-  &__line
-    width 4px
-    height 100%
-    background-color #E1EAFC
-    border-radius 2px
 
 .content-description > p
   color #8C8D95

@@ -1,19 +1,26 @@
 <template>
-  <div class="speakers mt-3">
+  <div class="speakers mt-5">
     <div v-for="(speaker, idx) in speakers" :key="`speaker-${idx}`">
       <!-- Name / Social -->
       <div class="d-flex">
-        <h5 class="speaker-name font-weight-bold mb-1"> {{ speaker.name }}</h5>
-        <div class="ml-2">
-          <TalkAuthorsSocial :social="speaker.social"/>
+        <div class="mr-3">
+          <b-avatar variant="light" size="2.5em"></b-avatar>
+        </div>
+        <div>
+          <div class="d-flex align-items-center mb-1">
+            <h5 class="speaker-name font-weight-bold mb-0"> {{ speaker.name }}</h5>
+            <div class="ml-2">
+              <TalkAuthorsSocial :social="speaker.social"/>
+            </div>
+          </div>
+          <div class="speaker-bio">
+            <p v-for="(bio, index) in speaker.bio" :key="`bio-${index}`">
+              {{ bio }}
+            </p>
+          </div>
         </div>
       </div>
       <!-- Bio -->
-      <div class="speaker-bio">
-        <p v-for="(bio, index) in speaker.bio" :key="`bio-${index}`">
-          {{ bio }}
-        </p>
-      </div>
     </div>
   </div>
 </template>
