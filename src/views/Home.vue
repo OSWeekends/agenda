@@ -2,7 +2,6 @@
   <div class="home">
     <BaseHeader :headerData="headerData" />
     <ScheduleList :tracks="data.tracks"/>
-
     <div class="text-center mb-5 d-flex flex-column">
       <p  v-if="data.eventType === 'Online'">Síguenos en</p>
       <div>
@@ -20,9 +19,7 @@
         C. de Moreno Nieto, 2, 28005 Madrid
       </a>
     </div>
-
     <Sponsors v-if="data.sponsors.length !== 0" :sponsors="data.sponsors" />
-
     <BaseFooter/>
   </div>
 </template>
