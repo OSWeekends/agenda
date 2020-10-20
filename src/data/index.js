@@ -26,7 +26,7 @@ const data = {
           ],
           startTime: { h: '10', m: '00' },
           // endTime: { h: '10', m: '20' },
-          authors: [
+          speakers: [
             {
               name: 'Jorge Baumann',
               bio: [
@@ -37,6 +37,7 @@ const data = {
                 instagram: 'https://twitter.com/baumannzone',
                 twitch: 'https://twitter.com/baumannzone',
                 github: 'https://twitter.com/baumannzone'
+                // url: ['1', 2 , 4]
               }
             },
             // {
@@ -78,7 +79,7 @@ const data = {
           startTime: { h: '10', m: '20' },
           // endTime: { h: '10', m: '30' },
           tags: ['python', 'comunidad', 'desarrollo'],
-          authors: [
+          speakers: [
             {
               name: 'PyLadies Madrid',
               bio: [
@@ -100,7 +101,7 @@ const data = {
           startTime: { h: '10', m: '30' },
           // endTime: { h: '11', m: '00' },
           tags: ['Recursos humanos', 'contratar', 'empleo'],
-          authors: [
+          speakers: [
             {
               name: 'Iria Mavji',
               bio: [
@@ -124,9 +125,9 @@ const data = {
           startTime: { h: '11', m: '00' },
           // endTime: { h: '11', m: '30' },
           tags: ['desarrollo', 'open source', 'vue.js'],
-          authors: [
+          speakers: [
             {
-              name: 'Eduardo San Martin Morote',
+              name: 'Eduardo San Martín Morote',
               bio: [
                 'Eduardo (aka @Posva) es un nerd del Frontend, es miembro del core team de Vue.js en el cual mantiene el la librería oficial del Router.',
                 'Vive en París donde echa de menos el sol y la playa 🏖.'
@@ -146,7 +147,7 @@ const data = {
           startTime: { h: '11', m: '30' },
           // endTime: { h: '12', m: '00' },
           tags: ['desarrollo', 'entorno'],
-          authors: [
+          speakers: [
             {
               name: 'Karolina Chamorro',
               bio: [
@@ -170,7 +171,7 @@ const data = {
           startTime: { h: '12', m: '00' },
           // endTime: { h: '12', m: '30' },
           tags: ['desarrollo', 'personal'],
-          authors: [
+          speakers: [
             {
               name: 'Miguel Ángel Durán',
               bio: [
@@ -193,6 +194,33 @@ const data = {
           note: 'Cierre'
         }
       ]
+    }
+  ],
+  sponsors: [
+    {
+      name: 'Sponsor1',
+      link: 'loquesea',
+      img: '../assets/sponsors/spotify.svg'
+    },
+    {
+      name: 'Sponsor2',
+      link: 'loquesea',
+      img: '../assets/sponsors/spotify.svg'
+    },
+    {
+      name: 'Sponsor3',
+      link: 'loquesea',
+      img: '../assets/sponsors/spotify.svg'
+    },
+    {
+      name: 'Sponsor4',
+      link: 'loquesea',
+      img: '../assets/sponsors/spotify.svg'
+    },
+    {
+      name: 'Sponsor5',
+      link: 'loquesea',
+      img: '../assets/sponsors/spotify.svg'
     }
   ]
 }

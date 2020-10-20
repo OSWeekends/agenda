@@ -1,5 +1,5 @@
 <template>
-  <ul class="list-inline">
+  <ul class="list-inline mb-0">
     <li v-for="(item, i) in social" class="list-inline-item" :key="i" :title="item">
       <template v-if="isString(item)">
         <a :href="item" class="ico-link" :class="`ico-${i}`">
@@ -52,30 +52,30 @@ export default {
 <style lang="stylus">
 .ico-link
   font-size 1.3rem
-  color #aaa
+  color #333
 
-  &.ico-twitter
-    color #059ff6
-  &.ico-twitch
-    color #553d87
-  &.ico-github
-    color #272e33
-  &.ico-facebook
-    color #4b72bb
-  &.ico-meetup
-    color #f63f60
-  &.ico-linkedin
-    color #0282bd
-  &.ico-instagram
-    color #cc3c9a
-  &.ico-youtube
-    color #ff0400
-  &.ico-dev
-    color #0a0a0a
-  &.ico-medium
-    color #2f2f2f
-  &.ico-gamepad
-    color orange
+  //&.ico-twitter
+  //  color #059ff6
+  //&.ico-twitch
+  //  color #553d87
+  //&.ico-github
+  //  color #272e33
+  //&.ico-facebook
+  //  color #4b72bb
+  //&.ico-meetup
+  //  color #f63f60
+  //&.ico-linkedin
+  //  color #0282bd
+  //&.ico-instagram
+  //  color #cc3c9a
+  //&.ico-youtube
+  //  color #ff0400
+  //&.ico-dev
+  //  color #0a0a0a
+  //&.ico-medium
+  //  color #2f2f2f
+  //&.ico-gamepad
+  //  color orange
 
 a.multiple:not(:last-child) {
   margin-right: 0.5rem;

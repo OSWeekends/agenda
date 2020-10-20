@@ -7,6 +7,7 @@
 <style lang="stylus">
 body
   margin 0
+  background-color #F9FAFC !important
 
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
