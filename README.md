@@ -1,6 +1,6 @@
 # SITIO WEB · AGENDA DEL EVENTO
 
-## https://agenda.osweekends.com/#/
+## https://agenda.osweekends.com/
 
 ## Project setup
 ```
