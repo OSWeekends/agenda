@@ -3,7 +3,7 @@ import BootstrapVue from 'bootstrap-vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTwitterSquare, faGithub, faFacebookSquare, faYoutubeSquare, faLinkedin, faInstagram, faTwitch, faMeetup, faDev, faMedium } from '@fortawesome/free-brands-svg-icons'
-import { faLink, faGamepad } from '@fortawesome/free-solid-svg-icons'
+import { faLink, faGamepad, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import App from './App.vue'
@@ -24,7 +24,8 @@ library.add(
   faMeetup,
   faDev,
   faMedium,
-  faGamepad)
+  faGamepad,
+  faMapMarkerAlt)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(BootstrapVue)
