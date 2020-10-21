@@ -6,12 +6,12 @@ const eventTypes = {
 const data = {
   title: 'Agenda',
   eventType: eventTypes.online,
-  date: '17 Octubre 2020',
-  description: '💃 Segundo evento temporada, seguimos online ¡Apúntate! 👉',
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/273564450/',
+  date: '24 Octubre 2020',
+  description: '💃 Tercer evento temporada, segundo del mes ¡Apúntate! 👉',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/273564608/',
   eventLink: 'https://www.twitch.tv/osweekends',
-  startTime: '10:00',
-  endTime: '12:30',
+  startTime: '19:30',
+  endTime: '22:00',
   tracks: [
     {
       name: 'The Awesome Track Online',
@@ -21,10 +21,9 @@ const data = {
           description: [
             '- Puntos del día 🔥',
             '- Agenda 📇',
-            '- OSWorld 👨‍🎤',
-            '- Qué (n̶o̶) es Hacktoberfest 🎃 && primeros pasos 🦿'
+            '- OSWorld 👨‍🎤'
           ],
-          startTime: { h: '10', m: '00' },
+          startTime: { h: '19', m: '30' },
           // endTime: { h: '10', m: '20' },
           speakers: [
             {
@@ -72,43 +71,49 @@ const data = {
           ]
         },
         {
-          title: 'Conociendo a las PyLadies 🐍',
+          title: '¿Por que no utilizar Flux? (Redux, Vuex, etc)',
           description: [
-            'Presentación de la comunidad amiga "PyLadies"'
+            'Vamos a analizar desde un punto de vista técnico qué es el modelo Flux propuesto por Facebook como el siguiente paso para desarrollar aplicaciones web escalables. Y también descubriremos porqué este es un mal patrón para la gestión del estado en tus aplicaciones.',
+            'Pero no nos quedaremos ahí, te mostraré que alternativas tenemos y abriremos la mente a mejores modelos y patrones que existen actualmente en el mercado 😎. ¡Vamos a dar el siguiente paso 🦿 en el manejo de estados de las aplicaciones reactivas!'
           ],
-          startTime: { h: '10', m: '20' },
+          startTime: { h: '19', m: '50' },
           // endTime: { h: '10', m: '30' },
-          tags: ['python', 'comunidad', 'desarrollo'],
+          tags: ['Desarrollo', 'Patrones'],
           speakers: [
             {
-              name: 'PyLadies Madrid',
+              name: 'Samuel Burbano',
               bio: [
-                'Agrupación local de @PyLadies. Nuestro objetivo es ayudar y motivar a más mujeres para que sean participantes activas de la comunidad open source de Python.'
+                '💻 Software Developer, Web Enthusiast, Penguin Lover. Senior Frontend Developer en Ring, Amazon'
               ],
               social: {
-                twitter: 'https://twitter.com/pyladiesmadrid',
-                meetup: 'https://www.meetup.com/es-ES/PyLadiesMadrid/'
+                twitter: 'https://twitter.com/iosamuel',
+                github: 'https://github.com/iosamuel',
+                linkedin: 'https://linkedin.com/in/iosamuel/',
+                twitch: 'https://twitch.com/iosamuel',
+                youtube: 'https://youtube.com/iosamuel',
+                instagram: 'https://instagram.com/_iosamuel',
+                facebook: 'https://facebook.com/iosamuel.dev',
+                url: 'https://iosamuel.dev'
               }
             }
           ]
         },
         {
-          title: 'Contratando en tiempos de Coronavirus.',
+          title: 'Artista no revelado',
           description: [
-            'En GuideSmiths hemos seguido contratando a pesar de la pandemia. ¿Cómo es esto posible? Explicaremos cómo son los procesos de contratación en remoto y qué herramientas utilizamos.',
-            'Además, te contaré algunos trucos y consejos que podrías utilizar para aumentar tus posibilidades de ser contratado.'
+            ''
           ],
-          startTime: { h: '10', m: '30' },
+          startTime: { h: '20', m: '10' },
           // endTime: { h: '11', m: '00' },
           tags: ['Recursos humanos', 'contratar', 'empleo'],
           speakers: [
             {
-              name: 'Iria Mavji',
+              name: '👀',
               bio: [
-                'Human Resources Director at GuideSmiths'
+                ''
               ],
               social: {
-                linkedin: 'https://www.linkedin.com/in/iria-mavji-riestra-81b174127/'
+                // linkedin: 'https://www.linkedin.com/in/iria-mavji-riestra-81b174127/'
                 // twitter: 'https://twitter.com/pablosirera',
                 // instagram: 'https://www.instagram.com/pablodeveloper/',
                 // github: 'https://github.com/pablosirera',
@@ -118,90 +123,86 @@ const data = {
           ]
         },
         {
-          title: 'Entrevista con Eduardo',
+          title: 'Cómo contribuir con el código abierto creando contenido',
           description: [
-            'Preguntas y respuestas con Eduardo, miembro del core team de Vue.js.'
+            'Abordar el tema de creación de contenidos desde la perspectiva del apoyo al open source, como iniciar y como mantenerse motivado creando contenido técnico.'
           ],
-          startTime: { h: '11', m: '00' },
+          startTime: { h: '20', m: '30' },
           // endTime: { h: '11', m: '30' },
           tags: ['desarrollo', 'open source', 'vue.js'],
           speakers: [
             {
-              name: 'Eduardo San Martín Morote',
+              name: 'Oscar Barajas (GnDx)',
               bio: [
-                'Eduardo (aka @Posva) es un nerd del Frontend, es miembro del core team de Vue.js en el cual mantiene el la librería oficial del Router.',
-                'Vive en París donde echa de menos el sol y la playa 🏖.'
+                'Foundation Layer at @platzi - Lead at Developer Circles from Facebook, Speaker/Blogger. I teach React & Svelte in @platzi - #EStreamerCoders #Frontend'
               ],
               social: {
-                twitter: 'https://twitter.com/posva'
+                twitter: 'https://twitter.com/gndx',
+                twitch: 'https://twitch.tv/gndxdev',
+                instagram: 'https://instagram.com/gndx',
+                github: 'https://github.com/gndx'
               }
             }
           ]
         },
         {
-          title: 'Sincronizando ajustes de VS Code',
+          title: '¡Rompiendo paradigmas otra vuez!',
           description: [
-            'Se te estropea el ordenador y tienes que formatearlo. Tal vez llega la hora de que te den uno nuevo en el trabajo. Instalar todos los plugins, temas y herramientas que utilizas a diario con VS Code es una tarea aburrida.',
-            '¿Quieres saber como hacerlo like a BOSS 😎? Esta es tu charla'
+            'Cuando Evan You anunció la version estable, Vue 3 se hizo realidad. Esta nueva versión está repleta de herramientas que nos permiten llevar nuestras aplicaciones al próximo nivel. 💃 Cuanto más indaguemos en estas nuevas funcionalidades, más vamos a poder sacar provecho de este increíble framework.',
+            'La idea de esta charla, es comenzar a recorrer ese camino y aprender todo lo que necesitamos para usar Vue 3... pero también vamos a descubrir que el desafío más importante que tenemos no son los cambios de código sino los cambios de paradigmas.'
           ],
-          startTime: { h: '11', m: '30' },
-          // endTime: { h: '12', m: '00' },
-          tags: ['desarrollo', 'entorno'],
+          startTime: { h: '20', m: '50' },
+          // tags: ['desarrollo', 'entorno'],
           speakers: [
             {
-              name: 'Karolina Chamorro',
+              name: 'Nacho Anaya',
               bio: [
-                'Trabajando en el mundo del front-end con React.js y mezclándolo con UX/UI, Karolina dejó Madrid para irse a las tierras North Irlandesas a conocer nuevas tierras y pubs irlandeses, 🤠🏞 además de un nuevo idioma.',
-                'Al cambiar de empresa se vio con la necesidad de volver a instalar de nuevo la configuración de su VS Code, tarea que le hubiese llevado horas si no hubiera descubierto lo que te va a contar en esta charla.'
+                'Full Stack Developer, Tech Trainer & Speaker. Trabajo principalmente con JavaScript y Node.js pero siempre experimentando cosas nuevas.',
+                'Mas allá de programar, también me gusta enseñar y compartir conocimiento. Cuando no estoy trabajando (o viajando), me podés encontrar en Buenos Aires jugando al hockey... o haciendo streaming en Twitch'
               ],
               social: {
-                twitter: 'https://twitter.com/kgrafico_',
-                github: 'https://github.com/kgrafico',
-                instagram: 'https://www.instagram.com/kgrafico_/',
-                url: 'https://kgrafico.es/'
+                twitter: 'https://twitter.com/ianaya89',
+                twitch: 'https://twitch.com/ianaya89',
+                instagram: 'https://instagram.com/ianaya89',
+                github: 'https://github.com/ianaya89'
               }
             }]
         },
         {
-          title: '👨‍💻 Mis desastrosos inicios en la programación 😱... y lo que aprendí 👨‍🏫',
+          title: 'Artista no revelado',
           description: [
-            'Yo nunca quise ir a la universidad… pero sin saber cómo, en 2003, allí estaba yo empezando la carrera de Informática de Gestión 👨‍🎓.',
-            'Siempre me encantó la informática y, la verdad, pensaba que se me daría bien 🤔. Pero no, mi primer año fue tan horrible que pensé en dedicarme a otra cosa 😜. ¿Por qué fue tan horrible y cómo conseguí remontar? ¡Te lo cuento!'
+            ''
           ],
-          startTime: { h: '12', m: '00' },
-          // endTime: { h: '12', m: '30' },
-          tags: ['desarrollo', 'personal'],
+          startTime: { h: '21', m: '10' },
+          // tags: ['desarrollo', 'personal'],
           speakers: [
             {
-              name: 'Miguel Ángel Durán',
+              name: '👀',
               bio: [
-                'Miguel trabaja como Enabler Frontend en Adevinta, donde acelera 🏎 a los equipos de desarrollo construyendo herramientas cross 🛠, definiendo una plataforma común y compartiendo buenas prácticas 👌.',
-                'Es un enamorado del desarrollo web desde hace quince años ❤️, evangelizador de la plataforma web y ferviente defensor del rendimiento web ⚡.'
+                ''
               ],
               social: {
-                twitter: 'https://twitter.com/midudev',
-                linkedin: 'https://www.linkedin.com/in/midudev/',
-                instagram: 'https://www.instagram.com/midu.dev/',
-                youtube: 'http://youtube.com/midudev',
-                url: 'https://midu.dev'
+                // twitter: 'https://twitter.com/midudev',
+                // linkedin: 'https://www.linkedin.com/in/midudev/',
+                // instagram: 'https://www.instagram.com/midu.dev/',
+                // youtube: 'http://youtube.com/midudev',
+                // url: 'https://midu.dev'
               }
             }]
         },
         {
-          title: 'Networking & Beers Online 💃🍻',
-          startTime: { h: '12', m: '30' },
-          // endTime: { h: '12', m: '40' },
-          note: 'Cierre'
+          title: 'Networking & Beers online 💃🍻',
+          startTime: { h: '21', m: '30' }
         }
       ]
     }
   ],
   sponsors: [
-  //  {
-  //    name: 'Sponsor1',
-  //    link: 'loquesea',
-  //    img: '../assets/sponsors/spotify.svg'
-  //  }
+    //  {
+    //    name: 'Sponsor1',
+    //    link: 'www.google.com',
+    //    img: '../assets/sponsors/spotify.svg'
+    //  }
   ]
 }
 
