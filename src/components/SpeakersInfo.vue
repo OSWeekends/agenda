@@ -4,7 +4,8 @@
       <!-- Name / Social -->
       <div class="d-flex">
         <div class="mr-3">
-          <b-avatar variant="light" size="2.5em"></b-avatar>
+          <!--<b-avatar variant="light" size="2.5em"></b-avatar>-->
+          <b-avatar variant="info" size="2.5rem" src="https://placekitten.com/300/300"></b-avatar>
         </div>
         <div>
           <div class="d-flex align-items-center mb-1">
