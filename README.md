@@ -1,4 +1,6 @@
 # AGENDA DEL EVENTO 📅
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0a730caf-74b9-4dd7-8e0e-769484815ea6/deploy-status)](https://app.netlify.com/sites/agenda-osw/deploys)
+
 **Link**: https://agenda.osweekends.com/
 
 ## Edit Data
