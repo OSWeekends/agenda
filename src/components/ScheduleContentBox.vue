@@ -1,6 +1,7 @@
 <template>
   <b-col>
     <div class="content-box bg-white rounded-lg shadow-sm">
+       <div v-if="content.description && content.speakers">
       <!-- Charla -->
       <div>
         <header>
@@ -17,6 +18,13 @@
       <template v-if="content.speakers">
         <SpeakersInfo :speakers="content.speakers"/>
       </template>
+      </div>
+
+       <div v-else class="text-center">
+        <header>
+          <h4 class="font-weight-bold">{{ content.title }}</h4>
+        </header>
+      </div>
     </div>
   </b-col>
 </template>
