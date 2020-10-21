@@ -7,7 +7,6 @@
         <header>
           <h4 class="font-weight-bold">{{ content.title }}</h4>
         </header>
-        <hr>
         <div class="content-description">
           <p v-for="(desc, index) in content.description" class="mt-0 mb-1" :key="`description-${index}`">
             {{ desc }}
@@ -18,6 +17,8 @@
       <template v-if="content.speakers">
         <SpeakersInfo :speakers="content.speakers"/>
       </template>
+      <CBadge v-for="(tag, index) in content.tags" :key="`description-${index}`" class="mr-2 ml-md-2">{{ tag }}</CBadge>
+
       </div>
 
        <div v-else class="text-center">
@@ -30,10 +31,11 @@
 </template>
 <script>
 import SpeakersInfo from '@/components/SpeakersInfo'
+import CBadge from '@/components/CustomBadge'
 
 export default {
   name: 'ScheduleContentBox',
-  components: { SpeakersInfo },
+  components: { SpeakersInfo, CBadge },
   props: {
     content: {}
   }
