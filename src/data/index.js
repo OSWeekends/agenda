@@ -197,31 +197,11 @@ const data = {
     }
   ],
   sponsors: [
-    {
-      name: 'Sponsor1',
-      link: 'loquesea',
-      img: '../assets/sponsors/spotify.svg'
-    },
-    {
-      name: 'Sponsor2',
-      link: 'loquesea',
-      img: '../assets/sponsors/spotify.svg'
-    },
-    {
-      name: 'Sponsor3',
-      link: 'loquesea',
-      img: '../assets/sponsors/spotify.svg'
-    },
-    {
-      name: 'Sponsor4',
-      link: 'loquesea',
-      img: '../assets/sponsors/spotify.svg'
-    },
-    {
-      name: 'Sponsor5',
-      link: 'loquesea',
-      img: '../assets/sponsors/spotify.svg'
-    }
+  //  {
+  //    name: 'Sponsor1',
+  //    link: 'loquesea',
+  //    img: '../assets/sponsors/spotify.svg'
+  //  }
   ]
 }
 
