@@ -1,13 +1,13 @@
 <template>
-  <b-container>
-    <div class="home">
+  <div class="home">
+    <b-container>
       <BaseHeader :headerData="headerData" />
       <ScheduleList :tracks="data.tracks"/>
       <MeetupLink :eventType="data.eventType"/>
       <Sponsors v-if="data.sponsors.length !== 0" :sponsors="data.sponsors" />
-      <BaseFooter/>
-    </div>
-  </b-container>
+    </b-container>
+    <BaseFooter/>
+  </div>
 </template>
 
 <script>

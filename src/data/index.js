@@ -100,12 +100,9 @@ const data = {
         },
         {
           title: 'Artista no revelado',
-          description: [
-            ''
-          ],
+          description: [''],
           startTime: { h: '20', m: '10' },
-          // endTime: { h: '11', m: '00' },
-          tags: ['Recursos humanos', 'contratar', 'empleo'],
+          // tags: ['Gatsby', 'Desarrollo', 'SSG'],
           speakers: [
             {
               name: '👀',
@@ -128,8 +125,7 @@ const data = {
             'Abordar el tema de creación de contenidos desde la perspectiva del apoyo al open source, como iniciar y como mantenerse motivado creando contenido técnico.'
           ],
           startTime: { h: '20', m: '30' },
-          // endTime: { h: '11', m: '30' },
-          tags: ['desarrollo', 'open source', 'vue.js'],
+          tags: ['Desarrollo', 'Open Source', 'Comunidad'],
           speakers: [
             {
               name: 'Oscar Barajas (GnDx)',
@@ -152,7 +148,7 @@ const data = {
             'La idea de esta charla, es comenzar a recorrer ese camino y aprender todo lo que necesitamos para usar Vue 3... pero también vamos a descubrir que el desafío más importante que tenemos no son los cambios de código sino los cambios de paradigmas.'
           ],
           startTime: { h: '20', m: '50' },
-          // tags: ['desarrollo', 'entorno'],
+          tags: ['Desarrollo', 'Vue.js'],
           speakers: [
             {
               name: 'Nacho Anaya',
