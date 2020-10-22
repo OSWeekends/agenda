@@ -33,9 +33,9 @@ const data = {
               ],
               social: {
                 twitter: 'https://twitter.com/baumannzone',
-                instagram: 'https://twitter.com/baumannzone',
-                twitch: 'https://twitter.com/baumannzone',
-                github: 'https://twitter.com/baumannzone'
+                instagram: 'https://instagram.com/baumannzone',
+                twitch: 'https://twitch.tv/baumannzone',
+                github: 'https://github.com/baumannzone'
                 // url: ['1', 2 , 4]
               }
             },
