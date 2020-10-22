@@ -99,22 +99,24 @@ const data = {
           ]
         },
         {
-          title: 'Artista no revelado',
-          description: [''],
+          title: 'Gatsby, un generador de sitios estáticos para React 💜',
+          description: [
+            'Los sitios estáticos no son nuevos. Eran lo que usábamos para construir la forma web antes de que los CMS dinámicos (WordPress, Drupal, etc.) se hicieran cargo.',
+            '¿Qué hay de nuevo, entonces? Algunas herramientas modernas, como los generadores de sitios estáticos, surgieron en los últimos años y expandieron las capacidades de los sitios estáticos. Con un ecosistema cada vez mayor que rodea el desarrollo de estos sitios y con el poder de frameworks como ReactJS, podemos construir sitios web estáticos que se vuelven hyperdinámicos gracias a JS, Headless CMS y la era del Serverless.'
+          ],
           startTime: { h: '20', m: '10' },
-          // tags: ['Gatsby', 'Desarrollo', 'SSG'],
+          tags: ['Gatsby', 'Desarrollo', 'SSG'],
           speakers: [
             {
-              name: '👀',
+              name: 'Mafe Serna',
               bio: [
-                ''
+                'Javascript Developer 👩🏻‍💻/ Happy Developer at @NodeSource 💚/ Co-organizer @medellinjs / @avanet / jamstackMedellin / @commitFm'
               ],
               social: {
-                // linkedin: 'https://www.linkedin.com/in/iria-mavji-riestra-81b174127/'
-                // twitter: 'https://twitter.com/pablosirera',
-                // instagram: 'https://www.instagram.com/pablodeveloper/',
-                // github: 'https://github.com/pablosirera',
-                // url: 'https://pablosirera.com/'
+                twitter: 'https://twitter.com/mafesernaarbole',
+                github: 'https://github.com/mafesernaarboleda',
+                linkedin: 'https://www.linkedin.com/in/mafesernaarboleda/',
+                url: 'https://mafe.dev/'
               }
             }
           ]
