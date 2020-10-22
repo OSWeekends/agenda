@@ -188,7 +188,8 @@ const data = {
         },
         {
           title: 'Networking & Beers online 💃🍻',
-          startTime: { h: '21', m: '30' }
+          startTime: { h: '21', m: '30' },
+          endTime: { h: '21', m: '50' }
         }
       ]
     }

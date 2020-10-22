@@ -2,7 +2,7 @@
   <div>
     <div class="starting-time">
       <span class="starting-time__start-time font-weight-bold mr-1 text-monospace">
-        {{content.startTime.h}}:{{content.startTime.m}}
+        {{content.h}}:{{content.m}}
       </span>
       <span class="starting-time__circle d-inline-block"/>
     </div>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'ScheduleStartingTime',
+  name: 'ScheduleTime',
   props: {
     content: {}
   }
