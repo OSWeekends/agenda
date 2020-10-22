@@ -1,11 +1,12 @@
 <template>
   <div class="mb-5">
     <div v-for="(content, idx) in track.content" :key="`content-${idx}`">
-      <ScheduleStartingTime :content="content"/>
+      <ScheduleTime :content="content.startTime"/>
       <b-row class="my-3">
         <ScheduleTimeLine :content="content"/>
         <ScheduleContentBox :content="content"/>
       </b-row>
+      <ScheduleTime v-if="content.endTime" :content="content.endTime"/>
     </div>
   </div>
 </template>
@@ -13,14 +14,14 @@
 <script>
 
 import ScheduleTimeLine from '@/components/ScheduleTimeLine'
-import ScheduleStartingTime from '@/components/ScheduleStartingTime'
+import ScheduleTime from '@/components/ScheduleTime'
 import ScheduleContentBox from '@/components/ScheduleContentBox'
 
 export default {
   name: 'ScheduleTable',
   components: {
     ScheduleContentBox,
-    ScheduleStartingTime,
+    ScheduleTime,
     ScheduleTimeLine
   },
   props: {
