@@ -1,5 +1,5 @@
 <template>
-  <b-col cols="auto">
+  <b-col cols="1" sm="auto">
     <div class="time-line-bar-container">
       <div class="time-line-bar rounded" />
     </div>
