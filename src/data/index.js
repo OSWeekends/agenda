@@ -167,24 +167,22 @@ const data = {
             }]
         },
         {
-          title: 'Artista no revelado',
+          title: 'La tecnología y el arte de los VFX en el cine.',
           description: [
             ''
           ],
           startTime: { h: '21', m: '10' },
-          // tags: ['desarrollo', 'personal'],
+          tags: ['Cine', 'Efectos especiales', '🎞'],
           speakers: [
             {
-              name: '👀',
+              name: 'Carolina Jiménez G.',
               bio: [
-                ''
+                'Lead Layout artist at Scanline. Latest projects include @SuicideSquadWB, @COSMOSonTV, @Terminatorand @JokerMovie.',
+                'Divulgadora. Cine, ciencia y VFX.'
               ],
               social: {
-                // twitter: 'https://twitter.com/midudev',
-                // linkedin: 'https://www.linkedin.com/in/midudev/',
-                // instagram: 'https://www.instagram.com/midu.dev/',
-                // youtube: 'http://youtube.com/midudev',
-                // url: 'https://midu.dev'
+                twitter: 'https://twitter.com/okinfografia',
+                url: 'https://okinfografia.wordpress.com'
               }
             }]
         },
