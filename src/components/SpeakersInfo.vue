@@ -8,7 +8,7 @@
           <b-avatar variant="light" size="2.5rem" src="https://cdn.iconscout.com/icon/free/png-256/laugh-1659498-1410020.png"></b-avatar>
         </div>
         <div>
-          <div class="d-flex align-items-center mb-1">
+          <div class="d-md-flex align-items-center mb-1">
             <h5 class="speaker-name font-weight-bold mb-0"> {{ speaker.name }}</h5>
             <div class="ml-2">
               <TalkAuthorsSocial :social="speaker.social"/>
