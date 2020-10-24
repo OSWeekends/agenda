@@ -169,7 +169,7 @@ const data = {
         {
           title: 'La tecnología y el arte de los VFX en el cine.',
           description: [
-            ''
+            'Voy a hablar brevemente de mi experiencia hasta llegar a trabajar en el cine y sobretodo de cómo funciona y se organiza el trabajo técnica y artísticamente dentro de un estudio de efectos visuales para el cine.'
           ],
           startTime: { h: '21', m: '10' },
           tags: ['Cine', 'Efectos especiales', '🎞'],
