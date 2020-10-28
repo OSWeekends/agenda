@@ -1,5 +1,5 @@
 <template>
-  <header class="mb-3 mt-3">
+  <header class="mb-3">
     <div class="base-header d-flex justify-content-between align-items-center mb-3 justify-content-md-start">
       <div class="flex-header-item">
         <h1 class="title mt-1">
@@ -59,27 +59,29 @@ export default {
 <style lang="stylus">
 main-blue = #003DA5
 
-.title
-  font-size 24px
-  font-weight 600
-  color main-blue
+.base-header
+  margin-top 60px
+  .title
+    font-size 36px
+    font-weight 600
+    color main-blue
 
-  small.date
-    font-size 14px
-    font-weight bold
-    margin-left 7px
+    small.date
+      font-size 18px
+      font-weight bold
+      margin-left 7px
 
-.meetup-item
-  a
-    &:hover
-      color #f63f60
-      text-decoration none
+  .meetup-item
+    a
+      &:hover
+        color #f63f60
+        text-decoration none
 
-.description-item
-  color #8C8D95
-  font-weight 500
+  .description-item
+    color #8C8D95
+    font-weight 500
 
-.twitch-icon
-  position: relative;
-  bottom: -2px;
+  .twitch-icon
+    position: relative;
+    bottom: -2px;
 </style>
