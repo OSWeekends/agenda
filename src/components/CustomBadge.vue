@@ -1,7 +1,7 @@
 <template>
-  <b-badge class="badge--soft-blue">
+  <div class="badge--soft-blue">
     <slot></slot>
-  </b-badge>
+  </div>
 </template>
 
 <script>
@@ -9,7 +9,15 @@ export default {}
 </script>
 
 <style lang="stylus">
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
 .badge--soft-blue
-  background-color #e6efff !important
-  color rgba(0, 61, 165, 0.7) !important
+  display inline-block
+  background-color #F1F6FF
+  color #4875C0
+  padding  5px 15px
+  margin 5px
+  border-radius 10px
+  font-size 14px
+  font-family 'Nunito'
 </style>

@@ -78,7 +78,7 @@ const data = {
           ],
           startTime: { h: '19', m: '50' },
           // endTime: { h: '10', m: '30' },
-          tags: ['Desarrollo', 'Patrones'],
+          tags: ['💻 Desarrollo', '⛓ Patrones'],
           speakers: [
             {
               name: 'Samuel Burbano',
@@ -105,7 +105,7 @@ const data = {
             '¿Qué hay de nuevo, entonces? Algunas herramientas modernas, como los generadores de sitios estáticos, surgieron en los últimos años y expandieron las capacidades de los sitios estáticos. Con un ecosistema cada vez mayor que rodea el desarrollo de estos sitios y con el poder de frameworks como ReactJS, podemos construir sitios web estáticos que se vuelven hyperdinámicos gracias a JS, Headless CMS y la era del Serverless.'
           ],
           startTime: { h: '20', m: '10' },
-          tags: ['Gatsby', 'Desarrollo', 'SSG'],
+          tags: ['✨ Gatsby', '💻 Desarrollo', '🌠 SSG'],
           speakers: [
             {
               name: 'Mafe Serna',
@@ -127,7 +127,7 @@ const data = {
             'Abordar el tema de creación de contenidos desde la perspectiva del apoyo al open source, como iniciar y como mantenerse motivado creando contenido técnico.'
           ],
           startTime: { h: '20', m: '30' },
-          tags: ['Desarrollo', 'Open Source', 'Comunidad'],
+          tags: ['💻 Desarrollo', '🙌 Open Source', '👨‍👨‍👧‍👧 Comunidad'],
           speakers: [
             {
               name: 'Oscar Barajas (GnDx)',
@@ -150,7 +150,7 @@ const data = {
             'La idea de esta charla, es comenzar a recorrer ese camino y aprender todo lo que necesitamos para usar Vue 3... pero también vamos a descubrir que el desafío más importante que tenemos no son los cambios de código sino los cambios de paradigmas.'
           ],
           startTime: { h: '20', m: '50' },
-          tags: ['Desarrollo', 'Vue.js'],
+          tags: ['💻 Desarrollo', '🚀 Vue.js'],
           speakers: [
             {
               name: 'Nacho Anaya',
@@ -172,7 +172,7 @@ const data = {
             'Voy a hablar brevemente de mi experiencia hasta llegar a trabajar en el cine y sobretodo de cómo funciona y se organiza el trabajo técnica y artísticamente dentro de un estudio de efectos visuales para el cine.'
           ],
           startTime: { h: '21', m: '10' },
-          tags: ['Cine', 'Efectos especiales', '🎞'],
+          tags: ['🎬 Cine', '👽 Efectos especiales', '🎞'],
           speakers: [
             {
               name: 'Carolina Jiménez G.',
