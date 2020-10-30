@@ -9,8 +9,6 @@ export default {}
 </script>
 
 <style lang="stylus">
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
-
 .badge--soft-blue
   display inline-block
   background-color #F1F6FF
