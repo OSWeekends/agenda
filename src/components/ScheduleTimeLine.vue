@@ -1,17 +1,14 @@
 <template>
   <b-col cols="1" sm="auto">
     <div class="time-line-bar-container">
-      <div class="time-line-bar rounded" />
+      <div class="time-line-bar rounded"/>
     </div>
   </b-col>
 </template>
 
 <script>
 export default {
-  name: 'ScheduleTimeLine',
-  props: {
-    content: {}
-  }
+  name: 'ScheduleTimeLine'
 }
 </script>
 

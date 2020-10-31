@@ -2,7 +2,7 @@
   <header class="mb-3">
     <div class="base-header d-flex justify-content-between align-items-center mb-3 justify-content-md-start">
       <div class="flex-header-item">
-        <h1 class="title mt-1">
+        <h1 class="title m-0">
           {{ headerData.title }}
           <small class="date">
             {{ headerData.date }}
@@ -11,23 +11,16 @@
       </div>
       <div class="flex-header-item">
         <CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>
-        <!-- <a class="text-body twitch-icon" :href="headerData.eventLink">
-          <font-awesome-icon :icon="['fab', 'twitch']"/>
-        </a> -->
       </div>
-      <!-- <span class="time lead">
-        <b-badge variant="primary" class="mr-1">{{ headerData.date }}</b-badge>
-        <b-badge variant="dark">{{ data.startTime }} · {{ data.endTime }}</b-badge>
-      </span> -->
     </div>
 
     <div class="d-flex justify-content-between align-self-center justify-content-md-end">
       <div class="description-item pr-3">
-        <div class="mb-0"> {{ headerData.description }} </div>
+        <div class="mb-0"> {{ headerData.description }}</div>
       </div>
       <div class="meetup-item align-self-start">
         <a class="text-body" :href="headerData.meetupLink" title="Ver más en meetup" target="_blank">
-          <font-awesome-icon :icon="['fab', 'meetup']" size="2x" />
+          <font-awesome-icon :icon="['fab', 'meetup']" size="2x"/>
         </a>
       </div>
     </div>
@@ -47,11 +40,6 @@ export default {
       type: Object,
       required: true
     }
-  },
-  methods: {
-    goBack () {
-      Object.assign(document.createElement('a'), { target: '_blank', href: 'https://osweekends.com' }).click()
-    }
   }
 }
 </script>
@@ -61,6 +49,7 @@ main-blue = #003DA5
 
 .base-header
   margin-top 60px
+
   .title
     font-size 36px
     font-weight 600
@@ -80,8 +69,4 @@ main-blue = #003DA5
   .description-item
     color #8C8D95
     font-weight 500
-
-  .twitch-icon
-    position: relative;
-    bottom: -2px;
 </style>

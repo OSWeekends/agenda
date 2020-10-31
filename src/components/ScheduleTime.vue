@@ -2,7 +2,7 @@
   <div>
     <div class="starting-time">
       <span class="starting-time__start-time font-weight-bold mr-1 text-monospace">
-        {{content.h}}:{{content.m}}
+        {{ content.h }}:{{ content.m }}
       </span>
       <span class="starting-time__circle d-inline-block"/>
     </div>
@@ -13,10 +13,14 @@
 export default {
   name: 'ScheduleTime',
   props: {
-    content: {}
+    content: {
+      required: true,
+      type: Object
+    }
   }
 }
 </script>
+
 <style lang="stylus">
 main-blue = #003DA5
 .starting-time

@@ -49,16 +49,5 @@ export default {
 </script>
 
 <style lang="stylus">
-.twitch-icon
-  color #3F414E
-  background-color white
-  padding 35px 40px
-  border-radius 50%
-  align-items center
-  display inline-block
-.twitch-link
-  color #3F414E
-  font-size 24px
-  font-weight bolder
-  text-decoration none
+
 </style>

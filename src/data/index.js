@@ -6,12 +6,12 @@ const eventTypes = {
 const data = {
   title: 'Agenda',
   eventType: eventTypes.online,
-  date: '24 Octubre 2020',
-  description: '💃 Tercer evento temporada, segundo del mes ¡Apúntate! 👉',
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/273564608/',
+  date: '14 Noviembre 2020',
+  description: '💃 Sexto evento temporada ¡Apúntate! 👉',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/274306672/',
   eventLink: 'https://www.twitch.tv/osweekends',
-  startTime: '19:30',
-  endTime: '22:00',
+  startTime: '10:00',
+  endTime: '12:00',
   tracks: [
     {
       name: 'The Awesome Track Online',
@@ -23,7 +23,7 @@ const data = {
             '- Agenda 📇',
             '- OSWorld 👨‍🎤'
           ],
-          startTime: { h: '19', m: '30' },
+          startTime: { h: '10', m: '00' },
           // endTime: { h: '10', m: '20' },
           speakers: [
             {
@@ -76,8 +76,7 @@ const data = {
             'Vamos a analizar desde un punto de vista técnico qué es el modelo Flux propuesto por Facebook como el siguiente paso para desarrollar aplicaciones web escalables. Y también descubriremos porqué este es un mal patrón para la gestión del estado en tus aplicaciones.',
             'Pero no nos quedaremos ahí, te mostraré que alternativas tenemos y abriremos la mente a mejores modelos y patrones que existen actualmente en el mercado 😎. ¡Vamos a dar el siguiente paso 🦿 en el manejo de estados de las aplicaciones reactivas!'
           ],
-          startTime: { h: '19', m: '50' },
-          // endTime: { h: '10', m: '30' },
+          startTime: { h: '10', m: '20' },
           tags: ['💻 Desarrollo', '⛓ Patrones'],
           speakers: [
             {
@@ -104,7 +103,7 @@ const data = {
             'Los sitios estáticos no son nuevos. Eran lo que usábamos para construir la forma web antes de que los CMS dinámicos (WordPress, Drupal, etc.) se hicieran cargo.',
             '¿Qué hay de nuevo, entonces? Algunas herramientas modernas, como los generadores de sitios estáticos, surgieron en los últimos años y expandieron las capacidades de los sitios estáticos. Con un ecosistema cada vez mayor que rodea el desarrollo de estos sitios y con el poder de frameworks como ReactJS, podemos construir sitios web estáticos que se vuelven hyperdinámicos gracias a JS, Headless CMS y la era del Serverless.'
           ],
-          startTime: { h: '20', m: '10' },
+          startTime: { h: '10', m: '40' },
           tags: ['✨ Gatsby', '💻 Desarrollo', '🌠 SSG'],
           speakers: [
             {
@@ -126,7 +125,7 @@ const data = {
           description: [
             'Abordar el tema de creación de contenidos desde la perspectiva del apoyo al open source, como iniciar y como mantenerse motivado creando contenido técnico.'
           ],
-          startTime: { h: '20', m: '30' },
+          startTime: { h: '11', m: '00' },
           tags: ['💻 Desarrollo', '🙌 Open Source', '👨‍👨‍👧‍👧 Comunidad'],
           speakers: [
             {
@@ -144,52 +143,9 @@ const data = {
           ]
         },
         {
-          title: '¡Rompiendo paradigmas otra vuez!',
-          description: [
-            'Cuando Evan You anunció la version estable, Vue 3 se hizo realidad. Esta nueva versión está repleta de herramientas que nos permiten llevar nuestras aplicaciones al próximo nivel. 💃 Cuanto más indaguemos en estas nuevas funcionalidades, más vamos a poder sacar provecho de este increíble framework.',
-            'La idea de esta charla, es comenzar a recorrer ese camino y aprender todo lo que necesitamos para usar Vue 3... pero también vamos a descubrir que el desafío más importante que tenemos no son los cambios de código sino los cambios de paradigmas.'
-          ],
-          startTime: { h: '20', m: '50' },
-          tags: ['💻 Desarrollo', '🚀 Vue.js'],
-          speakers: [
-            {
-              name: 'Nacho Anaya',
-              bio: [
-                'Full Stack Developer, Tech Trainer & Speaker. Trabajo principalmente con JavaScript y Node.js pero siempre experimentando cosas nuevas.',
-                'Mas allá de programar, también me gusta enseñar y compartir conocimiento. Cuando no estoy trabajando (o viajando), me podés encontrar en Buenos Aires jugando al hockey... o haciendo streaming en Twitch'
-              ],
-              social: {
-                twitter: 'https://twitter.com/ianaya89',
-                twitch: 'https://twitch.com/ianaya89',
-                instagram: 'https://instagram.com/ianaya89',
-                github: 'https://github.com/ianaya89'
-              }
-            }]
-        },
-        {
-          title: 'La tecnología y el arte de los VFX en el cine.',
-          description: [
-            'Voy a hablar brevemente de mi experiencia hasta llegar a trabajar en el cine y sobretodo de cómo funciona y se organiza el trabajo técnica y artísticamente dentro de un estudio de efectos visuales para el cine.'
-          ],
-          startTime: { h: '21', m: '10' },
-          tags: ['🎬 Cine', '👽 Efectos especiales', '🎞'],
-          speakers: [
-            {
-              name: 'Carolina Jiménez G.',
-              bio: [
-                'Lead Layout artist at Scanline. Latest projects include @SuicideSquadWB, @COSMOSonTV, @Terminatorand @JokerMovie.',
-                'Divulgadora. Cine, ciencia y VFX.'
-              ],
-              social: {
-                twitter: 'https://twitter.com/okinfografia',
-                url: 'https://okinfografia.wordpress.com'
-              }
-            }]
-        },
-        {
           title: 'Networking & Beers online 💃🍻',
-          startTime: { h: '21', m: '30' },
-          endTime: { h: '21', m: '50' }
+          startTime: { h: '11', m: '20' },
+          endTime: { h: '11', m: '30' }
         }
       ]
     }
