@@ -50,6 +50,10 @@ main-blue = #003DA5
 .base-header
   margin-top 60px
 
+  .flex-header-item
+    &:last-child
+      margin-bottom: -15px
+
   .title
     font-size 36px
     font-weight 600
