@@ -2,7 +2,7 @@
   <div>
     <div class="starting-time">
       <span class="starting-time__start-time font-weight-bold mr-1 text-monospace">
-        {{ content.h }}:{{ content.m }}
+        {{ formattedTime }}
       </span>
       <span class="starting-time__circle d-inline-block"/>
     </div>
@@ -10,6 +10,19 @@
 </template>
 
 <script>
+import EventBus from '@/plugins/event-bus'
+import data from '../data'
+
+import dayjs from 'dayjs'
+// DayJs config
+const utc = require('dayjs/plugin/utc')
+const timezone = require('dayjs/plugin/timezone')
+require('dayjs/locale/es')
+dayjs().locale('es').format()
+dayjs.extend(utc)
+dayjs.extend(timezone)
+dayjs.tz.setDefault('Europe/Madrid')
+
 export default {
   name: 'ScheduleTime',
   props: {
@@ -17,6 +30,25 @@ export default {
       required: true,
       type: Object
     }
+  },
+  data: () => ({
+    timezoneSelected: 'Europe/Madrid',
+    date: data.date
+  }),
+  computed: {
+    formattedTime () {
+      // Get time on selected timezone
+      return dayjs(`${this.date} ${this.content.h}:${this.content.m}`).tz(this.timezoneSelected).format('HH:mm')
+    }
+  },
+  mounted () {
+    const _this = this
+    // Subscribe to timezone changes
+    EventBus.$on('timezoneChanged', function (timezone) { _this.timezoneSelected = timezone })
+  },
+  destroyed () {
+    // Unsubscribe event
+    EventBus.$off('timezoneChanged')
   }
 }
 </script>
