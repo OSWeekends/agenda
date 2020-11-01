@@ -13,6 +13,14 @@
         <CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>
       </div>
     </div>
+    <!-- Timezone selector -->
+    <b-row class="flex-column justify-start">
+      <b-col lg="4" md="12">
+        <b-button v-if="!isTimeZoneSelectorActive" size="sm" variant="light" @click="isTimeZoneSelectorActive = true">Pincha aquí para cambiar a tu zona horaria</b-button>
+        <TimezoneSelector v-else/>
+      </b-col>
+    </b-row>
+    <!-- END: Timezone selector -->
 
     <div class="d-flex justify-content-between align-self-center justify-content-md-end">
       <div class="description-item pr-3">
@@ -29,10 +37,12 @@
 
 <script>
 import CBadge from '@/components/CustomBadge'
+import TimezoneSelector from '@/components/TimezoneSelector'
 
 export default {
   name: 'BaseHeader',
   components: {
+    TimezoneSelector,
     CBadge
   },
   props: {
@@ -40,7 +50,10 @@ export default {
       type: Object,
       required: true
     }
-  }
+  },
+  data: () => ({
+    isTimeZoneSelectorActive: false
+  })
 }
 </script>
 
