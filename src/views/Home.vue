@@ -34,14 +34,15 @@ export default {
   },
   computed: {
     headerData () {
-      const { title, eventType, date, meetupLink, description, eventLink } = data
+      const { title, eventType, date, meetupLink, description, eventLink, isTimezoneSelectorEnabled } = data
       return {
         title,
         eventType,
         date,
         meetupLink,
         description,
-        eventLink
+        eventLink,
+        isTimezoneSelectorEnabled
       }
     }
   }

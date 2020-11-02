@@ -2,15 +2,14 @@
   <div>
     <div class="starting-time">
       <span class="starting-time__start-time font-weight-bold mr-1 text-monospace">
-        {{ `${content.h}:${content.m}` | timezoneTime(timezoneSelected) }}
+        {{ `${content.h}:${content.m}` | timezoneTime(selectedTimezone) }}
       </span>
       <span class="starting-time__circle d-inline-block"/>
     </div>
   </div>
 </template>
-
 <script>
-import EventBus from '@/plugins/event-bus'
+import { mapState } from 'vuex'
 import '@/filters/timezone'
 
 export default {
@@ -22,16 +21,15 @@ export default {
     }
   },
   data: () => ({
-    timezoneSelected: 'Europe/Madrid'
+    timezone: 'Europe/Madrid'
   }),
-  mounted () {
-    const _this = this
-    // Subscribe to timezone changes
-    EventBus.$on('timezoneChanged', function (timezone) { _this.timezoneSelected = timezone })
-  },
-  destroyed () {
-    // Unsubscribe event
-    EventBus.$off('timezoneChanged')
+  computed: {
+    ...mapState({
+      currentTimezone: state => state.timezone.currentTimezone
+    }),
+    selectedTimezone () {
+      return this.currentTimezone || this.timezone
+    }
   }
 }
 </script>

@@ -14,7 +14,7 @@
       </div>
     </div>
     <!-- Timezone selector -->
-    <div class="flex-column justify-start mb-4">
+    <div class="flex-column justify-start mb-4" v-if="headerData.isTimezoneSelectorEnabled">
       <b-row>
         <b-col lg="6">
           <p v-if="!isUserInMadrid" class="timezone-disclaimer">Nos han chivado que no estás en España (o al menos en la zona horaria de españa), no te preocupes, cambiamos el horario a tu zona para que nos puedas ver</p>

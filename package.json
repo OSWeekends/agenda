@@ -18,7 +18,8 @@
     "bootstrap-vue": "^2.1.0",
     "dayjs": "^1.9.4",
     "vue": "^2.6.6",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",

@@ -5,7 +5,7 @@
 </template>
 <script>
 import timezones from '@/data/timezones'
-import EventBus from '@/plugins/event-bus'
+import { mapMutations } from 'vuex'
 export default {
   data: () => ({
     // Get current timezone based on Intl API
@@ -16,9 +16,14 @@ export default {
   watch: {
     currentTimezone (timezone, oldTimezone) {
       const validUTC = timezone.utc[0]
-      // Emit event with a valid utc zone
-      if (timezone.offset !== oldTimezone.offset) EventBus.$emit('timezoneChanged', validUTC)
+      // Save selected timezone on store
+      if (timezone.offset !== oldTimezone.offset) this.setTimezone(validUTC)
     }
+  },
+  methods: {
+    ...mapMutations({
+      setTimezone: 'timezone/SET_CURRENTTIMEZONE'
+    })
   }
 }
 </script>
