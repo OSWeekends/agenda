@@ -65,7 +65,8 @@ const data = {
               ],
               social: {
                 twitter: 'https://twitter.com/codingcarlos',
-                url: 'https://codingcarlos.com/'
+                url: 'https://codingcarlos.com/',
+                twitch: 'https://twitch.tv/codingcarlos'
               }
             }
           ]
