@@ -27,7 +27,7 @@ export default {
     selectedTimezone (timezone, oldTimezone) {
       const validUTC = timezone.utc[0]
       // Save selected timezone on store
-      if (timezone.offset !== oldTimezone.offset) {
+      if (oldTimezone && timezone.offset !== oldTimezone.offset) {
         this.setTimezone(validUTC)
         localStorage.timezone = validUTC
       }
