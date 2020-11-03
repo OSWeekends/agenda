@@ -12,6 +12,7 @@ const data = {
   eventLink: 'https://www.twitch.tv/osweekends',
   startTime: '10:00',
   endTime: '12:00',
+  isTimezoneSelectorEnabled: true,
   tracks: [
     {
       name: 'The Awesome Track Online',

@@ -13,6 +13,21 @@
         <CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>
       </div>
     </div>
+    <!-- Timezone selector -->
+    <div class="flex-column justify-start mb-4" v-if="headerData.isTimezoneSelectorEnabled">
+      <b-row>
+        <b-col lg="6">
+          <p v-if="!isUserInMadrid" class="timezone-disclaimer">Nos han chivado que no estás en España (o al menos en la zona horaria de españa), no te preocupes, cambiamos el horario a tu zona para que nos puedas ver</p>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col lg="4" md="12">
+          <b-button v-if="!isTimeZoneSelectorActive && isUserInMadrid" size="sm" variant="light" @click="isTimeZoneSelectorActive = true">Pincha aquí para cambiar a otra zona horaria</b-button>
+          <TimezoneSelector v-if="isTimeZoneSelectorActive || !isUserInMadrid"/>
+        </b-col>
+      </b-row>
+    </div>
+    <!-- END: Timezone selector -->
 
     <div class="d-flex justify-content-between align-self-center justify-content-md-end">
       <div class="description-item pr-3">
@@ -29,10 +44,12 @@
 
 <script>
 import CBadge from '@/components/CustomBadge'
+import TimezoneSelector from '@/components/TimezoneSelector'
 
 export default {
   name: 'BaseHeader',
   components: {
+    TimezoneSelector,
     CBadge
   },
   props: {
@@ -40,7 +57,11 @@ export default {
       type: Object,
       required: true
     }
-  }
+  },
+  data: () => ({
+    isTimeZoneSelectorActive: false,
+    isUserInMadrid: Intl.DateTimeFormat().resolvedOptions().timeZone === 'Europe/Madrid'
+  })
 }
 </script>
 
@@ -73,4 +94,7 @@ main-blue = #003DA5
   .description-item
     color #8C8D95
     font-weight 500
+
+.timezone-disclaimer
+  font-size: 14px
 </style>

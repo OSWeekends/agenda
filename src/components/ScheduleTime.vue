@@ -2,20 +2,33 @@
   <div>
     <div class="starting-time">
       <span class="starting-time__start-time font-weight-bold mr-1 text-monospace">
-        {{ content.h }}:{{ content.m }}
+        {{ `${content.h}:${content.m}` | timezoneTime(selectedTimezone) }}
       </span>
       <span class="starting-time__circle d-inline-block"/>
     </div>
   </div>
 </template>
-
 <script>
+import { mapState } from 'vuex'
+import '@/filters/timezone'
+
 export default {
   name: 'ScheduleTime',
   props: {
     content: {
       required: true,
       type: Object
+    }
+  },
+  data: () => ({
+    timezone: 'Europe/Madrid'
+  }),
+  computed: {
+    ...mapState({
+      currentTimezone: state => state.timezone.currentTimezone
+    }),
+    selectedTimezone () {
+      return this.currentTimezone || this.timezone
     }
   }
 }
