@@ -12,6 +12,7 @@ const data = {
   eventLink: 'https://www.twitch.tv/osweekends',
   startTime: '10:00',
   endTime: '12:00',
+  isTimezoneSelectorEnabled: true,
   tracks: [
     {
       name: 'The Awesome Track Online',
@@ -65,7 +66,8 @@ const data = {
               ],
               social: {
                 twitter: 'https://twitter.com/codingcarlos',
-                url: 'https://codingcarlos.com/'
+                url: 'https://codingcarlos.com/',
+                twitch: 'https://twitch.tv/codingcarlos'
               }
             }
           ]

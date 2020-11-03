@@ -17,7 +17,7 @@ import BaseFooter from '@/components/BaseFooter.vue'
 import Sponsors from '@/components/Sponsors.vue'
 import MeetupLink from '@/components/MeetupLink.vue'
 import data from '@/data/index'
-
+import { mapMutations } from 'vuex'
 export default {
   name: 'home',
   components: {
@@ -34,16 +34,27 @@ export default {
   },
   computed: {
     headerData () {
-      const { title, eventType, date, meetupLink, description, eventLink } = data
+      const { title, eventType, date, meetupLink, description, eventLink, isTimezoneSelectorEnabled } = data
       return {
         title,
         eventType,
         date,
         meetupLink,
         description,
-        eventLink
+        eventLink,
+        isTimezoneSelectorEnabled
       }
     }
+  },
+  mounted () {
+    if (localStorage.timezone) {
+      this.setTimezone(localStorage.timezone)
+    }
+  },
+  methods: {
+    ...mapMutations({
+      setTimezone: 'timezone/SET_CURRENTTIMEZONE'
+    })
   }
 }
 </script>
