@@ -5,7 +5,7 @@
 </template>
 <script>
 import timezones from '@/data/timezones'
-import { mapState, mapMutations } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 export default {
   data () {
     return {
@@ -28,7 +28,7 @@ export default {
       const validUTC = timezone.utc[0]
       // Save selected timezone on store
       if (oldTimezone && timezone.offset !== oldTimezone.offset) {
-        this.setTimezone(validUTC)
+        this.updateTimezone(validUTC)
         localStorage.timezone = validUTC
       }
     }
@@ -37,8 +37,8 @@ export default {
     this.selectedTimezone = this.initialTimezone
   },
   methods: {
-    ...mapMutations({
-      setTimezone: 'timezone/SET_CURRENTTIMEZONE'
+    ...mapActions({
+      updateTimezone: 'timezone/updateTimezone'
     })
   }
 }

@@ -5,7 +5,7 @@
         <h1 class="title m-0">
           {{ headerData.title }}
           <small class="date">
-            {{ headerData.date }}
+            {{ dateOnSelectedTimezone }}
           </small>
         </h1>
       </div>
@@ -45,6 +45,8 @@
 <script>
 import CBadge from '@/components/CustomBadge'
 import TimezoneSelector from '@/components/TimezoneSelector'
+import { mapState } from 'vuex'
+import dayjs from 'dayjs'
 
 export default {
   name: 'BaseHeader',
@@ -61,7 +63,17 @@ export default {
   data: () => ({
     isTimeZoneSelectorActive: false,
     isUserInMadrid: Intl.DateTimeFormat().resolvedOptions().timeZone === 'Europe/Madrid'
-  })
+  }),
+  computed: {
+    ...mapState({
+      currentTimezone: state => state.timezone.currentTimezone,
+      eventDate: state => dayjs(state.timezone.eventDate).format('DD/MM/YYYY H:mm')
+    }),
+    dateOnSelectedTimezone () {
+      const timezoneDate = this.$options.filters.timezoneDate(this.eventDate, this.currentTimezone)
+      return this.$options.filters.formattedDate(timezoneDate, 'DD MMMM YYYY')
+    }
+  }
 }
 </script>
 

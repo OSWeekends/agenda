@@ -2,7 +2,7 @@
   <div>
     <div class="starting-time">
       <span class="starting-time__start-time font-weight-bold mr-1 text-monospace">
-        {{ `${content.h}:${content.m}` | timezoneTime(selectedTimezone) }}
+        {{ timeOnSelectedTimezone }}
       </span>
       <span class="starting-time__circle d-inline-block"/>
     </div>
@@ -11,6 +11,7 @@
 <script>
 import { mapState } from 'vuex'
 import '@/filters/timezone'
+import dayjs from 'dayjs'
 
 export default {
   name: 'ScheduleTime',
@@ -20,15 +21,15 @@ export default {
       type: Object
     }
   },
-  data: () => ({
-    timezone: 'Europe/Madrid'
-  }),
   computed: {
     ...mapState({
-      currentTimezone: state => state.timezone.currentTimezone
+      currentTimezone: state => state.timezone.currentTimezone,
+      eventDate: state => dayjs(state.timezone.eventDate).format('DD/MM/YYYY')
     }),
-    selectedTimezone () {
-      return this.currentTimezone || this.timezone
+    timeOnSelectedTimezone () {
+      const { h, m } = this.content
+      const timezoneDate = this.$options.filters.timezoneDate(`${this.eventDate} ${h}:${m}`, this.currentTimezone)
+      return this.$options.filters.formattedDate(timezoneDate, 'H:mm')
     }
   }
 }
