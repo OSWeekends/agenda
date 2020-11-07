@@ -53,7 +53,7 @@ const data = {
             {
               name: 'Chechu',
               bio: [
-                'Desarrollador frontend. Moderador de los directos. El que te banea si te portas mal en OSWeekends online.'
+                'Desarrollador frontend. El que te banea si te portas mal en directo de OSWeekends ⛔️.'
               ],
               social: {
                 twitter: 'https://twitter.com/Xexuline'
@@ -88,7 +88,7 @@ const data = {
                 'Tras trabajar en varias compañías, fundé mi propia empresa de consultoría en París hace unos años, así que conozco bien los retos de comenzar con una startup o proyecto emprendedor desde cero.'
               ],
               social: {
-                linkedin: 'https://linkedin.com/in/iosamuel/'
+                linkedin: 'https://www.linkedin.com/in/jonathan-b-clarke-06174a38/'
                 // twitter: 'https://twitter.com/iosamuel',
                 // github: 'https://github.com/iosamuel',
                 // twitch: 'https://twitch.com/iosamuel',
