@@ -12,7 +12,7 @@ const data = {
   eventLink: 'https://www.twitch.tv/osweekends',
   startTime: '10:00',
   endTime: '12:00',
-  isTimezoneSelectorEnabled: true,
+  isTimezoneSelectorEnabled: false,
   tracks: [
     {
       name: 'The Awesome Track Online',
@@ -73,91 +73,114 @@ const data = {
           ]
         },
         {
-          title: '¿Por que no utilizar Flux? (Redux, Vuex, etc)',
+          title: '¿Estás buscando apoyo tecnológico para tu startup?',
           description: [
-            'Vamos a analizar desde un punto de vista técnico qué es el modelo Flux propuesto por Facebook como el siguiente paso para desarrollar aplicaciones web escalables. Y también descubriremos porqué este es un mal patrón para la gestión del estado en tus aplicaciones.',
-            'Pero no nos quedaremos ahí, te mostraré que alternativas tenemos y abriremos la mente a mejores modelos y patrones que existen actualmente en el mercado 😎. ¡Vamos a dar el siguiente paso 🦿 en el manejo de estados de las aplicaciones reactivas!'
+            'Desde OVHcloud contamos con un programa para startups que ayuda a impulsar los proyectos emergentes con un infraestructura cloud gratuita, asesoramiento técnico y acceso a nuestro ecosistema de partners. El programa ya ha ayudado a más de 2000 emprendedores de todo el mundo y cuenta con varias comunidades y aceleradoras en varios países.',
+            'En esta breve charla presentaré los beneficios y cómo unirse, y estaré disponible para cualquier duda que os pueda surgir.'
           ],
-          startTime: { h: '10', m: '20' },
-          tags: ['💻 Desarrollo', '⛓ Patrones'],
+          startTime: { h: '10', m: '25' },
+          tags: ['🔥 Startups', '💪 Emprendimiento '],
           speakers: [
             {
-              name: 'Samuel Burbano',
+              name: 'Jonathan Clarke',
               bio: [
-                '💻 Software Developer, Web Enthusiast, Penguin Lover. Senior Frontend Developer en Ring, Amazon'
+                'Soy Jonathan Clarke, un inglés ubicado en Madrid desde hace ya casi un año (perdón si mi español no es perfecto, todavía no controlo el slam español 😜), y trabajo en OVHcloud coordinando el programa de startups en España, Portugal y Italia.',
+                'Tras trabajar en varias compañías, fundé mi propia empresa de consultoría en París hace unos años, así que conozco bien los retos de comenzar con una startup o proyecto emprendedor desde cero.'
               ],
               social: {
-                twitter: 'https://twitter.com/iosamuel',
-                github: 'https://github.com/iosamuel',
-                linkedin: 'https://linkedin.com/in/iosamuel/',
-                twitch: 'https://twitch.com/iosamuel',
-                youtube: 'https://youtube.com/iosamuel',
-                instagram: 'https://instagram.com/_iosamuel',
-                facebook: 'https://facebook.com/iosamuel.dev',
-                url: 'https://iosamuel.dev'
+                linkedin: 'https://linkedin.com/in/iosamuel/'
+                // twitter: 'https://twitter.com/iosamuel',
+                // github: 'https://github.com/iosamuel',
+                // twitch: 'https://twitch.com/iosamuel',
+                // youtube: 'https://youtube.com/iosamuel',
+                // instagram: 'https://instagram.com/_iosamuel',
+                // facebook: 'https://facebook.com/iosamuel.dev',
+                // url: 'https://iosamuel.dev'
               }
             }
           ]
         },
         {
-          title: 'Gatsby, un generador de sitios estáticos para React 💜',
+          title: 'Mi historia de amor con diseño y desarrollo 💜',
           description: [
-            'Los sitios estáticos no son nuevos. Eran lo que usábamos para construir la forma web antes de que los CMS dinámicos (WordPress, Drupal, etc.) se hicieran cargo.',
-            '¿Qué hay de nuevo, entonces? Algunas herramientas modernas, como los generadores de sitios estáticos, surgieron en los últimos años y expandieron las capacidades de los sitios estáticos. Con un ecosistema cada vez mayor que rodea el desarrollo de estos sitios y con el poder de frameworks como ReactJS, podemos construir sitios web estáticos que se vuelven hyperdinámicos gracias a JS, Headless CMS y la era del Serverless.'
+            'Por qué elegir entre diseño y desarrollo puedes estar en ambos mundos. Acompáñame en esta historia sobre cómo descubrí mi pasión por el desarrollo frontend y el diseño y cómo ha sido mi camino hasta el día de hoy.'
           ],
           startTime: { h: '10', m: '40' },
-          tags: ['✨ Gatsby', '💻 Desarrollo', '🌠 SSG'],
+          tags: ['✨ Diseño', '💻 Desarrollo'],
           speakers: [
             {
-              name: 'Mafe Serna',
+              name: 'Miriam González',
               bio: [
-                'Javascript Developer 👩🏻‍💻/ Happy Developer at @NodeSource 💚/ Co-organizer @medellinjs / @avanet / jamstackMedellin / @commitFm'
+                '👋 Holi, soy Miriam, desarrolladora frontend con 3 años de experiencia en el mundo Startup. Como apasionada del diseño y la experiencia de usuario, procuro que mis desarrollos sean usables, inclusivos y accesibles a todas las personas.'
               ],
               social: {
-                twitter: 'https://twitter.com/mafesernaarbole',
-                github: 'https://github.com/mafesernaarboleda',
-                linkedin: 'https://www.linkedin.com/in/mafesernaarboleda/',
-                url: 'https://mafe.dev/'
+                twitter: 'https://twitter.com/miriamgonp'
+                // github: 'https://github.com/mafesernaarboleda',
+                // linkedin: 'https://www.linkedin.com/in/mafesernaarboleda/',
+                // url: 'https://mafe.dev/'
               }
             }
           ]
         },
         {
-          title: 'Cómo contribuir con el código abierto creando contenido',
+          title: 'Nombres evocadores mejor que nombres endebles',
           description: [
-            'Abordar el tema de creación de contenidos desde la perspectiva del apoyo al open source, como iniciar y como mantenerse motivado creando contenido técnico.'
+            'Cuando estás desarrollando, a la hora de ponerle nombre a las variables, ¿tienes dificultades para elegir buenos identificadores? Merece la pena dedicarle esfuerzo y tiempo a pulir los nombres, ya que es uno de los aspectos que más influye en la calidad y mantenibilidad del código.'
           ],
           startTime: { h: '11', m: '00' },
-          tags: ['💻 Desarrollo', '🙌 Open Source', '👨‍👨‍👧‍👧 Comunidad'],
+          tags: ['💻 Desarrollo', '✍️ Naming'],
           speakers: [
             {
-              name: 'Oscar Barajas (GnDx)',
+              name: 'Javier Abadía',
               bio: [
-                'Foundation Layer at @platzi - Lead at Developer Circles from Facebook, Speaker/Blogger. I teach React & Svelte in @platzi - #EStreamerCoders #Frontend'
+                'VP of Engineering en StyleSage. Me encanta desarrollar software en equipo, buscar los obstáculos que nos hacen ir más despacio y eliminarlos.'
               ],
               social: {
-                twitter: 'https://twitter.com/gndx',
-                twitch: 'https://twitch.tv/gndxdev',
-                instagram: 'https://instagram.com/gndx',
-                github: 'https://github.com/gndx'
+                twitter: 'https://twitter.com/javierabadia'
+              }
+            }
+          ]
+        },
+        {
+          title: 'Crear tu marca personal y acabar siendo embajadora',
+          description: [
+            'Cotilleos-popurrí de preguntas + cómo empecé creando mi marca personal y escribiendo posts hasta llegar a ser propuesta como embajadora de dos de mis tecnologías favoritas 💜.'
+          ],
+          startTime: { h: '11', m: '20' },
+          tags: ['💻 Desarrollo', '✨ Diseño', '🗣 Marketing'],
+          speakers: [
+            {
+              name: 'Alba Silvente Fuentes',
+              bio: [
+                'Me llamo Alba, aka Dawntraoz, trabajo como Senior FrontEnd Consultant en Blue Harvest. Soy de Alicante pero actualmente vivo en Ámsterdam 💜.',
+                'En mi tiempo libre, escribo artículos sobre FrontEnd, mayoritariamente, y trabajo duro en proyectos open source para mejorar ésta nuestra comunidad 👩‍💻. Este 2020 me nombraron embajadora de dos de las tecnologías con las que desarrollé mi web personal, mis queridas NuxtJS y Storyblok 🥳.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/dawntraoz',
+                github: 'https://github.com/Dawntraoz',
+                linkedin: 'https://linkedin.com/in/dawntraoz',
+                twitch: 'https://twitch.tv/dawntraoz',
+                instagram: 'https://instagram.com/dawntraoz',
+                dev: 'https://dev.to/dawntraoz',
+                url: 'https://www.dawntraoz.com'
               }
             }
           ]
         },
         {
           title: 'Networking & Beers online 💃🍻',
-          startTime: { h: '11', m: '20' },
-          endTime: { h: '11', m: '30' }
+          startTime: { h: '11', m: '40' },
+          endTime: { h: '11', m: '50' }
         }
       ]
     }
   ],
   sponsors: [
-    //  {
-    //    name: 'Sponsor1',
-    //    link: 'www.google.com',
-    //    img: '../assets/sponsors/spotify.svg'
-    //  }
+    {
+      name: 'OVHcloud',
+      link: 'https://www.ovhcloud.com/es-es/',
+      img: 'ovh2.png'
+    }
   ]
 }
 
