@@ -1,6 +1,6 @@
 const eventTypes = {
-  online: 'Online',
-  face2face: 'Presencial'
+  online: 'Evento Online',
+  face2face: 'Evento Presencial'
 }
 
 const data = {
@@ -8,8 +8,10 @@ const data = {
   eventType: eventTypes.online,
   date: '14 Noviembre 2020',
   description: '💃 Sexto evento temporada ¡Apúntate! 👉',
+  onAirText: 'Estamos en directo, ¡únete! 👉',
+  twitchUser: 'auronplay',
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/274306672/',
-  eventLink: 'https://www.twitch.tv/osweekends',
+  eventLink: `https://www.twitch.tv/osweekends`,
   startTime: '10:00',
   endTime: '12:00',
   tracks: [
