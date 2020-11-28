@@ -11,8 +11,8 @@ const data = {
   eventLink: 'https://www.twitch.tv/osweekends',
   startTime: '10:00',
   endTime: '12:00',
-  title: 'Agenda',
-  description: '💃 Último evento del año ¡Apúntate! 👉',
+  title: '🎅🏾 Agenda',
+  description: '🎄 Último evento del año ¡Apúntate! 👉',
   tracks: [
     {
       name: 'The Awesome Track Online',
@@ -29,6 +29,7 @@ const data = {
           speakers: [
             {
               name: 'Jorge Baumann',
+              avatar: 'https://pbs.twimg.com/profile_images/1307954103058866183/UQ1_k5fX_400x400.jpg',
               bio: [
                 'FullStack Engineer at GuideSmiths. Open Source developer at #RambitoJs.'
               ],
@@ -42,6 +43,7 @@ const data = {
             },
             {
               name: 'Teba Gómez',
+              avatar: 'https://pbs.twimg.com/profile_images/1051712960484257794/BUwHnV91_400x400.jpg',
               bio: [
                 'Software engineer at #Devo'
               ],
@@ -52,6 +54,7 @@ const data = {
             },
             {
               name: 'Chechu',
+              avatar: 'https://avatars2.githubusercontent.com/u/18353937?s=400&u=ef9c88f5f189e61dc3d049a57ccaccfe9c4f808d&v=4',
               bio: [
                 'Desarrollador frontend. El que te banea si te portas mal en directo de OSWeekends ⛔️.'
               ],
@@ -61,6 +64,7 @@ const data = {
             },
             {
               name: 'Coding Carlos',
+              avatar: 'https://pbs.twimg.com/profile_images/648425461215793152/TbmUPkW2_400x400.jpg',
               bio: [
                 'Showman, barbudo, programador y contador de cuentos. Conecto gente en @communitytools. Se me ve mucho en @commitsans. Tengo tierras.'
               ],
@@ -142,13 +146,14 @@ const data = {
         {
           title: 'BDD & Cucumber 🥒',
           description: [
-            '...'
+            '¿Eres creyente del BDD? ¿Y practicante? Vamos a hablar de qué es y cómo aplicarlo con un ejemplo práctico'
           ],
           startTime: { h: '11', m: '20' },
-          tags: ['💻 Desarrollo', '✍️ Naming'],
+          tags: ['💻 Desarrollo', '🧪 Testing', '👩‍🔬 Cypress'],
           speakers: [
             {
               name: 'Clara Dios 🙏',
+              avatar: 'https://pbs.twimg.com/profile_images/1168536594967650305/Hnn-LmlY_400x400.jpg',
               bio: [
                 'Developer at GuideSmiths'
               ],
@@ -167,21 +172,22 @@ const data = {
             '...'
           ],
           startTime: { h: '11', m: '40' },
-          tags: ['💻 Desarrollo', '✨ Diseño', '🗣 Marketing'],
+          tags: ['💻 Desarrollo', '🌱 Jardinería'],
           speakers: [
             {
               name: 'Sergio Morcuende',
+              avatar: 'https://avatars3.githubusercontent.com/u/1575830?s=460&u=c7e92b31b8509f1025a7ad8c25e5b096421a6dc3&v=4',
               bio: [
-                '...'
+                'Audiovisual Systems Engineer. IoT Developer. Maker. @bloomod cofounder. @osweekends mentor. Hippie de pueblo. Think globally, act locally. #ecologism #steam'
               ],
               social: {
-                twitter: 'https://twitter.com/_serxius_'
-                // github: 'https://github.com/Dawntraoz',
+                twitter: 'https://twitter.com/_serxius_',
+                github: 'https://github.com/smorcuend',
                 // linkedin: 'https://linkedin.com/in/dawntraoz',
                 // twitch: 'https://twitch.tv/dawntraoz',
                 // instagram: 'https://instagram.com/dawntraoz',
                 // dev: 'https://dev.to/dawntraoz',
-                // url: 'https://www.dawntraoz.com'
+                url: 'https://www.bloomod.com/'
               }
             }
           ]
