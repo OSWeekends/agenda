@@ -109,13 +109,13 @@ const data = {
             '...'
           ],
           startTime: { h: '10', m: '40' },
-          tags: ['✨ Open Source', '💻 Desarrollo'],
+          tags: ['💻 Desarrollo', '✨ Open Source', '💸 Money'],
           speakers: [
             {
               name: 'Guillermo Rauch',
               avatar: 'https://pbs.twimg.com/profile_images/1029230542716264448/LgLb--Of_400x400.jpg',
               bio: [
-                'CEO de Vercel'
+                'CEO de Vercel.'
               ],
               social: {
                 twitter: 'https://twitter.com/rauchg',
