@@ -171,22 +171,22 @@ const data = {
             '...'
           ],
           startTime: { h: '11', m: '40' },
-          tags: ['💻 Desarrollo', '✨ Diseño', '🗣 Marketing'],
+          tags: ['💻 Desarrollo', '🌱 Jardinería'],
           speakers: [
             {
               name: 'Sergio Morcuende',
               avatar: 'https://avatars3.githubusercontent.com/u/1575830?s=460&u=c7e92b31b8509f1025a7ad8c25e5b096421a6dc3&v=4',
               bio: [
-                '...'
+                'Audiovisual Systems Engineer. IoT Developer. Maker. @bloomod cofounder. @osweekends mentor. Hippie de pueblo. Think globally, act locally. #ecologism #steam'
               ],
               social: {
-                twitter: 'https://twitter.com/_serxius_'
-                // github: 'https://github.com/Dawntraoz',
+                twitter: 'https://twitter.com/_serxius_',
+                github: 'https://github.com/smorcuend',
                 // linkedin: 'https://linkedin.com/in/dawntraoz',
                 // twitch: 'https://twitch.tv/dawntraoz',
                 // instagram: 'https://instagram.com/dawntraoz',
                 // dev: 'https://dev.to/dawntraoz',
-                // url: 'https://www.dawntraoz.com'
+                url: 'https://www.bloomod.com/'
               }
             }
           ]
