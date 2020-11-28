@@ -29,6 +29,7 @@ const data = {
           speakers: [
             {
               name: 'Jorge Baumann',
+              avatar: 'https://pbs.twimg.com/profile_images/1307954103058866183/UQ1_k5fX_400x400.jpg',
               bio: [
                 'FullStack Engineer at GuideSmiths. Open Source developer at #RambitoJs.'
               ],
@@ -42,6 +43,7 @@ const data = {
             },
             {
               name: 'Teba Gómez',
+              avatar: 'https://pbs.twimg.com/profile_images/1051712960484257794/BUwHnV91_400x400.jpg',
               bio: [
                 'Software engineer at #Devo'
               ],
@@ -52,6 +54,7 @@ const data = {
             },
             {
               name: 'Chechu',
+              avatar: 'https://avatars2.githubusercontent.com/u/18353937?s=400&u=ef9c88f5f189e61dc3d049a57ccaccfe9c4f808d&v=4',
               bio: [
                 'Desarrollador frontend. El que te banea si te portas mal en directo de OSWeekends ⛔️.'
               ],
@@ -61,6 +64,7 @@ const data = {
             },
             {
               name: 'Coding Carlos',
+              avatar: 'https://pbs.twimg.com/profile_images/648425461215793152/TbmUPkW2_400x400.jpg',
               bio: [
                 'Showman, barbudo, programador y contador de cuentos. Conecto gente en @communitytools. Se me ve mucho en @commitsans. Tengo tierras.'
               ],
@@ -82,6 +86,7 @@ const data = {
           speakers: [
             {
               name: 'Stivali Serna',
+              avatar: 'https://avatars3.githubusercontent.com/u/6487058?s=460&u=37a0001b5db966f73d2bba229ac9d4bd3dca0248&v=4',
               bio: [
                 '...'
               ],
@@ -108,6 +113,7 @@ const data = {
           speakers: [
             {
               name: 'Guillermo Rauch',
+              avatar: 'https://pbs.twimg.com/profile_images/1029230542716264448/LgLb--Of_400x400.jpg',
               bio: [
                 'CEO de Vercel'
               ],
@@ -149,6 +155,7 @@ const data = {
           speakers: [
             {
               name: 'Clara Dios 🙏',
+              avatar: 'https://pbs.twimg.com/profile_images/1168536594967650305/Hnn-LmlY_400x400.jpg',
               bio: [
                 '...'
               ],
@@ -168,6 +175,7 @@ const data = {
           speakers: [
             {
               name: 'Sergio Morcuende',
+              avatar: 'https://avatars3.githubusercontent.com/u/1575830?s=460&u=c7e92b31b8509f1025a7ad8c25e5b096421a6dc3&v=4',
               bio: [
                 '...'
               ],
