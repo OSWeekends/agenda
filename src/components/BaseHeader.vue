@@ -10,6 +10,7 @@
         </h1>
       </div>
       <div class="flex-header-item">
+        <CBadge class="mr-2 ml-md-2 christmas-badge"> ⛄ Christmas Edition </CBadge>
         <CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>
       </div>
     </div>
@@ -109,4 +110,8 @@ main-blue = #003DA5
 
 .timezone-disclaimer
   font-size: 14px
+
+.christmas-badge
+  color white
+  background rgba(255, 71, 71, 0.9)
 </style>

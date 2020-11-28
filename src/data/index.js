@@ -11,8 +11,8 @@ const data = {
   eventLink: 'https://www.twitch.tv/osweekends',
   startTime: '10:00',
   endTime: '12:00',
-  title: 'Agenda',
-  description: '💃 Último evento del año ¡Apúntate! 👉',
+  title: '🎅🏾 Agenda',
+  description: '🎄 Último evento del año ¡Apúntate! 👉',
   tracks: [
     {
       name: 'The Awesome Track Online',
