@@ -73,27 +73,27 @@ const data = {
           ]
         },
         {
-          title: 'Animaciones con Three.js',
+          title: 'Conceptos básicos de modelado 3D para web devs con Three.js',
           description: [
-            '...'
+            '¿Estás hart@ del flat design? ¿Quieres darle otro ángulo a tu carrera? Te invito a navegar en otra dimensión 🥁. Hablaremos sobre las bases de modelado 3D para que empieces a desarrollar con Three.js.'
           ],
           startTime: { h: '10', m: '20' },
-          tags: ['🔥 Startups', '💪 Emprendimiento '],
+          tags: ['✨ Diseño', '💻 Desarrollo'],
           speakers: [
             {
               name: 'Stivali Serna',
               bio: [
-                '...'
+                'Soy Stívali 🙋‍♀️, de Venezuela. Trabajo como fullstack developer en Thoughtworks Spain y en mis ratos libres usualmente me verán haciendo web animations y 3D modeling ^^'
               ],
               social: {
                 // linkedin: 'https://www.linkedin.com/in/jonathan-b-clarke-06174a38/'
-                // twitter: 'https://twitter.com/iosamuel',
+                twitter: 'https://twitter.com/stivaliserna',
                 // github: 'https://github.com/iosamuel',
                 // twitch: 'https://twitch.com/iosamuel',
                 // youtube: 'https://youtube.com/iosamuel',
                 // instagram: 'https://instagram.com/_iosamuel',
                 // facebook: 'https://facebook.com/iosamuel.dev',
-                // url: 'https://iosamuel.dev'
+                url: ['https://codepen.io/stivaliserna', 'https://www.stivaliserna.com/']
               }
             }
           ]
@@ -121,9 +121,9 @@ const data = {
           ]
         },
         {
-          title: 'Verdadero o Falsedad 👾',
+          title: '🤡 Verdadero o Falsedad 👾',
           description: [
-            '🤡'
+            'Adivina cuales de las siguientes historias que contaremos son verdad ✨'
           ],
           startTime: { h: '11', m: '00' },
           tags: ['💻 Desarrollo', '✍️ Naming'],
@@ -150,10 +150,13 @@ const data = {
             {
               name: 'Clara Dios 🙏',
               bio: [
-                '...'
+                'Developer at GuideSmiths'
               ],
               social: {
-                twitter: 'https://twitter.com/ClaraDios'
+                twitter: 'https://twitter.com/claradios',
+                twitch: 'https://twitch.tv/claradios',
+                instagram: 'https://instagram.com/c.diosss',
+                github: 'https://github.com/claradios'
               }
             }
           ]
