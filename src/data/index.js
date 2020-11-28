@@ -151,16 +151,17 @@ const data = {
             '...'
           ],
           startTime: { h: '11', m: '20' },
-          tags: ['💻 Desarrollo', '✍️ Naming'],
+          tags: ['💻 Desarrollo', '🧪 Testing', '👩‍🔬 Cypress'],
           speakers: [
             {
               name: 'Clara Dios 🙏',
               avatar: 'https://pbs.twimg.com/profile_images/1168536594967650305/Hnn-LmlY_400x400.jpg',
               bio: [
-                '...'
+                'Adalaber | Front-end Developer | Animator.'
               ],
               social: {
-                twitter: 'https://twitter.com/ClaraDios'
+                twitter: 'https://twitter.com/ClaraDios',
+                github: 'https://github.com/claradios'
               }
             }
           ]
