@@ -11,7 +11,7 @@ const data = {
   eventLink: 'https://www.twitch.tv/osweekends',
   startTime: '10:00',
   endTime: '12:00',
-  title: '🎅🏾 Agenda',
+  title: '🎅🏼 Agenda',
   description: '🎄 Último evento del año ¡Apúntate! 👉',
   tracks: [
     {
@@ -133,17 +133,7 @@ const data = {
           ],
           startTime: { h: '11', m: '00' },
           tags: ['💅 Cháchara', '🎮 Juego'],
-          speakers: [
-            // {
-            //   name: 'Clara Dios 🙏',
-            //   bio: [
-            //     '...'
-            //   ],
-            //   social: {
-            //     twitter: 'https://twitter.com/ClaraDios'
-            //   }
-            // }
-          ]
+          speakers: []
         },
         {
           title: 'BDD & Cucumber 🥒',
@@ -157,7 +147,7 @@ const data = {
               name: 'Clara Dios 🙏',
               avatar: 'https://pbs.twimg.com/profile_images/1168536594967650305/Hnn-LmlY_400x400.jpg',
               bio: [
-                'Developer at GuideSmiths'
+                'Developer en GuideSmiths, autora del cómic Clit Flick 📚, arquitecta 🏛 y de pueblo.'
               ],
               social: {
                 twitter: 'https://twitter.com/claradios',
