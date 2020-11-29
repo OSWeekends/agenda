@@ -2,7 +2,7 @@
   <header class="mb-3">
     <div class="base-header d-flex justify-content-between align-items-center mb-3 justify-content-md-start">
       <div class="flex-header-item">
-        <h1 class="title m-0">
+        <h1 class="title m-0 font-weight-bold">
           {{ headerData.title }}
           <small class="date">
             {{ dateOnSelectedTimezone }}
@@ -10,7 +10,8 @@
         </h1>
       </div>
       <div class="flex-header-item">
-        <CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>
+        <CBadge class="mr-2 ml-md-2 christmas-badge"> ⛄ Christmas Edition </CBadge>
+        <!--<CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>-->
       </div>
     </div>
     <!-- Timezone selector -->
@@ -109,4 +110,8 @@ main-blue = #003DA5
 
 .timezone-disclaimer
   font-size: 14px
+
+.christmas-badge
+  color white
+  background #f00000
 </style>

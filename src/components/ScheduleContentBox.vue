@@ -7,7 +7,7 @@
           <header>
             <h4 class="font-weight-bold">{{ content.title }}</h4>
           </header>
-          <div class="content-description">
+          <div class="content-description mt-4">
             <p v-for="(desc, index) in content.description" class="mt-0 mb-1" :key="`description-${index}`">
               {{ desc }}
             </p>

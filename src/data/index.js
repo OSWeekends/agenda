@@ -4,15 +4,15 @@ const eventTypes = {
 }
 
 const data = {
-  title: 'Agenda',
+  date: '19 Diciembre 2020',
+  isTimezoneSelectorEnabled: false,
   eventType: eventTypes.online,
-  date: '14 Noviembre 2020',
-  description: '💃 Sexto evento temporada ¡Apúntate! 👉',
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/274306672/',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/274849426/',
   eventLink: 'https://www.twitch.tv/osweekends',
   startTime: '10:00',
   endTime: '12:00',
-  isTimezoneSelectorEnabled: false,
+  title: '🎅🏼 Agenda',
+  description: '🎄 Último evento del año ¡Apúntate! 👉',
   tracks: [
     {
       name: 'The Awesome Track Online',
@@ -20,15 +20,16 @@ const data = {
         {
           title: 'Bienvenida y café virtual ☕️',
           description: [
-            '- Puntos del día 🔥',
-            '- Agenda 📇',
-            '- OSWorld 👨‍🎤'
+            '•  Puntos del día 🔥',
+            '•  Agenda 📇',
+            '•  OSWorld 👨‍🎤👩‍🎤'
           ],
           startTime: { h: '10', m: '00' },
           // endTime: { h: '10', m: '20' },
           speakers: [
             {
               name: 'Jorge Baumann',
+              avatar: 'https://pbs.twimg.com/profile_images/1307954103058866183/UQ1_k5fX_400x400.jpg',
               bio: [
                 'FullStack Engineer at GuideSmiths. Open Source developer at #RambitoJs.'
               ],
@@ -40,18 +41,20 @@ const data = {
                 // url: ['1', 2 , 4]
               }
             },
-            // {
-            //   name: 'Teba Gómez',
-            //   bio: [
-            //     'Software engineer at #Devo'
-            //   ],
-            //   social: {
-            //     twitter: 'https://twitter.com/KoolTheba',
-            //     github: 'https://github.com/kooltheba'
-            //   }
-            // },
+            {
+              name: 'Teba Gómez',
+              avatar: 'https://pbs.twimg.com/profile_images/1051712960484257794/BUwHnV91_400x400.jpg',
+              bio: [
+                'Software engineer at #Devo'
+              ],
+              social: {
+                twitter: 'https://twitter.com/KoolTheba',
+                github: 'https://github.com/kooltheba'
+              }
+            },
             {
               name: 'Chechu',
+              avatar: 'https://avatars2.githubusercontent.com/u/18353937?s=400&u=ef9c88f5f189e61dc3d049a57ccaccfe9c4f808d&v=4',
               bio: [
                 'Desarrollador frontend. El que te banea si te portas mal en directo de OSWeekends ⛔️.'
               ],
@@ -61,6 +64,7 @@ const data = {
             },
             {
               name: 'Coding Carlos',
+              avatar: 'https://pbs.twimg.com/profile_images/648425461215793152/TbmUPkW2_400x400.jpg',
               bio: [
                 'Showman, barbudo, programador y contador de cuentos. Conecto gente en @communitytools. Se me ve mucho en @commitsans. Tengo tierras.'
               ],
@@ -73,114 +77,127 @@ const data = {
           ]
         },
         {
-          title: '¿Estás buscando apoyo tecnológico para tu startup?',
+          title: 'Conceptos básicos de modelado 3D para web devs con Three.js',
           description: [
-            'Desde OVHcloud contamos con un programa para startups que ayuda a impulsar los proyectos emergentes con un infraestructura cloud gratuita, asesoramiento técnico y acceso a nuestro ecosistema de partners. El programa ya ha ayudado a más de 2000 emprendedores de todo el mundo y cuenta con varias comunidades y aceleradoras en varios países.',
-            'En esta breve charla presentaré los beneficios y cómo unirse, y estaré disponible para cualquier duda que os pueda surgir.'
+            '¿Estás hart@ del flat design? ¿Quieres darle otro ángulo a tu carrera? Te invito a navegar en otra dimensión 🥁. Hablaremos sobre las bases de modelado 3D para que empieces a desarrollar con Three.js.'
           ],
-          startTime: { h: '10', m: '25' },
-          tags: ['🔥 Startups', '💪 Emprendimiento '],
+          startTime: { h: '10', m: '20' },
+          tags: ['✨ Diseño', '💻 Desarrollo'],
           speakers: [
             {
-              name: 'Jonathan Clarke',
+              name: 'Stivali Serna',
+              avatar: 'https://avatars3.githubusercontent.com/u/6487058?s=460&u=37a0001b5db966f73d2bba229ac9d4bd3dca0248&v=4',
               bio: [
-                'Soy Jonathan Clarke, un inglés ubicado en Madrid desde hace ya casi un año (perdón si mi español no es perfecto, todavía no controlo el slam español 😜), y trabajo en OVHcloud coordinando el programa de startups en España, Portugal y Italia.',
-                'Tras trabajar en varias compañías, fundé mi propia empresa de consultoría en París hace unos años, así que conozco bien los retos de comenzar con una startup o proyecto emprendedor desde cero.'
+                'Soy Stívali 🙋‍♀️, de Venezuela. Trabajo como fullstack developer en Thoughtworks Spain y en mis ratos libres usualmente me verán haciendo web animations y 3D modeling ^^'
               ],
               social: {
-                linkedin: 'https://www.linkedin.com/in/jonathan-b-clarke-06174a38/'
-                // twitter: 'https://twitter.com/iosamuel',
+                // linkedin: 'https://www.linkedin.com/in/jonathan-b-clarke-06174a38/'
+                twitter: 'https://twitter.com/stivaliserna',
                 // github: 'https://github.com/iosamuel',
                 // twitch: 'https://twitch.com/iosamuel',
                 // youtube: 'https://youtube.com/iosamuel',
                 // instagram: 'https://instagram.com/_iosamuel',
                 // facebook: 'https://facebook.com/iosamuel.dev',
-                // url: 'https://iosamuel.dev'
+                url: ['https://codepen.io/stivaliserna', 'https://www.stivaliserna.com/']
               }
             }
           ]
         },
         {
-          title: 'Mi historia de amor con diseño y desarrollo 💜',
+          title: 'Viabilidad económica en proyectos Open Source',
           description: [
-            'Por qué elegir entre diseño y desarrollo puedes estar en ambos mundos. Acompáñame en esta historia sobre cómo descubrí mi pasión por el desarrollo frontend y el diseño y cómo ha sido mi camino hasta el día de hoy.'
+            '...'
           ],
           startTime: { h: '10', m: '40' },
-          tags: ['✨ Diseño', '💻 Desarrollo'],
+          tags: ['💻 Desarrollo', '✨ Open Source', '💸 Money'],
           speakers: [
             {
-              name: 'Miriam González',
+              name: 'Guillermo Rauch',
+              avatar: 'https://pbs.twimg.com/profile_images/1029230542716264448/LgLb--Of_400x400.jpg',
               bio: [
-                '👋 Holi, soy Miriam, desarrolladora frontend con 3 años de experiencia en el mundo Startup. Como apasionada del diseño y la experiencia de usuario, procuro que mis desarrollos sean usables, inclusivos y accesibles a todas las personas.'
+                'CEO de Vercel.'
               ],
               social: {
-                twitter: 'https://twitter.com/miriamgonp'
+                twitter: 'https://twitter.com/rauchg',
                 // github: 'https://github.com/mafesernaarboleda',
                 // linkedin: 'https://www.linkedin.com/in/mafesernaarboleda/',
-                // url: 'https://mafe.dev/'
+                url: 'https://rauchg.com'
               }
             }
           ]
         },
         {
-          title: 'Nombres evocadores mejor que nombres endebles',
+          title: '🤡 Verdadero o Falsedad 👾',
           description: [
-            'Cuando estás desarrollando, a la hora de ponerle nombre a las variables, ¿tienes dificultades para elegir buenos identificadores? Merece la pena dedicarle esfuerzo y tiempo a pulir los nombres, ya que es uno de los aspectos que más influye en la calidad y mantenibilidad del código.'
+            'Adivina cuales de las siguientes historias que contaremos son verdad ✨'
           ],
           startTime: { h: '11', m: '00' },
-          tags: ['💻 Desarrollo', '✍️ Naming'],
+          tags: ['💅 Cháchara', '🎮 Juego'],
+          speakers: []
+        },
+        {
+          title: 'BDD & Cucumber 🥒',
+          description: [
+            '¿Eres creyente del BDD? ¿Y practicante? Vamos a hablar de qué es y cómo aplicarlo con un ejemplo práctico.'
+          ],
+          startTime: { h: '11', m: '20' },
+          tags: ['💻 Desarrollo', '🧪 Testing', '👩‍🔬 Cypress'],
           speakers: [
             {
-              name: 'Javier Abadía',
+              name: 'Clara Dios 🙏',
+              avatar: 'https://pbs.twimg.com/profile_images/1168536594967650305/Hnn-LmlY_400x400.jpg',
               bio: [
-                'VP of Engineering en StyleSage. Me encanta desarrollar software en equipo, buscar los obstáculos que nos hacen ir más despacio y eliminarlos.'
+                'Developer en GuideSmiths, autora del cómic Clit Flick 📚, arquitecta 🏛 y de pueblo.'
               ],
               social: {
-                twitter: 'https://twitter.com/javierabadia'
+                twitter: 'https://twitter.com/claradios',
+                twitch: 'https://twitch.tv/claradios',
+                instagram: 'https://instagram.com/c.diosss',
+                github: 'https://github.com/claradios'
               }
             }
           ]
         },
         {
-          title: 'Crear tu marca personal y acabar siendo embajadora',
+          title: 'Sensores y cosas',
           description: [
-            'Cotilleos-popurrí de preguntas + cómo empecé creando mi marca personal y escribiendo posts hasta llegar a ser propuesta como embajadora de dos de mis tecnologías favoritas 💜.'
+            '...'
           ],
-          startTime: { h: '11', m: '20' },
-          tags: ['💻 Desarrollo', '✨ Diseño', '🗣 Marketing'],
+          startTime: { h: '11', m: '40' },
+          tags: ['💻 Desarrollo', '🌱 Jardinería'],
           speakers: [
             {
-              name: 'Alba Silvente Fuentes',
+              name: 'Sergio Morcuende',
+              avatar: 'https://avatars3.githubusercontent.com/u/1575830?s=460&u=c7e92b31b8509f1025a7ad8c25e5b096421a6dc3&v=4',
               bio: [
-                'Me llamo Alba, aka Dawntraoz, trabajo como Senior FrontEnd Consultant en Blue Harvest. Soy de Alicante pero actualmente vivo en Ámsterdam 💜.',
-                'En mi tiempo libre, escribo artículos sobre FrontEnd, mayoritariamente, y trabajo duro en proyectos open source para mejorar ésta nuestra comunidad 👩‍💻. Este 2020 me nombraron embajadora de dos de las tecnologías con las que desarrollé mi web personal, mis queridas NuxtJS y Storyblok 🥳.'
+                'Audiovisual Systems Engineer. IoT Developer. Maker. @bloomod cofounder. @osweekends mentor. Hippie de pueblo. Think globally, act locally. #ecologism #steam'
               ],
               social: {
-                twitter: 'https://twitter.com/dawntraoz',
-                github: 'https://github.com/Dawntraoz',
-                linkedin: 'https://linkedin.com/in/dawntraoz',
-                twitch: 'https://twitch.tv/dawntraoz',
-                instagram: 'https://instagram.com/dawntraoz',
-                dev: 'https://dev.to/dawntraoz',
-                url: 'https://www.dawntraoz.com'
+                twitter: 'https://twitter.com/_serxius_',
+                github: 'https://github.com/smorcuend',
+                // linkedin: 'https://linkedin.com/in/dawntraoz',
+                // twitch: 'https://twitch.tv/dawntraoz',
+                // instagram: 'https://instagram.com/dawntraoz',
+                // dev: 'https://dev.to/dawntraoz',
+                url: 'https://www.bloomod.com/'
               }
             }
           ]
         },
         {
           title: 'Networking & Beers online 💃🍻',
-          startTime: { h: '11', m: '40' },
-          endTime: { h: '11', m: '50' }
+          startTime: { h: '12', m: '00' },
+          endTime: { h: '12', m: '15' }
         }
       ]
     }
   ],
   sponsors: [
-    {
-      name: 'OVHcloud',
-      link: 'https://www.ovhcloud.com/es-es/',
-      img: 'ovh2.png'
-    }
+    // {
+    //   name: 'OVHcloud',
+    //   link: 'https://www.ovhcloud.com/es-es/',
+    //   img: 'ovh2.png'
+    // }
   ]
 }
 

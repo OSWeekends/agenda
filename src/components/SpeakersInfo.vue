@@ -5,7 +5,7 @@
       <div class="d-flex">
         <div class="mr-3">
           <!--<b-avatar variant="light" size="2.5em"></b-avatar>-->
-          <b-avatar variant="light" size="2.5rem" src="https://cdn.iconscout.com/icon/free/png-256/laugh-1659498-1410020.png"></b-avatar>
+          <b-avatar variant="light" size="2.5rem" :src="speaker.avatar"></b-avatar>
         </div>
         <div>
           <div class="d-md-flex align-items-center mb-1">
