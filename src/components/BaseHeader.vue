@@ -11,7 +11,7 @@
       </div>
       <div class="flex-header-item">
         <CBadge class="mr-2 ml-md-2 christmas-badge"> ⛄ Christmas Edition </CBadge>
-        <CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>
+        <!--<CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>-->
       </div>
     </div>
     <!-- Timezone selector -->
