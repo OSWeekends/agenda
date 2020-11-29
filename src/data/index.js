@@ -20,9 +20,9 @@ const data = {
         {
           title: 'Bienvenida y café virtual ☕️',
           description: [
-            '- Puntos del día 🔥',
-            '- Agenda 📇',
-            '- OSWorld 👨‍🎤👩‍🎤'
+            '•  Puntos del día 🔥',
+            '•  Agenda 📇',
+            '•  OSWorld 👨‍🎤👩‍🎤'
           ],
           startTime: { h: '10', m: '00' },
           // endTime: { h: '10', m: '20' },
@@ -86,6 +86,7 @@ const data = {
           speakers: [
             {
               name: 'Stivali Serna',
+              avatar: 'https://avatars3.githubusercontent.com/u/6487058?s=460&u=37a0001b5db966f73d2bba229ac9d4bd3dca0248&v=4',
               bio: [
                 'Soy Stívali 🙋‍♀️, de Venezuela. Trabajo como fullstack developer en Thoughtworks Spain y en mis ratos libres usualmente me verán haciendo web animations y 3D modeling ^^'
               ],
@@ -112,6 +113,7 @@ const data = {
           speakers: [
             {
               name: 'Guillermo Rauch',
+              avatar: 'https://pbs.twimg.com/profile_images/1029230542716264448/LgLb--Of_400x400.jpg',
               bio: [
                 'CEO de Vercel.'
               ],
@@ -130,7 +132,7 @@ const data = {
             'Adivina cuales de las siguientes historias que contaremos son verdad ✨'
           ],
           startTime: { h: '11', m: '00' },
-          tags: ['💻 Desarrollo', '✍️ Naming'],
+          tags: ['💅 Cháchara', '🎮 Juego'],
           speakers: [
             // {
             //   name: 'Clara Dios 🙏',
@@ -146,7 +148,7 @@ const data = {
         {
           title: 'BDD & Cucumber 🥒',
           description: [
-            '¿Eres creyente del BDD? ¿Y practicante? Vamos a hablar de qué es y cómo aplicarlo con un ejemplo práctico'
+            '¿Eres creyente del BDD? ¿Y practicante? Vamos a hablar de qué es y cómo aplicarlo con un ejemplo práctico.'
           ],
           startTime: { h: '11', m: '20' },
           tags: ['💻 Desarrollo', '🧪 Testing', '👩‍🔬 Cypress'],

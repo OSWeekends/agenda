@@ -2,7 +2,7 @@
   <header class="mb-3">
     <div class="base-header d-flex justify-content-between align-items-center mb-3 justify-content-md-start">
       <div class="flex-header-item">
-        <h1 class="title m-0">
+        <h1 class="title m-0 font-weight-bold">
           {{ headerData.title }}
           <small class="date">
             {{ dateOnSelectedTimezone }}
@@ -113,5 +113,5 @@ main-blue = #003DA5
 
 .christmas-badge
   color white
-  background rgba(255, 71, 71, 0.9)
+  background #f00000
 </style>
