@@ -1,43 +1,31 @@
 <template>
   <header class="mb-3">
-    <div class="base-header d-flex justify-content-between align-items-center mb-3 justify-content-md-start">
-      <div class="flex-header-item">
-        <h1 class="title m-0 font-weight-bold">
-          {{ headerData.title }}
-          <small class="date">
-            {{ dateOnSelectedTimezone }}
-          </small>
-        </h1>
+    <div class="d-flex">
+      <div class="base-header d-flex justify-content-between align-items-center mb-3 justify-content-md-start">
+        <div class="flex-header-item">
+          <h1 class="title m-0 font-weight-bold">
+            {{ headerData.title }}
+            <small class="date">
+              {{ dateOnSelectedTimezone }}
+            </small>
+          </h1>
+        </div>
+        <div class="flex-header-item">
+          <CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>
+          <CBadge class="mr-2 ml-md-2 christmas-badge"> ⛄ Christmas Edition</CBadge>
+        </div>
       </div>
-      <div class="flex-header-item">
-        <CBadge class="mr-2 ml-md-2 christmas-badge"> ⛄ Christmas Edition </CBadge>
-        <!--<CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>-->
-      </div>
-    </div>
-    <!-- Timezone selector -->
-    <div class="flex-column justify-start mb-4" v-if="headerData.isTimezoneSelectorEnabled">
-      <b-row>
-        <b-col lg="6">
-          <p v-if="!isUserInMadrid" class="timezone-disclaimer">Nos han chivado que no estás en España (o al menos en la zona horaria de españa), no te preocupes, cambiamos el horario a tu zona para que nos puedas ver</p>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col lg="4" md="12">
-          <b-button v-if="!isTimeZoneSelectorActive && isUserInMadrid" size="sm" variant="light" @click="isTimeZoneSelectorActive = true">Pincha aquí para cambiar a otra zona horaria</b-button>
-          <TimezoneSelector v-if="isTimeZoneSelectorActive || !isUserInMadrid"/>
-        </b-col>
-      </b-row>
-    </div>
-    <!-- END: Timezone selector -->
-
-    <div class="d-flex justify-content-between align-self-center justify-content-md-end">
-      <div class="description-item pr-3">
-        <div class="mb-0"> {{ headerData.description }}</div>
-      </div>
-      <div class="meetup-item align-self-start">
-        <a class="text-body" :href="headerData.meetupLink" title="Ver más en meetup" target="_blank">
-          <font-awesome-icon :icon="['fab', 'meetup']" size="2x"/>
-        </a>
+      <div class="d-flex justify-content-end">
+        <!-- Timezone selector -->
+        <div v-if="headerData.isTimezoneSelectorEnabled">
+          <TimezoneSelector />
+        </div>
+        <!-- END: Timezone selector -->
+        <div class="meetup-item align-self-start">
+          <a class="text-body" :href="headerData.meetupLink" title="Ver más en meetup" target="_blank">
+            <font-awesome-icon :icon="['fab', 'meetup']" size="2x"/>
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -62,8 +50,7 @@ export default {
     }
   },
   data: () => ({
-    isTimeZoneSelectorActive: false,
-    isUserInMadrid: Intl.DateTimeFormat().resolvedOptions().timeZone === 'Europe/Madrid'
+    isTimeZoneSelectorActive: false
   }),
   computed: {
     ...mapState({

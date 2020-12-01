@@ -5,13 +5,13 @@ const eventTypes = {
 
 const data = {
   date: '19 Diciembre 2020',
-  isTimezoneSelectorEnabled: false,
+  isTimezoneSelectorEnabled: true,
   eventType: eventTypes.online,
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/274849426/',
   eventLink: 'https://www.twitch.tv/osweekends',
   startTime: '10:00',
   endTime: '12:00',
-  title: '🎅🏼 Agenda',
+  title: '🎅🏾 Agenda',
   description: '🎄 Último evento del año ¡Apúntate! 👉',
   tracks: [
     {

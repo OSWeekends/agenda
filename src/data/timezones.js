@@ -1,4 +1,3 @@
-// Array of any timezone
 // https://github.com/dmfilipenko/timezones.json/blob/master/timezones.json
 const timezones = [
   {
