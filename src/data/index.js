@@ -159,9 +159,10 @@ const data = {
           ]
         },
         {
-          title: 'Sensores y cosas',
+          title: 'Sensores, IoT y cosas de esas',
           description: [
-            '...'
+            'Como montar un proyecto IoT para medir la calidad del aire en 20 minutos (bueno... quizás algo más) o como dice mi amigo @baumannzone \'Sensores y cosas\' ¿Me acompañas en esta aventura?',
+            'Proyecto surgido dentro de #OSWGuilds y recuperado en tiempos de Covid-19 pa\' mi gente de OSW. Código abierto del proyecto: https://github.com/OSWeekends/miniestaciones'
           ],
           startTime: { h: '11', m: '40' },
           tags: ['💻 Desarrollo', '🌱 Jardinería'],
