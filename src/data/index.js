@@ -104,9 +104,9 @@ const data = {
           ]
         },
         {
-          title: 'Viabilidad económica en proyectos Open Source',
+          title: 'Economía en el Open Source 💸',
           description: [
-            '...'
+            '¿Es rentable, económicamente hablando, trabajar en proyectos Open Source? ¿Cómo sobrevive una empresa que tiene un producto que es Open Source?'
           ],
           startTime: { h: '10', m: '40' },
           tags: ['💻 Desarrollo', '✨ Open Source', '💸 Money'],
