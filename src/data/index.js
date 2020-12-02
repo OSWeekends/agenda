@@ -9,6 +9,8 @@ const data = {
   eventType: eventTypes.online,
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/274849426/',
   eventLink: 'https://www.twitch.tv/osweekends',
+  twitchUser: 'osweekends',
+  onAirText: '¡OSWeekends está en directo! ⏺',
   startTime: '10:00',
   endTime: '12:00',
   title: '🎅🏾 Agenda',

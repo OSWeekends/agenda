@@ -19,7 +19,7 @@ import Sponsors from '@/components/Sponsors.vue'
 import MeetupLink from '@/components/MeetupLink.vue'
 import data from '@/data/index'
 import { mapActions } from 'vuex'
-import TwitchIsLive from '@/views/TwitchIsLive'
+import TwitchIsLive from '@/components/TwitchIsLive'
 
 export default {
   name: 'home',
