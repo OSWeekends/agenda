@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "nelodev",
+      "name": "NeloDev",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/21993984?v=4",
+      "profile": "https://www.linkedin.com/in/manuel-puchades-bresó-115a58179/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "agenda",
+  "projectOwner": "OSWeekends",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
