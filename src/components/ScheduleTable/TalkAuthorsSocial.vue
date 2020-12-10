@@ -52,7 +52,7 @@ export default {
 <style lang="stylus">
 .ico-link
   font-size 1.3rem
-  color #333
+  color var(--color-text)
 
   //&.ico-twitter
   //  color #059ff6
@@ -76,6 +76,8 @@ export default {
   //  color #2f2f2f
   //&.ico-gamepad
   //  color orange
+  &:hover
+    color var(--color-main)
 
 a.multiple:not(:last-child) {
   margin-right: 0.5rem;

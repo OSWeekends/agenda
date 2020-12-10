@@ -1,13 +1,13 @@
 <template>
   <b-row v-if="isLive" class="mb-5 mb-sm-2">
     <b-col cols="1" sm="auto">
-      <div style="width: 71px" class="bg-primary"></div>
+      <div style="width: 71px"></div>
     </b-col>
     <b-col>
       <a href="https://www.twitch.tv/osweekends" class="text-decoration-none" title="¡OSWeekends está emitiendo!">
         <div class="box-is-live p-5 d-flex flex-column flex-sm-row justify-content-between align-items-center shadow-sm rounded">
           <div>
-            <h3 class="m-0 text-white text-center text-sm-right mb-3 mb-sm-0">
+            <h3 class="m-0 text-center text-sm-right mb-3 mb-sm-0">
               ¡OSWeekends está en directo!
             </h3>
           </div>
@@ -52,12 +52,10 @@ export default {
 </script>
 
 <style lang="stylus">
-twitch-bg = #772ce8
-circle-color = white
-
-.box-is-live {
-  background: twitch-bg
-}
+.box-is-live
+  color var(--color-main)
+  background var(--color-background-highlight)
+  box-shadow 2px 2px var(--color-background-shadow)
 
 .loader {
   animation: pulse 2s infinite ease-out;
@@ -110,7 +108,7 @@ circle-color = white
 .loader {
   width: 20px;
   height: 20px;
-  background: circle-color;
+  background: var(--color-main);
   border-radius: 50%;
 }
 
@@ -119,7 +117,7 @@ circle-color = white
   position: absolute;
   width: 30px;
   height: 30px;
-  border: 0.25em solid circle-color;
+  border: 0.25em solid var(--color-main);
   border-radius: 50%;
 }
 
@@ -128,7 +126,7 @@ circle-color = white
   position: absolute;
   width: 50px;
   height: 50px;
-  border: 0.25em solid circle-color;
+  border: 0.25em solid var(--color-main);
   border-radius: 50%;
   opacity: 0;
 }

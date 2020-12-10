@@ -30,13 +30,13 @@ export default {
 
 <style lang="stylus">
 footer
-  background-color white
+  background-color var(--color-background-light)
   height 230px
   padding-top 50px
-  box-shadow 0 0 10px #F4F4F4
+  box-shadow 0 0 10px var(--color-background-shadow);
 
   .blue-text
-    color #4C77C0
+    color var(--color-text-action)
 
   .parrot-img
     display inline-block

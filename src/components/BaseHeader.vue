@@ -23,7 +23,7 @@
       </b-row>
       <b-row>
         <b-col lg="4" md="12">
-          <b-button v-if="!isTimeZoneSelectorActive && isUserInMadrid" size="sm" variant="light" @click="isTimeZoneSelectorActive = true">Pincha aquí para cambiar a otra zona horaria</b-button>
+          <b-button class="timezone-button" v-if="!isTimeZoneSelectorActive && isUserInMadrid" size="sm" variant="light" @click="isTimeZoneSelectorActive = true">Pincha aquí para cambiar a otra zona horaria</b-button>
           <TimezoneSelector v-if="isTimeZoneSelectorActive || !isUserInMadrid"/>
         </b-col>
       </b-row>
@@ -79,8 +79,6 @@ export default {
 </script>
 
 <style lang="stylus">
-main-blue = #003DA5
-
 .base-header
   margin-top 60px
 
@@ -91,27 +89,32 @@ main-blue = #003DA5
   .title
     font-size 36px
     font-weight 600
-    color main-blue
+    color var(--color-main)
 
     small.date
       font-size 18px
       font-weight bold
       margin-left 7px
 
-  .meetup-item
-    a
-      &:hover
-        color #f63f60
-        text-decoration none
+.meetup-item
+  a
+    transition color 200ms ease-in
+    &:hover
+      color var(--color-main) !important
+      text-decoration none
 
-  .description-item
-    color #8C8D95
-    font-weight 500
+.description-item
+  color var(--color-text-secondary)
+  font-weight 500
 
 .timezone-disclaimer
   font-size: 14px
 
 .christmas-badge
-  color white
+  color var(--color-background-light)
   background #f00000
+
+.timezone-button
+  background-color var(--color-background-highlight) !important
+  color var(--color-main) !important
 </style>

@@ -44,4 +44,7 @@ export default {
 <style lang="stylus" scoped>
 .content-box
   padding 40px
+
+.bg-white
+  background-color var(--color-background-light) !important
 </style>

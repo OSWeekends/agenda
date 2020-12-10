@@ -7,14 +7,43 @@
 <style lang="stylus">
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400;600;700&display=swap');
 
+:root
+  --color-blue: #003DA5
+  --color-main: var(--color-blue)
+  --color-secondary: #4875C0
+  --color-border: #E1EAFC
+  --color-background: #F9FAFC
+  --color-background-highlight: #F1F6FF
+  --color-background-shadow: #F4F4F4
+  --color-background-light: white
+  --color-text: #212529
+  --color-text-light: #66676f
+  --color-text-secondary: #3F414E
+  --color-text-action: #4C77C0
+  --color-icon #c4c4c4
+
+[data-theme="dark"]
+    --color-main: #f4f4f4
+    --color-secondary: #4875C0
+    --color-border: #052154
+    --color-background: #00040d
+    --color-background-highlight: #041940
+    --color-background-shadow: #0c2a73
+    --color-background-light: #050918
+    --color-text: #c4c4c4
+    --color-text-light: #66676f
+    --color-text-secondary: #c4c4c4
+    --color-text-action: #4C77C0
+    --color-icon #052154
+
 body
   margin 0
-  background-color #F9FAFC !important
+  background-color var(--color-background) !important
+  color var(--color-text) !important
 
 #app
    font-family 'Open Sans', sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
-  color #2c3e50
 
 </style>

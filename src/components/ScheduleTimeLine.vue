@@ -13,8 +13,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-main-blue = #003DA5
-
 .time-line-bar-container
   position relative
   width 71px
@@ -22,7 +20,7 @@ main-blue = #003DA5
 
 .time-line-bar
   width 4px
-  background-color #E1EAFC
+  background-color var(--color-border)
   height 100%
   position absolute
   right 0

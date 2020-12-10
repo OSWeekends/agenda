@@ -47,7 +47,7 @@ export default {
 .speakers
   .speaker-name,
   .social-ico
-    color #3F414E
+    color var(--color-text-secondary)
   .speaker-bio > p
-    color #8C8D95
+    color var(--color-text-light)
 </style>
