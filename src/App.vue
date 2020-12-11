@@ -9,13 +9,15 @@
 
 :root
   --color-blue: #003DA5
+  --color-blue-dark: #0c2251
+  --color-white: #ffffff
   --color-main: var(--color-blue)
   --color-secondary: #4875C0
   --color-border: #E1EAFC
   --color-background: #F9FAFC
   --color-background-highlight: #F1F6FF
   --color-background-shadow: #F4F4F4
-  --color-background-light: white
+  --color-background-light: var(--color-white)
   --color-text: #212529
   --color-text-light: #66676f
   --color-text-secondary: #3F414E

@@ -32,6 +32,9 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
+// Initialize data-theme from the Vuex store
+document.documentElement.setAttribute('data-theme', store.state.theme.name)
+
 new Vue({
   router,
   store,

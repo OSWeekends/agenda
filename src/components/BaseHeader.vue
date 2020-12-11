@@ -1,18 +1,16 @@
 <template>
   <header class="mb-3">
-    <div class="base-header d-flex justify-content-between align-items-center mb-3 justify-content-md-start">
-      <div class="flex-header-item">
+    <div class="base-header d-flex justify-content-between align-items-center mb-3">
+      <div class="flex-header-item d-flex flex-direction-row">
         <h1 class="title m-0 font-weight-bold">
           {{ headerData.title }}
           <small class="date">
             {{ dateOnSelectedTimezone }}
           </small>
         </h1>
-      </div>
-      <div class="flex-header-item">
         <CBadge class="mr-2 ml-md-2 christmas-badge"> ⛄ Christmas Edition </CBadge>
-        <!--<CBadge class="mr-2 ml-md-2">{{ headerData.eventType }}</CBadge>-->
       </div>
+      <ThemeSwitch />
     </div>
     <!-- Timezone selector -->
     <div class="flex-column justify-start mb-4" v-if="headerData.isTimezoneSelectorEnabled">
@@ -21,7 +19,7 @@
           <p v-if="!isUserInMadrid" class="timezone-disclaimer">Nos han chivado que no estás en España (o al menos en la zona horaria de españa), no te preocupes, cambiamos el horario a tu zona para que nos puedas ver</p>
         </b-col>
       </b-row>
-      <b-row>
+      <b-row align-h="between">
         <b-col lg="4" md="12">
           <b-button class="timezone-button" v-if="!isTimeZoneSelectorActive && isUserInMadrid" size="sm" variant="light" @click="isTimeZoneSelectorActive = true">Pincha aquí para cambiar a otra zona horaria</b-button>
           <TimezoneSelector v-if="isTimeZoneSelectorActive || !isUserInMadrid"/>
@@ -35,7 +33,7 @@
         <div class="mb-0"> {{ headerData.description }}</div>
       </div>
       <div class="meetup-item align-self-start">
-        <a class="text-body" :href="headerData.meetupLink" title="Ver más en meetup" target="_blank">
+        <a class="icon" :href="headerData.meetupLink" title="Ver más en meetup" target="_blank">
           <font-awesome-icon :icon="['fab', 'meetup']" size="2x"/>
         </a>
       </div>
@@ -45,6 +43,7 @@
 
 <script>
 import CBadge from '@/components/CustomBadge'
+import ThemeSwitch from '@/components/ThemeSwitch'
 import TimezoneSelector from '@/components/TimezoneSelector'
 import { mapState } from 'vuex'
 import dayjs from 'dayjs'
@@ -53,7 +52,8 @@ export default {
   name: 'BaseHeader',
   components: {
     TimezoneSelector,
-    CBadge
+    CBadge,
+    ThemeSwitch
   },
   props: {
     headerData: {
@@ -98,6 +98,7 @@ export default {
 
 .meetup-item
   a
+    color var(--color-text)
     transition color 200ms ease-in
     &:hover
       color var(--color-main) !important
