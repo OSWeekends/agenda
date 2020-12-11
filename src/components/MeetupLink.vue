@@ -14,7 +14,7 @@
         <p v-if="isLive">¡Estamos en vivo!</p>
         <p v-else>Síguenos en</p>
         <a class="link mb-3" href="https://www.twitch.tv/osweekends">
-          <div class="icon bg-white rounded-circle d-flex justify-content-center align-items-center mb-3" ref="target">
+          <div class="icon d-flex justify-content-center align-items-center mb-3" ref="target">
               <div v-if="isLive" class="my-3 loader main-loader d-flex justify-content-center align-items-center"/>
               <font-awesome-icon :icon="['fab', 'twitch']" size="5x"/>
             </div>
