@@ -31,7 +31,7 @@
     --color-background: #00040d
     --color-background-highlight: #041940
     --color-background-shadow: #0c2a73
-    --color-background-light: #050918
+    --color-background-light: #05112C
     --color-text: #c4c4c4
     --color-text-light: #66676f
     --color-text-secondary: #c4c4c4
