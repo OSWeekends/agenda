@@ -1,26 +1,26 @@
 <template>
   <div class="text-center mb-5" id="TwitchIsLive">
     <div v-if="isLive && !isVisible" class="scroll-loader mb-5 mb-sm-2">
-        <a href="#TwitchIsLive" class="text-decoration-none" title="¡OSWeekends está emitiendo!">
-          <div class="p-5 d-flex flex-column flex-sm-row justify-content-between align-items-center">
-            <div class="mx-5 mt-5 mt-sm-0">
-              <div class="my-3 loader d-flex justify-content-center align-items-center"/>
-               {{isVisible}}
-            </div>
+      <a href="#TwitchIsLive" class="text-decoration-none" title="¡OSWeekends está emitiendo!">
+        <div class="p-5 d-flex flex-column flex-sm-row justify-content-between align-items-center">
+          <div class="mx-5 mt-5 mt-sm-0">
+            <div class="my-3 loader d-flex justify-content-center align-items-center"/>
+            {{ isVisible }}
           </div>
-        </a>
+        </div>
+      </a>
     </div>
     <div v-if="eventType === 'Online'">
       <div>
         <p v-if="isLive">¡Estamos en vivo!</p>
-         <p v-else>Síguenos en</p>
-          <a class="link mb-3" href="https://www.twitch.tv/osweekends">
-            <div class="icon bg-white rounded-circle d-flex justify-content-center align-items-center mb-3">
-              <div v-if="isLive" class="my-3 loader main-loader d-flex justify-content-center align-items-center"/>
-              <font-awesome-icon v-else :icon="['fab', 'twitch']" size="5x"/>
-            </div>
-            <span class="address">twitch.tv/osweekends</span>
-          </a>
+        <p v-else>Síguenos en</p>
+        <a class="link mb-3" href="https://www.twitch.tv/osweekends">
+          <div class="icon bg-white rounded-circle d-flex justify-content-center align-items-center mb-3" ref="target">
+            <div v-if="isLive" class="my-3 loader main-loader d-flex justify-content-center align-items-center"/>
+            <font-awesome-icon v-else :icon="['fab', 'twitch']" size="5x"/>
+          </div>
+          <span class="address">twitch.tv/osweekends</span>
+        </a>
       </div>
     </div>
 
@@ -55,15 +55,21 @@ export default {
     this.fetchIsLive()
   },
   mounted () {
-    window.addEventListener('scroll', function () {
-      const element = document.querySelector('.main-loader')
-      const position = element.getBoundingClientRect()
-
-      if (position.top < window.innerHeight && position.bottom >= 0) {
-        this.isVisible = true
-        console.log('Element is partially visible in screen', this.isVisible)
+    // Root ref - from app.vue
+    const rootElement = this.$refs.root
+    const targetElement = this.$refs.target
+    const callback = (entries) => {
+      const [target] = entries
+      if (target.isIntersecting) {
+        this.text = 'NOW YOU SEE ME 👀'
+        console.log('NOW YOU SEE ME 👀')
+      } else {
+        this.text = 'NOW YOU DON\'T 🙈'
+        console.log('NOW YOU DON\'T 🙈')
       }
-    })
+    }
+    const observer = new IntersectionObserver(callback, { root: rootElement })
+    observer.observe(targetElement)
   },
   methods: {
     fetchIsLive () {
@@ -95,6 +101,7 @@ circle-color = #772ce8
   position: fixed
   right: 0
   bottom: 0
+
 .link
   display inline-block
 
