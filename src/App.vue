@@ -8,20 +8,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400;600;700&display=swap');
 
 :root
-  --color-blue: #003DA5
+  --color-blue: #003da5
   --color-blue-dark: #0c2251
   --color-white: #ffffff
   --color-main: var(--color-blue)
-  --color-secondary: #4875C0
-  --color-border: #E1EAFC
-  --color-background: #F9FAFC
-  --color-background-highlight: #F1F6FF
-  --color-background-shadow: #F4F4F4
+  --color-secondary: #4875c0
+  --color-border: #e1eafc
+  --color-background: #f9fafc
+  --color-background-highlight: #f1f6ff
+  --color-background-shadow: #f4f4f4
   --color-background-light: var(--color-white)
   --color-text: #212529
   --color-text-light: #66676f
-  --color-text-secondary: #3F414E
-  --color-text-action: #4C77C0
+  --color-text-secondary: #3f414e
+  --color-text-action: #4c77c0
   --color-icon #c4c4c4
 
 [data-theme="dark"]
@@ -35,7 +35,7 @@
     --color-text: #c4c4c4
     --color-text-light: #66676f
     --color-text-secondary: #c4c4c4
-    --color-text-action: #4C77C0
+    --color-text-action: #4c77c0
     --color-icon #052154
 
 body
