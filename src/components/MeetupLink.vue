@@ -1,11 +1,10 @@
 <template>
   <div class="text-center mb-5" id="TwitchIsLive">
-    <div v-if="isLive && !isVisible" class="scroll-loader mb-5 mb-sm-2">
+    <div v-if="isLive && !isVisible" class="mb-5 mb-sm-2">
       <a href="#TwitchIsLive" class="text-decoration-none" title="¡OSWeekends está emitiendo!">
         <div class="p-5 d-flex flex-column flex-sm-row justify-content-between align-items-center">
           <div class="mx-5 mt-5 mt-sm-0">
-            <div class="my-3 loader d-flex justify-content-center align-items-center"/>
-            {{ isVisible }}
+            <div class="my-3 scroll-loader d-flex justify-content-center align-items-center"/>
           </div>
         </div>
       </a>
@@ -16,9 +15,9 @@
         <p v-else>Síguenos en</p>
         <a class="link mb-3" href="https://www.twitch.tv/osweekends">
           <div class="icon bg-white rounded-circle d-flex justify-content-center align-items-center mb-3" ref="target">
-            <div v-if="isLive" class="my-3 loader main-loader d-flex justify-content-center align-items-center"/>
-            <font-awesome-icon v-else :icon="['fab', 'twitch']" size="5x"/>
-          </div>
+              <div v-if="isLive" class="my-3 loader main-loader d-flex justify-content-center align-items-center"/>
+              <font-awesome-icon :icon="['fab', 'twitch']" size="5x"/>
+            </div>
           <span class="address">twitch.tv/osweekends</span>
         </a>
       </div>
@@ -61,11 +60,9 @@ export default {
     const callback = (entries) => {
       const [target] = entries
       if (target.isIntersecting) {
-        this.text = 'NOW YOU SEE ME 👀'
-        console.log('NOW YOU SEE ME 👀')
+        this.isVisible = true
       } else {
-        this.text = 'NOW YOU DON\'T 🙈'
-        console.log('NOW YOU DON\'T 🙈')
+        this.isVisible = false
       }
     }
     const observer = new IntersectionObserver(callback, { root: rootElement })
@@ -97,13 +94,9 @@ export default {
 main-blue = #003DA5
 circle-color = #772ce8
 
-.scroll-loader
-  position: fixed
-  right: 0
-  bottom: 0
-
 .link
   display inline-block
+  position relative
 
   .icon
     color #3F414E
@@ -122,76 +115,87 @@ circle-color = #772ce8
     text-decoration none
 
 .loader {
-  animation: pulse 2s infinite ease-out;
+  animation pulse 2s infinite ease-out
+  z-index -10
+  position absolute
 }
 
 .loader::before {
-  animation: ripple1 2s infinite ease-out;
+  content ""
+  position absolute
+  width 110px
+  height 110px
+  border 0.25em solid circle-color
+  border-radius 50%
+  animation ripple1 2s infinite ease-out
 }
 
 .loader::after {
-  animation: ripple2 2s infinite ease-out;
+  content ""
+  position absolute
+  width 160px
+  height 160px
+  border 0.25em solid circle-color
+  border-radius 50%
+  opacity 0
+  animation ripple2 2s infinite ease-out
 }
 
-/* Keyframes */
+.scroll-loader {
+  position fixed
+  right 70px
+  bottom 40px
+  width 10px
+  height 10px
+  background circle-color
+  border-radius 50%
+  animation pulse 2s infinite ease-out
+}
+
+.scroll-loader::before {
+  content ""
+  position absolute
+  right -2px
+  bottom -2px
+  width 15px
+  height 15px
+  border 0.11em solid circle-color
+  border-radius 50%
+  animation ripple1 2s infinite ease-out
+}
+
 @keyframes pulse {
   0% {
-    transform: scale(1);
-    opacity: 0;
+    transform scale(1)
+    opacity 0
   }
   15% {
-    transform: scale(1.3);
-    opacity: 1;
+    transform scale(1.3)
+    opacity 1
   }
   80%, 100% {
-    opacity: 0;
+    opacity 0
   }
 }
 
 @keyframes ripple1 {
   0%, 10% {
-    opacity: 0;
+    opacity 0
   }
   80% {
-    transform: scale(2);
-    opacity: 1;
+    transform scale(2)
+    opacity 1
   }
 }
 
 @keyframes ripple2 {
   0%, 25% {
-    opacity: 0;
+    opacity 0
   }
   80% {
-    transform: scale(2);
-    opacity: 1;
+    transform scale(2)
+    opacity 1
   }
 }
 
-/* General styles */
-.loader {
-  width: 20px;
-  height: 20px;
-  background: circle-color;
-  border-radius: 50%;
-}
-
-.loader::before {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border: 0.25em solid circle-color;
-  border-radius: 50%;
-}
-
-.loader::after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border: 0.25em solid circle-color;
-  border-radius: 50%;
-  opacity: 0;
-}
 </style>

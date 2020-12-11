@@ -7,6 +7,9 @@
 <style lang="stylus">
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400;600;700&display=swap');
 
+html
+  scroll-behavior: smooth
+
 body
   margin 0
   background-color #F9FAFC !important
