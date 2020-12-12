@@ -1,6 +1,6 @@
 <template>
   <b-col cols="1" sm="auto">
-    <div class="time-line-bar-container">
+    <div class="time-line-bar-container mr-md-4">
       <div class="time-line-bar rounded"/>
     </div>
   </b-col>

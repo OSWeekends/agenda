@@ -1,6 +1,6 @@
 <template>
   <b-col>
-    <div class="content-box bg-white rounded-lg shadow-sm">
+    <div class="content-box bg-white rounded-lg">
       <div v-if="content.description && content.speakers">
         <!-- Charla -->
         <div>
@@ -17,7 +17,7 @@
         <template v-if="content.speakers">
           <SpeakersInfo :speakers="content.speakers"/>
         </template>
-        <CBadge v-for="(tag, index) in content.tags" :key="`description-${index}`" class="mr-2 ml-md-2">
+        <CBadge v-for="(tag, index) in content.tags" :key="`description-${index}`" class="mr-3">
           {{ tag }}
         </CBadge>
 
@@ -43,7 +43,7 @@ export default {
 </script>
 <style lang="stylus" scoped>
 .content-box
-  padding 40px
+  padding 50px 50px 30px 50px
 
 .bg-white
   background-color var(--color-background-light) !important

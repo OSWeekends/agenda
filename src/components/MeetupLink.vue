@@ -39,13 +39,13 @@ export default {
   display inline-block
 
   .icon
-    color var(--color-icon)
+    color var(--color-text)
     width 200px
     height 200px
     margin auto
 
   .address
-    color var(--color-icon)
+    color var(--color-text)
     font-size 24px
     font-weight bolder
     text-decoration none

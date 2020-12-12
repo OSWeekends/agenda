@@ -53,7 +53,7 @@ export default {
 
 <style lang="stylus">
 .box-is-live
-  color var(--color-main)
+  color var(--color-text)
   background var(--color-background-highlight)
   box-shadow 2px 2px var(--color-background-shadow)
 

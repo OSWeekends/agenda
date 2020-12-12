@@ -1,5 +1,5 @@
 <template>
-  <ul class="list-inline mb-0">
+  <ul class="list-inline mb-0 flex align-items-start">
     <li v-for="(item, i) in social" class="list-inline-item" :key="i" :title="item">
       <template v-if="isString(item)">
         <a :href="item" class="ico-link" :class="`ico-${i}`">
@@ -19,7 +19,7 @@
 const socialIco = {
   twitch: ['fab', 'twitch'],
   github: ['fab', 'github'],
-  twitter: ['fab', 'twitter-square'],
+  twitter: ['fab', 'twitter'],
   youtube: ['fab', 'youtube-square'],
   facebook: ['fab', 'facebook-square'],
   linkedin: ['fab', 'linkedin'],

@@ -93,8 +93,8 @@ export default {
 
     small.date
       font-size 18px
-      font-weight bold
       margin-left 7px
+      margin-right 10px
 
 .meetup-item
   a
@@ -114,6 +114,7 @@ export default {
 .christmas-badge
   color var(--color-background-light)
   background #f00000
+  margin-top 13px
 
 .timezone-button
   background-color var(--color-background-highlight) !important

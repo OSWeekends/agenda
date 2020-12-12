@@ -33,10 +33,11 @@ footer
   background-color var(--color-background-light)
   height 230px
   padding-top 50px
-  box-shadow 0 0 10px var(--color-background-shadow);
+  font-size 14px
 
   .blue-text
     color var(--color-text-action)
+    font-size 14px
 
   .parrot-img
     display inline-block
