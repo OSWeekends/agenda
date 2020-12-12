@@ -43,3 +43,8 @@ export default {
   }
 }
 </script>
+<style lang="stylus">
+.timezone-selector select
+  background-color var(--color-background-highlight)
+  color var(--color-main)
+</style>

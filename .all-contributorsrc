@@ -6,6 +6,30 @@
   "commit": false,
   "contributors": [
     {
+      "login": "baumannzone",
+      "name": "Jorge Baumann",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5422102?v=4",
+      "profile": "https://instagram.com/baumannzone",
+      "contributions": [
+        "code",
+        "infra",
+        "content",
+        "design",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "thamaragerigr",
+      "name": "Thamara Gerig",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/52920777?v=4",
+      "profile": "https://thamaragerigr.github.io",
+      "contributions": [
+        "code",
+        "design",
+        "maintenance"
+      ]
+    },
+    {
       "login": "nelodev",
       "name": "NeloDev",
       "avatar_url": "https://avatars3.githubusercontent.com/u/21993984?v=4",

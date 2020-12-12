@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style lang="stylus">
-main-blue = #003DA5
+
 .starting-time
   &__time-container
     display flex
@@ -44,13 +44,13 @@ main-blue = #003DA5
     align-items center
 
   &__start-time
-    color main-blue
+    color var(--color-main)
 
   &__circle
     position relative
     width 14px
     height 14px
-    background main-blue
+    background var(--color-blue)
     border-radius 50%
-    border 3.5px solid #C7D4EB
+    border 3.5px solid var(--color-border)
 </style>

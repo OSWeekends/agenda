@@ -11,10 +11,11 @@ export default {}
 <style lang="stylus">
 .badge--soft-blue
   display inline-block
-  background-color #F1F6FF
-  color #4875C0
+  background-color var(--color-background-highlight)
+  color var(--color-text-secondary)
   padding  5px 15px
   margin 5px
+  margin-left 0
   border-radius 10px
   font-size 14px
   font-family 'Nunito'

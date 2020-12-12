@@ -25,7 +25,7 @@ export default {
 
 <style lang="stylus">
 .sponsors-section
-  color #898B94
+  color var(--color-text-secondary)
 
   .sponsors
     text-align center

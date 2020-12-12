@@ -1,5 +1,5 @@
 <template>
-  <div class="speakers mt-5">
+  <div class="speakers mt-4">
     <div v-for="(speaker, idx) in speakers" :key="`speaker-${idx}`">
       <!-- Name / Social -->
       <div class="d-flex">
@@ -9,7 +9,7 @@
         </div>
         <div>
           <div class="d-md-flex align-items-center mb-1">
-            <h5 class="speaker-name font-weight-bold mb-0"> {{ speaker.name }}</h5>
+            <h5 class="speaker-name font-weight-bold mb-0 mr-2"> {{ speaker.name }}</h5>
             <div class="ml-2">
               <TalkAuthorsSocial :social="speaker.social"/>
             </div>
@@ -47,7 +47,7 @@ export default {
 .speakers
   .speaker-name,
   .social-ico
-    color #3F414E
+    color var(--color-text-secondary)
   .speaker-bio > p
-    color #8C8D95
+    color var(--color-text-light)
 </style>
