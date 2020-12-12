@@ -28,10 +28,10 @@
     --color-main: #f4f4f4
     --color-secondary: #4875C0
     --color-border: #052154
-    --color-background: #00040d
-    --color-background-highlight: #041940
+    --color-background: #000E2D
+    --color-background-highlight: #052154
     --color-background-shadow: #0c2a73
-    --color-background-light: #05112C
+    --color-background-light: #021740
     --color-text: #c4c4c4
     --color-text-light: #66676f
     --color-text-secondary: #c4c4c4
