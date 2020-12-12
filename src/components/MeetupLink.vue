@@ -112,9 +112,6 @@ circle-color = #772ce8
   &:hover
     color var(--color-main)
     text-decoration none
- // TODO Revisar
-.icon
-  background var(--color-background-light) !important
 
 .loader {
   animation pulse 2s infinite ease-out
