@@ -3,7 +3,7 @@
     <div v-if="isLive && !isVisible" class="mb-5 mb-sm-2">
       <a href="#TwitchIsLive" class="text-decoration-none" title="¡OSWeekends está emitiendo!">
         <div class="p-5 d-flex flex-column flex-sm-row justify-content-between align-items-center">
-          <div class="mx-5 mt-5 mt-sm-0">
+          <div>
             <div class="my-3 scroll-loader d-flex justify-content-center align-items-center"/>
           </div>
         </div>
@@ -90,7 +90,6 @@ export default {
 </script>
 
 <style lang="stylus">
-main-blue = #003DA5
 circle-color = #772ce8
 
 .link
@@ -153,11 +152,12 @@ circle-color = #772ce8
 
 .scroll-loader::before {
   content ""
+  display block
   position absolute
-  right -2px
-  bottom -2px
-  width 15px
-  height 15px
+  right -4px
+  bottom -4px
+  width 18px
+  height 18px
   border 0.11em solid circle-color
   border-radius 50%
   animation ripple1 2s infinite ease-out
