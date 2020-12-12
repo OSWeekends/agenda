@@ -1,6 +1,6 @@
 # AGENDA DEL EVENTO 📅
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0a730caf-74b9-4dd7-8e0e-769484815ea6/deploy-status)](https://app.netlify.com/sites/agenda-osw/deploys)
 
@@ -70,6 +70,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/manuel-puchades-bresó-115a58179/"><img src="https://avatars3.githubusercontent.com/u/21993984?v=4" width="100px;" alt=""/><br /><sub><b>NeloDev</b></sub></a><br /><a href="https://github.com/OSWeekends/agenda/commits?author=nelodev" title="Code">💻</a></td>
+    <td align="center"><a href="https://instagram.com/baumannzone"><img src="https://avatars0.githubusercontent.com/u/5422102?v=4" width="100px;" alt=""/><br /><sub><b>Jorge Baumann</b></sub></a><br /><a href="https://github.com/OSWeekends/agenda/commits?author=baumannzone" title="Code">💻</a> <a href="#infra-baumannzone" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#content-baumannzone" title="Content">🖋</a> <a href="#design-baumannzone" title="Design">🎨</a> <a href="#maintenance-baumannzone" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
