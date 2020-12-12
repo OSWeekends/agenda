@@ -1,28 +1,30 @@
 <template>
-    <label class="switch">
-        <input @click="setTheme" type="checkbox" :checked="checked">
-        <span class="slider round"></span>
-    </label>
+  <label class="switch">
+    <input @click="setTheme" type="checkbox" :checked="checked">
+    <span class="slider round"></span>
+  </label>
 </template>
 
 <script>
 import { mapState } from 'vuex'
+const theme = {
+  light: 'light',
+  dark: 'dark'
+}
 
 export default {
   name: 'ThemeSwitch',
   computed: {
     ...mapState({
-      theme: state => state.theme.name }),
+      theme: state => state.theme.name
+    }),
     checked () {
-      console.log('What is the theme? ', this.theme)
-      return this.theme === 'dark'
+      return this.theme === theme.dark
     }
   },
   methods: {
     setTheme () {
-      console.log('theme ', this.theme)
-      const newTheme = this.theme === 'light' ? 'dark' : 'light'
-      console.log(newTheme)
+      const newTheme = this.theme === theme.light ? theme.dark : theme.light
       this.$store.dispatch('theme/setThemeName', newTheme)
     }
   }
