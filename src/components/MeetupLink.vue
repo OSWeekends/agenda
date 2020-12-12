@@ -123,7 +123,7 @@ circle-color = #772ce8
   position absolute
   width 110px
   height 110px
-  border 0.25em solid circle-color
+  border 0.25em solid var(--color-twitch-loader)
   border-radius 50%
   animation ripple1 2s infinite ease-out
 }
@@ -133,7 +133,7 @@ circle-color = #772ce8
   position absolute
   width 160px
   height 160px
-  border 0.25em solid circle-color
+  border 0.25em solid var(--color-twitch-loader)
   border-radius 50%
   opacity 0
   animation ripple2 2s infinite ease-out
@@ -145,7 +145,7 @@ circle-color = #772ce8
   bottom 40px
   width 10px
   height 10px
-  background circle-color
+  background var(--color-twitch-loader)
   border-radius 50%
   animation pulse 2s infinite ease-out
 }
@@ -158,7 +158,7 @@ circle-color = #772ce8
   bottom -4px
   width 18px
   height 18px
-  border 0.11em solid circle-color
+  border 0.11em solid var(--color-twitch-loader)
   border-radius 50%
   animation ripple1 2s infinite ease-out
 }
