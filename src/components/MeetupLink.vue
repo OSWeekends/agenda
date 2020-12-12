@@ -46,7 +46,7 @@ export default {
   },
   data () {
     return {
-      isLive: true,
+      isLive: false,
       isVisible: false
     }
   },
