@@ -47,7 +47,7 @@ const data = {
               name: 'Teba Gómez',
               avatar: 'https://pbs.twimg.com/profile_images/1051712960484257794/BUwHnV91_400x400.jpg',
               bio: [
-                'Software engineer at #Devo'
+                'Coding and Reforesting 🌳 @Reforestum. Org 😻 @OSW and @NodeGirlsMadrid. Missing 😚 my @OSWGuilds. FOSS contributor and 🥑.'
               ],
               social: {
                 twitter: 'https://twitter.com/KoolTheba',
