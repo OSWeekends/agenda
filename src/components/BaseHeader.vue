@@ -10,7 +10,7 @@
         </h1>
         <CBadge class="mr-2 ml-md-2 christmas-badge"> ⛄ Christmas Edition </CBadge>
       </div>
-      <ThemeSwitch />
+      <!-- <ThemeSwitch />-->
     </div>
     <!-- Timezone selector -->
     <div class="flex-column justify-start mb-4" v-if="headerData.isTimezoneSelectorEnabled">
@@ -21,7 +21,8 @@
       </b-row>
       <b-row align-h="between">
         <b-col lg="4" md="12">
-          <b-button class="timezone-button" v-if="!isTimeZoneSelectorActive && isUserInMadrid" size="sm" variant="light" @click="isTimeZoneSelectorActive = true">Pincha aquí para cambiar a otra zona horaria</b-button>
+          <b-button class="timezone-button" v-if="!isTimeZoneSelectorActive && isUserInMadrid" size="sm" variant="light" @click="isTimeZoneSelectorActive = true">
+            Cambiar a otra zona horaria</b-button>
           <TimezoneSelector v-if="isTimeZoneSelectorActive || !isUserInMadrid"/>
         </b-col>
       </b-row>
@@ -43,7 +44,7 @@
 
 <script>
 import CBadge from '@/components/CustomBadge'
-import ThemeSwitch from '@/components/ThemeSwitch'
+// import ThemeSwitch from '@/components/ThemeSwitch'
 import TimezoneSelector from '@/components/TimezoneSelector'
 import { mapState } from 'vuex'
 import dayjs from 'dayjs'
@@ -52,8 +53,8 @@ export default {
   name: 'BaseHeader',
   components: {
     TimezoneSelector,
-    CBadge,
-    ThemeSwitch
+    CBadge
+    // ThemeSwitch
   },
   props: {
     headerData: {
