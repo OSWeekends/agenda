@@ -54,16 +54,16 @@ const data = {
                 github: 'https://github.com/kooltheba'
               }
             },
-            {
-              name: 'Chechu',
-              avatar: 'https://avatars2.githubusercontent.com/u/18353937?s=400&u=ef9c88f5f189e61dc3d049a57ccaccfe9c4f808d&v=4',
-              bio: [
-                'Desarrollador frontend. El que te banea si te portas mal en directo de OSWeekends ⛔️.'
-              ],
-              social: {
-                twitter: 'https://twitter.com/Xexuline'
-              }
-            },
+            // {
+            //   name: 'Chechu',
+            //   avatar: 'https://avatars2.githubusercontent.com/u/18353937?s=400&u=ef9c88f5f189e61dc3d049a57ccaccfe9c4f808d&v=4',
+            //   bio: [
+            //     'Desarrollador frontend. El que te banea si te portas mal en directo de OSWeekends ⛔️.'
+            //   ],
+            //   social: {
+            //     twitter: 'https://twitter.com/Xexuline'
+            //   }
+            // },
             {
               name: 'Coding Carlos',
               avatar: 'https://pbs.twimg.com/profile_images/648425461215793152/TbmUPkW2_400x400.jpg',
@@ -74,6 +74,17 @@ const data = {
                 twitter: 'https://twitter.com/codingcarlos',
                 url: 'https://codingcarlos.com/',
                 twitch: 'https://twitch.tv/codingcarlos'
+              }
+            },
+            {
+              name: 'Thamara Gerig',
+              avatar: 'https://avatars1.githubusercontent.com/u/52920777?s=460&u=84492707015037f4c6ce5778227337118f3a7039&v=4',
+              bio: [
+                'Junior Front-End Dev · 🕵️‍♂️Head of Department de Asuntos Guays at @os_weekends'
+              ],
+              social: {
+                twitter: 'https://twitter.com/gerig_thamara',
+                github: 'https://github.com/thamaragerigr'
               }
             }
           ]
