@@ -128,7 +128,7 @@ const data = {
               name: 'Guillermo Rauch',
               avatar: 'https://pbs.twimg.com/profile_images/1029230542716264448/LgLb--Of_400x400.jpg',
               bio: [
-                'CEO de Vercel.'
+                'Before starting Vercel in November 2015, Guillermo was the CTO and co-founder of LearnBoost and Cloudup, acquired by Automattic in 2013. He\'s the creator of several popular Node.js open source libraries like socket.io, mongoose and slackin. Prior to Node.js, he was a core developer of the MooTools frontend toolkit.'
               ],
               social: {
                 twitter: 'https://twitter.com/rauchg',
