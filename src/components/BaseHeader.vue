@@ -10,7 +10,7 @@
         </h1>
         <CBadge class="mr-2 ml-md-2 christmas-badge"> ⛄ Christmas Edition </CBadge>
       </div>
-      <!-- <ThemeSwitch />-->
+       <ThemeSwitch />
     </div>
     <!-- Timezone selector -->
     <div class="flex-column justify-start mb-4" v-if="headerData.isTimezoneSelectorEnabled">
@@ -44,7 +44,7 @@
 
 <script>
 import CBadge from '@/components/CustomBadge'
-// import ThemeSwitch from '@/components/ThemeSwitch'
+import ThemeSwitch from '@/components/ThemeSwitch'
 import TimezoneSelector from '@/components/TimezoneSelector'
 import { mapState } from 'vuex'
 import dayjs from 'dayjs'
@@ -53,8 +53,8 @@ export default {
   name: 'BaseHeader',
   components: {
     TimezoneSelector,
-    CBadge
-    // ThemeSwitch
+    CBadge,
+    ThemeSwitch
   },
   props: {
     headerData: {
