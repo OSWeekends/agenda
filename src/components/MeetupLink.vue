@@ -70,7 +70,7 @@ export default {
   },
   methods: {
     fetchIsLive () {
-      const twitchApiUrl = 'https://api.twitch.tv/helix/search/channels?query=osweekends'
+      const twitchApiUrl = 'https://api.twitch.tv/helix/search/channels?query=papomc'
       fetch(twitchApiUrl, {
         method: 'get',
         headers: new Headers({
