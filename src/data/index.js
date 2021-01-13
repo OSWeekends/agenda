@@ -12,7 +12,7 @@ const data = {
   twitchUser: 'osweekends',
   onAirText: '¡OSWeekends está en directo! ⏺',
   startTime: '16:00',
-  endTime: '12:00',
+  endTime: '18:00',
   title: 'Agenda',
   description: 'Primer evento del año ¡Apúntate! 👉',
   tracks: [
@@ -90,19 +90,41 @@ const data = {
           ]
         },
         {
-          title: 'The Art of Asking',
+          title: 'Advent of Code',
           description: [
-            '¿Hacer preguntas está escrito en nuestros genes. En esta charla hablo de la importancia de hacer preguntas, el rol de internet en nuestra sed por el conocimiento y algunas indicaciones en como contribuir a la comunidad usando Stack Overflow.'
+            'Natalia nos hablará de su experiencia con el Advent Of Code 2020.'
           ],
           startTime: { h: '16', m: '20' },
+          tags: ['💻 Desarrollo', '🔫 Katas'],
+          speakers: [
+            {
+              name: 'Natalia Vidal',
+              avatar: 'https://pbs.twimg.com/profile_images/911302746896261120/iokKwkwn_400x400.jpg',
+              bio: [
+              //   'Developer en GuideSmiths, autora del cómic Clit Flick 📚, arquitecta 🏛 y de pueblo.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/erikiva',
+                // twitch: 'https://twitch.tv/claradios',
+                // instagram: 'https://instagram.com/c.diosss',
+                github: 'https://github.com/erikiva'
+              }
+            }
+          ]
+        },
+        {
+          title: 'The Art of Asking',
+          description: [
+            '¿Hacer preguntas está escrito en nuestros genes? En esta charla hablo de la importancia de hacer preguntas, el rol de internet en nuestra sed por el conocimiento y algunas indicaciones en como contribuir a la comunidad usando Stack Overflow.'
+          ],
+          startTime: { h: '16', m: '40' },
           tags: ['💻 Desarrollo', '💘 Soft skills'],
           speakers: [
             {
               name: 'Angel Paredes',
               avatar: 'https://avatars0.githubusercontent.com/u/9055092?s=460&u=aa3928c461773bfc9eca513c6ba1ffe8f729a8fa&v=4',
               bio: [
-                'Confía en mí, soy ingeniero. He trabajado en diferentes sectores FinTech 💵 (PayPal), eGaming ⚽️ (Kambi) y actualmente en Delivery (Glovo). ',
-                'Me experimentar con temas más cercanos a Computer Science y la parte social del desarrollo de software. También dibujo pero esa es otra historia y debe ser contada en otra ocasión.'
+                'Confía en mí, soy ingeniero. He trabajado en diferentes sectores FinTech 💵 (PayPal), eGaming ⚽️ (Kambi) y actualmente en Delivery (Glovo). Me gusta experimentar con temas más cercanos a Computer Science y la parte social del desarrollo de software. También dibujo, pero esa es otra historia y debe ser contada en otra ocasión.'
               ],
               social: {
                 // linkedin: 'https://www.linkedin.com/in/jonathan-b-clarke-06174a38/'
@@ -120,17 +142,16 @@ const data = {
         {
           title: 'TechTeach Junior: decisiones detrás del proyecto 👧💻👦',
           description: [
-            'Nicaragüense viviendo en Madrid. Desarrolladora front-end desde hace 3 años, pico código en Cool Tabs... Disfruto del campo 🌿, la mar 🐚 y la música 🤘🏻 (una mezcla entre rock y electrocumbia).'
+            'Techteach Junior es una web que recopila cursos de programación y computación para niñas y niños. Quiero compartirles sobre el proceso de ejecución de este pet project basado en estas temáticas #vuejs #diseño #girsintech #cuarentena20 https://techteachjunior.com/'
           ],
-          startTime: { h: '16', m: '40' },
+          startTime: { h: '17', m: '00' },
           tags: ['💻 Desarrollo', '👩‍🎨 Diseño', '📲 UX/UI'],
           speakers: [
             {
               name: 'Mayra Amador (Flor de Lola)',
               avatar: 'https://pbs.twimg.com/profile_images/1205930962883956736/rGxZmLZY_400x400.jpg',
               bio: [
-                'Techteach Junior es una web que recopila cursos de programación y computación para niñas y niños. Quiero compartirles sobre el proceso de ejecución de este pet project basado en estas temáticas #vuejs #diseño #girsintech #cuarentena20',
-                'https://techteachjunior.com/'
+                'Nicaragüense viviendo en Madrid. Desarrolladora front-end desde hace 3 años, pico código en Cool Tabs... Disfruto del campo 🌿, la mar 🐚 y la música 🤘🏻 (una mezcla entre rock y electrocumbia).'
               ],
               social: {
                 twitter: 'https://twitter.com/mayrAmador',
@@ -151,51 +172,27 @@ const data = {
         //   speakers: []
         // },
         {
-          title: 'BDD & Cucumber 🥒',
+          title: 'Como fallar exitosamente',
           description: [
-            '¿Eres creyente del BDD? ¿Y practicante? Vamos a hablar de qué es y cómo aplicarlo con un ejemplo práctico.'
-          ],
-          startTime: { h: '17', m: '00' },
-          tags: ['💻 Desarrollo', '🧪 Testing', '👩‍🔬 Cypress'],
-          speakers: [
-            {
-              name: 'Clara Dios 🙏',
-              avatar: 'https://pbs.twimg.com/profile_images/1168536594967650305/Hnn-LmlY_400x400.jpg',
-              bio: [
-                'Developer en GuideSmiths, autora del cómic Clit Flick 📚, arquitecta 🏛 y de pueblo.'
-              ],
-              social: {
-                twitter: 'https://twitter.com/claradios',
-                twitch: 'https://twitch.tv/claradios',
-                instagram: 'https://instagram.com/c.diosss',
-                github: 'https://github.com/claradios'
-              }
-            }
-          ]
-        },
-        {
-          title: 'Sensores, IoT y cosas de esas',
-          description: [
-            'Como montar un proyecto IoT para medir la calidad del aire en 20 minutos (bueno... quizás algo más) o como dice mi amigo @baumannzone \'Sensores y cosas\' ¿Me acompañas en esta aventura?',
-            'Proyecto surgido dentro de #OSWGuilds y recuperado en tiempos de Covid-19 pa\' mi gente de OSW. Código abierto del proyecto: https://github.com/OSWeekends/miniestaciones'
+            '¡Consejos para evitar que el fracaso nos quite la motivación de seguir intentándolo!'
           ],
           startTime: { h: '17', m: '20' },
-          tags: ['💻 Desarrollo', '🌱 Jardinería'],
+          tags: ['💘 Soft skills'],
           speakers: [
             {
-              name: 'Sergio Morcuende',
-              avatar: 'https://avatars3.githubusercontent.com/u/1575830?s=460&u=c7e92b31b8509f1025a7ad8c25e5b096421a6dc3&v=4',
+              name: 'Raquel Fernandez',
+              // avatar: 'https://avatars3.githubusercontent.com/u/1575830?s=460&u=c7e92b31b8509f1025a7ad8c25e5b096421a6dc3&v=4',
               bio: [
-                'Audiovisual Systems Engineer. IoT Developer. Maker. @bloomod cofounder. @osweekends mentor. Hippie de pueblo. Think globally, act locally. #ecologism #steam'
+
               ],
               social: {
-                twitter: 'httzps://twitter.com/_serxius_',
-                github: 'https://github.com/smorcuend',
+                // twitter: 'httzps://twitter.com/_serxius_',
+                // github: 'https://github.com/smorcuend',
                 // linkedin: 'https://linkedin.com/in/dawntraoz',
                 // twitch: 'https://twitch.tv/dawntraoz',
                 // instagram: 'https://instagram.com/dawntraoz',
                 // dev: 'https://dev.to/dawntraoz',
-                url: 'https://www.bloomod.com/'
+                // url: 'https://www.bloomod.com/'
               }
             }
           ]
