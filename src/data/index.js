@@ -11,7 +11,7 @@ const data = {
   eventLink: 'https://www.twitch.tv/osweekends',
   twitchUser: 'osweekends',
   onAirText: '¡OSWeekends está en directo! ⏺',
-  startTime: '10:00',
+  startTime: '16:00',
   endTime: '12:00',
   title: 'Agenda',
   description: 'Primer evento del año ¡Apúntate! 👉',
@@ -26,7 +26,7 @@ const data = {
             '•  Agenda 📇',
             '•  OSWorld 👨‍🎤👩‍🎤'
           ],
-          startTime: { h: '10', m: '00' },
+          startTime: { h: '16', m: '00' },
           // endTime: { h: '10', m: '20' },
           speakers: [
             {
@@ -94,7 +94,7 @@ const data = {
           description: [
             '¿Hacer preguntas está escrito en nuestros genes. En esta charla hablo de la importancia de hacer preguntas, el rol de internet en nuestra sed por el conocimiento y algunas indicaciones en como contribuir a la comunidad usando Stack Overflow.'
           ],
-          startTime: { h: '10', m: '20' },
+          startTime: { h: '16', m: '20' },
           tags: ['💻 Desarrollo', '💘 Soft skills'],
           speakers: [
             {
@@ -122,7 +122,7 @@ const data = {
           description: [
             'Nicaragüense viviendo en Madrid. Desarrolladora front-end desde hace 3 años, pico código en Cool Tabs... Disfruto del campo 🌿, la mar 🐚 y la música 🤘🏻 (una mezcla entre rock y electrocumbia).'
           ],
-          startTime: { h: '10', m: '40' },
+          startTime: { h: '16', m: '40' },
           tags: ['💻 Desarrollo', '👩‍🎨 Diseño', '📲 UX/UI'],
           speakers: [
             {
@@ -155,7 +155,7 @@ const data = {
           description: [
             '¿Eres creyente del BDD? ¿Y practicante? Vamos a hablar de qué es y cómo aplicarlo con un ejemplo práctico.'
           ],
-          startTime: { h: '11', m: '20' },
+          startTime: { h: '17', m: '00' },
           tags: ['💻 Desarrollo', '🧪 Testing', '👩‍🔬 Cypress'],
           speakers: [
             {
@@ -179,7 +179,7 @@ const data = {
             'Como montar un proyecto IoT para medir la calidad del aire en 20 minutos (bueno... quizás algo más) o como dice mi amigo @baumannzone \'Sensores y cosas\' ¿Me acompañas en esta aventura?',
             'Proyecto surgido dentro de #OSWGuilds y recuperado en tiempos de Covid-19 pa\' mi gente de OSW. Código abierto del proyecto: https://github.com/OSWeekends/miniestaciones'
           ],
-          startTime: { h: '11', m: '40' },
+          startTime: { h: '17', m: '20' },
           tags: ['💻 Desarrollo', '🌱 Jardinería'],
           speakers: [
             {
@@ -189,7 +189,7 @@ const data = {
                 'Audiovisual Systems Engineer. IoT Developer. Maker. @bloomod cofounder. @osweekends mentor. Hippie de pueblo. Think globally, act locally. #ecologism #steam'
               ],
               social: {
-                twitter: 'https://twitter.com/_serxius_',
+                twitter: 'httzps://twitter.com/_serxius_',
                 github: 'https://github.com/smorcuend',
                 // linkedin: 'https://linkedin.com/in/dawntraoz',
                 // twitch: 'https://twitch.tv/dawntraoz',
@@ -202,8 +202,8 @@ const data = {
         },
         {
           title: 'Networking & Beers online 💃🍻',
-          startTime: { h: '12', m: '00' },
-          endTime: { h: '12', m: '15' }
+          startTime: { h: '17', m: '40' },
+          endTime: { h: '18', m: '00' }
         }
       ]
     }
