@@ -4,17 +4,17 @@ const eventTypes = {
 }
 
 const data = {
-  date: '19 Diciembre 2020',
+  date: '23 Enero 2021',
   isTimezoneSelectorEnabled: true,
   eventType: eventTypes.online,
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/274849426/',
   eventLink: 'https://www.twitch.tv/osweekends',
   twitchUser: 'osweekends',
   onAirText: '¡OSWeekends está en directo! ⏺',
-  startTime: '10:00',
+  startTime: '16:00',
   endTime: '12:00',
-  title: '🎅🏾 Agenda',
-  description: '🎄 Último evento del año ¡Apúntate! 👉',
+  title: 'Agenda',
+  description: 'Primer evento del año ¡Apúntate! 👉',
   tracks: [
     {
       name: 'The Awesome Track Online',
@@ -26,7 +26,7 @@ const data = {
             '•  Agenda 📇',
             '•  OSWorld 👨‍🎤👩‍🎤'
           ],
-          startTime: { h: '10', m: '00' },
+          startTime: { h: '16', m: '00' },
           // endTime: { h: '10', m: '20' },
           speakers: [
             {
@@ -80,7 +80,7 @@ const data = {
               name: 'Thamara Gerig',
               avatar: 'https://avatars1.githubusercontent.com/u/52920777?s=460&u=84492707015037f4c6ce5778227337118f3a7039&v=4',
               bio: [
-                'Junior Front-End Dev · 🕵️‍♂️Head of Department de Asuntos Guays at @os_weekends'
+                'Junior Front-End Dev · 🕵️‍♂️ Head of Department de Asuntos Guays at @os_weekends.'
               ],
               social: {
                 twitter: 'https://twitter.com/gerig_thamara',
@@ -90,70 +90,72 @@ const data = {
           ]
         },
         {
-          title: 'Conceptos básicos de modelado 3D para web devs con Three.js',
+          title: 'The Art of Asking',
           description: [
-            '¿Estás hart@ del flat design? ¿Quieres darle otro ángulo a tu carrera? Te invito a navegar en otra dimensión 🥁. Hablaremos sobre las bases de modelado 3D para que empieces a desarrollar con Three.js.'
+            '¿Hacer preguntas está escrito en nuestros genes. En esta charla hablo de la importancia de hacer preguntas, el rol de internet en nuestra sed por el conocimiento y algunas indicaciones en como contribuir a la comunidad usando Stack Overflow.'
           ],
-          startTime: { h: '10', m: '20' },
-          tags: ['✨ Diseño', '💻 Desarrollo'],
+          startTime: { h: '16', m: '20' },
+          tags: ['💻 Desarrollo', '💘 Soft skills'],
           speakers: [
             {
-              name: 'Stivali Serna',
-              avatar: 'https://avatars3.githubusercontent.com/u/6487058?s=460&u=37a0001b5db966f73d2bba229ac9d4bd3dca0248&v=4',
+              name: 'Angel Paredes',
+              avatar: 'https://avatars0.githubusercontent.com/u/9055092?s=460&u=aa3928c461773bfc9eca513c6ba1ffe8f729a8fa&v=4',
               bio: [
-                'Soy Stívali 🙋‍♀️, de Venezuela. Trabajo como fullstack developer en Thoughtworks Spain y en mis ratos libres usualmente me verán haciendo web animations y 3D modeling ^^'
+                'Confía en mí, soy ingeniero. He trabajado en diferentes sectores FinTech 💵 (PayPal), eGaming ⚽️ (Kambi) y actualmente en Delivery (Glovo). ',
+                'Me experimentar con temas más cercanos a Computer Science y la parte social del desarrollo de software. También dibujo pero esa es otra historia y debe ser contada en otra ocasión.'
               ],
               social: {
                 // linkedin: 'https://www.linkedin.com/in/jonathan-b-clarke-06174a38/'
-                twitter: 'https://twitter.com/stivaliserna',
-                // github: 'https://github.com/iosamuel',
+                twitter: 'https://twitter.com/PeopleNArthax',
+                github: 'https://github.com/peoplenarthax',
                 // twitch: 'https://twitch.com/iosamuel',
                 // youtube: 'https://youtube.com/iosamuel',
                 // instagram: 'https://instagram.com/_iosamuel',
                 // facebook: 'https://facebook.com/iosamuel.dev',
-                url: ['https://codepen.io/stivaliserna', 'https://www.stivaliserna.com/']
+                url: ['https://www.angelpared.es/']
               }
             }
           ]
         },
         {
-          title: 'Economía en el Open Source 💸',
+          title: 'TechTeach Junior: decisiones detrás del proyecto 👧💻👦',
           description: [
-            '¿Es rentable, económicamente hablando, trabajar en proyectos Open Source? ¿Cómo sobrevive una empresa que tiene un producto que es Open Source?'
+            'Nicaragüense viviendo en Madrid. Desarrolladora front-end desde hace 3 años, pico código en Cool Tabs... Disfruto del campo 🌿, la mar 🐚 y la música 🤘🏻 (una mezcla entre rock y electrocumbia).'
           ],
-          startTime: { h: '10', m: '40' },
-          tags: ['💻 Desarrollo', '✨ Open Source', '💸 Money'],
+          startTime: { h: '16', m: '40' },
+          tags: ['💻 Desarrollo', '👩‍🎨 Diseño', '📲 UX/UI'],
           speakers: [
             {
-              name: 'Guillermo Rauch',
-              avatar: 'https://pbs.twimg.com/profile_images/1029230542716264448/LgLb--Of_400x400.jpg',
+              name: 'Mayra Amador (Flor de Lola)',
+              avatar: 'https://pbs.twimg.com/profile_images/1205930962883956736/rGxZmLZY_400x400.jpg',
               bio: [
-                'Before starting Vercel in November 2015, Guillermo was the CTO and co-founder of LearnBoost and Cloudup, acquired by Automattic in 2013. He\'s the creator of several popular Node.js open source libraries like socket.io, mongoose and slackin. Prior to Node.js, he was a core developer of the MooTools frontend toolkit.'
+                'Techteach Junior es una web que recopila cursos de programación y computación para niñas y niños. Quiero compartirles sobre el proceso de ejecución de este pet project basado en estas temáticas #vuejs #diseño #girsintech #cuarentena20',
+                'https://techteachjunior.com/'
               ],
               social: {
-                twitter: 'https://twitter.com/rauchg',
+                twitter: 'https://twitter.com/mayrAmador',
                 // github: 'https://github.com/mafesernaarboleda',
-                // linkedin: 'https://www.linkedin.com/in/mafesernaarboleda/',
-                url: 'https://rauchg.com'
+                linkedin: 'https://www.linkedin.com/in/mayra-amador-zapata-/'
+                // url: 'https://rauchg.com'
               }
             }
           ]
         },
-        {
-          title: '🤡 Verdadero o Falsedad 👾',
-          description: [
-            'Adivina cuales de las siguientes historias que contaremos son verdad ✨'
-          ],
-          startTime: { h: '11', m: '00' },
-          tags: ['💅 Cháchara', '🎮 Juego'],
-          speakers: []
-        },
+        // {
+        //   title: '🤡 Verdadero o Falsedad 👾',
+        //   description: [
+        //     'Adivina cuales de las siguientes historias que contaremos son verdad ✨'
+        //   ],
+        //   startTime: { h: '11', m: '00' },
+        //   tags: ['💅 Cháchara', '🎮 Juego'],
+        //   speakers: []
+        // },
         {
           title: 'BDD & Cucumber 🥒',
           description: [
             '¿Eres creyente del BDD? ¿Y practicante? Vamos a hablar de qué es y cómo aplicarlo con un ejemplo práctico.'
           ],
-          startTime: { h: '11', m: '20' },
+          startTime: { h: '17', m: '00' },
           tags: ['💻 Desarrollo', '🧪 Testing', '👩‍🔬 Cypress'],
           speakers: [
             {
@@ -177,7 +179,7 @@ const data = {
             'Como montar un proyecto IoT para medir la calidad del aire en 20 minutos (bueno... quizás algo más) o como dice mi amigo @baumannzone \'Sensores y cosas\' ¿Me acompañas en esta aventura?',
             'Proyecto surgido dentro de #OSWGuilds y recuperado en tiempos de Covid-19 pa\' mi gente de OSW. Código abierto del proyecto: https://github.com/OSWeekends/miniestaciones'
           ],
-          startTime: { h: '11', m: '40' },
+          startTime: { h: '17', m: '20' },
           tags: ['💻 Desarrollo', '🌱 Jardinería'],
           speakers: [
             {
@@ -187,7 +189,7 @@ const data = {
                 'Audiovisual Systems Engineer. IoT Developer. Maker. @bloomod cofounder. @osweekends mentor. Hippie de pueblo. Think globally, act locally. #ecologism #steam'
               ],
               social: {
-                twitter: 'https://twitter.com/_serxius_',
+                twitter: 'httzps://twitter.com/_serxius_',
                 github: 'https://github.com/smorcuend',
                 // linkedin: 'https://linkedin.com/in/dawntraoz',
                 // twitch: 'https://twitch.tv/dawntraoz',
@@ -200,8 +202,8 @@ const data = {
         },
         {
           title: 'Networking & Beers online 💃🍻',
-          startTime: { h: '12', m: '00' },
-          endTime: { h: '12', m: '15' }
+          startTime: { h: '17', m: '40' },
+          endTime: { h: '18', m: '00' }
         }
       ]
     }
