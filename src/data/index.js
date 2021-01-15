@@ -123,7 +123,7 @@ const data = {
           speakers: [
             {
               name: 'Angel Paredes',
-              avatar: 'https://avatars0.githubusercontent.com/u/9055092?s=460&u=aa3928c461773bfc9eca513c6ba1ffe8f729a8fa&v=4',
+              avatar: 'https://ca.slack-edge.com/T03F4BTSK-U01FHS3S42K-1d259cb31319-512',
               bio: [
                 'Confía en mí, soy ingeniero. He trabajado en diferentes sectores FinTech 💵 (PayPal), eGaming ⚽️ (Kambi) y actualmente en Delivery (Glovo). Me gusta experimentar con temas más cercanos a Computer Science y la parte social del desarrollo de software. También dibujo, pero esa es otra historia y debe ser contada en otra ocasión.'
               ],
