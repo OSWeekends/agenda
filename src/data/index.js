@@ -90,32 +90,33 @@ const data = {
           ]
         },
         {
-          title: 'Advent of Code',
+          title: '🎄 Code to save Christmas',
           description: [
-            'Natalia nos hablará de su experiencia con el Advent Of Code 2020.'
+            'En diciembre, durante el Advent of  Code, puedes echarle una mano a Santa Claus para salvar las navidades ayudándole a resolver diversos problemas con código ¡Los elfos siempre están rompiendo cosas y necesita mucha ayuda!'
           ],
           startTime: { h: '16', m: '20' },
-          tags: ['💻 Desarrollo', '🔫 Katas'],
+          tags: ['💻 Desarrollo', '🔫 Hacking'],
           speakers: [
             {
               name: 'Natalia Vidal',
               avatar: 'https://pbs.twimg.com/profile_images/911302746896261120/iokKwkwn_400x400.jpg',
               bio: [
-              //   'Developer en GuideSmiths, autora del cómic Clit Flick 📚, arquitecta 🏛 y de pueblo.'
+                'Madrileña expatriada en Boston con mis gatos 🐈.  Me encanta enseñar cosas y organizo un meetup para promover la diversidad en la tecnología. Últimamente trabajo con React  AWS y Terraform. 🤓'
               ],
               social: {
                 twitter: 'https://twitter.com/erikiva',
                 // twitch: 'https://twitch.tv/claradios',
-                // instagram: 'https://instagram.com/c.diosss',
-                github: 'https://github.com/erikiva'
+                instagram: 'https://instagram.com/erikiva',
+                github: 'https://github.com/erikiva',
+                meetup: 'https://www.meetup.com/members/189651382/'
               }
             }
           ]
         },
         {
-          title: 'The Art of Asking',
+          title: '🙋 The Art of Asking',
           description: [
-            '¿Hacer preguntas está escrito en nuestros genes? En esta charla hablo de la importancia de hacer preguntas, el rol de internet en nuestra sed por el conocimiento y algunas indicaciones en como contribuir a la comunidad usando Stack Overflow.'
+            '¿Hacer preguntas está escrito en nuestros genes? En esta charla hablo de la importancia de hacer preguntas, el rol del internet en nuestra sed por el conocimiento y algunas indicaciones de como contribuir a la comunidad usando Stack Overflow.'
           ],
           startTime: { h: '16', m: '40' },
           tags: ['💻 Desarrollo', '💘 Soft skills'],
@@ -140,12 +141,12 @@ const data = {
           ]
         },
         {
-          title: 'TechTeach Junior: decisiones detrás del proyecto 👧💻👦',
+          title: '👧💻👦 TechTeach Junior: decisiones detrás del proyecto',
           description: [
             'Techteach Junior es una web que recopila cursos de programación y computación para niñas y niños. Quiero compartirles sobre el proceso de ejecución de este pet project basado en estas temáticas #vuejs #diseño #girsintech #cuarentena20 https://techteachjunior.com/'
           ],
           startTime: { h: '17', m: '00' },
-          tags: ['💻 Desarrollo', '👩‍🎨 Diseño', '📲 UX/UI'],
+          tags: ['💻 Desarrollo', '🎨 Diseño', '📲 UX/UI'],
           speakers: [
             {
               name: 'Mayra Amador (Flor de Lola)',
@@ -172,25 +173,25 @@ const data = {
         //   speakers: []
         // },
         {
-          title: 'Como fallar exitosamente',
+          title: '🧗‍♀️ Cómo fallar en tus metas con éxito',
           description: [
-            '¡Consejos para evitar que el fracaso nos quite la motivación de seguir intentándolo!'
+            'Daré unos tips clave que pueden hacer que cumplas los objetivos que te propongas.'
           ],
           startTime: { h: '17', m: '20' },
-          tags: ['💘 Soft skills'],
+          tags: ['💘 Soft skills', '🌱 La vida'],
           speakers: [
             {
               name: 'Raquel Fernandez',
-              // avatar: 'https://avatars3.githubusercontent.com/u/1575830?s=460&u=c7e92b31b8509f1025a7ad8c25e5b096421a6dc3&v=4',
+              avatar: 'https://user-images.githubusercontent.com/52920777/104781407-ae813380-5782-11eb-8d55-d8d81f088853.jpeg',
               bio: [
-
+                'Tras estudiar la carrera de Publicidad y Creatividad Digital, me formé como Directora de Arte. Estuve trabajando en diferentes agencias de publicidad en ese puesto, hasta que la curiosidad de cómo se programaban las aplicaciones/webs fue mayor. Así terminé realizando un bootcamp que me llevó a mi actual puesto como FrontEnd.'
               ],
               social: {
                 // twitter: 'httzps://twitter.com/_serxius_',
                 // github: 'https://github.com/smorcuend',
                 // linkedin: 'https://linkedin.com/in/dawntraoz',
                 // twitch: 'https://twitch.tv/dawntraoz',
-                // instagram: 'https://instagram.com/dawntraoz',
+                instagram: 'https://instagram.com/original.rfr'
                 // dev: 'https://dev.to/dawntraoz',
                 // url: 'https://www.bloomod.com/'
               }
