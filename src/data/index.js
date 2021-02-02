@@ -150,7 +150,7 @@ const data = {
           tags: ['💻 Desarrollo', '🏃‍♀️ Scape Rooms', '🔥 Firebase'],
           speakers: [
             {
-              name: 'Jordi',
+              name: 'Jordi Marti',
               avatar: 'https://pbs.twimg.com/profile_images/908728872769908737/MkqSb991_400x400.jpg',
               bio: [
                 'Desarrollador de software en @inithealth // Aprendiendo y creciendo en @grupo_init // Hago escapes y me divierto en http://escapes-online.com'
