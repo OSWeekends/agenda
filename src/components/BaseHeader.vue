@@ -8,7 +8,8 @@
             {{ dateOnSelectedTimezone }}
           </small>
         </h1>
-        <CBadge class="mr-2 ml-md-2 eventType-badge"> {{ headerData.eventType }}</CBadge>
+        <CBadge class="mr-2 ml-md-2 eventType-badge"> Valentine's Day Edition</CBadge>
+        <!-- <CBadge class="mr-2 ml-md-2 eventType-badge"> {{ headerData.eventType }}</CBadge> -->
       </div>
        <ThemeSwitch />
     </div>

@@ -13,7 +13,7 @@ const data = {
   onAirText: '¡OSWeekends está en directo! ⏺',
   startTime: '10:00',
   endTime: '12:00',
-  title: '❤️ Agenda 💙',
+  title: 'Agenda 💌',
   description: 'Segundo evento del año ¡Apúntate! 👉',
   tracks: [
     {
@@ -99,9 +99,9 @@ const data = {
           speakers: [
             {
               name: 'Dani de la Cruz',
-              // avatar: 'https://avatars3.githubusercontent.com/u/6487058?s=460&u=37a0001b5db966f73d2bba229ac9d4bd3dca0248&v=4',
+              avatar: 'https://pbs.twimg.com/profile_images/1298571647180472320/zjkVwkJL_400x400.jpg',
               bio: [
-                'Product developer and professional mentor'
+                'Product developer and professional mentor.'
               ],
               social: {
                 linkedin: 'https://www.linkedin.com/in/danieldelacruz/',
@@ -123,11 +123,11 @@ const data = {
             'A la hora de diseñar un producto, una buena paleta de colores debería incluir un montón de colores con sus variaciones oscuras y claras. En esta charla, vamos a evitar este lío usando la teoría de color para generar paletas de colores casi automáticamente.'
           ],
           startTime: { h: '10', m: '40' },
-          tags: ['💻 Desarrollo', '✨ Design', '💸 UX/UI'],
+          tags: ['💻 Desarrollo', '🎨 Design', '📲 UX/UI'],
           speakers: [
             {
               name: 'James Heda Weng',
-              // avatar: 'https://pbs.twimg.com/profile_images/1029230542716264448/LgLb--Of_400x400.jpg',
+              avatar: 'https://pbs.twimg.com/profile_images/1274304930707394561/4pGBj0wS_400x400.jpg',
               bio: [
                 'Doctorado en Bellas Artes, Profesor Asociado en Universidad Nebrija, Product Manager & UX Designer en StyleSage. Profesionalmente tiene 7 años de experiencia como desarrollador, diseñador y creative coder.'
               ],
@@ -144,14 +144,14 @@ const data = {
         {
           title: 'Diseñando Escape Rooms Open Source con Vue y Firebase',
           description: [
-            'Pues eso... "Diseñando Escape Rooms Open Source con Vue y Firebase"'
+            'Pues eso... "Diseñando Escape Rooms Open Source con Vue y Firebase".'
           ],
           startTime: { h: '11', m: '00' },
-          tags: ['💻 Desarrollo', '🪄 Scape Rooms', '🔥 Firebase'],
+          tags: ['💻 Desarrollo', '🏃‍♀️ Scape Rooms', '🔥 Firebase'],
           speakers: [
             {
               name: 'Jordi',
-              // avatar: 'https://pbs.twimg.com/profile_images/1168536594967650305/Hnn-LmlY_400x400.jpg',
+              avatar: 'https://pbs.twimg.com/profile_images/908728872769908737/MkqSb991_400x400.jpg',
               bio: [
                 'Desarrollador de software en @inithealth // Aprendiendo y creciendo en @grupo_init // Hago escapes y me divierto en http://escapes-online.com'
               ],
@@ -168,14 +168,14 @@ const data = {
         {
           title: 'Entrevista con Debbie',
           description: [
-            'Sesión de preguntas y respuestas'
+            'Sesión de preguntas y respuestas.'
           ],
           startTime: { h: '11', m: '20' },
           tags: ['💻 Desarrollo', '🌱 Nuxt', '😊 Soft Skills'],
           speakers: [
             {
               name: 'Debbie O\'Brien',
-              // avatar: 'https://avatars3.githubusercontent.com/u/1575830?s=460&u=c7e92b31b8509f1025a7ad8c25e5b096421a6dc3&v=4',
+              avatar: 'https://pbs.twimg.com/profile_images/1252900852156772352/JLIVJ-TC_400x400.jpg',
               bio: [
                 'Debbie O’Brien is Head of Learning and Developer Advocate at NuxtJS, the progressive VueJS framework. Debbie has over 10 years experience in Frontend development. She has worked as a Tech Lead and consultant for many important clients with varios technologies and often with a strong focus on performance. She has lead teams both in house and remotely as well as giving workshops and training. She has many years of experience as a mentor for online learning platforms, Treehouse and OpenClassrooms. Debbie is a Microsoft Most Valuable Professional in developer technologies, Google Developer Expert in web technologies, GitHub Star and Cloudinary Media Developer Expert.'
               ],
