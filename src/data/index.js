@@ -140,20 +140,11 @@ const data = {
           ]
         },
         {
-          title: '🤡 Verdadero o Falsedad 👾',
-          description: [
-            'Adivina cuales de las siguientes historias que contaremos son verdad ✨'
-          ],
-          startTime: { h: '11', m: '00' },
-          tags: ['💅 Cháchara', '🎮 Juego'],
-          speakers: []
-        },
-        {
           title: 'BDD & Cucumber 🥒',
           description: [
             '¿Eres creyente del BDD? ¿Y practicante? Vamos a hablar de qué es y cómo aplicarlo con un ejemplo práctico.'
           ],
-          startTime: { h: '11', m: '20' },
+          startTime: { h: '11', m: '00' },
           tags: ['💻 Desarrollo', '🧪 Testing', '👩‍🔬 Cypress'],
           speakers: [
             {
@@ -177,7 +168,7 @@ const data = {
             'Como montar un proyecto IoT para medir la calidad del aire en 20 minutos (bueno... quizás algo más) o como dice mi amigo @baumannzone \'Sensores y cosas\' ¿Me acompañas en esta aventura?',
             'Proyecto surgido dentro de #OSWGuilds y recuperado en tiempos de Covid-19 pa\' mi gente de OSW. Código abierto del proyecto: https://github.com/OSWeekends/miniestaciones'
           ],
-          startTime: { h: '11', m: '40' },
+          startTime: { h: '11', m: '20' },
           tags: ['💻 Desarrollo', '🌱 Jardinería'],
           speakers: [
             {
@@ -200,8 +191,8 @@ const data = {
         },
         {
           title: 'Networking & Beers online 💃🍻',
-          startTime: { h: '12', m: '00' },
-          endTime: { h: '12', m: '15' }
+          startTime: { h: '11', m: '40' },
+          endTime: { h: '12', m: '00' }
         }
       ]
     }
