@@ -118,7 +118,7 @@ const data = {
           ]
         },
         {
-          title: 'Economía en el Open Source 💸',
+          title: 'Generar tu paleta de colores (casi) automáticamente',
           description: [
             'A la hora de diseñar un producto, una buena paleta de colores debería incluir un montón de colores con sus variaciones oscuras y claras. En esta charla, vamos a evitar este lío usando la teoría de color para generar paletas de colores casi automáticamente.'
           ],
