@@ -144,23 +144,23 @@ const data = {
         {
           title: 'Diseñando Escape Rooms Open Source con Vue y Firebase',
           description: [
-            'Pues eso... "Diseñando Escape Rooms Open Source con Vue y Firebase".'
+            'Mi objetivo de esta charla es enseñar a otros a diseñar y desarrollar sus propios escapes gracias al código que tengo publicado, de modo que yo pueda jugar alucinantes escapes hechos por otros.'
           ],
           startTime: { h: '11', m: '00' },
           tags: ['💻 Desarrollo', '🏃‍♀️ Scape Rooms', '🔥 Firebase'],
           speakers: [
             {
-              name: 'Jordi Marti',
+              name: 'Jordi Martí',
               avatar: 'https://pbs.twimg.com/profile_images/908728872769908737/MkqSb991_400x400.jpg',
               bio: [
                 'Desarrollador de software en @inithealth // Aprendiendo y creciendo en @grupo_init // Hago escapes y me divierto en http://escapes-online.com'
               ],
               social: {
                 twitter: 'https://twitter.com/itortv',
-                url: 'http://escapes-online.com'
+                url: 'http://escapes-online.com',
                 // twitch: 'https://twitch.tv/claradios',
                 // instagram: 'https://instagram.com/c.diosss',
-                // github: 'https://github.com/claradios'
+                github: 'https://github.com/jmarti-theinit'
               }
             }
           ]
