@@ -4,7 +4,7 @@ const eventTypes = {
 }
 
 const data = {
-  date: '19 Diciembre 2020',
+  date: '23 Enero 2021',
   isTimezoneSelectorEnabled: true,
   eventType: eventTypes.online,
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/274849426/',
@@ -80,7 +80,7 @@ const data = {
               name: 'Thamara Gerig',
               avatar: 'https://avatars1.githubusercontent.com/u/52920777?s=460&u=84492707015037f4c6ce5778227337118f3a7039&v=4',
               bio: [
-                'Junior Front-End Dev · 🕵️‍♂️Head of Department de Asuntos Guays at @os_weekends'
+                'Junior Front-End Dev · 🕵️‍♂️ Head of Department de Asuntos Guays at @os_weekends.'
               ],
               social: {
                 twitter: 'https://twitter.com/gerig_thamara',
