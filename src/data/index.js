@@ -4,7 +4,7 @@ const eventTypes = {
 }
 
 const data = {
-  date: '13 Febrero 2021',
+  date: '13 Marzo 2021',
   isTimezoneSelectorEnabled: true,
   eventType: eventTypes.online,
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/276128701/',
@@ -13,7 +13,7 @@ const data = {
   onAirText: '¡OSWeekends está en directo! ⏺',
   startTime: '10:00',
   endTime: '12:00',
-  title: 'Agenda 💌',
+  title: 'Agenda',
   description: 'Segundo evento del año ¡Apúntate! 👉',
   tracks: [
     {
@@ -90,51 +90,50 @@ const data = {
           ]
         },
         {
-          title: 'La leyenda de los Fullstack developers',
+          title: 'Cosas curiosas que pasan cuando moderas StackOverflow',
           description: [
-            '¿Tiene sentido hablar de Fullstack developers hoy en día? ¿Es necesario ser bueno en todo? En esta charla empiezo hablando de caminos de desarrollo profesional y cómo encaja una vocación Fullstack en un mercado laboral donde lo más demandado es la alta especialización.'
+            'Cómo preguntar, cómo dejarse ayudar para recibir ayuda de la comunidad. Historias curiosas en la formulación de preguntas, ¿sabemos preguntar?'
           ],
           startTime: { h: '10', m: '20' },
-          tags: ['✨ Soft Skills', '💻 Desarrollo'],
+          tags: ['✨ Soft Skills', '🤖 Curiosidades, anéctodas y formación'],
           speakers: [
             {
-              name: 'Dani de la Cruz',
-              avatar: 'https://pbs.twimg.com/profile_images/1298571647180472320/zjkVwkJL_400x400.jpg',
+              name: 'Fredy Guibert',
+              avatar: 'https://avatars.githubusercontent.com/u/4960023?s=460&u=35b3bfde655f1c2d94b6f1aef5d3324071311f08&v=4',
               bio: [
-                'Product developer and professional mentor.'
+                'Desarrollador de Software en USA 💻, consultor en EpicalSoft.com 🦅, autor en @_NetUniversity  📙 y tutor en la academia Ninja Cerebral 🐱‍👤de @PabloLomeliMx sobre técnicas de estudio y memorización. Curioso by default, top 37 en SOes 🐺. Hablo español, inglés, algo de japonés 🐻. Siempre estoy aprendiendo y compartiendo donde se pueda :D'
               ],
               social: {
-                linkedin: 'https://www.linkedin.com/in/danieldelacruz/',
-                twitter: 'https://twitter.com/d4nidev',
-                github: 'https://github.com/delacruz-dev'
-                // linkedin: 'https://www.linkedin.com/in/jonathan-b-clarke-06174a38/'
-                // twitch: 'https://twitch.com/iosamuel',
-                // youtube: 'https://youtube.com/iosamuel',
-                // instagram: 'https://instagram.com/_iosamuel',
+                linkedin: 'https://www.linkedin.com/in/fredyfx',
+                twitter: 'https://twitter.com/fredyfx',
+                github: 'https://github.com/fredyfx',
+                twitch: 'https://twitch.com/fredyfx',
+                youtube: 'https://youtube.com/channel/UCTYDkOUi5Fg8O1w8cexmhPA',
+                instagram: 'https://instagram.com/fr3dyfx',
                 // facebook: 'https://facebook.com/iosamuel.dev',
-                // url: ['https://codepen.io/stivaliserna', 'https://www.stivaliserna.com/']
+                url: 'https://www.fredyfx.com',
               }
             }
           ]
         },
         {
-          title: 'Generar tu paleta de colores (casi) automáticamente',
+          title: 'Aprovecha las redes sociales como creador de contenido',
           description: [
-            'A la hora de diseñar un producto, una buena paleta de colores debería incluir un montón de colores con sus variaciones oscuras y claras. En esta charla, vamos a evitar este lío usando la teoría de color para generar paletas de colores casi automáticamente.'
+            '¿Eres creador/a de contenido? ¿Haces streaming, artículos, ilustraciones, recetas, vídeos o, incluso, hilos en Twitter? ¡Conoce algunos consejos sencillos para mejorar la comunicación (y el alcance) de tu contenido en las redes sociales!'
           ],
           startTime: { h: '10', m: '40' },
-          tags: ['💻 Desarrollo', '🎨 Design', '📲 UX/UI'],
+          tags: ['📱 Marketing'],
           speakers: [
             {
-              name: 'James Heda Weng',
+              name: 'Carolina "Nei" Arjona',
               avatar: 'https://pbs.twimg.com/profile_images/1274304930707394561/4pGBj0wS_400x400.jpg',
               bio: [
-                'Doctorado en Bellas Artes, Profesor Asociado en Universidad Nebrija, Product Manager & UX Designer en StyleSage. Profesionalmente tiene 7 años de experiencia como desarrollador, diseñador y creative coder.'
+                'Reinventándome como estudiante Fullstack Web Developer 👩‍💻 | Actualmente redactora en esports 🎮 con experiencia en redes sociales y comunicación 📝 | Realicé los estudios de Grado en Traducción e interpretación y Máster en Gestión lingüística y literaria 📒 | Apasionada de los videojuegos 👾, la comida sana 🥗, la vida tranquila 🌱 y mis gatos (Kiwi y Dora) 🐱 |'
               ],
               social: {
-                twitter: 'https://twitter.com/jameshedaweng',
-                instagram: 'https://instagram.com/jameshedaweng',
-                linkedin: 'https://www.linkedin.com/in/jameshedaweng/'
+                twitter: 'https://twitter.com/itsanei',
+                instagram: 'https://instagram.com/itsanei',
+                linkedin: 'https://www.linkedin.com/in/itsanei',
                 // github: 'https://github.com/mafesernaarboleda',
                 // url: 'https://rauchg.com'
               }
