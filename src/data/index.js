@@ -141,25 +141,41 @@ const data = {
           ]
         },
         {
-          title: 'Diseñando Escape Rooms Open Source con Vue y Firebase',
+          title: 'Domain Driven Design, o de como aprender a hablar balleno',
           description: [
-            'Mi objetivo de esta charla es enseñar a otros a diseñar y desarrollar sus propios escapes gracias al código que tengo publicado, de modo que yo pueda jugar alucinantes escapes hechos por otros.'
+            '¿Alguna vez has tenido una reunión con tus 🕴 y parecía que  te hablaba un 👽?, ¿Cómo afecto esto al desarollo de tu proyecto?  en esta charla introducimos las técnicas de DDD que nos ayudaran a entendernos con nuestros expertos de dominio y como eso nos lleva al 🌈 del software...'
           ],
           startTime: { h: '11', m: '00' },
-          tags: ['💻 Desarrollo', '🏃‍♀️ Scape Rooms', '🔥 Firebase'],
+          tags: ['💻 Desarrollo', '🏛 Arquitectura de Software'],
           speakers: [
             {
-              name: 'Jordi Martí',
-              avatar: 'https://pbs.twimg.com/profile_images/908728872769908737/MkqSb991_400x400.jpg',
+              name: 'Oskar Gomez',
+              avatar: 'https://pbs.twimg.com/profile_images/811458450366627840/i5wXuD12_400x400.jpg',
               bio: [
-                'Desarrollador de software en @inithealth // Aprendiendo y creciendo en @grupo_init // Hago escapes y me divierto en http://escapes-online.com'
+                'En ocasiones aporreo teclados mecánicos y guitarras!'
               ],
               social: {
-                twitter: 'https://twitter.com/itortv',
-                url: 'http://escapes-online.com',
+                twitter: 'https://twitter.com/oskarflesh',
+                linkedin: 'https://www.linkedin.com/in/ogomezso',
+                // url: 'http://escapes-online.com',
                 // twitch: 'https://twitch.tv/claradios',
                 // instagram: 'https://instagram.com/c.diosss',
-                github: 'https://github.com/jmarti-theinit'
+                // github: 'https://github.com/jmarti-theinit'
+              }
+            },
+            {
+              name: 'Libertad Pozos',
+              avatar: 'https://pbs.twimg.com/profile_images/1111643339361787904/FX7p4gZZ_400x400.jpg',
+              bio: [
+                'Soy Libertad Pozos, mexicana, politóloga, internacionalista y, desde hace año y medio, desarrolladora de software en Osoco. De igual manera, me interesa la gestión de equipos de desarrollo por lo que, además de picar código, he fungido como Scrum Master. Me emociona pertenecer a una comunidad que comparte el gusto por crear soluciones. En mi tiempo libre me gusta pintar  🎨, bailar 💃 y salir a platicar 🍻. '
+              ],
+              social: {
+                twitter: 'https://twitter.com/LibertadPozos',
+                linkedin: 'https://www.linkedin.com/in/libertadpozos/',
+                // url: 'http://escapes-online.com',
+                // twitch: 'https://twitch.tv/claradios',
+                instagram: 'https://www.instagram.com/libertaadp/',
+                // github: 'https://github.com/jmarti-theinit'
               }
             }
           ]
