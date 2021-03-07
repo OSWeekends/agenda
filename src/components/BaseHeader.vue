@@ -8,22 +8,25 @@
             {{ dateOnSelectedTimezone }}
           </small>
         </h1>
-        <CBadge class="mr-2 ml-md-2 eventType-badge"> Valentine's Day Edition</CBadge>
+        <!-- <CBadge class="mr-2 ml-md-2 eventType-badge"> Valentine's Day Edition</CBadge> -->
         <!-- <CBadge class="mr-2 ml-md-2 eventType-badge"> {{ headerData.eventType }}</CBadge> -->
       </div>
-       <ThemeSwitch />
+      <ThemeSwitch/>
     </div>
     <!-- Timezone selector -->
     <div class="flex-column justify-start mb-4" v-if="headerData.isTimezoneSelectorEnabled">
       <b-row>
         <b-col lg="6">
-          <p v-if="!isUserInMadrid" class="timezone-disclaimer">Nos han chivado que no estás en España (o al menos en la zona horaria de españa), no te preocupes, cambiamos el horario a tu zona para que nos puedas ver</p>
+          <p v-if="!isUserInMadrid" class="timezone-disclaimer">Nos han chivado que no estás en España (o al menos en la
+            zona horaria de españa), no te preocupes, cambiamos el horario a tu zona para que nos puedas ver</p>
         </b-col>
       </b-row>
       <b-row align-h="between">
         <b-col lg="4" md="12">
-          <b-button class="timezone-button" v-if="!isTimeZoneSelectorActive && isUserInMadrid" size="sm" variant="light" @click="isTimeZoneSelectorActive = true">
-            Cambiar a otra zona horaria</b-button>
+          <b-button class="timezone-button" v-if="!isTimeZoneSelectorActive && isUserInMadrid" size="sm" variant="light"
+                    @click="isTimeZoneSelectorActive = true">
+            Cambiar a otra zona horaria
+          </b-button>
           <TimezoneSelector v-if="isTimeZoneSelectorActive || !isUserInMadrid"/>
         </b-col>
       </b-row>
@@ -44,7 +47,7 @@
 </template>
 
 <script>
-import CBadge from '@/components/CustomBadge'
+// import CBadge from '@/components/CustomBadge'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import TimezoneSelector from '@/components/TimezoneSelector'
 import { mapState } from 'vuex'
@@ -54,7 +57,7 @@ export default {
   name: 'BaseHeader',
   components: {
     TimezoneSelector,
-    CBadge,
+    // CBadge,
     ThemeSwitch
   },
   props: {
@@ -102,6 +105,7 @@ export default {
   a
     color var(--color-text)
     transition color 200ms ease-in
+
     &:hover
       color var(--color-main) !important
       text-decoration none
