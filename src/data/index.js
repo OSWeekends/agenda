@@ -139,7 +139,7 @@ const data = {
           speakers: [
             {
               name: 'Carolina "Nei" Arjona',
-              avatar: 'https://pbs.twimg.com/profile_images/1365074897026883585/byb-BsV3_400x400.jpg',
+              avatar: 'https://user-images.githubusercontent.com/52920777/110241021-f2a4df00-7f4e-11eb-9dbb-ec4bbf24f179.png',
               bio: [
                 'Reinventándome como estudiante Fullstack Web Developer 👩‍💻. Actualmente redactora en e-sports 🎮 con experiencia en redes sociales y comunicación 📝.',
                 'Realicé los estudios de Grado en Traducción e interpretación y Máster en Gestión lingüística y literaria 📒. Apasionada de los videojuegos 👾, la comida sana 🥗, la vida tranquila 🌱 y mis gatos (Kiwi y Dora) 🐱'
@@ -164,7 +164,7 @@ const data = {
           speakers: [
             {
               name: 'Oskar Gomez',
-              avatar: 'https://pbs.twimg.com/profile_images/811458450366627840/i5wXuD12_400x400.jpg',
+              avatar: 'https://user-images.githubusercontent.com/52920777/110241014-ea4ca400-7f4e-11eb-9e19-50781a6c3b9a.png',
               bio: [
                 '¡En ocasiones aporreo teclados mecánicos y guitarras!'
               ],
