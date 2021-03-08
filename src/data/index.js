@@ -196,23 +196,28 @@ const data = {
           ]
         },
         {
-          title: 'La Cocina del Código',
+          title: '¿Qué te detiene de empezar a crear contenido?',
           description: [
-            'La Cocina del Código'
+            'Hoy todo el mundo puede compartir conocimiento, por tan simple que sea, con el resto de la humanidad.',
+            '¿Pero que te detiene a vos? ¿Te falta una nueva cámara? Ah, ¿o es el micrófono? ¿Ya sabés qué contenido querés publicar primero?',
+            'En esta charla quiero compartirte mis aprendizajes durante mis dos primeros años en YouTube: los errores más comunes, los desafíos más grandes, cómo piensa el algoritmo y más!',
           ],
           startTime: startingTime[4],
           tags: ['💻 Desarrollo', '📹 Video', '🟨 JavaScript'],
           speakers: [
             {
               name: 'Sacha Lifszyc',
-              avatar: 'https://pbs.twimg.com/profile_images/1356249844336226304/OOLO35lF_400x400.jpg',
+              avatar:
+                'https://pbs.twimg.com/profile_images/1356249844336226304/OOLO35lF_400x400.jpg',
               bio: [
-                'Senior Font-End Developer en @toptal. Ingeniero en Sistemas de la @frbautn. 👨‍🍳 YouTuber en /LaCocinaDelCódigo'
+                'Senior Font-End Developer en @toptal.',
+                'Ingeniero en Sistemas de la Universidad Tecnológica Nacional.',
+                '👨‍🍳 YouTuber en /LaCocinaDelCódigo',
               ],
               social: {
-                twitter: 'https://twitter.com/sachalifs'
+                twitter: 'https://twitter.com/sachalifs',
+                youtube: 'https://www.youtube.com/c/LaCocinaDelCodigo',
                 // linkedin: 'https://www.linkedin.com/in/debbie-o-brien-1a199975/',
-                // youtube: 'https://www.youtube.com/c/DebbieOBrien',
                 // github: 'https://github.com/debs-obrien',
                 // url: 'https://debbie.codes/'
 
@@ -223,9 +228,9 @@ const data = {
                 // instagram: 'https://instagram.com/dawntraoz',
                 // dev: 'https://dev.to/dawntraoz',
                 // url: 'https://www.bloomod.com/'
-              }
-            }
-          ]
+              },
+            },
+          ],
         },
         {
           title: 'Networking & Beers online 💃🍻',
