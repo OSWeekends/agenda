@@ -210,9 +210,7 @@ const data = {
               avatar:
                 'https://pbs.twimg.com/profile_images/1356249844336226304/OOLO35lF_400x400.jpg',
               bio: [
-                'Senior Font-End Developer en @toptal.',
-                'Ingeniero en Sistemas de la Universidad Tecnológica Nacional.',
-                '👨‍🍳 YouTuber en /LaCocinaDelCódigo',
+                'Senior Font-End Developer en @toptal. Ingeniero en Sistemas de la Universidad Tecnológica Nacional. 👨‍🍳 YouTuber en /LaCocinaDelCódigo'
               ],
               social: {
                 twitter: 'https://twitter.com/sachalifs',
