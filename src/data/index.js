@@ -98,6 +98,16 @@ const data = {
                 url: 'https://codingcarlos.com/',
                 twitch: 'https://twitch.tv/codingcarlos'
               }
+            }, {
+              name: '✨ Concha Asensio ✨',
+              avatar: 'https://avatars.githubusercontent.com/u/65449478?v=4',
+              bio: [
+                'Junior Front-End Developer'
+              ],
+              social: {
+                twitter: 'https://twitter.com/conchaasensio',
+                github: 'https://github.com/conchaasensio'
+              }
             }
           ]
         },
