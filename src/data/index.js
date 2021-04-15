@@ -132,10 +132,10 @@ const data = {
                 'Charlatán incansable, maestro de nada, aprendiz de por vida. Programo de día, horneo pan de noche.'
               ],
               social: {
-                linkedin: 'linkedin.com/in/kinisoftware/',
-                twitter: 'twitter.com/kinisoftware',
+                linkedin: 'https://www.linkedin.com/in/kinisoftware/',
+                twitter: 'https://www.twitter.com/kinisoftware',
                 // twitter: 'twitter.com/ComunidadAlexa',
-                github: 'github.com/kinisoftware',
+                github: 'https://www.github.com/kinisoftware',
                 url: 'https://www.kinisoftware.com/author/kini/'
                 // url: 'codigobot.com/'
               }
