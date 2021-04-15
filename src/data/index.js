@@ -3,9 +3,9 @@ const startingTime = [
   { h: '17', m: '20' },
   { h: '17', m: '40' },
   { h: '18', m: '00' },
-  { h: '18', m: '20' },
+  { h: '18', m: '30' },
   // <-- Ultimo slot
-  { h: '18', m: '40' },
+  { h: '18', m: '50' },
   { h: '19', m: '00' }
   // Ultimo slot -->
 ]
@@ -16,17 +16,17 @@ const eventTypes = {
 }
 
 const data = {
-  date: '13 Marzo 2021',
+  date: '24 Abril 2021',
   isTimezoneSelectorEnabled: true,
   eventType: eventTypes.online,
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/276678046/',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/277562057/',
   eventLink: 'https://www.twitch.tv/osweekends',
   twitchUser: 'osweekends',
   onAirText: '¡OSWeekends está en directo! ⏺',
-  startTime: '17:00',
-  endTime: '19:00',
+  startTime: '18:00',
+  endTime: '20:00',
   title: 'Agenda',
-  description: 'Tercer evento del 2021 ¡Apúntate! 👉',
+  description: 'Cuarto evento del 2021 ¡Apúntate! 👉',
   tracks: [
     {
       name: 'The Awesome Track Online',
@@ -98,137 +98,130 @@ const data = {
                 url: 'https://codingcarlos.com/',
                 twitch: 'https://twitch.tv/codingcarlos'
               }
+            }, {
+              name: '✨ Concha Asensio ✨',
+              avatar: 'https://avatars.githubusercontent.com/u/65449478?v=4',
+              bio: [
+                'Junior Front-End Developer'
+              ],
+              social: {
+                twitter: 'https://twitter.com/conchaasensio',
+                github: 'https://github.com/conchaasensio'
+              }
             }
           ]
         },
         {
-          title: 'Cosas curiosas que pasan cuando moderas StackOverflow',
+          title: 'Making of de la Alexa skill: "El informativo de Ángel Martín"',
           description: [
-            'Cómo preguntar, cómo dejarse ayudar para recibir ayuda de la comunidad. Historias curiosas en la formulación de preguntas, ¿sabemos preguntar?'
+            'Es probable que conozcas al humorista Ángel Martín de monólogos o programas de televisión. En septiembre del 2020 decidió regalarnos horas del día haciendo él un resumen diario de las noticias. Formato exprés, dos minutos de vídeo, en Twitter. Hubo gente que le pidió tener ese informativo en Alexa. Ángel me encontró, hablamos y el resto es historia.',
+            'En esta charla quiero contar los entresijos de esta skill de audio, un poco particular, así como todo el ecosistema AWS que estoy usando. No es una charla de introducción a Alexa e iré directo a la chicha porque hay mucha tela que cortar.'
           ],
           startTime: startingTime[1],
-          tags: ['✨ Soft Skills', '🤖 Curiosidades'],
+          tags: ['💻 Development', '📣 Voice Assistants'],
           speakers: [
             {
-              name: 'Fredy Guibert',
-              avatar: 'https://avatars.githubusercontent.com/u/4960023?s=460&u=35b3bfde655f1c2d94b6f1aef5d3324071311f08&v=4',
+              name: 'Kini (Joaquin Engelmo Moriche)',
+              avatar: 'https://pbs.twimg.com/profile_images/960232202490535939/2sDBEdlh_400x400.jpg',
               bio: [
-                'Desarrollador de Software en USA 💻, consultor en EpicalSoft.com 🦅, autor en @_NetUniversity  📙 y tutor en la academia Ninja Cerebral 🐱‍👤de @PabloLomeliMx sobre técnicas de estudio y memorización.',
-                'Curioso by default, top 37 en SOes 🐺. Hablo español, inglés, algo de japonés 🐻. Siempre estoy aprendiendo y compartiendo donde se pueda.'
+                '👨🏻‍💻 Desarrollador de software en constante evolución,',
+                '🐖 #BellotaPowah',
+                '🏆 #AlexaChampion',
+                '🗣 @ComunidadAlexa',
+                '🎙 @codigobotfm',
+                'Charlatán incansable, maestro de nada, aprendiz de por vida. Programo de día, horneo pan de noche.'
               ],
               social: {
-                linkedin: 'https://www.linkedin.com/in/fredyfx',
-                twitter: 'https://twitter.com/fredyfx',
-                github: 'https://github.com/fredyfx',
-                twitch: 'https://twitch.com/fredyfx',
-                youtube: 'https://youtube.com/channel/UCTYDkOUi5Fg8O1w8cexmhPA',
-                instagram: 'https://instagram.com/fr3dyfx',
-                // facebook: 'https://facebook.com/iosamuel.dev',
-                url: 'https://www.fredyfx.com'
+                linkedin: 'linkedin.com/in/kinisoftware/',
+                twitter: 'twitter.com/kinisoftware',
+                // twitter: 'twitter.com/ComunidadAlexa',
+                github: 'github.com/kinisoftware',
+                url: 'https://www.kinisoftware.com/author/kini/'
+                // url: 'codigobot.com/'
               }
             }
           ]
         },
         {
-          title: 'Aprovecha las redes sociales como creador de contenido',
+          title: '¿Sabes ese proyecto que tienes por ahí que te soluciona un problema? ¡Lo mismo puedes solucionarselo a miles de personas!',
           description: [
-            '¿Eres creador/a de contenido? ¿Haces streaming, artículos, ilustraciones, recetas, vídeos o, incluso, hilos en Twitter? ¡Conoce algunos consejos sencillos para mejorar la comunicación (y el alcance) de tu contenido en las redes sociales!'
+            'Voy a contaros la historia de como uno de los proyectos que empecé cuando estaba aprendiendo JavaScript ha ayudado a mas de 100.000 personas en todo el mundo. Todo esto desde mi experiencia desarrollándola e intentando que llegue a más gente, para así intentar motivar al público que quiera lanzarse a hacer algún proyecto o que ya tenga alguno y se haya planteado alguna vez publicarlo.'
           ],
           startTime: startingTime[2],
-          tags: ['📱 Marketing', '🗣 Redes Sociales'],
+          tags: ['💻 Development', '🗣 Marketing', '✨ Open Source'],
           speakers: [
             {
-              name: 'Carolina "Nei" Arjona',
-              avatar: 'https://user-images.githubusercontent.com/52920777/110241021-f2a4df00-7f4e-11eb-9dbb-ec4bbf24f179.png',
+              name: 'Horus Lugo',
+              avatar: 'https://pbs.twimg.com/profile_images/1107981629656576002/7WXCm8oQ_400x400.jpg',
               bio: [
-                'Reinventándome como estudiante Fullstack Web Developer 👩‍💻. Actualmente redactora en e-sports 🎮 con experiencia en redes sociales y comunicación 📝.',
-                'Realicé los estudios de Grado en Traducción e interpretación y Máster en Gestión lingüística y literaria 📒. Apasionada de los videojuegos 👾, la comida sana 🥗, la vida tranquila 🌱 y mis gatos (Kiwi y Dora) 🐱'
+                'Llevo más de 10 años desarrollando mis propios proyectos por diversión. Me encanta el Open Source y crear contenido ocasionalmente.',
+                '👨‍💻 Creé mi primera web entre 2008 y 2009.',
+                '🧰 Mi lenguaje de programación favorito es TypeScript.',
+                '🏠 Vivo en Málaga, España.',
+                '🐱 Me encantan los gatos.',
+                '🏓 Juego bastante bien al Ping Pong.',
+                '🎧 Mi tema favorito es Adagio For Strings de Tiësto.'
               ],
               social: {
-                twitter: 'https://twitter.com/itsanei',
-                instagram: 'https://instagram.com/itsanei',
-                linkedin: 'https://www.linkedin.com/in/itsanei'
-                // github: 'https://github.com/mafesernaarboleda',
-                // url: 'https://rauchg.com'
+                twitter: 'https://twitter.com/HorusGoul',
+                twitch: 'https://twitch.tv/HorusGoul',
+                youtube: 'https://youtube.com/c/HorusGoul',
+                github: 'https://github.com/HorusGoul',
+                url: 'https://horus.dev'
               }
             }
           ]
         },
         {
-          title: 'Domain Driven Design o cómo aprender a hablar balleno',
+          title: 'El Origen del Cyberpunk',
           description: [
-            '¿Alguna vez has tenido una reunión con tus 🕴 y parecía que te hablaba un 👽?, ¿Cómo afectó esto al desarrollo de tu proyecto? En esta charla introducimos las técnicas de DDD que nos ayudarán a entendernos con nuestros expertos de dominio y como eso nos lleva al 🌈 del software...'
+            '¿Qué es el Cyberpunk? Un subgénero del relato fantástico, más precisamente una visión post-modernista de la ciencia ficción. En inglés se lo suele denominar bajo el lema: Alta tecnología y bajo estilo de vida (High tech and low life); o, en otras palabras, la fusión de las nuevas tecnologías con un estilo de vida alternativo y como IT Project Manager en Teeb. Health, plataforma para la atención médica digital desarrollada bajo tecnología Blockchain e Inteligencia Artificial.'
           ],
           startTime: startingTime[3],
-          tags: ['💻 Desarrollo', '🏛 Arquitectura de Software'],
+          tags: ['😈 Hacking', '👩‍🎤 Cyberpunk', '📚 Literatura', '👩🏿‍💻 Deep Tech'],
           speakers: [
             {
-              name: 'Oskar Gomez',
-              avatar: 'https://user-images.githubusercontent.com/52920777/110241014-ea4ca400-7f4e-11eb-9e19-50781a6c3b9a.png',
+              name: 'Nancy Salazar',
+              avatar: 'https://pbs.twimg.com/profile_images/1366832818047836171/ElCS3rvk_400x400.jpg',
               bio: [
-                '¡En ocasiones aporreo teclados mecánicos y guitarras!'
+                'Ingeniera en Tecnologías de la Información. Colaboró como Technology Coach y profesora en Platzi, una de Profesora de materias con enfoque STEM (Science, Technology, Engineering and Maths) en el Colegio Humane, en el Instituto Municipal de la Juventud y en la universidad CENTRO Diseño, Cine y Televisión en la Ciudad de México. Conferencista. Divulgadora del acercamiento de niñas y mujeres a la Ciencia y Tecnología.las plataformas de educación en línea más reconocidas en Latinoamérica.',
+                'Actualmente, es Mentora en Tecnología e Innovación en Startup México, en el Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM), en la Escuela Bancaria Comercial (EBC) y en Askha México. '
               ],
               social: {
-                twitter: 'https://twitter.com/oskarflesh',
-                linkedin: 'https://www.linkedin.com/in/ogomezso'
-                // url: 'http://escapes-online.com',
-                // twitch: 'https://twitch.tv/claradios',
-                // instagram: 'https://instagram.com/c.diosss',
-                // github: 'https://github.com/jmarti-theinit'
-              }
-            },
-            {
-              name: 'Libertad Pozos',
-              avatar: 'https://pbs.twimg.com/profile_images/1111643339361787904/FX7p4gZZ_400x400.jpg',
-              bio: [
-                'Soy Libertad Pozos, mexicana, politóloga, internacionalista y, desde hace año y medio, desarrolladora de software en Osoco. De igual manera, me interesa la gestión de equipos de desarrollo por lo que, además de picar código, he ejercido como Scrum Master. Me emociona pertenecer a una comunidad que comparte el gusto por crear soluciones.',
-                'En mi tiempo libre me gusta pintar 🎨, bailar 💃 y salir a platicar 🍻.'
-              ],
-              social: {
-                twitter: 'https://twitter.com/LibertadPozos',
-                linkedin: 'https://www.linkedin.com/in/libertadpozos/',
-                // url: 'http://escapes-online.com',
-                // twitch: 'https://twitch.tv/claradios',
-                instagram: 'https://www.instagram.com/libertaadp/'
-                // github: 'https://github.com/jmarti-theinit'
+                twitter: 'https://twitter.com/NancyNSalazar',
+                linkedin: 'https://www.linkedin.com/in/nancynsalazar/',
+                facebook: 'https://www.facebook.com/NancyNSalazar',
+                instagram: 'https://www.instagram.com/nancyNsalazar/'
               }
             }
           ]
         },
         {
-          title: '¿Qué te detiene de empezar a crear contenido?',
+          title: 'Entrevista con Cassidy Williams (cassidoo)',
           description: [
-            'Hoy todo el mundo puede compartir conocimiento, por tan simple que sea, con el resto de la humanidad.',
-            '¿Pero que te detiene a vos? ¿Te falta una nueva cámara? Ah, ¿o es el micrófono? ¿Ya sabés qué contenido querés publicar primero?',
-            'En esta charla quiero compartirte mis aprendizajes durante mis dos primeros años en YouTube: los errores más comunes, los desafíos más grandes, cómo piensa el algoritmo y más!',
+            '¡Preguntas y respuestas con Cassidoo!'
           ],
           startTime: startingTime[4],
-          tags: ['💻 Desarrollo', '📹 Video', '🟨 JavaScript'],
+          tags: ['💻 Desarrollo', '🎤 Entrevista', '🎬 Just Chatting'],
           speakers: [
             {
-              name: 'Sacha Lifszyc',
+              name: 'Cassidy Williams',
               avatar:
-                'https://pbs.twimg.com/profile_images/1356249844336226304/OOLO35lF_400x400.jpg',
+                'https://cassidoo.co/img/headshot.png',
               bio: [
-                'Senior Font-End Developer en @toptal. Ingeniero en Sistemas de la Universidad Tecnológica Nacional. 👨‍🍳 YouTuber en /LaCocinaDelCódigo'
+                'Cassidy es Principal Developer Experience Engineer en Netlify.',
+                'Ha trabajado para varios otros lugares, incluidos CodePen, Amazon y Venmo, y ha tenido el honor de trabajar con varias organizaciones sin fines de lucro, incluidas cKeys y Hacker Fund como directora de alcance.',
+                'Es activa en la comunidad de desarrolladores y una de las 35 mujeres menores de 35 años de la revista Glamour que están cambiando la industria tecnológica y una de las principales profesionales de 35 años o menos de LinkedIn.',
+                'Como ávida oradora, Cassidy ha participado en varios eventos, incluida la Celebración Grace Hopper para las mujeres en la informática, TEDx, las Naciones Unidas y docenas de otros eventos técnicos.',
+                'Quiere inspirar a generaciones de estudiantes de STEM para que sean lo mejor que puedan ser, y su cita favorita es de Helen Keller: "Uno nunca puede consentir en arrastrarse cuando siente el impulso de volar". Le encantan los teclados mecánicos y el karaoke.'
               ],
               social: {
-                twitter: 'https://twitter.com/sachalifs',
-                youtube: 'https://www.youtube.com/c/LaCocinaDelCodigo',
-                // linkedin: 'https://www.linkedin.com/in/debbie-o-brien-1a199975/',
-                // github: 'https://github.com/debs-obrien',
-                // url: 'https://debbie.codes/'
-
-                // twitter: 'https://twitter.com/_serxius_',
-                // github: 'https://github.com/smorcuend',
-                // linkedin: 'https://linkedin.com/in/dawntraoz',
-                // twitch: 'https://twitch.tv/dawntraoz',
-                // instagram: 'https://instagram.com/dawntraoz',
-                // dev: 'https://dev.to/dawntraoz',
-                // url: 'https://www.bloomod.com/'
-              },
-            },
-          ],
+                twitter: 'https://twitter.com/cassidoo',
+                linkedin: 'http://linkedin.com/in/cassidoo',
+                github: 'https://github.com/cassidoo'
+              }
+            }
+          ]
         },
         {
           title: 'Networking & Beers online 💃🍻',
