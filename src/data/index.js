@@ -19,7 +19,7 @@ const data = {
   date: '24 Abril 2021',
   isTimezoneSelectorEnabled: true,
   eventType: eventTypes.online,
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/276678046/',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/277562057/',
   eventLink: 'https://www.twitch.tv/osweekends',
   twitchUser: 'osweekends',
   onAirText: '¡OSWeekends está en directo! ⏺',
