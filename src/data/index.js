@@ -116,7 +116,7 @@ const data = {
           description: [
             '¡Preguntas y respuestas con Cassidoo!'
           ],
-          startTime: startingTime[4],
+          startTime: startingTime[1],
           tags: ['💻 Desarrollo', '🎤 Entrevista', '🎬 Just Chatting'],
           speakers: [
             {
@@ -144,7 +144,7 @@ const data = {
             'Es probable que conozcas al humorista Ángel Martín de monólogos o programas de televisión. En septiembre del 2020 decidió regalarnos horas del día haciendo él un resumen diario de las noticias. Formato exprés, dos minutos de vídeo, en Twitter. Hubo gente que le pidió tener ese informativo en Alexa. Ángel me encontró, hablamos y el resto es historia.',
             'En esta charla quiero contar los entresijos de esta skill de audio, un poco particular, así como todo el ecosistema AWS que estoy usando. No es una charla de introducción a Alexa e iré directo a la chicha porque hay mucha tela que cortar.'
           ],
-          startTime: startingTime[1],
+          startTime: startingTime[2],
           tags: ['💻 Development', '📣 Voice Assistants'],
           speakers: [
             {
@@ -174,7 +174,7 @@ const data = {
           description: [
             'Voy a contaros la historia de como uno de los proyectos que empecé cuando estaba aprendiendo JavaScript ha ayudado a mas de 100.000 personas en todo el mundo. Todo esto desde mi experiencia desarrollándola e intentando que llegue a más gente, para así intentar motivar al público que quiera lanzarse a hacer algún proyecto o que ya tenga alguno y se haya planteado alguna vez publicarlo.'
           ],
-          startTime: startingTime[2],
+          startTime: startingTime[3],
           tags: ['💻 Development', '🗣 Marketing', '✨ Open Source'],
           speakers: [
             {
@@ -204,7 +204,7 @@ const data = {
           description: [
             '¿Qué es el Cyberpunk? Un subgénero del relato fantástico, más precisamente una visión post-modernista de la ciencia ficción. En inglés se lo suele denominar bajo el lema: Alta tecnología y bajo estilo de vida (High tech and low life); o, en otras palabras, la fusión de las nuevas tecnologías con un estilo de vida alternativo y como IT Project Manager en Teeb. Health, plataforma para la atención médica digital desarrollada bajo tecnología Blockchain e Inteligencia Artificial.'
           ],
-          startTime: startingTime[3],
+          startTime: startingTime[4],
           tags: ['😈 Hacking', '👩‍🎤 Cyberpunk', '📚 Literatura', '👩🏿‍💻 Deep Tech'],
           speakers: [
             {
