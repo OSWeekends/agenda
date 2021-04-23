@@ -1,12 +1,12 @@
 const startingTime = [
-  { h: '17', m: '00' },
-  { h: '17', m: '20' },
-  { h: '17', m: '40' },
-  { h: '18', m: '00' },
-  { h: '18', m: '30' },
+  { h: '16', m: '30' },
+  { h: '16', m: '50' },
+  { h: '17', m: '10' },
+  { h: '17', m: '30' },
+  { h: '17', m: '50' },
   // <-- Ultimo slot
-  { h: '18', m: '50' },
-  { h: '19', m: '00' }
+  { h: '18', m: '10' },
+  { h: '18', m: '20' }
   // Ultimo slot -->
 ]
 
@@ -111,6 +111,33 @@ const data = {
             }
           ]
         },
+         {
+          title: 'Entrevista con Cassidy Williams (cassidoo)',
+          description: [
+            '¡Preguntas y respuestas con Cassidoo!'
+          ],
+          startTime: startingTime[4],
+          tags: ['💻 Desarrollo', '🎤 Entrevista', '🎬 Just Chatting'],
+          speakers: [
+            {
+              name: 'Cassidy Williams',
+              avatar:
+                'https://cassidoo.co/img/headshot.png',
+              bio: [
+                'Cassidy es Principal Developer Experience Engineer en Netlify.',
+                'Ha trabajado para varios otros lugares, incluidos CodePen, Amazon y Venmo, y ha tenido el honor de trabajar con varias organizaciones sin fines de lucro, incluidas cKeys y Hacker Fund como directora de alcance.',
+                'Es activa en la comunidad de desarrolladores y una de las 35 mujeres menores de 35 años de la revista Glamour que están cambiando la industria tecnológica y una de las principales profesionales de 35 años o menos de LinkedIn.',
+                'Como ávida oradora, Cassidy ha participado en varios eventos, incluida la Celebración Grace Hopper para las mujeres en la informática, TEDx, las Naciones Unidas y docenas de otros eventos técnicos.',
+                'Quiere inspirar a generaciones de estudiantes de STEM para que sean lo mejor que puedan ser, y su cita favorita es de Helen Keller: "Uno nunca puede consentir en arrastrarse cuando siente el impulso de volar". Le encantan los teclados mecánicos y el karaoke.'
+              ],
+              social: {
+                twitter: 'https://twitter.com/cassidoo',
+                linkedin: 'http://linkedin.com/in/cassidoo',
+                github: 'https://github.com/cassidoo'
+              }
+            }
+          ]
+        },
         {
           title: 'Making of de la Alexa skill: "El informativo de Ángel Martín"',
           description: [
@@ -192,33 +219,6 @@ const data = {
                 linkedin: 'https://www.linkedin.com/in/nancynsalazar/',
                 facebook: 'https://www.facebook.com/NancyNSalazar',
                 instagram: 'https://www.instagram.com/nancyNsalazar/'
-              }
-            }
-          ]
-        },
-        {
-          title: 'Entrevista con Cassidy Williams (cassidoo)',
-          description: [
-            '¡Preguntas y respuestas con Cassidoo!'
-          ],
-          startTime: startingTime[4],
-          tags: ['💻 Desarrollo', '🎤 Entrevista', '🎬 Just Chatting'],
-          speakers: [
-            {
-              name: 'Cassidy Williams',
-              avatar:
-                'https://cassidoo.co/img/headshot.png',
-              bio: [
-                'Cassidy es Principal Developer Experience Engineer en Netlify.',
-                'Ha trabajado para varios otros lugares, incluidos CodePen, Amazon y Venmo, y ha tenido el honor de trabajar con varias organizaciones sin fines de lucro, incluidas cKeys y Hacker Fund como directora de alcance.',
-                'Es activa en la comunidad de desarrolladores y una de las 35 mujeres menores de 35 años de la revista Glamour que están cambiando la industria tecnológica y una de las principales profesionales de 35 años o menos de LinkedIn.',
-                'Como ávida oradora, Cassidy ha participado en varios eventos, incluida la Celebración Grace Hopper para las mujeres en la informática, TEDx, las Naciones Unidas y docenas de otros eventos técnicos.',
-                'Quiere inspirar a generaciones de estudiantes de STEM para que sean lo mejor que puedan ser, y su cita favorita es de Helen Keller: "Uno nunca puede consentir en arrastrarse cuando siente el impulso de volar". Le encantan los teclados mecánicos y el karaoke.'
-              ],
-              social: {
-                twitter: 'https://twitter.com/cassidoo',
-                linkedin: 'http://linkedin.com/in/cassidoo',
-                github: 'https://github.com/cassidoo'
               }
             }
           ]
