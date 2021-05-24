@@ -1,12 +1,12 @@
 const startingTime = [
-  { h: '16', m: '10' },
-  { h: '16', m: '30' },
-  { h: '16', m: '50' },
-  { h: '17', m: '10' },
-  { h: '17', m: '30' },
+  { h: '10', m: '00' },
+  { h: '10', m: '20' },
+  { h: '10', m: '40' },
+  { h: '11', m: '00' },
+  { h: '11', m: '20' },
   // <-- Ultimo slot
-  { h: '17', m: '50' },
-  { h: '18', m: '00' }
+  { h: '11', m: '40' },
+  { h: '12', m: '00' }
   // Ultimo slot -->
 ]
 
@@ -16,7 +16,7 @@ const eventTypes = {
 }
 
 const data = {
-  date: '24 Abril 2021',
+  date: '29 Mayo 2021',
   isTimezoneSelectorEnabled: true,
   eventType: eventTypes.online,
   meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/277562057/',
@@ -26,7 +26,7 @@ const data = {
   startTime: '18:00',
   endTime: '20:00',
   title: 'Agenda',
-  description: 'Cuarto evento del 2021 ¡Apúntate! 👉',
+  description: 'Quinto evento del 2021 ¡Apúntate! 👉',
   tracks: [
     {
       name: 'The Awesome Track Online',
@@ -111,90 +111,75 @@ const data = {
             }
           ]
         },
-         {
-          title: 'Entrevista con Cassidy Williams (cassidoo)',
+        {
+          title: 'Testeando Accesibilidad Web',
           description: [
-            '¡Preguntas y respuestas con Cassidoo!'
+            'Cuando desarrollamos una nueva web, a menudo ponemos mucho trabajo en el diseño, para que sea bonita y utilizable. Pero muchas veces no pensamos en la experiencia del usuario para las personas con discapacidades.',
+            'Nuestro papel como desarrolladores Front-end es crear interfaces claras para que las personas entiendan y se preocupen por los datos, independientemente de sus discapacidades o impedimentos, pero lo que nosotros, los desarrolladores, a menudo olvidamos es asegurarnos de que el código que escribimos siga las "Web Content Accessibility Guidelines" (WCAG), y la única forma de lograrlo es mediante test, ya sea manuales o automatizados.',
+            'Enseñaré algunas herramientas de tests, bibliotecas y técnicas para aumentar la cobertura de tests de tu código con un simple ejemplo con una aplicación React.'
           ],
           startTime: startingTime[1],
-          tags: ['💻 Desarrollo', '🎤 Entrevista', '🎬 Just Chatting'],
+          tags: ['💻 Desarrollo', '🦾 Accesibilidad Web', '🧪 Testing'],
           speakers: [
             {
-              name: 'Cassidy Williams',
-              avatar:
-                'https://cassidoo.co/img/headshot.png',
-              bio: [
-                'Cassidy es Principal Developer Experience Engineer en Netlify.',
-                'Ha trabajado para varios otros lugares, incluidos CodePen, Amazon y Venmo, y ha tenido el honor de trabajar con varias organizaciones sin fines de lucro, incluidas cKeys y Hacker Fund como directora de alcance.',
-                'Es activa en la comunidad de desarrolladores y una de las 35 mujeres menores de 35 años de la revista Glamour que están cambiando la industria tecnológica y una de las principales profesionales de 35 años o menos de LinkedIn.',
-                'Como ávida oradora, Cassidy ha participado en varios eventos, incluida la Celebración Grace Hopper para las mujeres en la informática, TEDx, las Naciones Unidas y docenas de otros eventos técnicos.',
-                'Quiere inspirar a generaciones de estudiantes de STEM para que sean lo mejor que puedan ser, y su cita favorita es de Helen Keller: "Uno nunca puede consentir en arrastrarse cuando siente el impulso de volar". Le encantan los teclados mecánicos y el karaoke.'
-              ],
+              name: 'Adrián Bolonio',
+              avatar: 'https://pbs.twimg.com/profile_images/1201731904862654464/lZMJqedE_400x400.jpg',
+              bio: ['Engineering Team Lead, Frontend Developer, y gran defensor de la Accesibilidad Web (a11y). Es de Madrid, pero desde 2012 vive y trabaja en Viena (Austria). Cuando no está en la oficina le gusta disfrutar de una buena lectura, dedicarle tiempo a cocinar alguna deliciosa receta, o practicar su afición por visitar nuevos lugares por el mundo.'],
               social: {
-                twitter: 'https://twitter.com/cassidoo',
-                linkedin: 'http://linkedin.com/in/cassidoo',
-                github: 'https://github.com/cassidoo'
+                linkedin: 'https://www.linkedin.com/in/adrianbolonio/',
+                twitter: 'https://twitter.com/bolonio/',
+                github: 'https://github.com/bolonio/',
+                url: 'https://www.adrianbolonio.com/es/',
+                instagram: 'https://www.instagram.com/bolonio/'
               }
             }
           ]
         },
         {
-          title: 'Making of de la Alexa skill: "El informativo de Ángel Martín"',
+          title: 'Hago TAB y aparezco a tu lado',
           description: [
-            'Es probable que conozcas al humorista Ángel Martín de monólogos o programas de televisión. En septiembre del 2020 decidió regalarnos horas del día haciendo él un resumen diario de las noticias. Formato exprés, dos minutos de vídeo, en Twitter. Hubo gente que le pidió tener ese informativo en Alexa. Ángel me encontró, hablamos y el resto es historia.',
-            'En esta charla quiero contar los entresijos de esta skill de audio, un poco particular, así como todo el ecosistema AWS que estoy usando. No es una charla de introducción a Alexa e iré directo a la chicha porque hay mucha tela que cortar.'
+            'Por desgracia aún seguimos teniendo una web donde la accesibilidad brilla por su ausencia, muchas veces incluso en páginas oficiales que deberían poder ser usadas por cualquier persona, independientemente de sus capacidades.',
+            'Con esta charla pretendo remover un poco las conciencias en cuanto a la importancia de la accesibilidad web, enfocándome en una de las muchas herramientas que tenemos a nuestro alcance para mejorarla, el Skip To Main Content.',
+            'Además, aunque el Skip To Main Content es algo bastante sencillo de implementar, veremos qué problemas pueden surgir con las nuevas webs que desarrollamos usando frameworks actuales que gestionan el routing, y cómo solucionarlos.'
           ],
           startTime: startingTime[2],
-          tags: ['💻 Development', '📣 Voice Assistants'],
+          tags: ['💻 Desarrollo', '🦿 a11y'],
           speakers: [
             {
-              name: 'Kini (Joaquin Engelmo Moriche)',
-              avatar: 'https://pbs.twimg.com/profile_images/960232202490535939/2sDBEdlh_400x400.jpg',
+              name: 'Verónica Ojeda',
+              avatar: 'https://pbs.twimg.com/profile_images/1334275434809348099/FhuDP_kj_400x400.jpg',
               bio: [
-                '👨🏻‍💻 Desarrollador de software en constante evolución,',
-                '🐖 #BellotaPowah',
-                '🏆 #AlexaChampion',
-                '🗣 @ComunidadAlexa',
-                '🎙 @codigobotfm',
-                'Charlatán incansable, maestro de nada, aprendiz de por vida. Programo de día, horneo pan de noche.'
+                'Frontend Developer.',
+                'Si alguna vez escuchas a alguien decir "Eso no es accesible", "¿Cuáles son las buenas prácticas a seguir con este framework?", o "Friends es la mejor serie del mundo", entonces es altamente probable que sea yo.',
+                'Otros temas que también me interesan/preocupan: 💪🏻 Los derechos de la mujer y 🏳️‍🌈 Los derechos LGTBIQ+.',
+                'Y en mi tiempo libre me gusta: 🐶 pasear a mis perros, 🚗 viajar, 🏐 hacer deporte, 🍿 ver Netflix, 🍳 cocinar, 🥑 comer y 🎧 escuchar música muy random.'
               ],
               social: {
-                linkedin: 'https://www.linkedin.com/in/kinisoftware/',
-                twitter: 'https://www.twitter.com/kinisoftware',
-                // twitter: 'twitter.com/ComunidadAlexa',
-                github: 'https://www.github.com/kinisoftware',
-                url: 'https://www.kinisoftware.com/author/kini/'
-                // url: 'codigobot.com/'
+                linkedin: 'https://www.linkedin.com/in/glebapps/',
+                twitter: 'https://twitter.com/glebapps/',
+                github: 'https://github.com/glebapps',
+                url: 'https://dev.to/glebapps'
               }
             }
           ]
         },
         {
-          title: '¿Sabes ese proyecto que tienes por ahí que te soluciona un problema? ¡Lo mismo puedes solucionarselo a miles de personas!',
+          title: 'Una historia de litofanías',
           description: [
-            'Voy a contaros la historia de como uno de los proyectos que empecé cuando estaba aprendiendo JavaScript ha ayudado a mas de 100.000 personas en todo el mundo. Todo esto desde mi experiencia desarrollándola e intentando que llegue a más gente, para así intentar motivar al público que quiera lanzarse a hacer algún proyecto o que ya tenga alguno y se haya planteado alguna vez publicarlo.'
+            'Javi y Bruno, su hijo de 11 años, realizarán una breve introducción del mundo de la impresión doméstica 3D y los potenciales usos que existen en la industria, educación, ámbito social etc... Y la posibilidad de incluir textos en braille usando la página: https://www.touchsee.me'
           ],
           startTime: startingTime[3],
-          tags: ['💻 Development', '🗣 Marketing', '✨ Open Source'],
+          tags: ['💻 Desarrollo', '🖨 Impresión 3D', '👩‍🎨 Design'],
           speakers: [
             {
-              name: 'Horus Lugo',
-              avatar: 'https://pbs.twimg.com/profile_images/1107981629656576002/7WXCm8oQ_400x400.jpg',
+              name: 'Javi Pérez',
+              avatar:
+                'https://pbs.twimg.com/profile_images/528175368692195331/0UFFnRFl_400x400.png',
               bio: [
-                'Llevo más de 10 años desarrollando mis propios proyectos por diversión. Me encanta el Open Source y crear contenido ocasionalmente.',
-                '👨‍💻 Creé mi primera web entre 2008 y 2009.',
-                '🧰 Mi lenguaje de programación favorito es TypeScript.',
-                '🏠 Vivo en Málaga, España.',
-                '🐱 Me encantan los gatos.',
-                '🏓 Juego bastante bien al Ping Pong.',
-                '🎧 Mi tema favorito es Adagio For Strings de Tiësto.'
+                'Frontend Developer, papá de Sergio, maker, curioso y disfruto mucho preparando marcianadas como este taller.'
               ],
               social: {
-                twitter: 'https://twitter.com/HorusGoul',
-                twitch: 'https://twitch.tv/HorusGoul',
-                youtube: 'https://youtube.com/c/HorusGoul',
-                github: 'https://github.com/HorusGoul',
-                url: 'https://horus.dev'
+                twitter: 'https://twitter.com/javimostoles'
               }
             }
           ]
