@@ -1,12 +1,12 @@
 const startingTime = [
-  { h: '10', m: '00' },
-  { h: '10', m: '20' },
-  { h: '10', m: '40' },
-  { h: '11', m: '00' },
-  { h: '11', m: '20' },
+  { h: '09', m: '30' },
+  { h: '09', m: '50' },
+  { h: '10', m: '10' },
+  { h: '10', m: '30' },
+  { h: '10', m: '50' },
   // <-- Ultimo slot
-  { h: '11', m: '40' },
-  { h: '12', m: '00' }
+  { h: '11', m: '10' },
+  { h: '11', m: '30' }
   // Ultimo slot -->
 ]
 
@@ -114,7 +114,7 @@ const data = {
         {
           title: 'Testeando Accesibilidad Web',
           description: [
-            'Cuando desarrollamos una nueva web, a menudo ponemos mucho trabajo en el diseño, para que sea bonita y utilizable. Pero muchas veces no pensamos en la experiencia del usuario para las personas con discapacidades.',
+            'Cuando desarrollamos una nueva web, a menudo ponemos mucho trabajo en el diseño para que sea bonita y utilizable. Pero muchas veces no pensamos en la experiencia del usuario para las personas con discapacidades.',
             'Nuestro papel como desarrolladores Front-end es crear interfaces claras para que las personas entiendan y se preocupen por los datos, independientemente de sus discapacidades o impedimentos, pero lo que nosotros, los desarrolladores, a menudo olvidamos es asegurarnos de que el código que escribimos siga las "Web Content Accessibility Guidelines" (WCAG), y la única forma de lograrlo es mediante test, ya sea manuales o automatizados.',
             'Enseñaré algunas herramientas de tests, bibliotecas y técnicas para aumentar la cobertura de tests de tu código con un simple ejemplo con una aplicación React.'
           ],
@@ -166,7 +166,7 @@ const data = {
         {
           title: 'Una historia de litofanías',
           description: [
-            'Javi y Bruno, su hijo de 11 años, realizarán una breve introducción del mundo de la impresión doméstica 3D y los potenciales usos que existen en la industria, educación, ámbito social etc... Y la posibilidad de incluir textos en braille usando la página: https://www.touchsee.me'
+            'Javi y Bruno realizarán una breve introducción del mundo de la impresión doméstica 3D y los potenciales usos que existen en la industria, educación, ámbito social etc... Y la posibilidad de incluir textos en braille usando la página: https://www.touchsee.me'
           ],
           startTime: startingTime[3],
           tags: ['💻 Desarrollo', '🖨 Impresión 3D', '👩‍🎨 Design'],
@@ -185,25 +185,27 @@ const data = {
           ]
         },
         {
-          title: 'El Origen del Cyberpunk',
+          title: '¡Bienvenidos al lado oscuro!',
           description: [
-            '¿Qué es el Cyberpunk? Un subgénero del relato fantástico, más precisamente una visión post-modernista de la ciencia ficción. En inglés se lo suele denominar bajo el lema: Alta tecnología y bajo estilo de vida (High tech and low life); o, en otras palabras, la fusión de las nuevas tecnologías con un estilo de vida alternativo y como IT Project Manager en Teeb. Health, plataforma para la atención médica digital desarrollada bajo tecnología Blockchain e Inteligencia Artificial.'
+            'El lado oscuro puede tener mucho encanto, siempre y cuando sea también inclusivo. ¿Inclusivo, eso qué es? A lo mejor  os suena más lo de accesible?',
+            'Quizá estéis pensando "uy, pero seguro que para hacer algo accesible o inclusivo hay que tener un montón de conocimientos y es muy complicado. ¡Craso error! Acompañadme y os enseñaré un montón de cosas muy molonas y también tips muy sencillos que hacen de mi día a día uno casi igual que el vuestro, y digo casi porque al final ¿Quien dice que nadie seamos iguales?',
+            'Venid para descubrir como es vivir en el lado oscuro de la vida, y el montón de cosas que la hacen mucho más inclusiva y por lo tanto hacen que las personas ciegas y con discapacidad visual podamos ser autónomas y gozar de una vida plena e independiente.'
           ],
           startTime: startingTime[4],
-          tags: ['😈 Hacking', '👩‍🎤 Cyberpunk', '📚 Literatura', '👩🏿‍💻 Deep Tech'],
+          tags: ['📈 SEO', '🎀 UX/UI', '🦾 Accesibilidad Web'],
           speakers: [
             {
-              name: 'Nancy Salazar',
-              avatar: 'https://pbs.twimg.com/profile_images/1366832818047836171/ElCS3rvk_400x400.jpg',
+              name: 'Núria Azanza',
+              avatar: 'https://user-images.githubusercontent.com/52920777/119409688-fc391a00-bce7-11eb-8ca0-f113e5c54864.jpeg',
               bio: [
-                'Ingeniera en Tecnologías de la Información. Colaboró como Technology Coach y profesora en Platzi, una de Profesora de materias con enfoque STEM (Science, Technology, Engineering and Maths) en el Colegio Humane, en el Instituto Municipal de la Juventud y en la universidad CENTRO Diseño, Cine y Televisión en la Ciudad de México. Conferencista. Divulgadora del acercamiento de niñas y mujeres a la Ciencia y Tecnología.las plataformas de educación en línea más reconocidas en Latinoamérica.',
-                'Actualmente, es Mentora en Tecnología e Innovación en Startup México, en el Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM), en la Escuela Bancaria Comercial (EBC) y en Askha México. '
+                'Soy Núria, psicóloga especializada en igualdad de género, y fundadora de SixSenseTravel, un proyecto de turismo inclusivo. Amante de mi familia👨‍👩‍👦🦮🦮, viajar🗺, leer📖, frikear y probar los platos típicos del mundo entero😋'
               ],
               social: {
-                twitter: 'https://twitter.com/NancyNSalazar',
-                linkedin: 'https://www.linkedin.com/in/nancynsalazar/',
-                facebook: 'https://www.facebook.com/NancyNSalazar',
-                instagram: 'https://www.instagram.com/nancyNsalazar/'
+                twitter: 'https://www.twitter.com/6STravel',
+                linkedin: 'https://www.linkedin.com/in/nuriaazanza',
+                facebook: 'https://www.facebook.com/SixSenseTravel',
+                instagram: 'https://www.instagram.com/SixsenseTravel',
+                url: 'https://blog.sixsense.travel'
               }
             }
           ]
