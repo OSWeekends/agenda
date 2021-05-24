@@ -196,9 +196,9 @@ const data = {
           speakers: [
             {
               name: 'Núria Azanza',
-              avatar: 'https://user-images.githubusercontent.com/52920777/119409688-fc391a00-bce7-11eb-8ca0-f113e5c54864.jpeg',
+              avatar: 'https://i2.wp.com/blog.sixsense.travel/wp-content/uploads/2020/06/N%C3%BAria-damunt-la-cal%C3%A7ada-del-gegant-i-es-veu-la-middle-causeway-scaled.jpg?w=1320&ssl=1',
               bio: [
-                'Soy Núria, psicóloga especializada en igualdad de género, y fundadora de SixSenseTravel, un proyecto de turismo inclusivo. Amante de mi familia👨‍👩‍👦🦮🦮, viajar🗺, leer📖, frikear y probar los platos típicos del mundo entero😋'
+                'Soy Núria, psicóloga especializada en igualdad de género, y fundadora de SixSenseTravel, un proyecto de turismo inclusivo. Amante de mi familia 👨‍👩‍👦🦮🦮, viajar 🗺, leer 📖, frikear y probar los platos típicos del mundo entero 😋'
               ],
               social: {
                 twitter: 'https://www.twitter.com/6STravel',
