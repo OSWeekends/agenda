@@ -19,7 +19,7 @@ const data = {
   date: '29 Mayo 2021',
   isTimezoneSelectorEnabled: true,
   eventType: eventTypes.online,
-  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/277562057/',
+  meetupLink: 'https://www.meetup.com/es-ES/Open-Source-Weekends/events/278403098/',
   eventLink: 'https://www.twitch.tv/osweekends',
   twitchUser: 'osweekends',
   onAirText: '¡OSWeekends está en directo! ⏺',
