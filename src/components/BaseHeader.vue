@@ -8,7 +8,12 @@
             {{ dateOnSelectedTimezone }}
           </small>
         </h1>
-        <!-- <CBadge class="mr-2 ml-md-2 eventType-badge"> Valentine's Day Edition</CBadge> -->
+        <CBadge class="mr-2 ml-md-2 eventType-badge">
+          Accessibility Edition
+          <span role="img" aria-label="Blind woman">👩🏽‍🦯</span>
+          <span role="img" aria-label="Ear with Hearing Aid">🦻</span>
+          <span role="img" aria-label="Mechanical Arm">🦾</span>
+        </CBadge>
         <!-- <CBadge class="mr-2 ml-md-2 eventType-badge"> {{ headerData.eventType }}</CBadge> -->
       </div>
       <ThemeSwitch/>
@@ -47,7 +52,7 @@
 </template>
 
 <script>
-// import CBadge from '@/components/CustomBadge'
+import CBadge from '@/components/CustomBadge'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import TimezoneSelector from '@/components/TimezoneSelector'
 import { mapState } from 'vuex'
@@ -57,7 +62,7 @@ export default {
   name: 'BaseHeader',
   components: {
     TimezoneSelector,
-    // CBadge,
+    CBadge,
     ThemeSwitch
   },
   props: {
@@ -118,9 +123,8 @@ export default {
   font-size: 14px
 
 .eventType-badge
-  color var(--color-border)
-  background var(--color-main)
-  opacity: 0.9;
+  color var(--color-white)
+  background var(--color-secondary)
   margin-top 13px
 
 .timezone-button
