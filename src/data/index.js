@@ -179,7 +179,16 @@ const data = {
                 'Frontend Developer, papá de Sergio, maker, curioso y disfruto mucho preparando marcianadas como este taller.'
               ],
               social: {
-                twitter: 'https://twitter.com/javimostoles'
+                twitter: 'https://twitter.com/javimostoles',
+                github: 'https://github.com/javimostoles',
+                linkedin: 'https://www.linkedin.com/in/javimostoles/'
+              }
+            },
+            {
+              name: 'Bruno Rueda',
+              bio: ['Maker. Apasionado del mundo 3D y de todo su ecosistema.'],
+              social: {
+                youtube: 'https://www.youtube.com/channel/UCkulK16iI9-rIuKh8lUZRrA'
               }
             }
           ]
